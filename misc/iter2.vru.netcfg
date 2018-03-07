@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+    Monaco SUMO Traffic (MoST) Scenario
+    Copyright (C) 2018 
+    Lara CODECA
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="most.osm.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="most.net.xml"/>
+    </output>
+
+    <tls_building>
+        <tls.guess value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+        <tls.min-dur value="5"/>
+        <tls.max-dur value="30"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <edge_removal>
+        <remove-edges.isolated value="true"/>
+    </edge_removal>
+
+    <processing>
+        <roundabouts.guess value="true"/>
+        <sidewalks.guess value="true"/>
+        <crossings.guess value="true"/>
+        <walkingareas value="false"/>
+        <osm.elevation value="true"/>
+        <no-turnarounds value="true"/>
+        <no-turnarounds.tls value="true"/>
+        <no-internal-links value="false"/>
+        <ignore-errors value="false"/>
+        <ignore-errors.connections value="false"/>
+        <show-errors.connections-first-try value="true"/>
+    </processing>
+
+    <building_defaults>
+        <default.lanewidth value="2.5"/>
+        <default.sidewalk-width value="1.5"/>
+        <default.crossing-width value="1.5"/>
+    </building_defaults>
+
+    <report>
+        <verbose value="true"/>
+        <log value="iter2.netconvert.log"/>
+    </report>
+
+</configuration>
