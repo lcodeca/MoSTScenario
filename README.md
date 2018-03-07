@@ -24,4 +24,4 @@ Additional mobility can be generated using
 * `generation` contains the files required to generate various traffic demands
 * `misc` contains the raw OSM-like file, and other configuration files.
 
-Note: the configuration files contained in `misc/typemap` are a slightly modified version of a subset of the SUMO files availavle at https://github.com/DLR-TS/sumo/tree/master/data/typemap   
+Note: the configuration files contained in `misc/typemap` are a slightly modified version of a subset of the SUMO files availavle at https://github.com/DLR-TS/sumo/tree/master/data/typemap.
