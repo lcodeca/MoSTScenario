@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-""" Person Trip Activity-based Mobility Generation with PoIs and TAZ. 
+""" Person Trip Activity-based Mobility Generation with PoIs and TAZ.
 
     Monaco SUMO Traffic (MoST) Scenario
-    Copyright (C) 2018 
+    Copyright (C) 2018
     Lara CODECA
 
     This program is free software: you can redistribute it and/or modify
@@ -27,7 +27,6 @@ import heapq
 import json
 import logging
 import os
-import pprint
 import xml.etree.ElementTree
 import random
 import sys
@@ -42,9 +41,9 @@ import sumolib
 
 ROUTES_TPL = """<?xml version="1.0" encoding="UTF-8"?>
 
-<!-- 
+<!--
     Monaco SUMO Traffic (MoST) Scenario
-    Copyright (C) 2018 
+    Copyright (C) 2018
     Lara CODECA
 
     This program is free software: you can redistribute it and/or modify
@@ -172,7 +171,8 @@ def _compute_vehicles_per_type(config):
     external = int(config['population'] * config['external'])
 
     for v_type in config['distribution'].keys():
-        config['distribution'][v_type]['tot'] = int( internal * config['distribution'][v_type]['percentage'])
+        config['distribution'][v_type]['tot'] = int(
+            internal * config['distribution'][v_type]['percentage'])
         if config['distribution'][v_type]['withDUAerror']:
             config['distribution'][v_type]['surplus'] = int(
                 config['distribution'][v_type]['tot'] * config['duarouterError'])
@@ -226,14 +226,12 @@ def _dijkstra(graph, from_node_id, to_node_id):
             seen.add(v_1)
             path = (v_1, path)
             if v_1 == to_node_id:
-                # logging.debug('Dijkstra: path found from %s to %s.', from_node_id, to_node_id)
                 return (cost, path)
 
             for weight, v_2 in graph.get(v_1, ()):
                 if v_2 not in seen:
                     heapq.heappush(queue, (cost + weight, v_2, path))
 
-    # logging.debug('Dijkstra: path NOT found from %s to %s.', from_node_id, to_node_id)
     return None
 
 def _valid_pair(graph, from_edge, to_edge, net):
@@ -249,7 +247,6 @@ def _find_allowed_pair(edges, weights, from_area, to_area, graph, net, _counter=
     from_taz = str(_select_taz_from_weighted_area(from_area, weights))
     to_taz = str(_select_taz_from_weighted_area(to_area, weights))
 
-    # compute all the possible pairs <--- this may be useless, the bug was in the graph
     pairs = []
     for edge_1 in edges[from_taz]:
         for edge_2 in edges[to_taz]:
@@ -264,7 +261,7 @@ def _find_allowed_pair(edges, weights, from_area, to_area, graph, net, _counter=
         pair = _select_pair_from_list(pairs)
         if not pair:
             logging.debug('From TAZ [%s] has %d edges.', from_taz, len(edges[from_taz]))
-            logging.debug('To   TAZ [%s] has %d edges.', to_taz,   len(edges[to_taz]))
+            logging.debug('To   TAZ [%s] has %d edges.', to_taz, len(edges[to_taz]))
             logging.debug('There is no valid OD pair, looking for others TAZ.')
             return _find_allowed_pair(edges, weights, from_area, to_area, graph, net, counter)
         from_edge, to_edge = pair
@@ -277,7 +274,7 @@ def _normal_departure_time(mean, std, _min, _max):
     """ Return the departure time, comuted using a normal distribution. """
     departure = int(numpy.random.normal(loc=mean, scale=std, size=1))
     while departure < _min or departure > _max:
-         departure = int(numpy.random.normal(loc=mean, scale=std, size=1))
+        departure = int(numpy.random.normal(loc=mean, scale=std, size=1))
     return departure
 
 def _get_parking_id(parkings):
@@ -298,8 +295,8 @@ def _compute_trips_per_type(config, weights, net, parkings):
     """ Compute the trips for ~everything~ """
     trips = collections.defaultdict(dict)
     for v_type in config['distribution'].keys():
-        edges_by_taz = _load_edges_from_taz('{}{}'.format(config['baseDir'],
-                                                   config['distribution'][v_type]['edges']))
+        edges_by_taz = _load_edges_from_taz(
+            '{}{}'.format(config['baseDir'], config['distribution'][v_type]['edges']))
 
         logging.info('Converting SUMO net file to Dijkstra-like weighted graph for %s.', v_type)
         graph = _convert_sumo_net_to_dijkstra_graph(net, edges_by_taz)
@@ -309,7 +306,8 @@ def _compute_trips_per_type(config, weights, net, parkings):
             vehicles = None
             if config['distribution'][v_type]['withDUAerror']:
                 vehicles = int(
-                    (config['distribution'][v_type]['tot'] + config['distribution'][v_type]['surplus'])
+                    (config['distribution'][v_type]['tot'] +
+                     config['distribution'][v_type]['surplus'])
                     * area['perc'])
             else:
                 vehicles = int(config['distribution'][v_type]['tot'] * area['perc'])
@@ -317,12 +315,13 @@ def _compute_trips_per_type(config, weights, net, parkings):
 
             for veh_id in range(vehicles):
                 _depart = _normal_departure_time(config['peak']['mean'], config['peak']['std'],
-                                                 config['interval']['begin'], config['interval']['end'])
+                                                 config['interval']['begin'],
+                                                 config['interval']['end'])
                 if _depart not in trips[v_type].keys():
                     trips[v_type][_depart] = []
 
-                withPT = 'withPT' in area.keys() and area['withPT']
-                withPL = 'withPL' in area.keys() and area['withPL']
+                with_pt = 'withPT' in area.keys() and area['withPT']
+                with_pl = 'withPL' in area.keys() and area['withPL']
 
                 _from = None
                 _to = None
@@ -331,11 +330,11 @@ def _compute_trips_per_type(config, weights, net, parkings):
                                                 config['taz'][area['to']], graph, net)
 
                 parking_id = None
-                if withPL:
+                if with_pl:
                     parking_id = _has_parking_lot(_to, parkings)
 
                 if not parking_id:
-                    withPL = False
+                    with_pl = False
 
                 trips[v_type][_depart].append({
                     'id': '{}_{}_{}'.format(v_type, key, veh_id),
@@ -343,8 +342,8 @@ def _compute_trips_per_type(config, weights, net, parkings):
                     'from': _from,
                     'to': _to,
                     'type': v_type,
-                    'withPT': withPT,
-                    'withPL': withPL,
+                    'withPT': with_pt,
+                    'withPL': with_pl,
                     'PLid': parking_id,
                 })
 
@@ -355,15 +354,15 @@ def _compute_trips_per_type(config, weights, net, parkings):
         logging.info('Generated %d trips for %s.', total, v_type)
     return trips
 
-def _random_vType(vTypes):
+def _random_vtype(vtypes):
     """ Select a vType from a weighted dictionary. """
     selection = random.uniform(0, 1)
-    total_weight = sum([weight for weight in vTypes.values()])
+    total_weight = sum([weight for weight in vtypes.values()])
     cumulative = 0.0
-    for vType, weight in vTypes.items():
+    for vtype, weight in vtypes.items():
         cumulative += weight / total_weight
         if selection <= cumulative:
-            return vType
+            return vtype
     return None # this is matematically impossible,
                 # if this happens, there is a mistake in the weights.
 
@@ -397,8 +396,8 @@ def _compute_gateways_trips(config, trips, weights, net, parkings):
     """ Compute the additional gateways trips. """
 
     # Destination
-    edges_by_taz = _load_edges_from_taz('{}{}'.format(config['baseDir'],
-                                        config['gateways']['destinationTAZ']['definition']))
+    edges_by_taz = _load_edges_from_taz(
+        '{}{}'.format(config['baseDir'], config['gateways']['destinationTAZ']['definition']))
 
     # Dijkstra graph
     logging.info('Converting SUMO net file to Dijkstra-like weighted graph for gateways')
@@ -409,23 +408,23 @@ def _compute_gateways_trips(config, trips, weights, net, parkings):
         for veh_id in range(int(area['tot'])):
             _depart = _normal_departure_time(config['peak']['mean'], config['peak']['std'],
                                              config['interval']['begin'], config['interval']['end'])
-            v_type = _random_vType(config['gateways']['vTypes'])
+            v_type = _random_vtype(config['gateways']['vTypes'])
             if _depart not in trips['gateways'].keys():
                 trips['gateways'][_depart] = []
 
-            withPT = 'withPT' in area.keys() and area['withPT']
-            withPL = 'withPL' in area.keys() and area['withPL']
+            with_pt = 'withPT' in area.keys() and area['withPT']
+            with_pl = 'withPL' in area.keys() and area['withPL']
 
-            _from, _to = _find_gateways_pair(edges_by_taz, weights, area['edges'],
-                                             config['taz'][config['gateways']['destinationTAZ']['name']],
-                                             graph, net)
+            _from, _to = _find_gateways_pair(
+                edges_by_taz, weights, area['edges'],
+                config['taz'][config['gateways']['destinationTAZ']['name']], graph, net)
 
             parking_id = None
-            if withPL:
+            if with_pl:
                 parking_id = _has_parking_lot(_to, parkings)
 
             if not parking_id:
-                withPL = False
+                with_pl = False
 
             trips['gateways'][_depart].append({
                 'id': '{}_{}_{}'.format(v_type, key, veh_id),
@@ -433,8 +432,8 @@ def _compute_gateways_trips(config, trips, weights, net, parkings):
                 'from': _from,
                 'to': _to,
                 'type': v_type,
-                'withPT': withPT,
-                'withPL': withPL,
+                'withPT': with_pt,
+                'withPL': with_pl,
                 'PLid': parking_id,
             })
 
@@ -455,22 +454,25 @@ def _saving_trips_to_files(trips, prefix, end):
                     if v_type == 'pedestrian':
                         if vehicle['withPT']:
                             all_trips += PERSON_DUA_TPL.format(
-                                id=vehicle['id'], depart=vehicle['depart'], from_edge=vehicle['from'],
-                                to_edge=vehicle['to'])
-                        else :
+                                id=vehicle['id'], depart=vehicle['depart'],
+                                from_edge=vehicle['from'], to_edge=vehicle['to'])
+                        else:
                             walk = WALK_TPL.format(from_edge=vehicle['from'], to_edge=vehicle['to'])
-                            all_trips += PERSON_TPL.format(id=vehicle['id'], depart=vehicle['depart'],
+                            all_trips += PERSON_TPL.format(id=vehicle['id'],
+                                                           depart=vehicle['depart'],
                                                            trip=walk)
                     else:
                         if vehicle['withPL']:
                             all_trips += STOP_TPL.format(
-                                id=vehicle['id'], depart=vehicle['depart'], from_edge=vehicle['from'],
-                                to_edge=vehicle['to'], vType=vehicle['type'], parking=vehicle['PLid'],
+                                id=vehicle['id'], depart=vehicle['depart'],
+                                from_edge=vehicle['from'], to_edge=vehicle['to'],
+                                vType=vehicle['type'], parking=vehicle['PLid'],
                                 duration=end)
                         else:
                             all_trips += TRIP_TPL.format(
-                                id=vehicle['id'], depart=vehicle['depart'], from_edge=vehicle['from'],
-                                to_edge=vehicle['to'], vType=vehicle['type'])
+                                id=vehicle['id'], depart=vehicle['depart'],
+                                from_edge=vehicle['from'], to_edge=vehicle['to'],
+                                vType=vehicle['type'])
 
             tripfile.write(ROUTES_TPL.format(trips=all_trips))
         logging.info('Saved %s', filename)
