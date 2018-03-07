@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+    Monaco SUMO Traffic (MoST) Scenario
+    Copyright (C) 2018 
+    Lara CODECA
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd"> 
+    <parkingArea id="152542" lane="-1360_1" startPos="13.42236659232886" endPos="18.42236659232886" roadsideCapacity="1334" friendlyPos="true"/>
+    <parkingArea id="152543" lane="1296#3_1" startPos="336.01" endPos="341.01" roadsideCapacity="910" friendlyPos="true"/>
+    <parkingArea id="152544" lane="1369#0_1" startPos="21.04656025834771" endPos="26.04656025834771" roadsideCapacity="560" friendlyPos="true"/>
+    <parkingArea id="152545" lane="-1369#5_1" startPos="14.405711348739324" endPos="19.405711348739324" roadsideCapacity="1333" friendlyPos="true"/>
+    <parkingArea id="152546" lane="14_1" startPos="25.462854179294755" endPos="30.462854179294755" roadsideCapacity="703" friendlyPos="true"/>
+    <parkingArea id="152547" lane="-337_1" startPos="49.95687219533811" endPos="54.95687219533811" roadsideCapacity="659" friendlyPos="true"/>
+    <parkingArea id="152548" lane="992#0_1" startPos="5.0" endPos="10.0" roadsideCapacity="676" friendlyPos="true"/>
+    <parkingArea id="152549" lane="874#1_0" startPos="9.118526167363378" endPos="14.11852616736338" roadsideCapacity="446" friendlyPos="true"/>
+    <parkingArea id="152550" lane="-1259#2_1" startPos="138.50030614967417" endPos="143.50030614967417" roadsideCapacity="1481" friendlyPos="true"/>
+    <parkingArea id="152551" lane="-1002_1" startPos="29.115305393084277" endPos="34.11530539308428" roadsideCapacity="547" friendlyPos="true"/>
+    <parkingArea id="152552" lane="-1369#5_1" startPos="50.94505848938686" endPos="55.94505848938685" roadsideCapacity="1120" friendlyPos="true"/>
+    <parkingArea id="152553" lane="-298_1" startPos="15.26316492942033" endPos="20.26316492942033" roadsideCapacity="977" friendlyPos="true"/>
+    <parkingArea id="152554" lane="1296#4_1" startPos="23.34926150276982" endPos="28.34926150276982" roadsideCapacity="576" friendlyPos="true"/>
+    <parkingArea id="152555" lane="1299#1_1" startPos="127.75999999999999" endPos="132.76" roadsideCapacity="2233" friendlyPos="true"/>
+    <parkingArea id="152556" lane="456_1" startPos="213.60141726594804" endPos="218.60141726594804" roadsideCapacity="1513" friendlyPos="true"/>
+    <parkingArea id="152557" lane="437_1" startPos="279.3196776086254" endPos="284.3196776086254" roadsideCapacity="347" friendlyPos="true"/>
+    <parkingArea id="152558" lane="210_1" startPos="364.0288548166333" endPos="369.0288548166333" roadsideCapacity="1083" friendlyPos="true"/>
+    <parkingArea id="152559" lane="652#1_1" startPos="147.84575781047508" endPos="152.84575781047508" roadsideCapacity="2176" friendlyPos="true"/>
+    <parkingArea id="152560" lane="851_1" startPos="33.547671303048396" endPos="38.547671303048396" roadsideCapacity="1453" friendlyPos="true"/>
+    <parkingArea id="152561" lane="-1402_1" startPos="5.0" endPos="10.0" roadsideCapacity="597" friendlyPos="true"/>
+    <parkingArea id="152562" lane="328_0" startPos="25.211798358446973" endPos="30.21179835844697" roadsideCapacity="639" friendlyPos="true"/>
+    <parkingArea id="152563" lane="928#3_1" startPos="382.83705956386217" endPos="387.83705956386217" roadsideCapacity="1120" friendlyPos="true"/>
+    <parkingArea id="152564" lane="876#0_0" startPos="115.17934970635058" endPos="120.17934970635059" roadsideCapacity="672" friendlyPos="true"/>
+    <parkingArea id="152565" lane="-1419#0_1" startPos="299.5804070684488" endPos="304.5804070684488" roadsideCapacity="1624" friendlyPos="true"/>
+    <parkingArea id="152566" lane="937#1_1" startPos="19.324028442486835" endPos="24.324028442486835" roadsideCapacity="2186" friendlyPos="true"/>
+    <parkingArea id="152567" lane="211#1_1" startPos="466.7983911081118" endPos="471.7983911081118" roadsideCapacity="1164" friendlyPos="true"/>
+    <parkingArea id="152568" lane="926_1" startPos="65.95013958449152" endPos="70.95013958449152" roadsideCapacity="2342" friendlyPos="true"/>
+    <parkingArea id="152569" lane="652#1_1" startPos="261.63312351389436" endPos="266.63312351389436" roadsideCapacity="695" friendlyPos="true"/>
+    <parkingArea id="152570" lane="307#3_1" startPos="406.84441917174917" endPos="411.84441917174917" roadsideCapacity="2097" friendlyPos="true"/>
+    <parkingArea id="152571" lane="307#3_1" startPos="1223.063306059373" endPos="1228.063306059373" roadsideCapacity="2437" friendlyPos="true"/>
+    <parkingArea id="152572" lane="911#1_0" startPos="40.01" endPos="45.01" roadsideCapacity="1864" friendlyPos="true"/>
+    <parkingArea id="152573" lane="-918_1" startPos="136.25141445826026" endPos="141.25141445826029" roadsideCapacity="1924" friendlyPos="true"/>
+    <parkingArea id="152574" lane="1613_1" startPos="217.94722652863393" endPos="222.94722652863393" roadsideCapacity="1105" friendlyPos="true"/>
+    <parkingArea id="152575" lane="-918_1" startPos="82.38031467279758" endPos="87.3803146727976" roadsideCapacity="1883" friendlyPos="true"/>
+    <parkingArea id="152576" lane="1418#3_1" startPos="9.260000000000002" endPos="14.260000000000002" roadsideCapacity="1933" friendlyPos="true"/>
+    <parkingArea id="152577" lane="565#1_1" startPos="77.52000437723325" endPos="82.52000437723325" roadsideCapacity="318" friendlyPos="true"/>
+    <parkingArea id="152578" lane="307#3_1" startPos="1413.6782880376875" endPos="1418.6782880376875" roadsideCapacity="1779" friendlyPos="true"/>
+    <parkingArea id="152579" lane="-1394#0_1" startPos="2248.42" endPos="2253.42" roadsideCapacity="1333" friendlyPos="true"/>
+    <parkingArea id="152580" lane="977#1_1" startPos="55.50002894779354" endPos="60.50002894779354" roadsideCapacity="1770" friendlyPos="true"/>
+    <parkingArea id="152581" lane="-1435#0_1" startPos="81.05098435772807" endPos="86.05098435772807" roadsideCapacity="477" friendlyPos="true"/>
+    <parkingArea id="152582" lane="-1423#7_1" startPos="47.69539338151468" endPos="52.69539338151468" roadsideCapacity="1348" friendlyPos="true"/>
+    <parkingArea id="152583" lane="369#1_1" startPos="240.21143362275893" endPos="245.21143362275893" roadsideCapacity="603" friendlyPos="true"/>
+    <parkingArea id="152584" lane="-687_1" startPos="5.0" endPos="10.0" roadsideCapacity="2238" friendlyPos="true"/>
+    <parkingArea id="152585" lane="1427#1_1" startPos="15.877078113780662" endPos="20.877078113780662" roadsideCapacity="751" friendlyPos="true"/>
+    <parkingArea id="152586" lane="-399_1" startPos="625.49" endPos="630.49" roadsideCapacity="2058" friendlyPos="true"/>
+    <parkingArea id="152587" lane="743#1_1" startPos="47.10952887917464" endPos="52.10952887917465" roadsideCapacity="2215" friendlyPos="true"/>
+    <parkingArea id="152588" lane="-1369#6_1" startPos="5.0" endPos="10.0" roadsideCapacity="459" friendlyPos="true"/>
+    <parkingArea id="152589" lane="-540#0_1" startPos="173.82" endPos="178.82" roadsideCapacity="1609" friendlyPos="true"/>
+    <parkingArea id="152590" lane="834#2_1" startPos="54.11750834489845" endPos="59.11750834489845" roadsideCapacity="2024" friendlyPos="true"/>
+    <parkingArea id="152591" lane="816#2_1" startPos="22.07510475169569" endPos="27.07510475169569" roadsideCapacity="696" friendlyPos="true"/>
+    <parkingArea id="152592" lane="570_1" startPos="5.5021247178481385" endPos="10.502124717848139" roadsideCapacity="1786" friendlyPos="true"/>
+    <parkingArea id="152593" lane="-568_1" startPos="30.39" endPos="35.39" roadsideCapacity="747" friendlyPos="true"/>
+    <parkingArea id="152594" lane="687_1" startPos="11.34" endPos="16.34" roadsideCapacity="834" friendlyPos="true"/>
+    <parkingArea id="152595" lane="569#1_1" startPos="24.296329972591323" endPos="29.296329972591323" roadsideCapacity="1998" friendlyPos="true"/>
+    <parkingArea id="152596" lane="1595_1" startPos="5.0" endPos="10.0" roadsideCapacity="1106" friendlyPos="true"/>
+    <parkingArea id="152597" lane="368#3_1" startPos="86.2481310505258" endPos="91.2481310505258" roadsideCapacity="2386" friendlyPos="true"/>
+    <parkingArea id="152598" lane="-577#0_1" startPos="92.00861476914878" endPos="97.00861476914876" roadsideCapacity="2340" friendlyPos="true"/>
+    <parkingArea id="152599" lane="-1342_1" startPos="75.74" endPos="80.74" roadsideCapacity="1942" friendlyPos="true"/>
+    <parkingArea id="152600" lane="581#4_1" startPos="5.0" endPos="10.0" roadsideCapacity="1339" friendlyPos="true"/>
+    <parkingArea id="152601" lane="1294_1" startPos="64.97989450109057" endPos="69.97989450109057" roadsideCapacity="854" friendlyPos="true"/>
+    <parkingArea id="152602" lane="1613_1" startPos="217.94722652863393" endPos="222.94722652863393" roadsideCapacity="1369" friendlyPos="true"/>
+    <parkingArea id="152603" lane="743#1_1" startPos="27.807785434604323" endPos="32.80778543460433" roadsideCapacity="341" friendlyPos="true"/>
+    <parkingArea id="152604" lane="-514_1" startPos="5.0" endPos="10.0" roadsideCapacity="1085" friendlyPos="true"/>
+    <parkingArea id="152605" lane="1296#0_1" startPos="25.476547494720972" endPos="30.476547494720972" roadsideCapacity="2012" friendlyPos="true"/>
+    <parkingArea id="152606" lane="1418#25_1" startPos="9.50083391128062" endPos="14.50083391128062" roadsideCapacity="1926" friendlyPos="true"/>
+    <parkingArea id="152607" lane="-657_1" startPos="43.13843699775153" endPos="48.13843699775154" roadsideCapacity="1850" friendlyPos="true"/>
+    <parkingArea id="152608" lane="-383_1" startPos="446.6113985721506" endPos="451.6113985721506" roadsideCapacity="1779" friendlyPos="true"/>
+    <parkingArea id="152609" lane="739_1" startPos="5.0" endPos="10.0" roadsideCapacity="1111" friendlyPos="true"/>
+    <parkingArea id="152610" lane="-733#1_1" startPos="13.185232901380964" endPos="18.185232901380964" roadsideCapacity="1184" friendlyPos="true"/>
+    <parkingArea id="152611" lane="-693#4_1" startPos="18.83" endPos="23.83" roadsideCapacity="1202" friendlyPos="true"/>
+    <parkingArea id="152612" lane="937#0_1" startPos="21.47682770392426" endPos="26.476827703924258" roadsideCapacity="2388" friendlyPos="true"/>
+    <parkingArea id="152613" lane="-822#1_1" startPos="52.54" endPos="57.54" roadsideCapacity="930" friendlyPos="true"/>
+    <parkingArea id="152614" lane="-287_1" startPos="53.67946299128642" endPos="58.67946299128642" roadsideCapacity="2044" friendlyPos="true"/>
+    <parkingArea id="152615" lane="-290#2_1" startPos="27.115594268924724" endPos="32.115594268924724" roadsideCapacity="2387" friendlyPos="true"/>
+    <parkingArea id="152616" lane="-278#1_1" startPos="13.760000000000002" endPos="18.76" roadsideCapacity="1520" friendlyPos="true"/>
+    <parkingArea id="152617" lane="-3_1" startPos="41.11" endPos="46.11" roadsideCapacity="1598" friendlyPos="true"/>
+    <parkingArea id="152618" lane="1594_1" startPos="67.60624966262965" endPos="72.60624966262965" roadsideCapacity="1001" friendlyPos="true"/>
+    <parkingArea id="152619" lane="180#1_0" startPos="79.69719100297723" endPos="84.69719100297723" roadsideCapacity="1719" friendlyPos="true"/>
+    <parkingArea id="152620" lane="-821#0_1" startPos="33.60896684066548" endPos="38.60896684066548" roadsideCapacity="801" friendlyPos="true"/>
+    <parkingArea id="152621" lane="-821#1_1" startPos="140.8254722829413" endPos="145.8254722829413" roadsideCapacity="1652" friendlyPos="true"/>
+    <parkingArea id="152622" lane="737#0_1" startPos="5.0" endPos="10.0" roadsideCapacity="1130" friendlyPos="true"/>
+    <parkingArea id="152623" lane="-493#0_1" startPos="52.26483023390466" endPos="57.26483023390466" roadsideCapacity="1573" friendlyPos="true"/>
+    <parkingArea id="152624" lane="698_1" startPos="34.922596047061646" endPos="39.922596047061646" roadsideCapacity="1912" friendlyPos="true"/>
+    <parkingArea id="152625" lane="-1509#2_1" startPos="8.743443586350471" endPos="13.743443586350471" roadsideCapacity="778" friendlyPos="true"/>
+    <parkingArea id="152626" lane="-709#1_1" startPos="356.83" endPos="361.83" roadsideCapacity="1796" friendlyPos="true"/>
+    <parkingArea id="152627" lane="834#2_1" startPos="54.11750834489845" endPos="59.11750834489845" roadsideCapacity="2331" friendlyPos="true"/>
+    <parkingArea id="152628" lane="891_1" startPos="42.27624516863358" endPos="47.27624516863358" roadsideCapacity="1276" friendlyPos="true"/>
+    <parkingArea id="152629" lane="-723_1" startPos="91.16242137586192" endPos="96.16242137586192" roadsideCapacity="831" friendlyPos="true"/>
+    <parkingArea id="152631" lane="288#1_1" startPos="17.250364553597485" endPos="22.250364553597485" roadsideCapacity="2353" friendlyPos="true"/>
+    <parkingArea id="152632" lane="288#2_1" startPos="5.0" endPos="10.0" roadsideCapacity="990" friendlyPos="true"/>
+    <parkingArea id="152633" lane="347_1" startPos="41.49151365321865" endPos="46.49151365321865" roadsideCapacity="1291" friendlyPos="true"/>
+    <parkingArea id="152634" lane="595#5_1" startPos="33.03372519064014" endPos="38.03372519064014" roadsideCapacity="1901" friendlyPos="true"/>
+    <parkingArea id="152635" lane="751#1_1" startPos="21.40333149072461" endPos="26.40333149072461" roadsideCapacity="2240" friendlyPos="true"/>
+    <parkingArea id="152636" lane="-733#5_1" startPos="143.21" endPos="148.21" roadsideCapacity="2102" friendlyPos="true"/>
+    <parkingArea id="152637" lane="-733#5_1" startPos="61.394073599660885" endPos="66.39407359966089" roadsideCapacity="968" friendlyPos="true"/>
+    <parkingArea id="152638" lane="-606#1_1" startPos="28.335113101787254" endPos="33.33511310178726" roadsideCapacity="326" friendlyPos="true"/>
+    <parkingArea id="152639" lane="-316#0_1" startPos="65.50491767072813" endPos="70.50491767072813" roadsideCapacity="1609" friendlyPos="true"/>
+    <parkingArea id="152640" lane="269_1" startPos="24.734540568917325" endPos="29.734540568917325" roadsideCapacity="2018" friendlyPos="true"/>
+    <parkingArea id="152641" lane="527_1" startPos="5.0" endPos="10.0" roadsideCapacity="1165" friendlyPos="true"/>
+    <parkingArea id="152642" lane="-520#0_1" startPos="69.47650002073955" endPos="74.47650002073954" roadsideCapacity="2156" friendlyPos="true"/>
+    <parkingArea id="152643" lane="-873_1" startPos="5.0" endPos="10.0" roadsideCapacity="1530" friendlyPos="true"/>
+    <parkingArea id="152644" lane="-591_1" startPos="5.0" endPos="10.0" roadsideCapacity="1878" friendlyPos="true"/>
+    <parkingArea id="152645" lane="-591_1" startPos="21.148553866991374" endPos="26.148553866991374" roadsideCapacity="1697" friendlyPos="true"/>
+    <parkingArea id="152646" lane="-499#1_1" startPos="51.12" endPos="56.12" roadsideCapacity="1384" friendlyPos="true"/>
+    <parkingArea id="152647" lane="105#1_1" startPos="35.35987197402172" endPos="40.35987197402172" roadsideCapacity="810" friendlyPos="true"/>
+    <parkingArea id="152648" lane="-1259#2_1" startPos="198.66850644323486" endPos="203.66850644323486" roadsideCapacity="567" friendlyPos="true"/>
+    <parkingArea id="152649" lane="-977#1_1" startPos="13.425035572432078" endPos="18.42503557243208" roadsideCapacity="1188" friendlyPos="true"/>
+    <parkingArea id="152650" lane="-851_1" startPos="52.60644829247371" endPos="57.60644829247371" roadsideCapacity="1191" friendlyPos="true"/>
+    <parkingArea id="152651" lane="460_1" startPos="41.71806718242663" endPos="46.71806718242663" roadsideCapacity="2260" friendlyPos="true"/>
+    <parkingArea id="152652" lane="-233#0_1" startPos="43.548004077220746" endPos="48.548004077220746" roadsideCapacity="1192" friendlyPos="true"/>
+    <parkingArea id="152653" lane="791_1" startPos="5.0" endPos="10.0" roadsideCapacity="1459" friendlyPos="true"/>
+    <parkingArea id="152654" lane="456_1" startPos="213.60141726594804" endPos="218.60141726594804" roadsideCapacity="2334" friendlyPos="true"/>
+    <parkingArea id="152655" lane="288#2_1" startPos="85.71577929486669" endPos="90.71577929486669" roadsideCapacity="599" friendlyPos="true"/>
+    <parkingArea id="152656" lane="1393#7_1" startPos="394.40878270171174" endPos="399.40878270171174" roadsideCapacity="1199" friendlyPos="true"/>
+    <parkingArea id="152657" lane="-1515_1" startPos="19.45" endPos="24.45" roadsideCapacity="502" friendlyPos="true"/>
+    <parkingArea id="152658" lane="-952_1" startPos="98.63064099988625" endPos="103.63064099988625" roadsideCapacity="2107" friendlyPos="true"/>
+    <parkingArea id="152659" lane="1495#1_1" startPos="5.0" endPos="10.0" roadsideCapacity="2418" friendlyPos="true"/>
+    <parkingArea id="152660" lane="273#0_1" startPos="81.75659306416102" endPos="86.75659306416102" roadsideCapacity="961" friendlyPos="true"/>
+    <parkingArea id="152661" lane="926_1" startPos="21.375696928327972" endPos="26.375696928327972" roadsideCapacity="748" friendlyPos="true"/>
+    <parkingArea id="152662" lane="1422#1_1" startPos="5.0" endPos="10.0" roadsideCapacity="774" friendlyPos="true"/>
+    <parkingArea id="152663" lane="821#1_1" startPos="136.4548892492229" endPos="141.4548892492229" roadsideCapacity="1846" friendlyPos="true"/>
+    <parkingArea id="152664" lane="861#2_1" startPos="98.69491593471396" endPos="103.69491593471396" roadsideCapacity="532" friendlyPos="true"/>
+    <parkingArea id="152665" lane="-523_1" startPos="9.50113327981987" endPos="14.50113327981987" roadsideCapacity="1302" friendlyPos="true"/>
+    <parkingArea id="152666" lane="1434#0_1" startPos="78.85" endPos="83.85" roadsideCapacity="1417" friendlyPos="true"/>
+    <parkingArea id="152667" lane="540#0_1" startPos="5.0" endPos="10.0" roadsideCapacity="2210" friendlyPos="true"/>
+    <parkingArea id="152668" lane="-290#3_1" startPos="5.0" endPos="10.0" roadsideCapacity="613" friendlyPos="true"/>
+    <parkingArea id="152669" lane="468#6_1" startPos="5.6918251934473805" endPos="10.69182519344738" roadsideCapacity="1613" friendlyPos="true"/>
+    <parkingArea id="152670" lane="-1257#1_1" startPos="5.844453395699586" endPos="10.844453395699585" roadsideCapacity="779" friendlyPos="true"/>
+    <parkingArea id="152671" lane="903_0" startPos="25.012508384650893" endPos="30.01250838465089" roadsideCapacity="831" friendlyPos="true"/>
+    <parkingArea id="152672" lane="1589#1_0" startPos="385.5626304117927" endPos="390.5626304117927" roadsideCapacity="1190" friendlyPos="true"/>
+    <parkingArea id="155638" lane="565#3_1" startPos="20.731394706302055" endPos="25.731394706302055" roadsideCapacity="2298" friendlyPos="true"/>
+    <rerouter id="152542" edges="-1360">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152585"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152657"/>
+            <parkingAreaReroute id="152583"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152543" edges="1296#3">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152554"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152605"/>
+            <parkingAreaReroute id="152648"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152544" edges="1369#0">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152551"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152548"/>
+            <parkingAreaReroute id="152620"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152545" edges="-1369#5">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152552"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152588"/>
+            <parkingAreaReroute id="152548"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152546" edges="14">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152623"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152582"/>
+            <parkingAreaReroute id="152581"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152547" edges="-337">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152662"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152606"/>
+            <parkingAreaReroute id="152553"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152548" edges="992#0">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152552"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152545"/>
+            <parkingAreaReroute id="152588"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152549" edges="874#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152564"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152562"/>
+            <parkingAreaReroute id="152666"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152550" edges="-1259#2">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152648"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152554"/>
+            <parkingAreaReroute id="152543"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152551" edges="-1002">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152544"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152548"/>
+            <parkingAreaReroute id="152552"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152552" edges="-1369#5">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152545"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152588"/>
+            <parkingAreaReroute id="152548"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152553" edges="-298">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152662"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152547"/>
+            <parkingAreaReroute id="152606"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152554" edges="1296#4">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152543"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152605"/>
+            <parkingAreaReroute id="152648"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152555" edges="1299#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152651"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152550"/>
+            <parkingAreaReroute id="152669"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152556" edges="456">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152654"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152601"/>
+            <parkingAreaReroute id="152575"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152557" edges="437">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152567"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152558"/>
+            <parkingAreaReroute id="152563"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152558" edges="210">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152563"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152672"/>
+            <parkingAreaReroute id="152567"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152559" edges="652#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152607"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152569"/>
+            <parkingAreaReroute id="152661"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152560" edges="851">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152650"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152656"/>
+            <parkingAreaReroute id="152568"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152561" edges="-1402">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152579"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152565"/>
+            <parkingAreaReroute id="152557"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152562" edges="328">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152549"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152564"/>
+            <parkingAreaReroute id="152666"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152563" edges="928#3">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152558"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152672"/>
+            <parkingAreaReroute id="152557"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152564" edges="876#0">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152549"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152562"/>
+            <parkingAreaReroute id="152666"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152565" edges="-1419#0">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152606"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152662"/>
+            <parkingAreaReroute id="152553"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152566" edges="937#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152612"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152627"/>
+            <parkingAreaReroute id="152590"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152567" edges="211#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152557"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152558"/>
+            <parkingAreaReroute id="152563"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152568" edges="926">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152661"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152589"/>
+            <parkingAreaReroute id="152656"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152569" edges="652#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152607"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152661"/>
+            <parkingAreaReroute id="152667"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152570" edges="307#3">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152571"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152578"/>
+            <parkingAreaReroute id="152672"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152571" edges="307#3">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152578"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152570"/>
+            <parkingAreaReroute id="152672"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152572" edges="911#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152671"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152658"/>
+            <parkingAreaReroute id="152665"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152573" edges="-918">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152575"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152556"/>
+            <parkingAreaReroute id="152654"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152574" edges="1613">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152602"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152601"/>
+            <parkingAreaReroute id="152573"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152575" edges="-918">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152573"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152556"/>
+            <parkingAreaReroute id="152654"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152576" edges="1418#3">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152591"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152613"/>
+            <parkingAreaReroute id="152620"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152577" edges="565#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="155638"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152599"/>
+            <parkingAreaReroute id="152592"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152578" edges="307#3">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152571"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152570"/>
+            <parkingAreaReroute id="152672"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152579" edges="-1394#0">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152557"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152567"/>
+            <parkingAreaReroute id="152561"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152580" edges="977#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152649"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152656"/>
+            <parkingAreaReroute id="152560"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152581" edges="-1435#0">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152582"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152646"/>
+            <parkingAreaReroute id="152652"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152582" edges="-1423#7">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152581"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152546"/>
+            <parkingAreaReroute id="152623"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152583" edges="369#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152597"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152585"/>
+            <parkingAreaReroute id="152609"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152584" edges="-687">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152594"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152653"/>
+            <parkingAreaReroute id="152639"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152585" edges="1427#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152542"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152583"/>
+            <parkingAreaReroute id="152657"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152586" edges="-399">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152647"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152566"/>
+            <parkingAreaReroute id="152612"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152587" edges="743#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152603"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152635"/>
+            <parkingAreaReroute id="152596"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152588" edges="-1369#6">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152545"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152552"/>
+            <parkingAreaReroute id="152548"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152589" edges="-540#0">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152667"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152661"/>
+            <parkingAreaReroute id="152568"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152590" edges="834#2">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152627"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152566"/>
+            <parkingAreaReroute id="152612"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152591" edges="816#2">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152576"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152613"/>
+            <parkingAreaReroute id="152625"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152592" edges="570">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152644"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152645"/>
+            <parkingAreaReroute id="152599"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152593" edges="-568">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152643"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152645"/>
+            <parkingAreaReroute id="152599"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152594" edges="687">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152584"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152639"/>
+            <parkingAreaReroute id="152660"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152595" edges="569#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152642"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152665"/>
+            <parkingAreaReroute id="152592"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152596" edges="1595">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152618"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152587"/>
+            <parkingAreaReroute id="152603"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152597" edges="368#3">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152583"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152624"/>
+            <parkingAreaReroute id="152609"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152598" edges="-577#0">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152600"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152608"/>
+            <parkingAreaReroute id="152643"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152599" edges="-1342">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152645"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152644"/>
+            <parkingAreaReroute id="152592"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152600" edges="581#4">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152645"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152644"/>
+            <parkingAreaReroute id="152598"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152601" edges="1294">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152654"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152556"/>
+            <parkingAreaReroute id="152573"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152602" edges="1613">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152574"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152601"/>
+            <parkingAreaReroute id="152573"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152603" edges="743#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152587"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152635"/>
+            <parkingAreaReroute id="152596"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152604" edges="-514">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152646"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152641"/>
+            <parkingAreaReroute id="152652"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152605" edges="1296#0">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152554"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152543"/>
+            <parkingAreaReroute id="152648"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152606" edges="1418#25">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152662"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152547"/>
+            <parkingAreaReroute id="152553"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152607" edges="-657">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152569"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152559"/>
+            <parkingAreaReroute id="152661"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152608" edges="-383">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152598"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152600"/>
+            <parkingAreaReroute id="152644"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152609" edges="739">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152629"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152624"/>
+            <parkingAreaReroute id="152597"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152610" edges="-733#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152664"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152663"/>
+            <parkingAreaReroute id="152621"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152611" edges="-693#4">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152638"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152634"/>
+            <parkingAreaReroute id="152624"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152612" edges="937#0">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152566"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152627"/>
+            <parkingAreaReroute id="152590"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152613" edges="-822#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152625"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152591"/>
+            <parkingAreaReroute id="152631"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152614" edges="-287">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152631"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152668"/>
+            <parkingAreaReroute id="152632"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152615" edges="-290#2">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152655"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152668"/>
+            <parkingAreaReroute id="152632"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152616" edges="-278#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152617"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152628"/>
+            <parkingAreaReroute id="152622"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152617" edges="-3">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152628"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152619"/>
+            <parkingAreaReroute id="152622"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152618" edges="1594">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152596"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152633"/>
+            <parkingAreaReroute id="152587"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152619" edges="180#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152628"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152617"/>
+            <parkingAreaReroute id="152622"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152620" edges="-821#0">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152621"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152663"/>
+            <parkingAreaReroute id="152591"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152621" edges="-821#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152620"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152663"/>
+            <parkingAreaReroute id="152664"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152622" edges="737#0">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152617"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152619"/>
+            <parkingAreaReroute id="152628"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152623" edges="-493#0">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152546"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152582"/>
+            <parkingAreaReroute id="152581"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152624" edges="698">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152629"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152611"/>
+            <parkingAreaReroute id="152609"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152625" edges="-1509#2">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152613"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152664"/>
+            <parkingAreaReroute id="152591"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152626" edges="-709#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152659"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152637"/>
+            <parkingAreaReroute id="152616"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152627" edges="834#2">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152590"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152566"/>
+            <parkingAreaReroute id="152612"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152628" edges="891">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152619"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152617"/>
+            <parkingAreaReroute id="152639"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152629" edges="-723">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152609"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152624"/>
+            <parkingAreaReroute id="152611"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152631" edges="288#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152632"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152655"/>
+            <parkingAreaReroute id="152614"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152632" edges="288#2">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152655"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152631"/>
+            <parkingAreaReroute id="152615"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152633" edges="347">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152618"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152596"/>
+            <parkingAreaReroute id="152655"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152634" edges="595#5">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152638"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152611"/>
+            <parkingAreaReroute id="152598"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152635" edges="751#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152603"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152587"/>
+            <parkingAreaReroute id="152636"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152636" edges="-733#5">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152637"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152635"/>
+            <parkingAreaReroute id="152659"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152637" edges="-733#5">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152636"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152659"/>
+            <parkingAreaReroute id="152626"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152638" edges="-606#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152611"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152634"/>
+            <parkingAreaReroute id="152643"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152639" edges="-316#0">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152628"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152619"/>
+            <parkingAreaReroute id="152617"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152640" edges="269">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152660"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152594"/>
+            <parkingAreaReroute id="152584"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152641" edges="527">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152604"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152646"/>
+            <parkingAreaReroute id="152665"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152642" edges="-520#0">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152595"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152665"/>
+            <parkingAreaReroute id="152592"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152643" edges="-873">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152593"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152645"/>
+            <parkingAreaReroute id="152599"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152644" edges="-591">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152645"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152592"/>
+            <parkingAreaReroute id="152599"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152645" edges="-591">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152644"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152592"/>
+            <parkingAreaReroute id="152599"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152646" edges="-499#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152604"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152641"/>
+            <parkingAreaReroute id="152652"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152647" edges="105#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152586"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152566"/>
+            <parkingAreaReroute id="152612"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152648" edges="-1259#2">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152550"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152554"/>
+            <parkingAreaReroute id="152605"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152649" edges="-977#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152580"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152656"/>
+            <parkingAreaReroute id="152560"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152650" edges="-851">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152560"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152656"/>
+            <parkingAreaReroute id="152568"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152651" edges="460">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152555"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152669"/>
+            <parkingAreaReroute id="152550"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152652" edges="-233#0">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152646"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152604"/>
+            <parkingAreaReroute id="152641"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152653" edges="791">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152619"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152639"/>
+            <parkingAreaReroute id="152628"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152654" edges="456">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152556"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152601"/>
+            <parkingAreaReroute id="152575"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152655" edges="288#2">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152632"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152631"/>
+            <parkingAreaReroute id="152615"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152656" edges="1393#7">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152560"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152650"/>
+            <parkingAreaReroute id="152568"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152657" edges="-1515">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152542"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152585"/>
+            <parkingAreaReroute id="152583"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152658" edges="-952">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152572"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152671"/>
+            <parkingAreaReroute id="152577"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152659" edges="1495#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152626"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152637"/>
+            <parkingAreaReroute id="152636"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152660" edges="273#0">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152640"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152594"/>
+            <parkingAreaReroute id="152584"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152661" edges="926">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152568"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152569"/>
+            <parkingAreaReroute id="152589"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152662" edges="1422#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152606"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152547"/>
+            <parkingAreaReroute id="152553"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152663" edges="821#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152621"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152664"/>
+            <parkingAreaReroute id="152610"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152664" edges="861#2">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152610"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152663"/>
+            <parkingAreaReroute id="152625"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152665" edges="-523">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152642"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152595"/>
+            <parkingAreaReroute id="152641"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152666" edges="1434#0">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152667"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152589"/>
+            <parkingAreaReroute id="152569"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152667" edges="540#0">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152589"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152661"/>
+            <parkingAreaReroute id="152569"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152668" edges="-290#3">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152615"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152614"/>
+            <parkingAreaReroute id="152632"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152669" edges="468#6">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152651"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152670"/>
+            <parkingAreaReroute id="152555"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152670" edges="-1257#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152669"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152623"/>
+            <parkingAreaReroute id="152546"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152671" edges="903">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152572"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152658"/>
+            <parkingAreaReroute id="152665"/>
+        </interval>
+    </rerouter>
+    <rerouter id="152672" edges="1589#1">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152558"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152563"/>
+            <parkingAreaReroute id="152567"/>
+        </interval>
+    </rerouter>
+    <rerouter id="155638" edges="565#3">
+        <interval begin="0.0" end="36000">
+            <parkingAreaReroute id="152577"/> <!-- in order of distance -->
+            <parkingAreaReroute id="152599"/>
+            <parkingAreaReroute id="152593"/>
+        </interval>
+    </rerouter>
+</additional>

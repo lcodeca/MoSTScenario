@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+    Monaco SUMO Traffic (MoST) Scenario
+    Copyright (C) 2018 
+    Lara CODECA
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd"> 
+    <busStop id="155459" name="Carnoles" lane="28#1_0" startPos="6424.292803902263" endPos="6574.292803902261" lines="M0:France" friendlyPos="true"> <!-- 155459 -->
+        <access lane="1613_0" pos="334.4227813694499"/>
+    </busStop>
+    <busStop id="155464" name="Eze" lane="45#1_0" startPos="5929.24" endPos="6079.24" lines="M0:Italy" friendlyPos="true"> <!-- 155464 -->
+        <access lane="1420_0" pos="80.0"/>
+    </busStop>
+    <busStop id="155466" name="Roquebrune-Cap-Martin" lane="28#1_0" startPos="4029.55239166811" endPos="4179.5523916681095" lines="M0:France" friendlyPos="true"> <!-- 155466 -->
+        <access lane="460_0" pos="37.84"/>
+    </busStop>
+    <busStop id="155469" name="Monaco - Monte Carlo" lane="46_0" startPos="6040.265692378214" endPos="6190.265692378212" lines="M0:France" friendlyPos="true"> <!-- 155469 -->
+        <access lane="868#0_0" pos="2.785"/>
+    </busStop>
+    <busStop id="155473" name="Cap d'Ail" lane="46_0" startPos="2762.573714336322" endPos="2912.5737143363212" lines="M0:France" friendlyPos="true"> <!-- 155473 -->
+        <access lane="1415#2_0" pos="50.9"/>
+    </busStop>
+    <busStop id="155475" name="Monte-Carlo Country Club" lane="37_0" startPos="3862.8192399828345" endPos="4012.8192399828336" lines="M0:Italy" friendlyPos="true"> <!-- 155475 -->
+        <access lane="-470_0" pos="214.04606657288"/>
+    </busStop>
+    <busStop id="155493" name="Cap d'Ail" lane="45#1_0" startPos="3169.8871762042822" endPos="3319.8871762042822" lines="M0:Italy" friendlyPos="true"> <!-- 155493 -->
+        <access lane="-842#0_0" pos="21.12"/>
+    </busStop>
+    <busStop id="155494" name="Eze" lane="46_0" startPos="5.0" endPos="155.0" lines="M0:France" friendlyPos="true"> <!-- 155494 -->
+        <access lane="1420_0" pos="80.0"/>
+    </busStop>
+    <busStop id="155505" name="Monaco - Monte Carlo" lane="37_0" startPos="6978.31" endPos="7128.31" lines="M0:Italy" friendlyPos="true"> <!-- 155505 -->
+        <access lane="703#1_0" pos="7.33"/>
+    </busStop>
+    <busStop id="155506" name="Roquebrune-Cap-Martin" lane="37_0" startPos="2803.0737420974833" endPos="2953.0737420974824" lines="M0:Italy" friendlyPos="true"> <!-- 155506 -->
+        <access lane="-1299#1_0" pos="67.005"/>
+    </busStop>
+    <busStop id="155507" name="Carnoles" lane="37_0" startPos="419.9651835428389" endPos="569.9651835428389" lines="M0:Italy" friendlyPos="true"> <!-- 155507 -->
+        <access lane="-940#0_0" pos="1581.5239267324675"/>
+    </busStop>
+    <busStop id="155554" name="Monte-Carlo Country Club" lane="28#1_0" startPos="2981.243065519437" endPos="3131.2430655194366" lines="M0:France" friendlyPos="true"> <!-- 155554 -->
+        <access lane="1169#0_0" pos="204.59572581065208"/>
+    </busStop>
+</additional>
