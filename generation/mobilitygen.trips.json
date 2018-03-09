@@ -1,6 +1,6 @@
 {
-    "baseDir": "/home/drone/EURECOM/Projects/MoSTScenario/",
-    "outputPrefix": "/home/drone/EURECOM/Projects/MoSTScenario/generation/out/most.",
+    "baseDir": "[absolute path to]/MoSTScenario/",
+    "outputPrefix": "[absolute path to]/MoSTScenario/generation/out/most.",
 
     "vTypes": "scenario/add/basic.vType.xml",
     "tazWeights": "generation/taz/most.complete.taz.weight.csv",
