@@ -170,6 +170,10 @@ def _compute_vehicles_per_type(config):
     internal = int(config['population'] * config['internal'])
     external = int(config['population'] * config['external'])
 
+    logging.debug('Population: %d', config['population'])
+    
+    logging.debug('  Internal: %d', internal)
+
     for v_type in config['distribution'].keys():
         config['distribution'][v_type]['tot'] = int(
             internal * config['distribution'][v_type]['percentage'])
@@ -178,15 +182,24 @@ def _compute_vehicles_per_type(config):
                 config['distribution'][v_type]['tot'] * config['duarouterError'])
         else:
             config['distribution'][v_type]['surplus'] = 0
+        logging.debug('\t %s: %d [%d]', v_type, config['distribution'][v_type]['tot'], 
+                      config['distribution'][v_type]['surplus'])
 
-    if config['gateways']['withDUAerror']:
-        config['gateways']['tot'] = external + (external * config['duarouterError'])
-    else:
-        config['gateways']['tot'] = external
+    logging.debug('  External: %d', external)
 
     for traffic_type in config['gateways']['origin'].keys():
-        config['gateways']['origin'][traffic_type]['tot'] = (
-            config['gateways']['tot'] * config['gateways']['origin'][traffic_type]['perc'])
+        config['gateways']['origin'][traffic_type]['tot'] = int(
+            external * config['gateways']['origin'][traffic_type]['perc'])
+
+        if config['gateways']['withDUAerror']:
+            config['gateways']['origin'][traffic_type]['surplus'] = int(
+                config['gateways']['origin'][traffic_type]['tot'] * config['duarouterError'])
+        else:
+            config['gateways']['origin'][traffic_type]['surplus'] = 0
+
+        logging.debug('\t %s: %d [%d]', traffic_type,
+                      config['gateways']['origin'][traffic_type]['tot'],
+                      config['gateways']['origin'][traffic_type]['surplus'])
     return config
 
 def _load_edges_from_taz(filename):
@@ -405,7 +418,14 @@ def _compute_gateways_trips(config, trips, weights, net, parkings):
 
     total = 0
     for key, area in config['gateways']['origin'].items():
-        for veh_id in range(int(area['tot'])):
+        vehicles = None
+        if config['gateways']['withDUAerror']:
+            vehicles = int(area['tot'] + area['surplus'])
+        else:
+            vehicles = int(area['tot'])
+        logging.debug('--> %d trips from %s to %s.', vehicles, key, config['gateways']['destinationTAZ']['name'])
+
+        for veh_id in range(vehicles):
             _depart = _normal_departure_time(config['peak']['mean'], config['peak']['std'],
                                              config['interval']['begin'], config['interval']['end'])
             v_type = _random_vtype(config['gateways']['vTypes'])
