@@ -22,7 +22,7 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <type-files value="typemap/osmNetconvert.typ.xml typemap/osmNetconvertUrbanDe.typ.xml typemap/osmNetconvertPedestrians.typ.xml typemap/osmNetconvertBicycle.typ.xml typemap/osmBidiRailNetconvert.typ.xml"/>
+        <type-files value="typemap/osmNetconvert.typ.xml,typemap/osmNetconvertUrbanDe.typ.xml,typemap/osmNetconvertPedestrians.typ.xml,typemap/osmNetconvertBicycle.typ.xml,typemap/osmBidiRailNetconvert.typ.xml"/>
         <osm-files value="most.raw.osm"/>
     </input>
 

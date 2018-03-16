@@ -23,8 +23,8 @@
 
     <input>
         <net-file value="in/most.net.xml"/>
-        <route-files value="in/route/most.buses.flows.xml in/route/most.trains.flows.xml in/route/most.pedestrian.rou.xml in/route/most.bicycle.rou.xml in/route/most.2wheeler.rou.xml in/route/most.passenger.rou.xml in/route/most.evehicle.rou.xml in/route/most.other.rou.xml in/route/most.gateways.rou.xml"/>
-        <additional-files value="in/add/most.poly.xml in/add/most.busstops.add.xml in/add/most.trainstops.add.xml in/add/most.parkings.add.xml in/add/basic.vType.xml"/>
+        <route-files value="in/route/most.buses.flows.xml,in/route/most.trains.flows.xml,in/route/most.pedestrian.rou.xml,in/route/most.bicycle.rou.xml,in/route/most.2wheeler.rou.xml,in/route/most.passenger.rou.xml,in/route/most.evehicle.rou.xml,in/route/most.other.rou.xml,in/route/most.gateways.rou.xml"/>
+        <additional-files value="in/add/most.poly.xml,in/add/most.busstops.add.xml,in/add/most.trainstops.add.xml,in/add/most.parkings.add.xml,in/add/basic.vType.xml"/>
     </input>
 
     <time>
