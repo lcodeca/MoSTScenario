@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+    Monaco SUMO Traffic (MoST) Scenario
+    Copyright (C) 2018 
+    Lara CODECA
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd"> 
-    <ptLine id="30" name="MoSTtoItaly" line="M0:Italy" type="train">
-        <route edges="37 37 37 37 45#1 45#1"/>
-        <busStop id="155507" name="Carnoles"/>
-        <busStop id="155506" name="Roquebrune-Cap-Martin"/>
-        <busStop id="155475" name="Monte-Carlo Country Club"/>
-        <busStop id="155505" name="Monaco - Monte Carlo"/>
-        <busStop id="155493" name="Cap d'Ail"/>
-        <busStop id="155464" name="Eze"/>
+    <ptLine id="39" name="MoSTtoItaly" line="M0:Italy" type="train">
+        <route edges="47 47 47 47 55#1 55#1"/>
+        <busStop id="155358" name="Carnoles"/>
+        <busStop id="155357" name="Roquebrune-Cap-Martin"/>
+        <busStop id="155326" name="Monte-Carlo Country Club"/>
+        <busStop id="155356" name="Monaco - Monte Carlo"/>
+        <busStop id="155344" name="Cap d'Ail"/>
+        <busStop id="155315" name="Eze"/>
     </ptLine> 
-    <ptLine id="37" name="MoSTtoFrance" line="M0:France" type="train">
-        <route edges="46 46 46 28#1 28#1 28#1"/>
-        <busStop id="155494" name="Eze"/>
-        <busStop id="155473" name="Cap d'Ail"/>
-        <busStop id="155469" name="Monaco - Monte Carlo"/>
-        <busStop id="155554" name="Monte-Carlo Country Club"/>
-        <busStop id="155466" name="Roquebrune-Cap-Martin"/>
-        <busStop id="155459" name="Carnoles"/>
+    <ptLine id="46" name="MoSTtoFrance" line="M0:France" type="train">
+        <route edges="56 56 56 38#1 38#1 38#1"/>
+        <busStop id="155345" name="Eze"/>
+        <busStop id="155324" name="Cap d'Ail"/>
+        <busStop id="155320" name="Monaco - Monte Carlo"/>
+        <busStop id="155405" name="Monte-Carlo Country Club"/>
+        <busStop id="155317" name="Roquebrune-Cap-Martin"/>
+        <busStop id="155310" name="Carnoles"/>
     </ptLine> 
 </additional>
