@@ -18,41 +18,44 @@
 -->
 
 <routes>
-  <vType vClass="evehicle" id="evehicle" guiShape="evehicle"/>
-
   <!-- Public Transports -->
-  <vType vClass="bus"   id="bus"  guiShape="bus">
+  <vType vClass="bus"          id="bus"         personCapacity="50" guiShape="bus">
     <param key="has.rerouting.device" value="false"/>
   </vType>
-  <vType vClass="rail" id="train" guiShape="rail">
+  <vType vClass="rail"         id="train"       personCapacity="100" guiShape="rail">
     <param key="has.rerouting.device" value="false"/>
   </vType>
+  <vTypeDistribution id="shared">
+    <vType vClass="taxi"       id="taxi"        lcCooperative="0.75" lcPushy="0.25" personCapacity="4" latAlignment="compact" color=".8,.8,.8" probability=".50" guiShape="passenger/sedan"/>
+    <vType vClass="passenger"  id="shride"      lcCooperative="0.75" lcPushy="0.25" personCapacity="8" latAlignment="compact" color=".2,.2,.8" probability=".50" guiShape="passenger/van"/>
+  </vTypeDistribution>
 
   <!-- Vulnerable Road Users -->
-  <vType vClass="pedestrian" id="pedestrian" guiShape="pedestrian"/>
-  <vType vClass="bicycle"    id="bicycle"    guiShape="bicycle"/>
+  <vType vClass="pedestrian"   id="pedestrian"  lcCooperative="0.75" lcPushy="0.25" latAlignment="compact" guiShape="pedestrian"/>
+  <vType vClass="bicycle"      id="bicycle"     lcCooperative="0.75" lcPushy="0.25" latAlignment="compact" guiShape="bicycle"/>
 
   <vTypeDistribution id="2wheeler">
-    <vType vClass="motorcycle" id="motorcycle"  color=".8,.2,.2" probability=".50" guiShape="motorcycle"/>
-    <vType vClass="moped"      id="moped"       color=".8,.2,.2" probability=".50" guiShape="moped"/>
+    <vType vClass="motorcycle" id="motorcycle"  lcCooperative="0.75" lcPushy="0.25" latAlignment="compact" color=".8,.2,.2" probability=".70" guiShape="motorcycle"/>
+    <vType vClass="moped"      id="moped"       lcCooperative="0.75" lcPushy="0.25" latAlignment="compact" color=".8,.2,.2" probability=".30" guiShape="moped"/>
   </vTypeDistribution>
 
   <!-- Normal vehicles -->
   <vTypeDistribution id="passenger">
-    <vType vClass="passenger" id="passenger1"  color=".8,.2,.2" accel="2.6" decel="4.5" sigma="0.5" length="5.0" minGap="1.5" maxSpeed="70" probability=".40" speedDev="0.1" guiShape="passenger/sedan"/>
-    <vType vClass="passenger" id="passenger2a" color=".8,.8,.8" accel="3.0" decel="4.5" sigma="0.5" length="4.5" minGap="1.5" maxSpeed="50" probability=".20" speedDev="0.1" guiShape="passenger/hatchback"/>
-    <vType vClass="passenger" id="passenger2b" color=".2,.2,.8" accel="2.8" decel="4.5" sigma="0.5" length="4.5" minGap="1.0" maxSpeed="50" probability=".20" speedDev="0.1" guiShape="passenger/hatchback"/>
-    <vType vClass="passenger" id="passenger3"  color=".3,.3,.3" accel="2.7" decel="4.5" sigma="0.5" length="6.0" minGap="1.5" maxSpeed="70" probability=".10" speedDev="0.1" guiShape="passenger/wagon"/>
-    <vType vClass="passenger" id="passenger4"  color=".9,.9,.9" accel="2.4" decel="4.5" sigma="0.5" length="5.5" minGap="1.5" maxSpeed="30" probability=".10" speedDev="0.1" guiShape="passenger/van"/>
+    <vType vClass="passenger"  id="passenger1"  lcCooperative="0.75" lcPushy="0.25" personCapacity="4" latAlignment="compact" color=".8,.2,.2" accel="2.6" decel="4.5" sigma="0.5" length="5.0" minGap="1.5" maxSpeed="70" probability=".40" speedDev="0.1" guiShape="passenger/sedan"/>
+    <vType vClass="passenger"  id="passenger2a" lcCooperative="0.75" lcPushy="0.25" personCapacity="4" latAlignment="compact" color=".8,.8,.8" accel="3.0" decel="4.5" sigma="0.5" length="4.5" minGap="1.5" maxSpeed="50" probability=".20" speedDev="0.1" guiShape="passenger/hatchback"/>
+    <vType vClass="passenger"  id="passenger2b" lcCooperative="0.75" lcPushy="0.25" personCapacity="4" latAlignment="compact" color=".2,.2,.8" accel="2.8" decel="4.5" sigma="0.5" length="4.5" minGap="1.0" maxSpeed="50" probability=".20" speedDev="0.1" guiShape="passenger/hatchback"/>
+    <vType vClass="passenger"  id="passenger3"  lcCooperative="0.75" lcPushy="0.25" personCapacity="6" latAlignment="compact" color=".3,.3,.3" accel="2.7" decel="4.5" sigma="0.5" length="6.0" minGap="1.5" maxSpeed="70" probability=".10" speedDev="0.1" guiShape="passenger/wagon"/>
+    <vType vClass="passenger"  id="passenger4"  lcCooperative="0.75" lcPushy="0.25" personCapacity="6" latAlignment="compact" color=".9,.9,.9" accel="2.4" decel="4.5" sigma="0.5" length="5.5" minGap="1.5" maxSpeed="30" probability=".10" speedDev="0.1" guiShape="passenger/van"/>
   </vTypeDistribution>
 
   <!-- Other (special) vehicles -->
   <vTypeDistribution id="other">
-    <vType vClass="emergency" id="emergency"  color=".8,.2,.2" probability=".10" guiShape="emergency"/>
-    <vType vClass="taxi"      id="taxi"       color=".8,.8,.8" probability=".30" guiShape="passenger/sedan"/>
-    <vType vClass="coach"     id="coach"      color=".2,.2,.8" probability=".10" guiShape="passenger/van"/>
-    <vType vClass="delivery"  id="delivery"   color=".5,.2,.2" probability=".30" guiShape="delivery"/>
-    <vType vClass="truck"     id="truck"      color=".3,.3,.3" probability=".10" guiShape="truck"/>
-    <vType vClass="trailer"   id="trailer"    color=".9,.9,.9" probability=".10" guiShape="truck"/>
+    <vType vClass="emergency"  id="emergency"   lcCooperative="0.75" lcPushy="0.25"                        latAlignment="compact" color=".8,.2,.2" probability=".30" guiShape="emergency"/>
+    <vType vClass="delivery"   id="delivery"    lcCooperative="0.75" lcPushy="0.25" containerCapacity="15" latAlignment="compact" color=".5,.2,.2" probability=".20" guiShape="delivery"/>
+    <vType vClass="truck"      id="truck"       lcCooperative="0.75" lcPushy="0.25" containerCapacity="5"  latAlignment="compact" color=".3,.3,.3" probability=".20" guiShape="truck"/>
+    <vType vClass="trailer"    id="trailer"     lcCooperative="0.75" lcPushy="0.25" containerCapacity="5"  latAlignment="compact" color=".9,.9,.9" probability=".20" guiShape="truck"/>
+    <vType vClass="coach"      id="coach"       lcCooperative="0.75" lcPushy="0.25" containerCapacity="50" latAlignment="compact" color=".9,.9,.9" probability=".10" guiShape="bus"/>
   </vTypeDistribution>
+
+  <vType vClass="evehicle" id="evehicle"        lcCooperative="0.75" lcPushy="0.25" personCapacity="4" latAlignment="compact"  guiShape="evehicle"/>
 </routes>
