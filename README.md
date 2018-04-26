@@ -1,7 +1,6 @@
 ## Monaco SUMO Traffic (MoST) Scenario
 
 Contacts: Lara CODECA [codeca@eurecom.fr], A-Team [a-team@eurecom.fr]
-
 This project is licensed under the terms of the GPLv3 license.
 
 MoST Scenario is meant to be used with SUMO (Simulator of Urban MObility).
@@ -21,7 +20,7 @@ MoST Scenario can be lunched directly with its configuration file.
 * `sumo -c most.sumocfg` or `run.sh` from the _scenario_ folder.
 
 Additional mobility can be generated using 
-* `buildall.sh` from the _generation_ folder.
+* `mobility.generator.sh` from the _generation_ folder.
 
 #### Files:
 * `scenario` is the ready-to-use scenario
