@@ -33,7 +33,6 @@
 
     <time>
         <begin value="18000"/>
-        <step-length value="0.5"/>
         <end value="43200"/>
     </time>
 

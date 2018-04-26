@@ -1,46 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--
-    Monaco SUMO Traffic (MoST) Scenario
-    Copyright (C) 2018 
-    Lara CODECA
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+<!-- generated on 2018-04-26 16:57:17.269973 by $Id$
+  options: -n ../scenario/in/most.net.xml -b 18000 -e 43200 -p 1200 -d 300 <doubleminus>random-begin <doubleminus>seed 42 <doubleminus>no-vtypes <doubleminus>ptstops ../scenario/in/add/most.trainstops.add.xml <doubleminus>ptlines pt/most.trainlines.add.xml -o out/most.trains.flows.xml
 -->
-
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-    <route id="30" edges="37 45#1" >
-        <stop busStop="155507" duration="300.00" until="366.0"/>
-        <stop busStop="155506" duration="300.00" until="821.0"/>
-        <stop busStop="155475" duration="300.00" until="1222.0"/>
-        <stop busStop="155505" duration="300.00" until="1707.0"/>
-        <stop busStop="155493" duration="300.00" until="2201.0"/>
-        <stop busStop="155464" duration="300.00" until="2671.0"/>
+    <route id="train_M0:Italy" edges="47 55#1" >
+        <stop busStop="155358" duration="300.00" until="366.0"/> <!-- Carnoles -->
+        <stop busStop="155357" duration="300.00" until="821.0"/> <!-- Roquebrune-Cap-Martin -->
+        <stop busStop="155326" duration="300.00" until="1222.0"/> <!-- Monte-Carlo Country Club -->
+        <stop busStop="155356" duration="300.00" until="1707.0"/> <!-- Monaco - Monte Carlo -->
+        <stop busStop="155344" duration="300.00" until="2201.0"/> <!-- Cap d'Ail -->
+        <stop busStop="155315" duration="300.00" until="2671.0"/> <!-- Eze -->
     </route>
-    <route id="37" edges="46 28#1" >
-        <stop busStop="155494" duration="300.00" until="315.0"/>
-        <stop busStop="155473" duration="300.00" until="785.0"/>
-        <stop busStop="155469" duration="300.00" until="1276.0"/>
-        <stop busStop="155554" duration="300.00" until="1763.0"/>
-        <stop busStop="155466" duration="300.00" until="2163.0"/>
-        <stop busStop="155459" duration="300.00" until="2619.0"/>
+    <route id="train_M0:France" edges="56 38#1" >
+        <stop busStop="155345" duration="300.00" until="315.0"/> <!-- Eze -->
+        <stop busStop="155324" duration="300.00" until="785.0"/> <!-- Cap d'Ail -->
+        <stop busStop="155320" duration="300.00" until="1276.0"/> <!-- Monaco - Monte Carlo -->
+        <stop busStop="155405" duration="300.00" until="1763.0"/> <!-- Monte-Carlo Country Club -->
+        <stop busStop="155317" duration="300.00" until="2163.0"/> <!-- Roquebrune-Cap-Martin -->
+        <stop busStop="155310" duration="300.00" until="2619.0"/> <!-- Carnoles -->
     </route>
-    <flow id="train_M0:Italy" type="train" route="30" begin="18022.0" end="43222.0" period="900.0" line="M0:Italy" >
+    <flow id="train_M0:Italy" type="train" route="train_M0:Italy" begin="18030.0" end="43230.0" period="1200.0" line="M0:Italy" >
         <param key="name" value="MoSTtoItaly"/>
         <param key="completeness" value="None"/>
     </flow>
-    <flow id="train_M0:France" type="train" route="37" begin="18575.0" end="43775.0" period="900.0" line="M0:France" >
+    <flow id="train_M0:France" type="train" route="train_M0:France" begin="18767.0" end="43967.0" period="1200.0" line="M0:France" >
         <param key="name" value="MoSTtoFrance"/>
         <param key="completeness" value="None"/>
     </flow>

@@ -1,154 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-    Monaco SUMO Traffic (MoST) Scenario
-    Copyright (C) 2018 
-    Lara CODECA
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
--->
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd"> 
-    <parkingArea id="152393" lane="-1347_1" startPos="13.411231037277894" endPos="18.411231037277894" roadsideCapacity="694" friendlyPos="true"/>
-    <parkingArea id="152394" lane="1283#3_1" startPos="334.29" endPos="339.29" roadsideCapacity="1881" friendlyPos="true"/>
-    <parkingArea id="152395" lane="1355#0_1" startPos="20.93292768733768" endPos="25.93292768733768" roadsideCapacity="1915" friendlyPos="true"/>
-    <parkingArea id="152396" lane="-1355#5_1" startPos="13.988693264222057" endPos="18.988693264222057" roadsideCapacity="1723" friendlyPos="true"/>
-    <parkingArea id="152397" lane="23_1" startPos="25.454475050981703" endPos="30.454475050981703" roadsideCapacity="2351" friendlyPos="true"/>
-    <parkingArea id="152398" lane="-340_1" startPos="48.6079507050513" endPos="53.6079507050513" roadsideCapacity="317" friendlyPos="true"/>
-    <parkingArea id="152399" lane="984#0_1" startPos="5.0" endPos="10.0" roadsideCapacity="1353" friendlyPos="true"/>
-    <parkingArea id="152400" lane="869#1_0" startPos="9.051449686018262" endPos="14.05144968601826" roadsideCapacity="2273" friendlyPos="true"/>
-    <parkingArea id="152401" lane="-1246#2_1" startPos="137.37392467527832" endPos="142.37392467527835" roadsideCapacity="1596" friendlyPos="true"/>
-    <parkingArea id="152402" lane="-994_1" startPos="29.11178384205241" endPos="34.11178384205241" roadsideCapacity="1654" friendlyPos="true"/>
-    <parkingArea id="152403" lane="-1355#5_1" startPos="50.578081342680754" endPos="55.578081342680754" roadsideCapacity="964" friendlyPos="true"/>
-    <parkingArea id="152404" lane="-301_1" startPos="12.110922441300161" endPos="17.11092244130016" roadsideCapacity="1678" friendlyPos="true"/>
-    <parkingArea id="152405" lane="1283#4_1" startPos="22.944909446879443" endPos="27.944909446879443" roadsideCapacity="1786" friendlyPos="true"/>
-    <parkingArea id="152406" lane="1286#1_1" startPos="127.46000000000001" endPos="132.46" roadsideCapacity="2497" friendlyPos="true"/>
-    <parkingArea id="152407" lane="456_1" startPos="213.01977234663678" endPos="218.01977234663678" roadsideCapacity="2039" friendlyPos="true"/>
-    <parkingArea id="152408" lane="437_1" startPos="279.0148033163015" endPos="284.0148033163015" roadsideCapacity="1078" friendlyPos="true"/>
-    <parkingArea id="152409" lane="1570#1_0" startPos="305.5689136101719" endPos="310.5689136101719" roadsideCapacity="2268" friendlyPos="true"/>
-    <parkingArea id="152410" lane="650#1_1" startPos="147.6251678646876" endPos="152.6251678646876" roadsideCapacity="445" friendlyPos="true"/>
-    <parkingArea id="152411" lane="846_1" startPos="33.324548684116536" endPos="38.32454868411653" roadsideCapacity="1302" friendlyPos="true"/>
-    <parkingArea id="152412" lane="-1388_1" startPos="5.0" endPos="10.0" roadsideCapacity="1224" friendlyPos="true"/>
-    <parkingArea id="152413" lane="331_0" startPos="24.574896130125442" endPos="29.57489613012544" roadsideCapacity="1215" friendlyPos="true"/>
-    <parkingArea id="152414" lane="922#3_1" startPos="382.43066321310874" endPos="387.43066321310874" roadsideCapacity="2401" friendlyPos="true"/>
-    <parkingArea id="152415" lane="871#0_0" startPos="126.66562881969595" endPos="131.66562881969597" roadsideCapacity="1345" friendlyPos="true"/>
-    <parkingArea id="152416" lane="-1405#0_1" startPos="301.39797075972183" endPos="306.39797075972183" roadsideCapacity="858" friendlyPos="true"/>
-    <parkingArea id="152417" lane="930#0_1" startPos="21.454481093056096" endPos="26.454481093056096" roadsideCapacity="1155" friendlyPos="true"/>
-    <parkingArea id="152418" lane="218#1_1" startPos="463.8295752311482" endPos="468.8295752311483" roadsideCapacity="1927" friendlyPos="true"/>
-    <parkingArea id="152419" lane="1361#1_1" startPos="64.54747494219112" endPos="69.54747494219112" roadsideCapacity="2283" friendlyPos="true"/>
-    <parkingArea id="152420" lane="650#1_1" startPos="261.84097317946294" endPos="266.84097317946294" roadsideCapacity="2410" friendlyPos="true"/>
-    <parkingArea id="152421" lane="310#3_1" startPos="405.15415633664827" endPos="410.15415633664827" roadsideCapacity="2001" friendlyPos="true"/>
-    <parkingArea id="152422" lane="310#3_1" startPos="1222.2030200041863" endPos="1227.2030200041863" roadsideCapacity="1866" friendlyPos="true"/>
-    <parkingArea id="152423" lane="906#1_0" startPos="38.53" endPos="43.53" roadsideCapacity="965" friendlyPos="true"/>
-    <parkingArea id="152424" lane="-913_1" startPos="137.08139983425326" endPos="142.08139983425326" roadsideCapacity="921" friendlyPos="true"/>
-    <parkingArea id="152425" lane="1593_1" startPos="218.0669589910758" endPos="223.0669589910758" roadsideCapacity="2235" friendlyPos="true"/>
-    <parkingArea id="152426" lane="-913_1" startPos="83.25225750679104" endPos="88.25225750679104" roadsideCapacity="928" friendlyPos="true"/>
-    <parkingArea id="152427" lane="1404#3_1" startPos="7.879999999999999" endPos="12.879999999999999" roadsideCapacity="1227" friendlyPos="true"/>
-    <parkingArea id="152428" lane="563#1_1" startPos="77.47759693403054" endPos="82.47759693403054" roadsideCapacity="2487" friendlyPos="true"/>
-    <parkingArea id="152429" lane="310#3_1" startPos="1411.9269982246371" endPos="1416.9269982246371" roadsideCapacity="1473" friendlyPos="true"/>
-    <parkingArea id="152430" lane="-1380#0_1" startPos="2247.11" endPos="2252.11" roadsideCapacity="1592" friendlyPos="true"/>
-    <parkingArea id="152431" lane="969#1_1" startPos="46.11947590921363" endPos="51.11947590921363" roadsideCapacity="2286" friendlyPos="true"/>
-    <parkingArea id="152432" lane="-1420#0_1" startPos="80.531819973059" endPos="85.531819973059" roadsideCapacity="2164" friendlyPos="true"/>
-    <parkingArea id="152433" lane="-1408#7_1" startPos="46.33052611737881" endPos="51.33052611737881" roadsideCapacity="1488" friendlyPos="true"/>
-    <parkingArea id="152434" lane="369#1_1" startPos="29.394860651003537" endPos="34.39486065100354" roadsideCapacity="545" friendlyPos="true"/>
-    <parkingArea id="152435" lane="-685_1" startPos="5.0" endPos="10.0" roadsideCapacity="2414" friendlyPos="true"/>
-    <parkingArea id="152436" lane="1412#1_1" startPos="15.456686776796918" endPos="20.456686776796918" roadsideCapacity="1724" friendlyPos="true"/>
-    <parkingArea id="152437" lane="1393#1_1" startPos="5.0" endPos="10.0" roadsideCapacity="1709" friendlyPos="true"/>
-    <parkingArea id="152438" lane="740#1_1" startPos="46.35375416535822" endPos="51.35375416535822" roadsideCapacity="806" friendlyPos="true"/>
-    <parkingArea id="152439" lane="-1355#6_1" startPos="5.0" endPos="10.0" roadsideCapacity="2300" friendlyPos="true"/>
-    <parkingArea id="152440" lane="-538#0_1" startPos="162.18" endPos="167.18" roadsideCapacity="1907" friendlyPos="true"/>
-    <parkingArea id="152441" lane="829#2_1" startPos="53.87502925473291" endPos="58.87502925473291" roadsideCapacity="1091" friendlyPos="true"/>
-    <parkingArea id="152442" lane="812#2_1" startPos="21.447440130072117" endPos="26.447440130072117" roadsideCapacity="1326" friendlyPos="true"/>
-    <parkingArea id="152443" lane="568_1" startPos="5.502124717848442" endPos="10.502124717848442" roadsideCapacity="2319" friendlyPos="true"/>
-    <parkingArea id="152444" lane="-566_1" startPos="30.380000000000003" endPos="35.38" roadsideCapacity="2242" friendlyPos="true"/>
-    <parkingArea id="152445" lane="685_1" startPos="8.8" endPos="13.8" roadsideCapacity="1292" friendlyPos="true"/>
-    <parkingArea id="152446" lane="567#1_1" startPos="24.00018867857366" endPos="29.00018867857366" roadsideCapacity="696" friendlyPos="true"/>
-    <parkingArea id="152447" lane="1576_1" startPos="5.0" endPos="10.0" roadsideCapacity="1959" friendlyPos="true"/>
-    <parkingArea id="152448" lane="369#1_1" startPos="85.34614619332928" endPos="90.34614619332928" roadsideCapacity="1333" friendlyPos="true"/>
-    <parkingArea id="152449" lane="-575#0_1" startPos="91.30734285073693" endPos="96.30734285073693" roadsideCapacity="1078" friendlyPos="true"/>
-    <parkingArea id="152450" lane="-1329_1" startPos="75.36" endPos="80.36" roadsideCapacity="1643" friendlyPos="true"/>
-    <parkingArea id="152451" lane="579#4_1" startPos="5.0" endPos="10.0" roadsideCapacity="607" friendlyPos="true"/>
-    <parkingArea id="152452" lane="1281_1" startPos="62.91295836547648" endPos="67.91295836547647" roadsideCapacity="1176" friendlyPos="true"/>
-    <parkingArea id="152453" lane="1593_1" startPos="218.0669589910758" endPos="223.0669589910758" roadsideCapacity="339" friendlyPos="true"/>
-    <parkingArea id="152454" lane="740#1_1" startPos="27.069885258938264" endPos="32.069885258938264" roadsideCapacity="1104" friendlyPos="true"/>
-    <parkingArea id="152455" lane="-513_1" startPos="5.0" endPos="10.0" roadsideCapacity="2191" friendlyPos="true"/>
-    <parkingArea id="152456" lane="1283#1_1" startPos="29.17" endPos="34.17" roadsideCapacity="974" friendlyPos="true"/>
-    <parkingArea id="152457" lane="1404#25_1" startPos="9.069601135023014" endPos="14.069601135023014" roadsideCapacity="981" friendlyPos="true"/>
-    <parkingArea id="152458" lane="-655_1" startPos="42.339762473584265" endPos="47.33976247358426" roadsideCapacity="1518" friendlyPos="true"/>
-    <parkingArea id="152459" lane="-383_1" startPos="445.68023301744864" endPos="450.68023301744864" roadsideCapacity="1722" friendlyPos="true"/>
-    <parkingArea id="152460" lane="736_1" startPos="5.0" endPos="10.0" roadsideCapacity="1369" friendlyPos="true"/>
-    <parkingArea id="152461" lane="-730#1_1" startPos="12.433734960230684" endPos="17.433734960230684" roadsideCapacity="270" friendlyPos="true"/>
-    <parkingArea id="152462" lane="-691#4_1" startPos="16.93" endPos="21.93" roadsideCapacity="2425" friendlyPos="true"/>
-    <parkingArea id="152463" lane="930#0_1" startPos="21.454481093056096" endPos="26.454481093056096" roadsideCapacity="1758" friendlyPos="true"/>
-    <parkingArea id="152464" lane="-817#1_1" startPos="51.67" endPos="56.67" roadsideCapacity="281" friendlyPos="true"/>
-    <parkingArea id="152465" lane="-291_1" startPos="54.200886657906466" endPos="59.20088665790647" roadsideCapacity="1183" friendlyPos="true"/>
-    <parkingArea id="152466" lane="-294#2_1" startPos="27.258384697154234" endPos="32.258384697154234" roadsideCapacity="1620" friendlyPos="true"/>
-    <parkingArea id="152467" lane="-282#1_1" startPos="12.34" endPos="17.34" roadsideCapacity="1852" friendlyPos="true"/>
-    <parkingArea id="152468" lane="-12_1" startPos="40.28" endPos="45.28" roadsideCapacity="1070" friendlyPos="true"/>
-    <parkingArea id="152469" lane="1575_1" startPos="67.21333349351984" endPos="72.21333349351984" roadsideCapacity="1862" friendlyPos="true"/>
-    <parkingArea id="152470" lane="189#1_0" startPos="76.21717663748407" endPos="81.21717663748407" roadsideCapacity="1951" friendlyPos="true"/>
-    <parkingArea id="152471" lane="-816#0_1" startPos="33.53790433384742" endPos="38.53790433384742" roadsideCapacity="2046" friendlyPos="true"/>
-    <parkingArea id="152472" lane="-816#1_1" startPos="140.17456463647903" endPos="145.17456463647903" roadsideCapacity="812" friendlyPos="true"/>
-    <parkingArea id="152473" lane="734#0_1" startPos="5.0" endPos="10.0" roadsideCapacity="872" friendlyPos="true"/>
-    <parkingArea id="152474" lane="-493#0_1" startPos="52.24685785373644" endPos="57.24685785373644" roadsideCapacity="2195" friendlyPos="true"/>
-    <parkingArea id="152475" lane="696_1" startPos="33.61412349745339" endPos="38.61412349745339" roadsideCapacity="486" friendlyPos="true"/>
-    <parkingArea id="152476" lane="-1491#2_1" startPos="8.036243196068103" endPos="13.036243196068103" roadsideCapacity="1582" friendlyPos="true"/>
-    <parkingArea id="152477" lane="-707#1_1" startPos="353.16" endPos="358.16" roadsideCapacity="1477" friendlyPos="true"/>
-    <parkingArea id="152478" lane="829#2_1" startPos="53.87502925473291" endPos="58.87502925473291" roadsideCapacity="1625" friendlyPos="true"/>
-    <parkingArea id="152479" lane="886_1" startPos="42.20926103390413" endPos="47.20926103390413" roadsideCapacity="381" friendlyPos="true"/>
-    <parkingArea id="152480" lane="-720_1" startPos="83.49261046312759" endPos="88.49261046312759" roadsideCapacity="697" friendlyPos="true"/>
-    <parkingArea id="152482" lane="292#1_1" startPos="17.170366036248502" endPos="22.170366036248502" roadsideCapacity="2368" friendlyPos="true"/>
-    <parkingArea id="152483" lane="292#2_1" startPos="5.0" endPos="10.0" roadsideCapacity="935" friendlyPos="true"/>
-    <parkingArea id="152484" lane="348_1" startPos="41.1023938473616" endPos="46.1023938473616" roadsideCapacity="472" friendlyPos="true"/>
-    <parkingArea id="152485" lane="593#5_1" startPos="32.77562898262447" endPos="37.77562898262447" roadsideCapacity="1061" friendlyPos="true"/>
-    <parkingArea id="152486" lane="748#1_1" startPos="22.82178988609172" endPos="27.82178988609172" roadsideCapacity="1731" friendlyPos="true"/>
-    <parkingArea id="152487" lane="-730#4_1" startPos="151.04709542020504" endPos="156.04709542020504" roadsideCapacity="2259" friendlyPos="true"/>
-    <parkingArea id="152488" lane="-730#4_1" startPos="60.29250416905985" endPos="65.29250416905985" roadsideCapacity="723" friendlyPos="true"/>
-    <parkingArea id="152489" lane="-604#1_1" startPos="27.98700870862836" endPos="32.98700870862836" roadsideCapacity="2212" friendlyPos="true"/>
-    <parkingArea id="152490" lane="-319#0_1" startPos="64.13930460839003" endPos="69.13930460839003" roadsideCapacity="287" friendlyPos="true"/>
-    <parkingArea id="152491" lane="275_1" startPos="24.018674552096055" endPos="29.018674552096055" roadsideCapacity="907" friendlyPos="true"/>
-    <parkingArea id="152492" lane="526_1" startPos="5.0" endPos="10.0" roadsideCapacity="1322" friendlyPos="true"/>
-    <parkingArea id="152493" lane="-519#0_1" startPos="69.75753216160496" endPos="74.75753216160496" roadsideCapacity="1305" friendlyPos="true"/>
-    <parkingArea id="152494" lane="-868_1" startPos="5.0" endPos="10.0" roadsideCapacity="372" friendlyPos="true"/>
-    <parkingArea id="152495" lane="-589_1" startPos="5.0" endPos="10.0" roadsideCapacity="1991" friendlyPos="true"/>
-    <parkingArea id="152496" lane="-589_1" startPos="21.398154740481807" endPos="26.398154740481807" roadsideCapacity="1782" friendlyPos="true"/>
-    <parkingArea id="152497" lane="-499#1_1" startPos="50.44" endPos="55.44" roadsideCapacity="1115" friendlyPos="true"/>
-    <parkingArea id="152498" lane="-1389#1_1" startPos="30.203044062615582" endPos="35.20304406261558" roadsideCapacity="1889" friendlyPos="true"/>
-    <parkingArea id="152499" lane="-1246#2_1" startPos="197.55032793584988" endPos="202.5503279358499" roadsideCapacity="1155" friendlyPos="true"/>
-    <parkingArea id="152500" lane="-969#1_1" startPos="13.256240242934998" endPos="18.256240242934997" roadsideCapacity="1881" friendlyPos="true"/>
-    <parkingArea id="152501" lane="-846_1" startPos="61.06800202364953" endPos="66.06800202364953" roadsideCapacity="1699" friendlyPos="true"/>
-    <parkingArea id="152502" lane="460_1" startPos="41.61416108675715" endPos="46.61416108675715" roadsideCapacity="1736" friendlyPos="true"/>
-    <parkingArea id="152503" lane="-240#0_1" startPos="42.51917306802716" endPos="47.51917306802716" roadsideCapacity="518" friendlyPos="true"/>
-    <parkingArea id="152504" lane="788_1" startPos="5.0" endPos="10.0" roadsideCapacity="1468" friendlyPos="true"/>
-    <parkingArea id="152505" lane="456_1" startPos="213.01977234663678" endPos="218.01977234663678" roadsideCapacity="1814" friendlyPos="true"/>
-    <parkingArea id="152506" lane="292#2_1" startPos="85.59278015525804" endPos="90.59278015525804" roadsideCapacity="607" friendlyPos="true"/>
-    <parkingArea id="152507" lane="1379#7_1" startPos="392.06991921929995" endPos="397.06991921929995" roadsideCapacity="1354" friendlyPos="true"/>
-    <parkingArea id="152508" lane="-1497_1" startPos="17.45" endPos="22.45" roadsideCapacity="892" friendlyPos="true"/>
-    <parkingArea id="152509" lane="-945_1" startPos="98.49920563858095" endPos="103.49920563858095" roadsideCapacity="1665" friendlyPos="true"/>
-    <parkingArea id="152510" lane="1480#1_1" startPos="5.0" endPos="10.0" roadsideCapacity="1830" friendlyPos="true"/>
-    <parkingArea id="152511" lane="279#0_1" startPos="81.45677004827346" endPos="86.45677004827346" roadsideCapacity="2278" friendlyPos="true"/>
-    <parkingArea id="152512" lane="-650#0_1" startPos="17.43514247936134" endPos="22.43514247936134" roadsideCapacity="2165" friendlyPos="true"/>
-    <parkingArea id="152513" lane="1407#0_1" startPos="88.11" endPos="93.11" roadsideCapacity="1783" friendlyPos="true"/>
-    <parkingArea id="152514" lane="816#1_1" startPos="135.70552641408543" endPos="140.7055264140854" roadsideCapacity="382" friendlyPos="true"/>
-    <parkingArea id="152515" lane="856#2_1" startPos="98.84331015927461" endPos="103.84331015927461" roadsideCapacity="383" friendlyPos="true"/>
-    <parkingArea id="152516" lane="-522_1" startPos="9.501133279820019" endPos="14.501133279820019" roadsideCapacity="1766" friendlyPos="true"/>
-    <parkingArea id="152517" lane="1419#0_1" startPos="79.05" endPos="84.05" roadsideCapacity="1364" friendlyPos="true"/>
-    <parkingArea id="152518" lane="538#0_1" startPos="5.0" endPos="10.0" roadsideCapacity="525" friendlyPos="true"/>
-    <parkingArea id="152519" lane="-294#3_1" startPos="5.0" endPos="10.0" roadsideCapacity="301" friendlyPos="true"/>
-    <parkingArea id="152520" lane="468#6_1" startPos="5.0" endPos="10.0" roadsideCapacity="1078" friendlyPos="true"/>
-    <parkingArea id="152521" lane="-1244#1_1" startPos="5.68890359720456" endPos="10.688903597204561" roadsideCapacity="1055" friendlyPos="true"/>
-    <parkingArea id="152522" lane="898_0" startPos="23.520870111628216" endPos="28.520870111628213" roadsideCapacity="2058" friendlyPos="true"/>
-    <parkingArea id="152523" lane="1570#1_0" startPos="380.49583240744704" endPos="385.49583240744704" roadsideCapacity="874" friendlyPos="true"/>
-    <parkingArea id="155489" lane="563#3_1" startPos="20.01550576824824" endPos="25.01550576824824" roadsideCapacity="1296" friendlyPos="true"/>
+    <parkingArea id="152393" lane="-1347_1" startPos="13.410383126040093" endPos="18.410383126040095" roadsideCapacity="2066" friendlyPos="true"/>
+    <parkingArea id="152394" lane="1283#3_1" startPos="335.07" endPos="340.07" roadsideCapacity="2190" friendlyPos="true"/>
+    <parkingArea id="152395" lane="1355#0_1" startPos="20.947654466918355" endPos="25.947654466918355" roadsideCapacity="1914" friendlyPos="true"/>
+    <parkingArea id="152396" lane="-1355#5_1" startPos="14.087596679227948" endPos="19.08759667922795" roadsideCapacity="1709" friendlyPos="true"/>
+    <parkingArea id="152397" lane="23_1" startPos="25.464605102374378" endPos="30.464605102374378" roadsideCapacity="783" friendlyPos="true"/>
+    <parkingArea id="152398" lane="-340_1" startPos="48.83855185924947" endPos="53.83855185924947" roadsideCapacity="1637" friendlyPos="true"/>
+    <parkingArea id="152399" lane="984#0_1" startPos="5.0" endPos="10.0" roadsideCapacity="680" friendlyPos="true"/>
+    <parkingArea id="152400" lane="429#1_0" startPos="109.22871107559413" endPos="114.22871107559413" roadsideCapacity="544" friendlyPos="true"/>
+    <parkingArea id="152401" lane="-1246#2_1" startPos="137.58609732307085" endPos="142.58609732307085" roadsideCapacity="1096" friendlyPos="true"/>
+    <parkingArea id="152402" lane="-994_1" startPos="29.102845106726136" endPos="34.102845106726136" roadsideCapacity="435" friendlyPos="true"/>
+    <parkingArea id="152403" lane="-1355#5_1" startPos="50.66320262554996" endPos="55.66320262554996" roadsideCapacity="260" friendlyPos="true"/>
+    <parkingArea id="152404" lane="-301_1" startPos="13.176636439593368" endPos="18.17663643959337" roadsideCapacity="497" friendlyPos="true"/>
+    <parkingArea id="152405" lane="1283#4_1" startPos="23.042734560113598" endPos="28.042734560113598" roadsideCapacity="2205" friendlyPos="true"/>
+    <parkingArea id="152406" lane="1286#1_1" startPos="127.53999999999999" endPos="132.54" roadsideCapacity="2053" friendlyPos="true"/>
+    <parkingArea id="152407" lane="456_1" startPos="213.1759584305677" endPos="218.1759584305677" roadsideCapacity="2013" friendlyPos="true"/>
+    <parkingArea id="152408" lane="437_1" startPos="279.0148033163015" endPos="284.0148033163015" roadsideCapacity="1565" friendlyPos="true"/>
+    <parkingArea id="152409" lane="1570#1_0" startPos="306.1437038159063" endPos="311.1437038159063" roadsideCapacity="311" friendlyPos="true"/>
+    <parkingArea id="152410" lane="650#1_1" startPos="147.74475698910842" endPos="152.74475698910842" roadsideCapacity="656" friendlyPos="true"/>
+    <parkingArea id="152411" lane="846_1" startPos="33.49879161685595" endPos="38.49879161685595" roadsideCapacity="2069" friendlyPos="true"/>
+    <parkingArea id="152412" lane="-1388_1" startPos="5.0" endPos="10.0" roadsideCapacity="1418" friendlyPos="true"/>
+    <parkingArea id="152413" lane="429#1_0" startPos="57.975407398379964" endPos="62.975407398379964" roadsideCapacity="1918" friendlyPos="true"/>
+    <parkingArea id="152414" lane="922#3_1" startPos="382.53805107519463" endPos="387.53805107519463" roadsideCapacity="2278" friendlyPos="true"/>
+    <parkingArea id="152415" lane="-392#0_1" startPos="362.317584471222" endPos="367.317584471222" roadsideCapacity="2398" friendlyPos="true"/>
+    <parkingArea id="152416" lane="-1405#0_1" startPos="301.193557112155" endPos="306.1935571121551" roadsideCapacity="2215" friendlyPos="true"/>
+    <parkingArea id="152417" lane="930#0_1" startPos="21.465449730450707" endPos="26.465449730450707" roadsideCapacity="2439" friendlyPos="true"/>
+    <parkingArea id="152418" lane="218#1_1" startPos="464.23262595018" endPos="469.23262595018014" roadsideCapacity="388" friendlyPos="true"/>
+    <parkingArea id="152419" lane="1361#1_1" startPos="64.64230978774951" endPos="69.64230978774953" roadsideCapacity="786" friendlyPos="true"/>
+    <parkingArea id="152420" lane="650#1_1" startPos="261.8926616637904" endPos="266.89266166379036" roadsideCapacity="364" friendlyPos="true"/>
+    <parkingArea id="152421" lane="310#3_1" startPos="405.7797654574689" endPos="410.7797654574689" roadsideCapacity="1886" friendlyPos="true"/>
+    <parkingArea id="152422" lane="310#3_1" startPos="1222.7162685680576" endPos="1227.7162685680576" roadsideCapacity="2401" friendlyPos="true"/>
+    <parkingArea id="152423" lane="-532#0_1" startPos="1005.1639716884702" endPos="1010.1639716884702" roadsideCapacity="2483" friendlyPos="true"/>
+    <parkingArea id="152424" lane="-913_1" startPos="136.89525342618384" endPos="141.89525342618384" roadsideCapacity="790" friendlyPos="true"/>
+    <parkingArea id="152425" lane="1593_1" startPos="218.04992892311606" endPos="223.04992892311606" roadsideCapacity="1235" friendlyPos="true"/>
+    <parkingArea id="152426" lane="-913_1" startPos="83.05213776628119" endPos="88.05213776628119" roadsideCapacity="1073" friendlyPos="true"/>
+    <parkingArea id="152427" lane="1404#3_1" startPos="8.170000000000002" endPos="13.170000000000002" roadsideCapacity="743" friendlyPos="true"/>
+    <parkingArea id="152428" lane="563#1_1" startPos="77.48565938022224" endPos="82.48565938022223" roadsideCapacity="1637" friendlyPos="true"/>
+    <parkingArea id="152429" lane="310#3_1" startPos="1412.5596691011299" endPos="1417.5596691011299" roadsideCapacity="1536" friendlyPos="true"/>
+    <parkingArea id="152430" lane="-1380#0_1" startPos="2247.43" endPos="2252.43" roadsideCapacity="1803" friendlyPos="true"/>
+    <parkingArea id="152431" lane="969#1_1" startPos="54.66044940203783" endPos="59.66044940203783" roadsideCapacity="1520" friendlyPos="true"/>
+    <parkingArea id="152432" lane="-1420#0_1" startPos="80.6151703165493" endPos="85.6151703165493" roadsideCapacity="2067" friendlyPos="true"/>
+    <parkingArea id="152433" lane="-1408#7_1" startPos="46.59388678057793" endPos="51.59388678057793" roadsideCapacity="2279" friendlyPos="true"/>
+    <parkingArea id="152434" lane="369#1_1" startPos="29.401721553771377" endPos="34.40172155377138" roadsideCapacity="1884" friendlyPos="true"/>
+    <parkingArea id="152435" lane="-685_1" startPos="5.0" endPos="10.0" roadsideCapacity="525" friendlyPos="true"/>
+    <parkingArea id="152436" lane="1412#1_1" startPos="15.536931557224218" endPos="20.536931557224218" roadsideCapacity="744" friendlyPos="true"/>
+    <parkingArea id="152437" lane="1393#1_1" startPos="6.313575997889673" endPos="11.313575997889673" roadsideCapacity="2021" friendlyPos="true"/>
+    <parkingArea id="152438" lane="740#1_1" startPos="46.51027840239037" endPos="51.51027840239036" roadsideCapacity="494" friendlyPos="true"/>
+    <parkingArea id="152439" lane="-1355#6_1" startPos="5.0" endPos="10.0" roadsideCapacity="1657" friendlyPos="true"/>
+    <parkingArea id="152440" lane="-538#0_1" startPos="165.37" endPos="170.37" roadsideCapacity="1834" friendlyPos="true"/>
+    <parkingArea id="152441" lane="829#2_1" startPos="53.914434423987075" endPos="58.914434423987075" roadsideCapacity="1465" friendlyPos="true"/>
+    <parkingArea id="152442" lane="812#2_1" startPos="21.565916497437588" endPos="26.565916497437588" roadsideCapacity="507" friendlyPos="true"/>
+    <parkingArea id="152443" lane="568_1" startPos="5.502124717848442" endPos="10.502124717848442" roadsideCapacity="2155" friendlyPos="true"/>
+    <parkingArea id="152444" lane="-566_1" startPos="30.39" endPos="35.39" roadsideCapacity="459" friendlyPos="true"/>
+    <parkingArea id="152445" lane="685_1" startPos="9.34" endPos="14.34" roadsideCapacity="448" friendlyPos="true"/>
+    <parkingArea id="152446" lane="567#1_1" startPos="24.051176998393228" endPos="29.051176998393228" roadsideCapacity="1575" friendlyPos="true"/>
+    <parkingArea id="152447" lane="1576_1" startPos="5.0" endPos="10.0" roadsideCapacity="1392" friendlyPos="true"/>
+    <parkingArea id="152448" lane="369#1_1" startPos="85.4901325733816" endPos="90.4901325733816" roadsideCapacity="978" friendlyPos="true"/>
+    <parkingArea id="152449" lane="-575#0_1" startPos="91.46230696393017" endPos="96.46230696393019" roadsideCapacity="326" friendlyPos="true"/>
+    <parkingArea id="152450" lane="-1329_1" startPos="75.41" endPos="80.41" roadsideCapacity="304" friendlyPos="true"/>
+    <parkingArea id="152451" lane="579#4_1" startPos="5.0" endPos="10.0" roadsideCapacity="2090" friendlyPos="true"/>
+    <parkingArea id="152452" lane="1281_1" startPos="63.19026139164527" endPos="68.19026139164527" roadsideCapacity="2013" friendlyPos="true"/>
+    <parkingArea id="152453" lane="1593_1" startPos="218.04992892311606" endPos="223.04992892311606" roadsideCapacity="1157" friendlyPos="true"/>
+    <parkingArea id="152454" lane="740#1_1" startPos="27.22640949597041" endPos="32.22640949597041" roadsideCapacity="1862" friendlyPos="true"/>
+    <parkingArea id="152455" lane="-513_1" startPos="5.0" endPos="10.0" roadsideCapacity="1776" friendlyPos="true"/>
+    <parkingArea id="152456" lane="1283#0_1" startPos="25.46545638666582" endPos="30.46545638666582" roadsideCapacity="484" friendlyPos="true"/>
+    <parkingArea id="152457" lane="1404#25_1" startPos="9.152490487859412" endPos="14.152490487859412" roadsideCapacity="892" friendlyPos="true"/>
+    <parkingArea id="152458" lane="-655_1" startPos="42.490584355166106" endPos="47.490584355166106" roadsideCapacity="2187" friendlyPos="true"/>
+    <parkingArea id="152459" lane="-383_1" startPos="445.81713238271516" endPos="450.8171323827151" roadsideCapacity="417" friendlyPos="true"/>
+    <parkingArea id="152460" lane="736_1" startPos="5.0" endPos="10.0" roadsideCapacity="354" friendlyPos="true"/>
+    <parkingArea id="152461" lane="-730#1_1" startPos="12.78365869789532" endPos="17.78365869789532" roadsideCapacity="678" friendlyPos="true"/>
+    <parkingArea id="152462" lane="-691#4_1" startPos="17.41" endPos="22.41" roadsideCapacity="764" friendlyPos="true"/>
+    <parkingArea id="152463" lane="930#0_1" startPos="21.465449730450707" endPos="26.465449730450707" roadsideCapacity="1716" friendlyPos="true"/>
+    <parkingArea id="152464" lane="-817#1_1" startPos="51.83" endPos="56.83" roadsideCapacity="834" friendlyPos="true"/>
+    <parkingArea id="152465" lane="-291_1" startPos="54.16093536553298" endPos="59.16093536553298" roadsideCapacity="1986" friendlyPos="true"/>
+    <parkingArea id="152466" lane="-294#2_1" startPos="19.490111413997173" endPos="24.490111413997173" roadsideCapacity="295" friendlyPos="true"/>
+    <parkingArea id="152467" lane="-282#1_1" startPos="12.649999999999999" endPos="17.65" roadsideCapacity="427" friendlyPos="true"/>
+    <parkingArea id="152468" lane="-12_1" startPos="40.46" endPos="45.46" roadsideCapacity="795" friendlyPos="true"/>
+    <parkingArea id="152469" lane="1575_1" startPos="67.2393362635756" endPos="72.2393362635756" roadsideCapacity="1645" friendlyPos="true"/>
+    <parkingArea id="152470" lane="189#1_0" startPos="76.47346916493947" endPos="81.47346916493947" roadsideCapacity="1432" friendlyPos="true"/>
+    <parkingArea id="152471" lane="-816#0_1" startPos="33.544972208120235" endPos="38.54497220812023" roadsideCapacity="1553" friendlyPos="true"/>
+    <parkingArea id="152472" lane="-816#1_1" startPos="140.31522183886892" endPos="145.31522183886892" roadsideCapacity="1888" friendlyPos="true"/>
+    <parkingArea id="152473" lane="734#0_1" startPos="5.0" endPos="10.0" roadsideCapacity="1947" friendlyPos="true"/>
+    <parkingArea id="152474" lane="-493#0_1" startPos="52.244033559794026" endPos="57.244033559794026" roadsideCapacity="2402" friendlyPos="true"/>
+    <parkingArea id="152475" lane="696_1" startPos="33.953504864056136" endPos="38.953504864056136" roadsideCapacity="1686" friendlyPos="true"/>
+    <parkingArea id="152476" lane="-1491#2_1" startPos="8.184779851964995" endPos="13.184779851964995" roadsideCapacity="1276" friendlyPos="true"/>
+    <parkingArea id="152477" lane="-707#1_1" startPos="354.24" endPos="359.24" roadsideCapacity="898" friendlyPos="true"/>
+    <parkingArea id="152478" lane="829#2_1" startPos="53.914434423987075" endPos="58.914434423987075" roadsideCapacity="1580" friendlyPos="true"/>
+    <parkingArea id="152479" lane="886_1" startPos="42.12120864158858" endPos="47.12120864158858" roadsideCapacity="1123" friendlyPos="true"/>
+    <parkingArea id="152480" lane="-720_1" startPos="85.4120545394358" endPos="90.4120545394358" roadsideCapacity="723" friendlyPos="true"/>
+    <parkingArea id="152482" lane="292#1_1" startPos="17.19036566445625" endPos="22.19036566445625" roadsideCapacity="1897" friendlyPos="true"/>
+    <parkingArea id="152483" lane="292#2_1" startPos="5.0" endPos="10.0" roadsideCapacity="437" friendlyPos="true"/>
+    <parkingArea id="152484" lane="348_1" startPos="41.16164048487222" endPos="46.16164048487222" roadsideCapacity="680" friendlyPos="true"/>
+    <parkingArea id="152485" lane="593#5_1" startPos="32.81974342171564" endPos="37.81974342171564" roadsideCapacity="2455" friendlyPos="true"/>
+    <parkingArea id="152486" lane="748#1_1" startPos="22.98300646980521" endPos="27.98300646980521" roadsideCapacity="853" friendlyPos="true"/>
+    <parkingArea id="152487" lane="-730#4_1" startPos="151.71033205908628" endPos="156.71033205908628" roadsideCapacity="1486" friendlyPos="true"/>
+    <parkingArea id="152488" lane="-730#4_1" startPos="60.9508779690614" endPos="65.9508779690614" roadsideCapacity="1508" friendlyPos="true"/>
+    <parkingArea id="152489" lane="-604#1_1" startPos="28.06503885160311" endPos="33.065038851603106" roadsideCapacity="1321" friendlyPos="true"/>
+    <parkingArea id="152490" lane="-319#0_1" startPos="64.40599196006511" endPos="69.40599196006511" roadsideCapacity="766" friendlyPos="true"/>
+    <parkingArea id="152491" lane="275_1" startPos="24.168367029122663" endPos="29.168367029122663" roadsideCapacity="649" friendlyPos="true"/>
+    <parkingArea id="152492" lane="526_1" startPos="5.0" endPos="10.0" roadsideCapacity="375" friendlyPos="true"/>
+    <parkingArea id="152493" lane="-519#0_1" startPos="69.72785457341423" endPos="74.72785457341423" roadsideCapacity="2352" friendlyPos="true"/>
+    <parkingArea id="152494" lane="-868_1" startPos="5.0" endPos="10.0" roadsideCapacity="896" friendlyPos="true"/>
+    <parkingArea id="152495" lane="-589_1" startPos="5.0" endPos="10.0" roadsideCapacity="621" friendlyPos="true"/>
+    <parkingArea id="152496" lane="-589_1" startPos="21.34768332563986" endPos="26.34768332563986" roadsideCapacity="628" friendlyPos="true"/>
+    <parkingArea id="152497" lane="-499#1_1" startPos="50.59" endPos="55.59" roadsideCapacity="2328" friendlyPos="true"/>
+    <parkingArea id="152498" lane="-1389#1_1" startPos="42.24807998589867" endPos="47.24807998589867" roadsideCapacity="1740" friendlyPos="true"/>
+    <parkingArea id="152499" lane="-1246#2_1" startPos="197.76808825164997" endPos="202.76808825164997" roadsideCapacity="1692" friendlyPos="true"/>
+    <parkingArea id="152500" lane="-969#1_1" startPos="13.353783060344064" endPos="18.353783060344064" roadsideCapacity="1977" friendlyPos="true"/>
+    <parkingArea id="152501" lane="-846_1" startPos="50.53125811373849" endPos="55.531258113738495" roadsideCapacity="2480" friendlyPos="true"/>
+    <parkingArea id="152502" lane="460_1" startPos="41.62090423144902" endPos="46.62090423144902" roadsideCapacity="2310" friendlyPos="true"/>
+    <parkingArea id="152503" lane="-240#0_1" startPos="42.699529694771165" endPos="47.699529694771165" roadsideCapacity="1922" friendlyPos="true"/>
+    <parkingArea id="152504" lane="788_1" startPos="5.0" endPos="10.0" roadsideCapacity="1078" friendlyPos="true"/>
+    <parkingArea id="152505" lane="456_1" startPos="213.1759584305677" endPos="218.1759584305677" roadsideCapacity="774" friendlyPos="true"/>
+    <parkingArea id="152506" lane="292#2_1" startPos="85.60611294540605" endPos="90.60611294540605" roadsideCapacity="925" friendlyPos="true"/>
+    <parkingArea id="152507" lane="1379#7_1" startPos="392.57933737221293" endPos="397.57933737221293" roadsideCapacity="934" friendlyPos="true"/>
+    <parkingArea id="152508" lane="-1497_1" startPos="17.86" endPos="22.86" roadsideCapacity="440" friendlyPos="true"/>
+    <parkingArea id="152509" lane="-945_1" startPos="98.52801355056144" endPos="103.52801355056144" roadsideCapacity="1288" friendlyPos="true"/>
+    <parkingArea id="152510" lane="1480#1_1" startPos="5.0" endPos="10.0" roadsideCapacity="1356" friendlyPos="true"/>
+    <parkingArea id="152511" lane="279#0_1" startPos="81.53588590534561" endPos="86.5358859053456" roadsideCapacity="1062" friendlyPos="true"/>
+    <parkingArea id="152512" lane="-650#0_1" startPos="17.44448765912584" endPos="22.44448765912584" roadsideCapacity="1681" friendlyPos="true"/>
+    <parkingArea id="152513" lane="1407#0_1" startPos="88.54" endPos="93.54" roadsideCapacity="537" friendlyPos="true"/>
+    <parkingArea id="152514" lane="816#1_1" startPos="135.85521141743334" endPos="140.85521141743334" roadsideCapacity="1352" friendlyPos="true"/>
+    <parkingArea id="152515" lane="856#2_1" startPos="98.81303404994226" endPos="103.81303404994225" roadsideCapacity="1116" friendlyPos="true"/>
+    <parkingArea id="152516" lane="-522_1" startPos="9.501133279820019" endPos="14.501133279820019" roadsideCapacity="301" friendlyPos="true"/>
+    <parkingArea id="152517" lane="1419#0_1" startPos="78.8" endPos="83.8" roadsideCapacity="2012" friendlyPos="true"/>
+    <parkingArea id="152518" lane="538#0_1" startPos="5.0" endPos="10.0" roadsideCapacity="1074" friendlyPos="true"/>
+    <parkingArea id="152519" lane="-294#3_1" startPos="5.0" endPos="10.0" roadsideCapacity="1073" friendlyPos="true"/>
+    <parkingArea id="152520" lane="468#6_1" startPos="5.0" endPos="10.0" roadsideCapacity="2110" friendlyPos="true"/>
+    <parkingArea id="152521" lane="-1244#1_1" startPos="5.724341799146893" endPos="10.724341799146892" roadsideCapacity="1776" friendlyPos="true"/>
+    <parkingArea id="152522" lane="549_1" startPos="5.0" endPos="10.0" roadsideCapacity="536" friendlyPos="true"/>
+    <parkingArea id="152523" lane="1570#1_0" startPos="381.07062261318146" endPos="386.07062261318146" roadsideCapacity="1979" friendlyPos="true"/>
+    <parkingArea id="155489" lane="563#3_1" startPos="20.164123631854995" endPos="25.164123631854995" roadsideCapacity="1294" friendlyPos="true"/>
     <rerouter id="152393" edges="-1347">
         <interval begin="0.0" end="36000">
             <parkingAreaReroute id="152436"/> <!-- in order of distance -->
@@ -198,7 +180,7 @@
             <parkingAreaReroute id="152439"/>
         </interval>
     </rerouter>
-    <rerouter id="152400" edges="869#1">
+    <rerouter id="152400" edges="429#1">
         <interval begin="0.0" end="36000">
             <parkingAreaReroute id="152415"/> <!-- in order of distance -->
             <parkingAreaReroute id="152413"/>
@@ -289,7 +271,7 @@
             <parkingAreaReroute id="152408"/>
         </interval>
     </rerouter>
-    <rerouter id="152413" edges="331">
+    <rerouter id="152413" edges="429#1">
         <interval begin="0.0" end="36000">
             <parkingAreaReroute id="152400"/> <!-- in order of distance -->
             <parkingAreaReroute id="152415"/>
@@ -303,7 +285,7 @@
             <parkingAreaReroute id="152408"/>
         </interval>
     </rerouter>
-    <rerouter id="152415" edges="871#0">
+    <rerouter id="152415" edges="-392#0">
         <interval begin="0.0" end="36000">
             <parkingAreaReroute id="152400"/> <!-- in order of distance -->
             <parkingAreaReroute id="152413"/>
@@ -359,7 +341,7 @@
             <parkingAreaReroute id="152523"/>
         </interval>
     </rerouter>
-    <rerouter id="152423" edges="906#1">
+    <rerouter id="152423" edges="-532#0">
         <interval begin="0.0" end="36000">
             <parkingAreaReroute id="152522"/> <!-- in order of distance -->
             <parkingAreaReroute id="152509"/>
@@ -590,7 +572,7 @@
             <parkingAreaReroute id="152503"/>
         </interval>
     </rerouter>
-    <rerouter id="152456" edges="1283#1">
+    <rerouter id="152456" edges="1283#0">
         <interval begin="0.0" end="36000">
             <parkingAreaReroute id="152405"/> <!-- in order of distance -->
             <parkingAreaReroute id="152394"/>
@@ -1045,7 +1027,7 @@
             <parkingAreaReroute id="152397"/>
         </interval>
     </rerouter>
-    <rerouter id="152522" edges="898">
+    <rerouter id="152522" edges="549">
         <interval begin="0.0" end="36000">
             <parkingAreaReroute id="152423"/> <!-- in order of distance -->
             <parkingAreaReroute id="152509"/>
