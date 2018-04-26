@@ -23,7 +23,7 @@ mkdir -p $TARGET
 ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PUBLIC TRANSPORTS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ##
 
 echo "Generate bus trips..."
-python $SUMO_DEV_TOOLS/ptlines2flows.py -n $INPUT/most.net.xml -b 18000 -e 43200 -p 1200 \
+python $SUMO_TOOLS/ptlines2flows.py -n $INPUT/most.net.xml -b 18000 -e 43200 -p 1200 \
     --random-begin --seed 42 --no-vtypes \
     --ptstops $ADD/most.busstops.add.xml --ptlines pt/most.buslines.add.xml \
     -o $OUTPUT/most.buses.flows.xml
@@ -34,7 +34,7 @@ if [[ $OUTPUT != $TARGET ]]
 fi
 
 echo "Generate train trips..."
-python $SUMO_DEV_TOOLS/ptlines2flows.py -n $INPUT/most.net.xml -b 18000 -e 43200 -p 1200 \
+python $SUMO_TOOLS/ptlines2flows.py -n $INPUT/most.net.xml -b 18000 -e 43200 -p 1200 \
     -d 300 --random-begin --seed 42 --no-vtypes \
     --ptstops $ADD/most.trainstops.add.xml --ptlines pt/most.trainlines.add.xml \
     -o $OUTPUT/most.trains.flows.xml
