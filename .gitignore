@@ -1,3 +1,6 @@
 *.log
+*.xml
+*.csv
+*.errorlog
 
 generation/out
