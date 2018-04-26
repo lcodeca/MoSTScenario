@@ -1,9 +1,13 @@
 ## Monaco SUMO Traffic (MoST) Scenario
 
 Contacts: Lara CODECA [codeca@eurecom.fr], A-Team [a-team@eurecom.fr]
+
 This project is licensed under the terms of the GPLv3 license.
 
-MoST Scenario is meant to be used with SUMO (Simulator of Urban MObility) and it has been tested with [SUMO 0.32.0](https://github.com/DLR-TS/sumo/tree/v0_32_0).
+MoST Scenario is meant to be used with SUMO (Simulator of Urban MObility).
+* Version 0.1 has been tested with [SUMO 0.32.0](https://github.com/eclipse/sumo/tree/v0_32_0).
+* For the following commits is necessary to use (at least) [Eclipse SUMO Version 1c6dcbf191](https://github.com/eclipse/sumo) due to the major improvements they made to the public transport system.
+
 Please refer to the [SUMO wiki](http://sumo.dlr.de/wiki/Simulation_of_Urban_MObility_-_Wiki) for further information on the simulator itself.
 
 #### How to cite it: [BibTeX](https://github.com/lcodeca/MoSTScenario/blob/master/misc/cite.bib)
@@ -24,4 +28,4 @@ Additional mobility can be generated using
 * `generation` contains the files required to generate various traffic demands
 * `misc` contains the raw OSM-like file, and other configuration files.
 
-Note: the configuration files contained in `misc/typemap` are a slightly modified version of a subset of the SUMO files availavle at https://github.com/DLR-TS/sumo/tree/master/data/typemap.
+Note: the configuration files contained in `misc/typemap` are a slightly modified version of a subset of the SUMO files availavle at https://github.com/eclipse/sumo/tree/master/data/typemap.
