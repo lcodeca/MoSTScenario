@@ -34,7 +34,7 @@ import numpy
 
 # """ Import SUMOLIB """
 if 'SUMO_TOOLS' in os.environ:
-    sys.path.append(os.environ['SUMO_DEV_TOOLS'])
+    sys.path.append(os.environ['SUMO_TOOLS'])
 else:
     sys.exit("Please declare environment variable 'SUMO_TOOLS'")
 import sumolib
@@ -407,7 +407,7 @@ def _main():
     logging.info('Load TAZ weights from %s%s', conf['baseDir'], conf['tazWeights'])
     taz_weights = _load_weights_from_csv('{}{}'.format(conf['baseDir'], conf['tazWeights']))
 
-    logging.info('Compute the number of agents for each vType..')
+    logging.info('Compute the number of entities for each vType..')
     conf = _compute_vehicles_per_type(conf)
 
     logging.info('Generating trips for each vType..')
