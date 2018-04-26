@@ -2,5 +2,6 @@
 *.xml
 *.csv
 *.errorlog
+*.sumocfg
 
 generation/out
