@@ -23,24 +23,48 @@
 
     <input>
         <net-file value="in/most.net.xml"/>
-        <route-files value="in/route/most.buses.flows.xml,in/route/most.trains.flows.xml,in/route/most.pedestrian.rou.xml,in/route/most.bicycle.rou.xml,in/route/most.2wheeler.rou.xml,in/route/most.passenger.rou.xml,in/route/most.evehicle.rou.xml,in/route/most.other.rou.xml,in/route/most.gateways.rou.xml"/>
+        <route-files value="in/route/most.buses.flows.xml,in/route/most.trains.flows.xml,in/route/most.pedestrian.rou.xml,in/route/most.bicycle.rou.xml,in/route/most.2wheeler.rou.xml,in/route/most.passenger.rou.xml,in/route/most.evehicle.rou.xml,in/route/most.other.rou.xml"/>
         <additional-files value="in/add/most.poly.xml,in/add/most.busstops.add.xml,in/add/most.trainstops.add.xml,in/add/most.parkings.add.xml,in/add/basic.vType.xml"/>
     </input>
 
+    <output>
+        <output-prefix value="most."/>
+    </output>
+
     <time>
         <begin value="18000"/>
+        <step-length value="0.5"/>
+        <end value="43200"/>
     </time>
 
+    <processing>
+        <lateral-resolution value="0.95"/>
+        <ignore-junction-blocker value="60"/>
+        <collision.action value="teleport"/>
+        <time-to-teleport value="300"/>
+        <max-depart-delay value="900"/>
+        <time-to-impatience value="120"/>
+        <pedestrian.model value="striping"/>
+        <pedestrian.striping.stripe-width value="0.55"/>
+        <pedestrian.striping.jamtime value="60"/>
+    </processing>
+
     <routing>
+        <persontrip.transfer.car-walk value="parkingAreas,ptStops"/>
         <device.rerouting.probability value="0.6"/>
         <device.rerouting.period value="300"/>
         <device.rerouting.pre-period value="600"/>
-        <device.rerouting.adaptation-steps value="180"/>
-        <device.rerouting.threads value="3"/>
+        <device.rerouting.threads value="4"/>
     </routing>
 
     <report>
-        <log value="most.sumo.log"/>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <log value="sim.log"/>
     </report>
+
+    <random_number>
+        <seed value="42"/>
+    </random_number>
 
 </configuration>
