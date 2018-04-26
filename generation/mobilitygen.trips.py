@@ -67,9 +67,14 @@ PERSON_TPL = """
     <person id="{id}" depart="{depart}">{trip}
     </person>"""
 
-PERSON_DUA_TPL = """
+PERSON_PUBLIC_TPL = """
     <person id="{id}" depart="{depart}">
         <personTrip from="{from_edge}" to="{to_edge}" modes="public"/>
+    </person>"""
+
+PERSON_SHARED_TPL = """
+    <person id="{id}" depart="{depart}">
+        <personTrip from="{from_edge}" to="{to_edge}" vTypes="shared"/>
     </person>"""
 
 WALK_TPL = """
@@ -167,16 +172,11 @@ def _compute_vehicles_per_type(config):
     Compute the absolute number of trip that are going to be created
     for each vechile type, given a population.
     """
-    internal = int(config['population'] * config['internal'])
-    external = int(config['population'] * config['external'])
-
     logging.debug('Population: %d', config['population'])
-    
-    logging.debug('  Internal: %d', internal)
 
     for v_type in config['distribution'].keys():
         config['distribution'][v_type]['tot'] = int(
-            internal * config['distribution'][v_type]['percentage'])
+            config['population'] * config['distribution'][v_type]['percentage'])
         if config['distribution'][v_type]['withDUAerror']:
             config['distribution'][v_type]['surplus'] = int(
                 config['distribution'][v_type]['tot'] * config['duarouterError'])
@@ -184,22 +184,6 @@ def _compute_vehicles_per_type(config):
             config['distribution'][v_type]['surplus'] = 0
         logging.debug('\t %s: %d [%d]', v_type, config['distribution'][v_type]['tot'], 
                       config['distribution'][v_type]['surplus'])
-
-    logging.debug('  External: %d', external)
-
-    for traffic_type in config['gateways']['origin'].keys():
-        config['gateways']['origin'][traffic_type]['tot'] = int(
-            external * config['gateways']['origin'][traffic_type]['perc'])
-
-        if config['gateways']['withDUAerror']:
-            config['gateways']['origin'][traffic_type]['surplus'] = int(
-                config['gateways']['origin'][traffic_type]['tot'] * config['duarouterError'])
-        else:
-            config['gateways']['origin'][traffic_type]['surplus'] = 0
-
-        logging.debug('\t %s: %d [%d]', traffic_type,
-                      config['gateways']['origin'][traffic_type]['tot'],
-                      config['gateways']['origin'][traffic_type]['surplus'])
     return config
 
 def _load_edges_from_taz(filename):
@@ -335,6 +319,7 @@ def _compute_trips_per_type(config, weights, net, parkings):
 
                 with_pt = 'withPT' in area.keys() and area['withPT']
                 with_pl = 'withPL' in area.keys() and area['withPL']
+                with_shared = 'withShared' in area.keys() and area['withShared']
 
                 _from = None
                 _to = None
@@ -357,6 +342,7 @@ def _compute_trips_per_type(config, weights, net, parkings):
                     'type': v_type,
                     'withPT': with_pt,
                     'withPL': with_pl,
+                    'withShared': with_shared,
                     'PLid': parking_id,
                 })
 
@@ -365,102 +351,6 @@ def _compute_trips_per_type(config, weights, net, parkings):
                     logging.debug('... %d trips for %s.', total, v_type)
 
         logging.info('Generated %d trips for %s.', total, v_type)
-    return trips
-
-def _random_vtype(vtypes):
-    """ Select a vType from a weighted dictionary. """
-    selection = random.uniform(0, 1)
-    total_weight = sum([weight for weight in vtypes.values()])
-    cumulative = 0.0
-    for vtype, weight in vtypes.items():
-        cumulative += weight / total_weight
-        if selection <= cumulative:
-            return vtype
-    return None # this is matematically impossible,
-                # if this happens, there is a mistake in the weights.
-
-def _find_gateways_pair(edges, weights, from_edges, to_area, graph, net):
-    """ Return an origin ad an allowed destination. """
-
-    to_taz = str(_select_taz_from_weighted_area(to_area, weights))
-
-    pairs = []
-    for edge_1 in from_edges:
-        for edge_2 in edges[to_taz]:
-            if edge_1 == edge_2:
-                continue
-            pairs.append((edge_1, edge_2))
-    pair = _select_pair_from_list(pairs)
-    from_edge, to_edge = pair
-    counter = 1
-    while not _valid_pair(graph, from_edge, to_edge, net):
-        pairs.remove(pair)
-        pair = _select_pair_from_list(pairs)
-        if not pair:
-            logging.debug('There is no valid OD pair, looking for another destination TAZ.')
-            return _find_gateways_pair(edges, weights, from_edges, to_area, graph, net)
-        from_edge, to_edge = pair
-        counter += 1
-    if counter >= 10:
-        logging.debug('It required %d iterations to find a valid pair.', counter)
-    return from_edge, to_edge
-
-def _compute_gateways_trips(config, trips, weights, net, parkings):
-    """ Compute the additional gateways trips. """
-
-    # Destination
-    edges_by_taz = _load_edges_from_taz(
-        '{}{}'.format(config['baseDir'], config['gateways']['destinationTAZ']['definition']))
-
-    # Dijkstra graph
-    logging.info('Converting SUMO net file to Dijkstra-like weighted graph for gateways')
-    graph = _convert_sumo_net_to_dijkstra_graph(net, edges_by_taz)
-
-    total = 0
-    for key, area in config['gateways']['origin'].items():
-        vehicles = None
-        if config['gateways']['withDUAerror']:
-            vehicles = int(area['tot'] + area['surplus'])
-        else:
-            vehicles = int(area['tot'])
-        logging.debug('--> %d trips from %s to %s.', vehicles, key, config['gateways']['destinationTAZ']['name'])
-
-        for veh_id in range(vehicles):
-            _depart = _normal_departure_time(config['peak']['mean'], config['peak']['std'],
-                                             config['interval']['begin'], config['interval']['end'])
-            v_type = _random_vtype(config['gateways']['vTypes'])
-            if _depart not in trips['gateways'].keys():
-                trips['gateways'][_depart] = []
-
-            with_pt = 'withPT' in area.keys() and area['withPT']
-            with_pl = 'withPL' in area.keys() and area['withPL']
-
-            _from, _to = _find_gateways_pair(
-                edges_by_taz, weights, area['edges'],
-                config['taz'][config['gateways']['destinationTAZ']['name']], graph, net)
-
-            parking_id = None
-            if with_pl:
-                parking_id = _has_parking_lot(_to, parkings)
-
-            if not parking_id:
-                with_pl = False
-
-            trips['gateways'][_depart].append({
-                'id': '{}_{}_{}'.format(v_type, key, veh_id),
-                'depart': _depart,
-                'from': _from,
-                'to': _to,
-                'type': v_type,
-                'withPT': with_pt,
-                'withPL': with_pl,
-                'PLid': parking_id,
-            })
-
-            total += 1
-            if total % 100 == 0:
-                logging.debug('... %d trips for gateways.', total)
-
     return trips
 
 def _saving_trips_to_files(trips, prefix, end):
@@ -473,7 +363,11 @@ def _saving_trips_to_files(trips, prefix, end):
                 for vehicle in dict_trips[time]:
                     if v_type == 'pedestrian':
                         if vehicle['withPT']:
-                            all_trips += PERSON_DUA_TPL.format(
+                            all_trips += PERSON_PUBLIC_TPL.format(
+                                id=vehicle['id'], depart=vehicle['depart'],
+                                from_edge=vehicle['from'], to_edge=vehicle['to'])
+                        elif vehicle['withShared']:
+                            all_trips += PERSON_SHARED_TPL.format(
                                 id=vehicle['id'], depart=vehicle['depart'],
                                 from_edge=vehicle['from'], to_edge=vehicle['to'])
                         else:
@@ -513,14 +407,11 @@ def _main():
     logging.info('Load TAZ weights from %s%s', conf['baseDir'], conf['tazWeights'])
     taz_weights = _load_weights_from_csv('{}{}'.format(conf['baseDir'], conf['tazWeights']))
 
-    logging.info('Compute the number of agents for each vType:')
+    logging.info('Compute the number of agents for each vType..')
     conf = _compute_vehicles_per_type(conf)
 
-    logging.info('Generating trips for each vType:')
+    logging.info('Generating trips for each vType..')
     trips = _compute_trips_per_type(conf, taz_weights, net, parkings)
-
-    logging.info('Generating gateways trips:')
-    trips = _compute_gateways_trips(conf, trips, taz_weights, net, parkings)
 
     logging.info('Saving trips files..')
     _saving_trips_to_files(trips, conf['outputPrefix'], conf['interval']['end'])

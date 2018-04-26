@@ -1,35 +1,48 @@
 #!/bin/bash
 
+# Monaco SUMO Traffic (MoST) Scenario
+#     Copyright (C) 2018 
+#     Lara CODECA
+
 # exit on error
 set -e
 
 INPUT="../scenario/in"
 ROUTES="$INPUT/route"
 ADD="$INPUT/add"
+
 OUTPUT="out"
+mkdir -p $OUTPUT
+touch $OUTPUT/test
+rm $OUTPUT/*
 
 TARGET=$OUTPUT      # change here to decide where to save the final files
                     # if in $ROUTES, the original files will be overwritten
-
-mkdir -p $OUTPUT
+mkdir -p $TARGET
 
 ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PUBLIC TRANSPORTS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ##
 
 echo "Generate bus trips..."
-python $SUMO_TOOLS/ptlines2flows.py -n $INPUT/most.net.xml -b 18000 -e 43200 -p 600 \
+python $SUMO_DEV_TOOLS/ptlines2flows.py -n $INPUT/most.net.xml -b 18000 -e 43200 -p 1200 \
     --random-begin --seed 42 --no-vtypes \
     --ptstops $ADD/most.busstops.add.xml --ptlines pt/most.buslines.add.xml \
     -o $OUTPUT/most.buses.flows.xml
 
 sed -e s/:0//g -i $OUTPUT/most.buses.flows.xml
+if [[ $OUTPUT != $TARGET ]] 
+    then cp -u $OUTPUT/most.buses.flows.xml $TARGET/most.buses.flows.xml  
+fi
 
 echo "Generate train trips..."
-python $SUMO_TOOLS/ptlines2flows.py -n $INPUT/most.net.xml -b 18000 -e 43200 -p 900 \
+python $SUMO_DEV_TOOLS/ptlines2flows.py -n $INPUT/most.net.xml -b 18000 -e 43200 -p 1200 \
     -d 300 --random-begin --seed 42 --no-vtypes \
     --ptstops $ADD/most.trainstops.add.xml --ptlines pt/most.trainlines.add.xml \
     -o $OUTPUT/most.trains.flows.xml
 
 sed -e s/:0//g -i $OUTPUT/most.trains.flows.xml
+if [[ $OUTPUT != $TARGET ]] 
+    then cp -u $OUTPUT/most.trains.flows.xml $TARGET/most.trains.flows.xml
+fi
 
 ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ MOBILITY GENERATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ##
 
@@ -50,6 +63,3 @@ duarouter -c routes.vehicle.duacfg --route-files $OUTPUT/most.evehicle.trips.xml
     --output-file $TARGET/most.evehicle.rou.xml
 duarouter -c routes.vehicle.duacfg --route-files $OUTPUT/most.other.trips.xml \
     --output-file $TARGET/most.other.rou.xml
-
-duarouter -c routes.vehicle.duacfg --route-files $OUTPUT/most.gateways.trips.xml \
-    --output-file $TARGET/most.gateways.rou.xml

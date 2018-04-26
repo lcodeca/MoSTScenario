@@ -1,6 +1,6 @@
 {
-    "baseDir": "[absolute path to]/MoSTScenario/",
-    "outputPrefix": "[absolute path to]/MoSTScenario/generation/out/most.",
+    "baseDir": "/home/drone/EURECOM/Projects/GITLAB/MoSTScenario/",
+    "outputPrefix": "/home/drone/EURECOM/Projects/GITLAB/MoSTScenario/generation/out/most.",
 
     "vTypes": "scenario/add/basic.vType.xml",
     "tazWeights": "generation/taz/most.complete.taz.weight.csv",
@@ -8,94 +8,120 @@
 
     "parkings": "scenario/in/add/most.parkings.add.xml",
 
-    "duarouterError": 0.3,
-    "population": 20000,
-    "internal": 0.6,
-    "external": 0.4,
+    "duarouterError": 0.2,
+    "population": 25000,
 
     "taz": {
         "MonacoArea1Generic": [1],
         "MonacoArea1Detailed": [2, 3, 4, 5, 6, 7, 8, 9, 10],
         "FranceArea2": [11, 12, 13, 14],
-        "FranceArea3": [15, 16, 17, 18, 19, 20]
+        "FranceArea3": [15, 16, 17, 18, 19, 20],
+        "PrimaryGW": [31, 32, 33],
+        "SecondaryGW": [41, 42, 43, 44, 45]
     },
 
     "distribution": {
         "pedestrian": {
             "edges": "generation/taz/most.pedestrian.taz.xml",
-            "percentage": 0.25,
+            "percentage": 0.3,
             "withDUAerror": true,
             "composition": {
-                "1": {
-                    "withPT": false,
-                    "from": "MonacoArea1Detailed",
-                    "to": "MonacoArea1Detailed",
-                    "perc": 0.3
-                },
-                "2": {
-                    "withPT": true,
+                "walk": {
                     "from": "MonacoArea1Detailed",
                     "to": "MonacoArea1Detailed",
                     "perc": 0.2
                 },
-                "3": {
+                "PT1": {
+                    "withPT": true,
+                    "from": "MonacoArea1Detailed",
+                    "to": "MonacoArea1Detailed",
+                    "perc": 0.25
+                },
+                "PT2": {
                     "withPT": true,
                     "from": "FranceArea2",
                     "to": "MonacoArea1Generic",
-                    "perc": 0.3
+                    "perc": 0.25
                 },
-                "4": {
-                    "withPT": true,
+                "SH1": {
+                    "withShared": true,
+                    "from": "MonacoArea1Detailed",
+                    "to": "MonacoArea1Detailed",
+                    "perc": 0.1
+                },
+                "SH2": {
+                    "withShared": true,
+                    "from": "FranceArea2",
+                    "to": "MonacoArea1Generic",
+                    "perc": 0.1
+                },
+                "SH3": {
+                    "withShared": true,
                     "from": "FranceArea3",
                     "to": "MonacoArea1Generic",
-                    "perc": 0.2
+                    "perc": 0.1
                 }
             }
         },
         "bicycle": {
             "edges": "generation/taz/most.bicycle.taz.xml",
-            "percentage": 0.10,
+            "percentage": 0.05,
             "withDUAerror": false,
             "composition": {
                 "1": {
                     "withPT": false,
                     "from": "MonacoArea1Detailed",
                     "to": "MonacoArea1Detailed",
-                    "perc": 0.6
+                    "perc": 0.8
                 },
                 "2": {
                     "withPT": false,
                     "from": "FranceArea2",
                     "to": "MonacoArea1Generic",
-                    "perc": 0.4
+                    "perc": 0.2
                 }
             }
         },
         "2wheeler": {
             "edges": "generation/taz/most.2wheeler.taz.xml",
-            "percentage": 0.15,
+            "percentage": 0.2,
             "withDUAerror": true,
             "composition": {
                 "1": {
                     "from": "MonacoArea1Detailed",
                     "to": "MonacoArea1Detailed",
-                    "perc": 0.2
+                    "perc": 0.2,
+                    "withPL": true
                 },
                 "2": {
                     "from": "FranceArea2",
                     "to": "MonacoArea1Generic",
-                    "perc": 0.5
+                    "perc": 0.3,
+                    "withPL": true
                 },
                 "3": {
                     "from": "FranceArea3",
                     "to": "MonacoArea1Generic",
-                    "perc": 0.3
+                    "perc": 0.4,
+                    "withPL": true
+                },
+                "GW1": {
+                    "from": "PrimaryGW",
+                    "to": "MonacoArea1Generic",
+                    "perc": 0.1,
+                    "withPL": true
+                },
+                "GW2": {
+                    "from": "SecondaryGW",
+                    "to": "MonacoArea1Generic",
+                    "perc": 0.1,
+                    "withPL": true
                 }
             }
         },
         "passenger": {
             "edges": "generation/taz/most.passenger.taz.xml",
-            "percentage": 0.25,
+            "percentage": 0.3,
             "withDUAerror": true,
             "composition": {
                 "1": {
@@ -107,38 +133,62 @@
                 "2": {
                     "from": "FranceArea2",
                     "to": "MonacoArea1Generic",
-                    "perc": 0.4,
+                    "perc": 0.3,
                     "withPL": true
                 },
                 "3": {
                     "from": "FranceArea3",
                     "to": "MonacoArea1Generic",
-                    "perc": 0.5,
+                    "perc": 0.4,
+                    "withPL": true
+                },
+                "GW1": {
+                    "from": "PrimaryGW",
+                    "to": "MonacoArea1Generic",
+                    "perc": 0.2,
+                    "withPL": true
+                },
+                "GW2": {
+                    "from": "SecondaryGW",
+                    "to": "MonacoArea1Generic",
+                    "perc": 0.1,
                     "withPL": true
                 }
             }
         },
         "other": {
             "edges": "generation/taz/most.passenger.taz.xml",
-            "percentage": 0.20,
+            "percentage": 0.10,
             "withDUAerror": true,
             "composition": {
                 "1": {
                     "from": "MonacoArea1Detailed",
                     "to": "MonacoArea1Detailed",
-                    "perc": 0.4,
+                    "perc": 0.3,
                     "withPL": true
                 },
                 "2": {
                     "from": "FranceArea2",
                     "to": "MonacoArea1Generic",
-                    "perc": 0.4,
+                    "perc": 0.3,
                     "withPL": true
                 },
                 "3": {
                     "from": "FranceArea3",
                     "to": "MonacoArea1Generic",
                     "perc": 0.2,
+                    "withPL": true
+                },
+                "GW1": {
+                    "from": "PrimaryGW",
+                    "to": "MonacoArea1Generic",
+                    "perc": 0.15,
+                    "withPL": true
+                },
+                "GW2": {
+                    "from": "SecondaryGW",
+                    "to": "MonacoArea1Generic",
+                    "perc": 0.05,
                     "withPL": true
                 }
             }
@@ -170,37 +220,13 @@
         }
     },
 
-    "gateways": {
-        "vTypes": {
-            "passenger": 0.60,
-            "other": 0.30,
-            "evehicle": 0.10
-        },
-        "withDUAerror": true,
-        "origin": {
-            "primary": {
-                "edges": ["430#0", "1420", "1613", "420"],
-                "perc": 0.8
-            },
-            "secondary": {
-                "edges": ["1378", "1394#0", "-1402", "451"],
-                "perc": 0.2
-            }
-        },
-        "destinationTAZ": {
-            "name": "MonacoArea1Generic",
-            "definition" : "generation/taz/most.passenger.taz.xml",
-            "withPL": true
-        }
-    },
-
     "interval": {
         "begin": 18000,
         "end": 43200
     },
 
     "peak": {
-        "mean": 29700,
+        "mean": 28800,
         "std": 5400
     }
 }
