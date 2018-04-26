@@ -1,7 +1,9 @@
-*.log
-*.xml
 *.csv
 *.errorlog
+*.html
+*.log
+*.pkl
+*.py
+*.sh
 *.sumocfg
-
-generation/out
+*.xml
