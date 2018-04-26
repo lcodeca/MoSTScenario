@@ -1,24 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!-- 
-    Monaco SUMO Traffic (MoST) Scenario
-    Copyright (C) 2018 
-    Lara CODECA
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
--->
-
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd"> 
     <ptLine id="37" name="MoSTtoFrance1" line="M1:France" type="bus">
         <route edges="844 -820 -1387#0"/>
@@ -99,7 +79,7 @@
         <busStop id="155473" name="Hotel de Ville"/>
     </ptLine> 
     <ptLine id="49" name="Bus 1: Monaco Ville (le Rocher) - Saint-Roman" line="1:SaintRoman" type="bus">
-        <route edges="-689 733#2 732#0 732#3 732#5 -726#1 678 569#2 593#0 593#3 593#5 582#1 -582#7 582#11 519#2 -494#3 242"/>
+        <route edges="-676 733#2 732#0 732#3 732#5 -726#1 678 569#2 593#0 593#3 593#5 582#3 -582#7 582#11 519#2 -494#3 242"/>
         <busStop id="155408" name="Monaco Ville (le Rocher)"/>
         <busStop id="155410" name="Place d'Armes (Port)"/>
         <busStop id="155336" name="Princesse Stephanie"/>
@@ -111,15 +91,15 @@
         <busStop id="155343" name="Spelugues"/>
         <busStop id="155342" name="Citronniers"/>
         <busStop id="155351" name="Place du Casino"/>
-        <busStop id="155349" name="Monte-Carlo (Tourisme)"/>
+        <busStop id="155334" name="Monte-Carlo (TAM)"/>
         <busStop id="155353" name="Saint-Charles"/>
         <busStop id="155421" name="Place des Moulins"/>
         <busStop id="155419" name="La Rousse"/>
         <busStop id="155417" name="Carmes"/>
         <busStop id="155458" name="Saint-Roman (Bus 1)"/>
-    </ptLine> 
+    </ptLine> <!-- 155349:155334 -->
     <ptLine id="50" name="Bus 1: Saint-Roman - Monaco Ville (le Rocher)" line="1:Monaco" type="bus">
-        <route edges="242 494#4 -520#4 -519#0 -568 618#1 588#2 710 736 736 733#2 -689"/>
+        <route edges="242 494#4 -520#4 -519#0 -568 618#1 580 710 736 736 733#2 -676"/>
         <busStop id="155458" name="Saint-Roman (Bus 1)"/>
         <busStop id="155425" name="Carmes"/>
         <busStop id="155416" name="La Rousse"/>
@@ -134,7 +114,7 @@
         <busStop id="155408" name="Monaco Ville (le Rocher)"/>
     </ptLine> 
     <ptLine id="51" name="Bus 2: Monaco Ville (le Rocher) - Jardin Exotique" line="2:Jardin" type="bus">
-        <route edges="-689 733#2 732#0 732#3 732#5 -726#1 691#0 582#1 630#2 -617#3 111 -730#10 -730#7 -730#4 -730#3 730#1"/>
+        <route edges="-676 733#2 732#0 732#3 732#5 -726#1 691#0 582#3 630#2 -617#3 111 -730#10 -730#7 -730#4 -730#3 730#1"/>
         <busStop id="155408" name="Monaco Ville (le Rocher)"/>
         <busStop id="155410" name="Place d'Armes (Port)"/>
         <busStop id="155336" name="Princesse Stephanie"/>
@@ -142,7 +122,7 @@
         <busStop id="155385" name="Princesse Antoinette"/>
         <busStop id="155386" name="Kennedy"/>
         <busStop id="155383" name="Terrasses du Casino"/>
-        <busStop id="155349" name="Monte-Carlo (Tourisme)"/>
+        <busStop id="155334" name="Monte-Carlo (TAM)"/>
         <busStop id="155382" name="Cremaillere"/>
         <busStop id="155389" name="Roqueville"/>
         <busStop id="155339" name="Pont Sainte-Devote"/>
@@ -151,9 +131,9 @@
         <busStop id="155427" name="Rotondes"/>
         <busStop id="155341" name="Villa Paloma"/>
         <busStop id="155429" name="Jardin Exotique"/>
-    </ptLine> <!-- 155388:155386 -->
+    </ptLine> <!-- 155388:155386 - 155349:155334 -->
     <ptLine id="52" name="Bus 2: Jardin Exotique - Monaco Ville (le Rocher)" line="2:Monaco" type="bus">
-        <route edges="730#1 -730#3 730#3 730#6 730#10 617#0 617#4 618#1 588#2 710 736 736 -733#2 -689"/>
+        <route edges="730#1 -730#3 730#3 730#6 730#10 617#0 617#4 618#1 580 710 736 736 -733#2 -676"/>
         <busStop id="155429" name="Jardin Exotique"/>
         <busStop id="155340" name="Villa Paloma"/>
         <busStop id="155430" name="Rotondes"/>
@@ -170,7 +150,7 @@
         <busStop id="155408" name="Monaco Ville (le Rocher)"/>
     </ptLine> <!-- 155493:155422 -->
     <ptLine id="53" name="Bus 4: Fontvieille - Centre Commercial - Saint-Roman" line="4:SaintRoman" type="bus">
-        <route edges="1576 348 560 560 903 315 737#2 -888#2 -888#1 617#0 617#4 582#1 -582#7 582#11 519#2 -494#3 -242"/>
+        <route edges="1576 348 560 560 903 315 737#2 -888#2 -888#1 617#0 617#4 582#3 -582#7 582#11 519#2 -494#3 -242"/>
         <busStop id="155380" name="Fontvieille - Centre Commercial"/>
         <busStop id="155394" name="Papalins"/>
         <busStop id="155350" name="Roseraie"/>
@@ -182,15 +162,15 @@
         <busStop id="155328" name="Louis Aureglia"/>
         <busStop id="155371" name="Pont Sainte-Devote"/>
         <busStop id="155422" name="155422"/>
-        <busStop id="155349" name="Monte-Carlo (Tourisme)"/>
+        <busStop id="155334" name="Monte-Carlo (TAM)"/>
         <busStop id="155353" name="Saint-Charles"/>
         <busStop id="155421" name="Place des Moulins"/>
         <busStop id="155419" name="La Rousse"/>
         <busStop id="155417" name="Carmes"/>
         <busStop id="155377" name="Saint-Roman (Bus 4)"/>
-    </ptLine> <!-- 155493:155422 -->
+    </ptLine> <!-- 155493:155422 - 155349:155334 -->
     <ptLine id="54" name="Bus 4: Saint-Roman - Fontvieille - Centre Commercial" line="4:Fontvieille" type="bus">
-        <route edges="-242 1304 494#0 494#4 -520#4 -519#0 -568 630#2 -617#3 111 888#1 888#4 -711#1 733#2 705#0 1576"/>
+        <route edges="-242 100 494#0 494#4 -520#4 -519#0 -568 630#2 -617#3 111 888#1 888#4 -711#1 733#2 705#0 1576"/>
         <busStop id="155377" name="Saint-Roman (Bus 4)"/>
         <busStop id="155373" name="Varavilla"/>
         <busStop id="155455" name="Saint-Roman"/>
@@ -209,7 +189,7 @@
         <busStop id="155380" name="Fontvieille - Centre Commercial"/>
     </ptLine> 
     <ptLine id="55" name="Bus 5: Larvotto - Hopital" line="5:Hopital" type="bus">
-        <route edges="439#9 440#0 440#3 440#6 440#8 593#0 593#3 593#5 582#1 630#2 -617#3 111 -864#2 -864#0 787#3 787#5 -856#0 816#1"/>
+        <route edges="439#9 440#0 440#3 440#6 440#8 593#0 593#3 593#5 582#3 630#2 -617#3 111 -864#2 -864#0 787#3 787#5 -856#0 816#1"/>
         <busStop id="155375" name="Larvotto"/>
         <busStop id="155501" name="Sea Club"/>
         <busStop id="155372" name="Plages"/>
@@ -218,7 +198,7 @@
         <busStop id="155343" name="Spelugues"/>
         <busStop id="155342" name="Citronniers"/>
         <busStop id="155351" name="Place du Casino"/>
-        <busStop id="155349" name="Monte-Carlo (Tourisme)"/>
+        <busStop id="155334" name="Monte-Carlo (TAM)"/>
         <busStop id="155382" name="Cremaillere"/>
         <busStop id="155389" name="Roqueville"/>
         <busStop id="155339" name="Pont Sainte-Devote"/>
@@ -228,9 +208,9 @@
         <busStop id="155378" name="Hopital"/>
         <busStop id="155348" name="Athanee"/>
         <busStop id="155347" name="Hopital"/>
-    </ptLine> <!-- 155402:155400 -->
+    </ptLine> <!-- 155402:155400 - 155349:155334 -->
     <ptLine id="56" name="Bus 5: Hopital - Larvotto" line="5:Larvotto" type="bus">
-        <route edges="816#1 -787#4 -787#3 -787#0 864#2 617#0 617#4 582#1 -593#4 -593#0 569#2 440#6 439#4 439#7 439#9"/>
+        <route edges="816#1 -787#4 -787#3 -787#0 864#2 617#0 617#4 582#3 -593#4 -593#0 569#2 440#6 439#4 439#7 439#9"/>
         <busStop id="155347" name="Hopital"/>
         <busStop id="155397" name="Observatoire"/>
         <busStop id="155492" name="Parc Princesse Antoinette"/>
@@ -238,7 +218,7 @@
         <busStop id="155415" name="Belgique"/>
         <busStop id="155371" name="Pont Sainte-Devote"/>
         <busStop id="155422" name="155422"/>
-        <busStop id="155349" name="Monte-Carlo (Tourisme)"/>
+        <busStop id="155334" name="Monte-Carlo (TAM)"/>
         <busStop id="155418" name="Place du Casino"/>
         <busStop id="155379" name="Spelugues"/>
         <busStop id="155335" name="Portier"/>
@@ -246,9 +226,9 @@
         <busStop id="155423" name="Plages"/>
         <busStop id="155401" name="Sea Club"/>
         <busStop id="155375" name="Larvotto"/>
-    </ptLine> <!-- 155493:155422 -->
+    </ptLine> <!-- 155493:155422 - 155349:155334 -->
     <ptLine id="57" name="Bus 6: Fontvieille - Centre Commercial - Larvotto" line="6:Larvotto" type="bus">
-        <route edges="1576 348 560 560 903 800#0 1575 732#3 732#5 -726#1 691#0 582#1 -593#4 -593#0 569#2 440#6 439#4 439#7 439#9"/>
+        <route edges="1576 348 560 560 903 800#0 1575 732#3 732#5 -726#1 691#0 582#3 -593#4 -593#0 569#2 440#6 439#4 439#7 439#9"/>
         <busStop id="155380" name="Fontvieille - Centre Commercial"/>
         <busStop id="155394" name="Papalins"/>
         <busStop id="155350" name="Roseraie"/>
@@ -260,7 +240,7 @@
         <busStop id="155385" name="Princesse Antoinette"/>
         <busStop id="155386" name="Kennedy"/>
         <busStop id="155383" name="Terrasses du Casino"/>
-        <busStop id="155349" name="Monte-Carlo (Tourisme)"/>
+        <busStop id="155334" name="Monte-Carlo (TAM)"/>
         <busStop id="155418" name="Place du Casino"/>
         <busStop id="155379" name="Spelugues"/>
         <busStop id="155335" name="Portier"/>
@@ -268,9 +248,9 @@
         <busStop id="155423" name="Plages"/>
         <busStop id="155401" name="Sea Club"/>
         <busStop id="155375" name="Larvotto"/>
-    </ptLine> <!-- 155388:155386 -->
+    </ptLine> <!-- 155388:155386 - 155349:155334 -->
     <ptLine id="58" name="Bus 6: Larvotto - Fontvieille - Centre Commercial" line="6:Fontvieille" type="bus">
-        <route edges="439#9 440#0 440#3 440#6 440#8 593#0 593#3 593#5 618#1 588#2 710 736 736 733#2 705#0 1576"/>
+        <route edges="439#9 440#0 440#3 440#6 440#8 593#0 593#3 593#5 618#1 580 710 736 736 733#2 705#0 1576"/>
         <busStop id="155375" name="Larvotto"/>
         <busStop id="155501" name="Sea Club"/>
         <busStop id="155372" name="Plages"/>
@@ -289,7 +269,7 @@
         <busStop id="155380" name="Fontvieille - Centre Commercial"/>
     </ptLine> <!-- 155402:155400 -->
     <ptLine id="59" name="100 Nice a Menton" line="100:Menton" type="bus">
-        <route edges="844 844 844 1405#1 -1404#25 -1404#21 -1404#17 -1404#13 929#0 -1404#6 443#0 737#2 582#3 1293#0 1293#4 1244#4 1244#4 914#1 1285#1 -1282#2 1285#2 1422 -933#0 -933#0 -933#0 -933#0 -933#0 1281"/>
+        <route edges="844 844 844 1405#1 -1404#25 -1404#21 -1404#17 -1404#13 929#0 -1404#6 443#0 737#2 582#3 1293#0 1293#4 1244#4 1244#4 914#1 1285#1 -1282#2 1285#2 -1422 -933#0 -933#0 -933#0 -933#0 -933#0 1281"/>
         <busStop id="155462" name="Cap Estel"/>
         <busStop id="155464" name="Parking Saint-Laurent d'Eze"/>
         <busStop id="155465" name="Gianton"/>

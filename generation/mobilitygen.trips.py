@@ -32,12 +32,18 @@ import random
 import sys
 import numpy
 
+from dijkstar import Graph, find_path
+
 # """ Import SUMOLIB """
 if 'SUMO_TOOLS' in os.environ:
     sys.path.append(os.environ['SUMO_TOOLS'])
 else:
     sys.exit("Please declare environment variable 'SUMO_TOOLS'")
 import sumolib
+
+PROFILING_ENABLED = False
+if PROFILING_ENABLED:
+    import cProfile, pstats, io
 
 ROUTES_TPL = """<?xml version="1.0" encoding="UTF-8"?>
 
@@ -133,18 +139,19 @@ def _load_parkings(filename):
     return parkings
 
 def _convert_sumo_net_to_dijkstra_graph(network, edges_by_taz):
-    """ Extract the graph from a SUMO net, filtering by allowed edges."""
+    """ Extract the graph from a SUMO net, filtering by allowed edges."""  
 
     edges = set()
     for taz in edges_by_taz.keys():
         for edge in edges_by_taz[taz]:
             edges.add(edge)
 
-    graph = collections.defaultdict(list)
+    graph = Graph()
     for edge in network.getEdges():
         if edge.getID() not in edges:
             continue
-        graph[edge.getFromNode().getID()].append((1, edge.getToNode().getID()))
+        cost = edge.getLane(0).getLength()
+        graph.add_edge(edge.getFromNode().getID(), edge.getToNode().getID(), {'cost': cost})
 
     return graph
 
@@ -207,64 +214,40 @@ def _select_taz_from_weighted_area(area, weights):
     return None # this is matematically impossible,
                 # if this happens, there is a mistake in the weights.
 
-def _select_pair_from_list(pairs):
+def _select_pair_from_taz(from_taz, to_taz):
     """ Randomly select one pair from a TAZ. """
-    if not pairs:
-        return None
-    pos = random.randint(0, len(pairs) - 1)
-    return pairs[pos]
-
-def _dijkstra(graph, from_node_id, to_node_id):
-    """ Return the shortest path, if possible. """
-    queue, seen = [(0, from_node_id, ())], set()
-    while queue:
-        (cost, v_1, path) = heapq.heappop(queue)
-        if v_1 not in seen:
-            seen.add(v_1)
-            path = (v_1, path)
-            if v_1 == to_node_id:
-                return (cost, path)
-
-            for weight, v_2 in graph.get(v_1, ()):
-                if v_2 not in seen:
-                    heapq.heappush(queue, (cost + weight, v_2, path))
-
-    return None
+    from_edge = from_taz[random.randint(0, len(from_taz) - 1)]
+    to_edge = to_taz[random.randint(0, len(to_taz) - 1)]
+    if from_edge != to_edge:
+        return from_edge, to_edge
+    return _select_pair_from_taz(from_taz, to_taz)
 
 def _valid_pair(graph, from_edge, to_edge, net):
     """ Validate the trip route. """
     from_node = net.getEdge(from_edge).getToNode().getID()
     to_node = net.getEdge(to_edge).getToNode().getID()
-    if _dijkstra(graph, from_node, to_node):
-        return True
-    return False
+
+    cost_func = lambda u, v, e, prev_e: e['cost']
+    try:
+        find_path(graph, from_node, to_node, cost_func=cost_func)
+    except:
+        return False
+    return True
 
 def _find_allowed_pair(edges, weights, from_area, to_area, graph, net, _counter=0):
     """ Return an origin ad an allowed destination. """
     from_taz = str(_select_taz_from_weighted_area(from_area, weights))
     to_taz = str(_select_taz_from_weighted_area(to_area, weights))
 
-    pairs = []
-    for edge_1 in edges[from_taz]:
-        for edge_2 in edges[to_taz]:
-            if edge_1 == edge_2:
-                continue
-            pairs.append((edge_1, edge_2))
-    pair = _select_pair_from_list(pairs)
-    from_edge, to_edge = pair
+    from_edge, to_edge = _select_pair_from_taz(edges[from_taz], edges[to_taz])
     counter = _counter
     while not _valid_pair(graph, from_edge, to_edge, net):
-        pairs.remove(pair)
-        pair = _select_pair_from_list(pairs)
-        if not pair:
-            logging.debug('From TAZ [%s] has %d edges.', from_taz, len(edges[from_taz]))
-            logging.debug('To   TAZ [%s] has %d edges.', to_taz, len(edges[to_taz]))
-            logging.debug('There is no valid OD pair, looking for others TAZ.')
-            return _find_allowed_pair(edges, weights, from_area, to_area, graph, net, counter)
-        from_edge, to_edge = pair
+        from_edge, to_edge = _select_pair_from_taz(edges[from_taz], edges[to_taz])
         counter += 1
+        if counter % 10 == 0:
+            logging.debug('%d pairs done, still looking for the good one..', counter)
     if counter >= 10:
-        logging.debug('It required %d iterations to find a valid pair.', counter)
+        logging.debug('It required %d iterations to find a valid pair.', counter)    
     return from_edge, to_edge
 
 def _normal_departure_time(mean, std, _min, _max):
@@ -310,6 +293,10 @@ def _compute_trips_per_type(config, weights, net, parkings):
                 vehicles = int(config['distribution'][v_type]['tot'] * area['perc'])
             logging.debug('--> %d trips from %s to %s.', vehicles, area['from'], area['to'])
 
+            if PROFILING_ENABLED:
+                _pr = cProfile.Profile()
+                _pr.enable()
+
             for veh_id in range(vehicles):
                 _depart = _normal_departure_time(config['peak']['mean'], config['peak']['std'],
                                                  config['interval']['begin'],
@@ -349,6 +336,14 @@ def _compute_trips_per_type(config, weights, net, parkings):
                 total += 1
                 if total % 100 == 0:
                     logging.debug('... %d trips for %s.', total, v_type)
+
+            if PROFILING_ENABLED:
+                _pr.disable()
+                _s = io.StringIO()
+                _ps = pstats.Stats(_pr, stream=_s).sort_stats('cumulative')
+                _ps.print_stats(10)
+                print(_s.getvalue())
+                # input("Press any key to continue..")
 
         logging.info('Generated %d trips for %s.', total, v_type)
     return trips

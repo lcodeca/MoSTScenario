@@ -1,6 +1,6 @@
 {
-    "baseDir": "/home/drone/EURECOM/Projects/GITLAB/MoSTScenario/",
-    "outputPrefix": "/home/drone/EURECOM/Projects/GITLAB/MoSTScenario/generation/out/most.",
+    "baseDir": "/home/drone/EURECOM/Projects/GITHUB/MoSTScenario/",
+    "outputPrefix": "/home/drone/EURECOM/Projects/GITHUB/MoSTScenario/generation/out/most.",
 
     "vTypes": "scenario/add/basic.vType.xml",
     "tazWeights": "generation/taz/most.complete.taz.weight.csv",
