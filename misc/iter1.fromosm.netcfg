@@ -61,12 +61,6 @@
         <show-errors.connections-first-try value="true"/>
     </processing>
 
-    <building_defaults>
-        <default.lanewidth value="2.5"/>
-        <default.sidewalk-width value="1.5"/>
-        <default.crossing-width value="1.5"/>
-    </building_defaults>
-
     <report>
         <verbose value="true"/>
         <log value="iter1.netconvert.log"/>
