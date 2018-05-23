@@ -1,9 +1,12 @@
 *.csv
 *.errorlog
 *.html
+*.json
 *.log
+*.osm
 *.pkl
 *.py
 *.sh
 *.sumocfg
+*.txt
 *.xml
