@@ -35,10 +35,10 @@ import numpy
 from dijkstar import Graph, find_path
 
 # """ Import SUMOLIB """
-if 'SUMO_TOOLS' in os.environ:
-    sys.path.append(os.environ['SUMO_TOOLS'])
+if 'SUMO_DEV_TOOLS' in os.environ:
+    sys.path.append(os.environ['SUMO_DEV_TOOLS'])
 else:
-    sys.exit("Please declare environment variable 'SUMO_TOOLS'")
+    sys.exit("Please declare environment variable 'SUMO_DEV_TOOLS'")
 import sumolib
 
 PROFILING_ENABLED = False
