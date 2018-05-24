@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+    Monaco SUMO Traffic (MoST) Scenario
+    Copyright (C) 2018 
+    Lara CODECA
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd"> 
     <busStop id="25295" name="25295" lane="223#0_1" startPos="358.951070528787" endPos="373.951070528787" lines="M3:Hospital" friendlyPos="true"/> <!-- 25295 -->
     <busStop id="25296" name="25296" lane="825#8_1" startPos="445.99450838821315" endPos="460.9945083882132" lines="M3:Hospital" friendlyPos="true"/> <!-- 25296 -->

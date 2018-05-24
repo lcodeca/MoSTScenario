@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated on 2018-05-24 105:23.808734 by $Id$
-  options: -n ../scenario/in/most.net.xml -b 18000 -e 43200 -p 1200 -d 300 <doubleminus>random-begin <doubleminus>seed 42 <doubleminus>no-vtypes <doubleminus>ptstops ../scenario/in/add/most.trainstops.add.xml <doubleminus>ptlines pt/most.trainlines.add.xml -o out/most.trains.flows.xml
+
+<!-- 
+    Monaco SUMO Traffic (MoST) Scenario
+    Copyright (C) 2018 
+    Lara CODECA
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
+
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <route id="train_M0:Italy" edges="47 55#1" >
         <stop busStop="25342" duration="300.00" until="366.0"/> <!-- Carnoles -->

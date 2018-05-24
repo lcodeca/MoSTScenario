@@ -1,37 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Thu May 24 10:07:25 2018 by Eclipse SUMO duarouter Version 629ca040dd
-<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+<!-- 
+    Monaco SUMO Traffic (MoST) Scenario
+    Copyright (C) 2018 
+    Lara CODECA
 
-    <input>
-        <net-file value="../scenario/in/most.net.xml"/>
-        <additional-files value="../scenario/in/add/most.busstops.add.xml,../scenario/in/add/most.trainstops.add.xml,../scenario/in/add/most.parkings.add.xml,../scenario/in/add/basic.vType.xml"/>
-        <route-files value="out/most.2wheeler.trips.xml"/>
-    </input>
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-    <output>
-        <output-file value="../scenario/in/route/most.2wheeler.rou.xml"/>
-        <vtype-output value="/dev/null"/>
-        <alternatives-output value="../scenario/in/route/most.2wheeler.rou.alt.xml"/>
-    </output>
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
 
-    <processing>
-        <ignore-errors value="true"/>
-        <max-alternatives value="5"/>
-        <remove-loops value="false"/>
-        <repair value="false"/>
-        <repair.from value="false"/>
-        <repair.to value="false"/>
-        <routing-threads value="4"/>
-        <routing-algorithm value="dijkstra"/>
-    </processing>
-
-    <time>
-        <begin value="0"/>
-        <end value="84600"/>
-    </time>
-
-</configuration>
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">

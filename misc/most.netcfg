@@ -29,19 +29,10 @@
     <output>
         <output-prefix value="most."/>
         <output-file value="net.xml"/>
-        <!-- ADDITIONALS -->
-        <!-- <ptstop-output value="ptstop.autogen.xml"/> -->
-        <!-- <ptline-output value="ptline.autogen.xml"/> -->
-        <!-- <ptline-clean-up value="true"/> -->
-        <!-- <parking-output value="parkings.autogen.xml"/> -->
-        <!-- <osm.stop-output.footway-access-distance value="150"/> -->
-        <!-- <osm.stop-output.footway-max-accesses value="5"/> -->
     </output>
 
     <tls_building>
-        <!-- <tls.discard-simple value="true"/> -->
         <tls.join value="true"/>
-        <!-- <tls.guess value="true"/> -->
         <tls.guess-signals value="true"/>
         <tls.default-type value="actuated"/>
         <tls.min-dur value="5"/>
