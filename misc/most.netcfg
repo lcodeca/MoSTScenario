@@ -22,15 +22,26 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="most.osm.net.xml"/>
+        <type-files value="typemap/osmNetconvert.typ.xml,typemap/osmNetconvertUrbanDe.typ.xml,typemap/osmNetconvertPedestrians.typ.xml,typemap/osmNetconvertBicycle.typ.xml,typemap/osmBidiRailNetconvert.typ.xml"/>
+        <osm-files value="most.raw.osm"/>
     </input>
 
     <output>
-        <output-file value="most.net.xml"/>
+        <output-prefix value="most."/>
+        <output-file value="net.xml"/>
+        <!-- ADDITIONALS -->
+        <!-- <ptstop-output value="ptstop.autogen.xml"/> -->
+        <!-- <ptline-output value="ptline.autogen.xml"/> -->
+        <!-- <ptline-clean-up value="true"/> -->
+        <!-- <parking-output value="parkings.autogen.xml"/> -->
+        <!-- <osm.stop-output.footway-access-distance value="150"/> -->
+        <!-- <osm.stop-output.footway-max-accesses value="5"/> -->
     </output>
 
     <tls_building>
-        <tls.guess value="true"/>
+        <!-- <tls.discard-simple value="true"/> -->
+        <tls.join value="true"/>
+        <!-- <tls.guess value="true"/> -->
         <tls.guess-signals value="true"/>
         <tls.default-type value="actuated"/>
         <tls.min-dur value="5"/>
@@ -46,10 +57,13 @@
     </edge_removal>
 
     <processing>
+        <geometry.remove value="true"/>
         <roundabouts.guess value="true"/>
-        <sidewalks.guess value="false"/>
+        <junctions.join value="true"/>
+        <junctions.join-dist value="10"/>
+        <junctions.corner-detail value="5"/>
+        <sidewalks.guess value="true"/>
         <crossings.guess value="true"/>
-        <crossings.guess.speed-threshold value="0"/>
         <walkingareas value="false"/>
         <osm.elevation value="true"/>
         <no-turnarounds value="true"/>
@@ -61,14 +75,12 @@
     </processing>
 
     <building_defaults>
-        <default.lanewidth value="2.5"/>
-        <default.sidewalk-width value="1.5"/>
         <default.crossing-width value="2.0"/>
     </building_defaults>
 
     <report>
         <verbose value="true"/>
-        <log value="iter2.netconvert.log"/>
+        <log value="osmlike.netconvert.log"/>
     </report>
 
 </configuration>
