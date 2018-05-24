@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated on 2018-04-26 16:57:17.269973 by $Id$
+<!-- generated on 2018-05-24 105:23.808734 by $Id$
   options: -n ../scenario/in/most.net.xml -b 18000 -e 43200 -p 1200 -d 300 <doubleminus>random-begin <doubleminus>seed 42 <doubleminus>no-vtypes <doubleminus>ptstops ../scenario/in/add/most.trainstops.add.xml <doubleminus>ptlines pt/most.trainlines.add.xml -o out/most.trains.flows.xml
 -->
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <route id="train_M0:Italy" edges="47 55#1" >
-        <stop busStop="155358" duration="300.00" until="366.0"/> <!-- Carnoles -->
-        <stop busStop="155357" duration="300.00" until="821.0"/> <!-- Roquebrune-Cap-Martin -->
-        <stop busStop="155326" duration="300.00" until="1222.0"/> <!-- Monte-Carlo Country Club -->
-        <stop busStop="155356" duration="300.00" until="1707.0"/> <!-- Monaco - Monte Carlo -->
-        <stop busStop="155344" duration="300.00" until="2201.0"/> <!-- Cap d'Ail -->
-        <stop busStop="155315" duration="300.00" until="2671.0"/> <!-- Eze -->
+        <stop busStop="25342" duration="300.00" until="366.0"/> <!-- Carnoles -->
+        <stop busStop="25341" duration="300.00" until="821.0"/> <!-- Roquebrune-Cap-Martin -->
+        <stop busStop="25310" duration="300.00" until="1222.0"/> <!-- Monte-Carlo Country Club -->
+        <stop busStop="25340" duration="300.00" until="1707.0"/> <!-- Monaco - Monte Carlo -->
+        <stop busStop="25328" duration="300.00" until="2201.0"/> <!-- Cap d'Ail -->
+        <stop busStop="25299" duration="300.00" until="2671.0"/> <!-- Eze -->
     </route>
     <route id="train_M0:France" edges="56 38#1" >
-        <stop busStop="155345" duration="300.00" until="315.0"/> <!-- Eze -->
-        <stop busStop="155324" duration="300.00" until="785.0"/> <!-- Cap d'Ail -->
-        <stop busStop="155320" duration="300.00" until="1276.0"/> <!-- Monaco - Monte Carlo -->
-        <stop busStop="155405" duration="300.00" until="1763.0"/> <!-- Monte-Carlo Country Club -->
-        <stop busStop="155317" duration="300.00" until="2163.0"/> <!-- Roquebrune-Cap-Martin -->
-        <stop busStop="155310" duration="300.00" until="2619.0"/> <!-- Carnoles -->
+        <stop busStop="25329" duration="300.00" until="315.0"/> <!-- Eze -->
+        <stop busStop="25308" duration="300.00" until="785.0"/> <!-- Cap d'Ail -->
+        <stop busStop="25304" duration="300.00" until="1276.0"/> <!-- Monaco - Monte Carlo -->
+        <stop busStop="25389" duration="300.00" until="1763.0"/> <!-- Monte-Carlo Country Club -->
+        <stop busStop="25301" duration="300.00" until="2163.0"/> <!-- Roquebrune-Cap-Martin -->
+        <stop busStop="25294" duration="300.00" until="2619.0"/> <!-- Carnoles -->
     </route>
     <flow id="train_M0:Italy" type="train" route="train_M0:Italy" begin="18030.0" end="43230.0" period="1200.0" line="M0:Italy" >
         <param key="name" value="MoSTtoItaly"/>

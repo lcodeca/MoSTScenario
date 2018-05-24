@@ -28,11 +28,12 @@
     </input>
 
     <output>
-        <output-prefix value="most."/>
+	    <output-prefix value="out/most."/>
     </output>
 
     <time>
         <begin value="18000"/>
+        <step-length value="0.5"/>
         <end value="43200"/>
     </time>
 
