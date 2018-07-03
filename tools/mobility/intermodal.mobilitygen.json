@@ -1,8 +1,8 @@
 {
-    "baseDir": "/home/drone/EURECOM/Projects/GITHUB/MoSTScenario/",
-    "outputPrefix": "/home/drone/EURECOM/Projects/GITHUB/MoSTScenario/tools/mobility/out/most.",
+    "baseDir": "/path to/MoSTScenario/",
+    "outputPrefix": "/path to/MoSTScenario/tools/mobility/out/most.",
 
-    "sumocfg": "/home/drone/EURECOM/Projects/GITHUB/MoSTScenario/tools/mobility/duarouter.sumocfg",
+    "sumocfg": "/path to/MoSTScenario/tools/mobility/duarouter.sumocfg",
 
     "SUMOnetFile": "scenario/in/most.net.xml",
     "SUMOadditionals": {
