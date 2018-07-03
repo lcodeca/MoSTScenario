@@ -5,8 +5,10 @@
 *.log
 *.osm
 *.pkl
+*.png
 *.py
 *.sh
 *.sumocfg
+*.svg
 *.txt
 *.xml
