@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- 
+<!--
     Monaco SUMO Traffic (MoST) Scenario
-    Copyright (C) 2018 
+    Copyright (C) 2018
     Lara CODECA
 
     This program is free software: you can redistribute it and/or modify
@@ -23,7 +23,7 @@
 
     <input>
         <net-file value="in/most.net.xml"/>
-        <route-files value="in/route/most.buses.flows.xml,in/route/most.trains.flows.xml,in/route/most.pedestrian.rou.xml,in/route/most.bicycle.rou.xml,in/route/most.2wheeler.rou.xml,in/route/most.passenger.rou.xml,in/route/most.evehicle.rou.xml,in/route/most.other.rou.xml"/>
+        <route-files value="in/route/most.buses.flows.xml,in/route/most.trains.flows.xml,in/route/most.pedestrian.rou.xml,in/route/most.other.rou.xml,in/route/most.special.rou.xml"/>
         <additional-files value="in/add/most.poly.xml,in/add/most.busstops.add.xml,in/add/most.trainstops.add.xml,in/add/most.parkings.add.xml,in/add/basic.vType.xml"/>
     </input>
 
@@ -32,13 +32,13 @@
     </output>
 
     <time>
-        <begin value="18000"/>
+        <begin value="14400"/>
         <step-length value="0.5"/>
-        <end value="43200"/>
+        <end value="50400"/>
     </time>
 
     <processing>
-        <lateral-resolution value="0.95"/>
+        <lateral-resolution value="0.3"/>
         <ignore-junction-blocker value="60"/>
         <collision.action value="teleport"/>
         <time-to-teleport value="300"/>
@@ -51,9 +51,9 @@
 
     <routing>
         <persontrip.transfer.car-walk value="parkingAreas,ptStops"/>
-        <device.rerouting.probability value="0.6"/>
+        <device.rerouting.probability value="1"/>
         <device.rerouting.period value="300"/>
-        <device.rerouting.pre-period value="600"/>
+        <device.rerouting.pre-period value="300"/>
         <device.rerouting.threads value="4"/>
     </routing>
 
