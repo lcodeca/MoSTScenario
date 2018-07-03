@@ -1,0 +1,156 @@
+{
+    "baseDir": "/home/drone/EURECOM/Projects/GITHUB/MoSTScenario/",
+    "outputPrefix": "/home/drone/EURECOM/Projects/GITHUB/MoSTScenario/tools/mobility/out/most.",
+
+    "sumocfg": "/home/drone/EURECOM/Projects/GITHUB/MoSTScenario/tools/mobility/duarouter.sumocfg",
+
+    "SUMOnetFile": "scenario/in/most.net.xml",
+    "SUMOadditionals": {
+        "vTypes": "scenario/add/basic.vType.xml",
+        "parkings": "scenario/in/add/most.parkings.add.xml",
+        "plotWhitelist": ["1035", "1039", "1040", "1063", "1079", "1080", "1083", "1084", "1085",
+            "1086", "1087", "1088", "1089", "1090", "1091", "1092", "1093", "1094", "1095", "1096",
+            "1097", "1099", "1100", "1102", "1104", "1105", "1106", "1107", "1108", "1109", "1110",
+            "1111", "1112", "1113", "1114", "1115", "1116", "1117", "1118", "1119", "1120", "1121",
+            "1122", "1123", "1125", "1126", "1127", "1128", "1129", "1130", "1131", "1132", "1133",
+            "1134", "1135", "1136", "1137", "1138", "1139", "1140", "1144", "1145", "1147", "1149",
+            "1150", "1151", "1152", "1153", "1154", "1155", "1158", "1160"]
+    },
+
+    "population": {
+        "entities" : 30000,
+        "tazDefinition": "tools/mobility/taz/most.complete.taz.xml",
+        "tazWeights": "tools/mobility/taz/most.complete.taz.weight.csv",
+        "buildingsWeight": "tools/mobility/taz/buildings/"
+    },
+
+    "taz": {
+        "MonacoArea1Generic": [1],
+        "MonacoArea1Detailed": [2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "FranceArea2": [11, 12, 13, 14],
+        "FranceArea3": [15, 16],
+        "PrimaryGW": [31, 32, 33],
+        "SecondaryGW": [41, 42, 43, 44, 45]
+    },
+
+    "distribution": {
+        "pedestrian": {
+            "perc": 0.85,
+            "composition": {
+                "tourists": {
+                    "modes": ["walk"],
+                    "from": "MonacoArea1Detailed",
+                    "to": "MonacoArea1Detailed",
+                    "perc": 0.05,
+                    "withPL": true
+                },
+                "1": {
+                    "modes": ["public", "bicycle", "ptw"],
+                    "from": "MonacoArea1Detailed",
+                    "to": "MonacoArea1Detailed",
+                    "perc": 0.2,
+                    "withPL": true
+                },
+                "2": {
+                    "modes": ["public", "passenger", "ptw", "on-demand"],
+                    "from": "FranceArea2",
+                    "to": "MonacoArea1Generic",
+                    "perc": 0.3,
+                    "withPL": true
+                },
+                "3": {
+                    "modes": ["public", "passenger", "ptw"],
+                    "from": "FranceArea3",
+                    "to": "MonacoArea1Generic",
+                    "perc": 0.25,
+                    "withPL": true
+                },
+                "GW1": {
+                    "modes": ["passenger", "ptw"],
+                    "from": "PrimaryGW",
+                    "to": "MonacoArea1Generic",
+                    "perc": 0.15,
+                    "withPL": true
+                },
+                "GW2": {
+                    "modes": ["passenger", "ptw"],
+                    "from": "SecondaryGW",
+                    "to": "MonacoArea1Generic",
+                    "perc": 0.15,
+                    "withPL": true
+                }
+            }
+        },
+        "other": {
+            "perc": 0.1,
+            "composition": {
+                "1": {
+                    "from": "MonacoArea1Detailed",
+                    "to": "MonacoArea1Detailed",
+                    "perc": 0.1,
+                    "withPL": true
+                },
+                "2": {
+                    "from": "FranceArea2",
+                    "to": "MonacoArea1Generic",
+                    "perc": 0.2,
+                    "withPL": true
+                },
+                "3": {
+                    "from": "FranceArea3",
+                    "to": "MonacoArea1Generic",
+                    "perc": 0.2,
+                    "withPL": true
+                },
+                "GW1": {
+                    "from": "PrimaryGW",
+                    "to": "MonacoArea1Generic",
+                    "perc": 0.3,
+                    "withPL": true
+                },
+                "GW2": {
+                    "from": "SecondaryGW",
+                    "to": "MonacoArea1Generic",
+                    "perc": 0.2,
+                    "withPL": true
+                }
+            }
+        },
+        "special": {
+            "edges": "generation/taz/most.complete.taz.xml",
+            "perc": 0.05,
+            "composition": {
+                "1": {
+                    "from": "MonacoArea1Detailed",
+                    "to": "MonacoArea1Detailed",
+                    "perc": 0.4
+                },
+                "2": {
+                    "from": "FranceArea2",
+                    "to": "MonacoArea1Generic",
+                    "perc": 0.4
+                },
+                "3": {
+                    "from": "FranceArea3",
+                    "to": "MonacoArea1Generic",
+                    "perc": 0.2
+                }
+            }
+        }
+    },
+
+    "interval": {
+        "begin": 18000,
+        "end": 41400
+    },
+
+    "peak": {
+        "mean": 30600,
+        "std": 7200
+    },
+
+    "stopUntil": {
+        "begin": 43200,
+        "end": 46800
+    }
+}
