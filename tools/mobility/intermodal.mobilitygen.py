@@ -282,7 +282,8 @@ class MobilityGenerator(object):
                     # (Intermodal) trip
                     _from, _to, _mode, _stages = self._find_allowed_pair_traci(
                         v_type, modes, _depart,
-                        self._conf['taz'][area['from']], self._conf['taz'][area['to']])
+                        self._conf['taz'][area['from']], self._conf['taz'][area['to']],
+                        with_pl)
                     modes = _mode
 
                     # Fixing the parking lots stops from the configuration.
@@ -357,7 +358,7 @@ class MobilityGenerator(object):
 
             try:
                 route = traci.simulation.findIntermodalRoute(
-                    p_edge, edge, walkFactor=.9, ptype="pedestrian")
+                    p_edge, edge, walkFactor=.9, pType="pedestrian")
             except traci.exceptions.TraCIException:
                 logging.error('_find_closest_parking: findIntermodalRoute %s -> %s failed.',
                               p_edge, edge)
@@ -380,15 +381,15 @@ class MobilityGenerator(object):
 
     ## ----     Functions for _compute_trips_per_type: _find_allowed_pair_traci            ---- ##
 
-    def _find_allowed_pair_traci(self, v_type, modes, departure, from_area, to_area):
+    def _find_allowed_pair_traci(self, v_type, modes, departure, from_area, to_area, with_pl):
         """ Return an origin ad an allowed destination, with mode and route stages.
 
-            findRoute(self, fromEdge, toEdge, vtype="", depart=-1., routingMode=0)
+            findRoute(self, fromEdge, toEdge, vType="", depart=-1., routingMode=0)
 
             findIntermodalRoute(
                 self, fromEdge, toEdge, modes="", depart=-1., routingMode=0, speed=-1.,
                 walkFactor=-1., departPos=-1., arrivalPos=-1., departPosLat=-1.,
-                ptype="", vtype="", destStop=""):
+                pType="", vType="", destStop=""):
         """
 
         counter = 0
@@ -405,7 +406,8 @@ class MobilityGenerator(object):
                 from_edge, to_edge = self._select_pair(from_area, to_area, True)
 
                 ## Evaluate all the possible (intermodal) routes
-                solutions = self._find_intermodal_route(from_edge, to_edge, modes, departure)
+                solutions = self._find_intermodal_route(
+                    from_edge, to_edge, modes, departure, with_pl)
                 if solutions:
                     winner = sorted(solutions)[0] # let the winner win
                     selected_mode = winner[1]
@@ -422,7 +424,7 @@ class MobilityGenerator(object):
                 ## Origin and Destination Selection
                 from_edge, to_edge = self._select_pair(from_area, to_area)
                 try:
-                    route = traci.simulation.findRoute(from_edge, to_edge, vtype=v_type)
+                    route = traci.simulation.findRoute(from_edge, to_edge, vType=v_type)
                 except traci.exceptions.TraCIException:
                     logging.debug('_find_allowed_pair_traci: findRoute FAILED.')
                     route = None
@@ -438,21 +440,21 @@ class MobilityGenerator(object):
             logging.debug('It required %d iterations to find a valid pair.', counter)
         return from_edge, to_edge, selected_mode, selected_route
 
-    def _find_intermodal_route(self, from_edge, to_edge, modes, departure):
+    def _find_intermodal_route(self, from_edge, to_edge, modes, departure, with_pl):
         """ Evaluate all the possible (intermodal) routes. """
         solutions = list()
         for mode in modes:
             _last_mile = None
             _modes, _ptype, _vtype = self._get_mode_parameters(mode)
 
-            if _vtype in ['passenger', 'ptw', 'e-vehicle']:
+            if with_pl and _vtype in ['passenger', 'ptw', 'e-vehicle']:
                 ## Find the closest parking area
                 p_edge, _last_mile = self._find_closest_parking(to_edge)
                 if _last_mile:
                     try:
                         route = traci.simulation.findIntermodalRoute(
                             from_edge, p_edge, depart=departure, walkFactor=.9, # speed=1.0
-                            modes=_modes, ptype=_ptype, vtype=_vtype)
+                            modes=_modes, pType=_ptype, vType=_vtype)
                     except traci.exceptions.TraCIException:
                         logging.error(
                             '_find_intermodal_route: findIntermodalRoute w parking FAILED.')
@@ -466,7 +468,7 @@ class MobilityGenerator(object):
                 try:
                     route = traci.simulation.findIntermodalRoute(
                         from_edge, to_edge, depart=departure, walkFactor=.9, # speed=1.0
-                        modes=_modes, ptype=_ptype, vtype=_vtype)
+                        modes=_modes, pType=_ptype, vType=_vtype)
                 except traci.exceptions.TraCIException:
                     logging.error(
                         '_find_intermodal_route: findIntermodalRoute wout parking FAILED.')
@@ -687,7 +689,7 @@ class MobilityGenerator(object):
             <ride from="{from_edge}" to="{to_edge}" lines="{vehicle_id}"/>"""
 
     VEHICLE_TRIGGERED = """
-        <vehicle id="{id}" type="{v_type}" depart="triggered" arrivalPos="{arrival}">{route}{stop}
+        <vehicle id="{id}" type="{v_type}" depart="triggered" departLane="best" arrivalPos="{arrival}">{route}{stop}
         </vehicle>"""
 
     def _saving_trips_to_files(self):

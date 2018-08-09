@@ -23,8 +23,8 @@ SCENARIO=$MOST_SCENARIO/scenario
 
 cd $STATIC
 echo "[$(date)] ~~~ Scenario Generation ~~~ "
-# bash scenario.generator.sh
-# bash mover.sh
+bash scenario.generator.sh
+bash mover.sh
 
 cd $MOBILITY
 echo "[$(date)] ~~~ Mobility Generation ~~~ "

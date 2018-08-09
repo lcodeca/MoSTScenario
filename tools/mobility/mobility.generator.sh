@@ -31,6 +31,7 @@ mkdir -p $OUTPUT
 #  Depending on the SUMO version, it's possible that the -b parameter is not really working.
 
 INTERVAL="-b 14400 -e 50400"
+# INTERVAL="-b 0 -e 7200"
 
 echo "Generate bus trips..."
 python $SUMO_DEV_TOOLS/ptlines2flows.py -n $INPUT/most.net.xml $INTERVAL -p 1200 \
@@ -51,4 +52,4 @@ sed -e s/:0//g -i $OUTPUT/most.trains.flows.xml
 ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ TRACI MOBILITY GENERATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ##
 
 echo "Generate mobility..."
-python3 intermodal.mobilitygen.py -c intermodal.mobilitygen.json
+python3 intermodal.mobilitygen.py -c most.intermodal.mobilitygen.json
