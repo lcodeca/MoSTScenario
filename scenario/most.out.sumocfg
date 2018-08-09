@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Monaco SUMO Traffic (MoST) Scenario
+    Copyright (C) 2018
+    Lara CODECA
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="in/most.net.xml"/>
+        <route-files value="in/route/most.buses.flows.xml,in/route/most.trains.flows.xml,in/route/most.pedestrian.rou.xml,in/route/most.other.rou.xml,in/route/most.special.rou.xml"/>
+        <additional-files value="in/add/most.poly.xml,in/add/most.busstops.add.xml,in/add/most.trainstops.add.xml,in/add/most.parkings.add.xml,in/add/basic.vType.xml"/>
+    </input>
+
+    <output>
+        <output-prefix value="out/most."/>
+        <summary-output value="summary.xml"/>
+        <tripinfo-output value="tripinfo.xml"/>
+        <tripinfo-output.write-unfinished value="true"/>
+        <vehroute-output value="vehroute.xml"/>
+        <vehroute-output.route-length value="true"/>
+        <vehroute-output.write-unfinished value="true"/>
+        <vehroute-output.skip-ptlines value="true"/>
+        <vehroute-output.exit-times value="true"/>
+        <stop-output value="stop.out.xml"/>
+        <lanechange-output value="lanechanges.out.xml"/>
+        <lanechange-output.started value="true"/>
+        <lanechange-output.ended value="true"/>
+    </output>
+
+    <time>
+        <begin value="14400"/>
+        <step-length value="1"/>
+        <end value="50400"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0.3" type="FLOAT" help="Defines the resolution in m when handling lateral positioning within a lane (with -1 all vehicles drive at the center of their lane"/>
+        <ignore-junction-blocker value="60" type="TIME" help="Ignore vehicles which block the junction after they have been standing for SECONDS (-1 means never ignore)"/>
+        <collision.action value="teleport" type="STR" help="How to deal with collisions: [none,warn,teleport,remove]"/>
+        <time-to-teleport value="180" type="TIME" help="Specify how long a vehicle may wait until being teleported, defaults to 300, non-positive values disable teleporting"/>
+        <max-depart-delay value="900" type="TIME" help="How long vehicles wait for departure before being skipped, defaults to -1 which means vehicles are never skipped"/>
+        <time-to-impatience value="30" type="TIME" help="Specify how long a vehicle may wait until impatience grows from 0 to 1, defaults to 300, non-positive values disable impatience growth"/>
+        <pedestrian.model value="striping" type="STR" help="Select among pedestrian models [&apos;nonInteracting&apos;, &apos;striping&apos;, &apos;remote&apos;]"/>
+        <pedestrian.striping.stripe-width value="0.55" type="FLOAT" help="Width of parallel stripes for segmenting a sidewalk (meters) for use with model &apos;striping&apos;"/>
+        <pedestrian.striping.jamtime value="15" type="TIME" help="Time in seconds after which pedestrians start squeezing through a jam when using model &apos;striping&apos; (non-positive values disable squeezing)"/>
+    </processing>
+
+    <routing>
+        <persontrip.transfer.car-walk value="parkingAreas,ptStops" type="STR" help="Where are mode changes from car to walking allowed (possible values: &apos;parkingAreas&apos;, &apos;ptStops&apos;, &apos;allJunctions&apos; and combinations)"/>
+        <device.rerouting.probability value="1" type="FLOAT" help="The probability for a vehicle to have a &apos;rerouting&apos; device"/>
+        <device.rerouting.period value="300" synonymes="device.routing.period" type="TIME" help="The period with which the vehicle shall be rerouted"/>
+        <device.rerouting.pre-period value="600" synonymes="device.routing.pre-period" type="TIME" help="The rerouting period before depart"/>
+        <device.rerouting.threads value="4" type="INT" help="The number of parallel execution threads used for rerouting"/>
+    </routing>
+
+    <report>
+        <verbose value="true" synonymes="v" type="BOOL" help="Switches to verbose output"/>
+        <log value="sim.log" synonymes="l log-file" type="FILE" help="Writes all messages to FILE (implies verbose)"/>
+        <duration-log.statistics value="true" type="BOOL" help="Enable statistics on vehicle trips"/>
+    </report>
+
+    <random_number>
+        <seed value="42"/>
+    </random_number>
+
+</configuration>

@@ -33,14 +33,14 @@
 
   <!-- Vulnerable Road Users -->
   <vTypeDistribution id="pedestrian">
-    <vType vClass="pedestrian"   id="slowpedestrian"  maxSpeed="1.0" lcCooperative="0.75" lcPushy="0.25" latAlignment="compact"/>
-    <vType vClass="pedestrian"   id="avgpedestrian"   maxSpeed="1.5" lcCooperative="0.75" lcPushy="0.25" latAlignment="compact"/>
-    <vType vClass="pedestrian"   id="fastpedestrian"  maxSpeed="2.0" lcCooperative="0.75" lcPushy="0.25" latAlignment="compact"/>
+    <vType vClass="pedestrian"   id="slowpedestrian"  maxSpeed="1.0" lcCooperative="0.75" lcPushy="0.25" latAlignment="compact" probability=".33"/>
+    <vType vClass="pedestrian"   id="avgpedestrian"   maxSpeed="1.5" lcCooperative="0.75" lcPushy="0.25" latAlignment="compact" probability=".33"/>
+    <vType vClass="pedestrian"   id="fastpedestrian"  maxSpeed="2.0" lcCooperative="0.75" lcPushy="0.25" latAlignment="compact" probability=".33"/>
   </vTypeDistribution>
   <vTypeDistribution id="bicycle">
-    <vType vClass="bicycle"      id="slowbicycle"     maxSpeed="4.2" lcCooperative="0.75" lcPushy="0.25" latAlignment="compact"/>
-    <vType vClass="bicycle"      id="avgbicycle"      maxSpeed="5.5" lcCooperative="0.75" lcPushy="0.25" latAlignment="compact"/>
-    <vType vClass="bicycle"      id="fastbicycle"     maxSpeed="6.9" lcCooperative="0.75" lcPushy="0.25" latAlignment="compact"/>
+    <vType vClass="bicycle"      id="slowbicycle"     maxSpeed="4.2" lcCooperative="0.75" lcPushy="0.25" latAlignment="compact" probability=".33"/>
+    <vType vClass="bicycle"      id="avgbicycle"      maxSpeed="5.5" lcCooperative="0.75" lcPushy="0.25" latAlignment="compact" probability=".33"/>
+    <vType vClass="bicycle"      id="fastbicycle"     maxSpeed="6.9" lcCooperative="0.75" lcPushy="0.25" latAlignment="compact" probability=".33"/>
   </vTypeDistribution>
 
   <!-- Normal vehicles -->

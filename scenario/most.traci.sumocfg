@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Monaco SUMO Traffic (MoST) Scenario
+    Copyright (C) 2018
+    Lara CODECA
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="in/most.net.xml"/>
+        <route-files value="in/route/most.buses.flows.xml,in/route/most.trains.flows.xml,in/route/most.pedestrian.rou.xml,in/route/most.other.rou.xml,in/route/most.special.rou.xml"/>
+        <additional-files value="in/add/most.poly.xml,in/add/most.busstops.add.xml,in/add/most.trainstops.add.xml,in/add/most.parkings.add.norerouters.xml,in/add/basic.vType.xml"/>
+    </input>
+
+    <output>
+	    <output-prefix value="out/most."/>
+    </output>
+
+    <time>
+        <begin value="14400"/>
+        <step-length value="1"/>
+        <end value="50400"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0.3"/>
+        <ignore-junction-blocker value="60"/>
+        <collision.action value="teleport"/>
+        <time-to-teleport value="180"/>
+        <max-depart-delay value="900"/>
+        <time-to-impatience value="30"/>
+        <pedestrian.model value="striping"/>
+        <pedestrian.striping.stripe-width value="0.55"/>
+        <pedestrian.striping.jamtime value="15"/>
+    </processing>
+
+    <routing>
+        <persontrip.transfer.car-walk value="parkingAreas,ptStops"/>
+        <device.rerouting.probability value="1"/>
+        <device.rerouting.period value="300"/>
+        <device.rerouting.pre-period value="300"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <log value="sim.log"/>
+    </report>
+
+    <random_number>
+        <seed value="42"/>
+    </random_number>
+
+    <traci_server>
+        <remote-port value="59759"/>
+    </traci_server>
+
+</configuration>
