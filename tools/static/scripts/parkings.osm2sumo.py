@@ -287,7 +287,7 @@ class ParkingGeneration(object):
                 route = None
                 try:
                     route = traci.simulation.findRoute(
-                        parking_a['edge'], parking_b['edge'], vtype='passenger')
+                        parking_a['edge'], parking_b['edge'], vType='passenger')
                 except traci.exceptions.TraCIException:
                     route = None
 
