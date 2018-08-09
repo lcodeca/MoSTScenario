@@ -1,4 +1,0 @@
-SUMO Parking Monitor
---------
-
-TODO
