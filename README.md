@@ -38,3 +38,11 @@ Additional mobility can be generated using
 * `tools/static` contains the raw OSM-like file, scripts, and configuration files to regenerate the scenario from the beginning.
 
 Note: the configuration files contained in `tools/static/typemap` are a slightly modified version of a subset of the SUMO files availavle at https://github.com/eclipse/sumo/tree/master/data/typemap.
+
+#### Traffic Light Example
+[![Traffic Light Example](https://img.youtube.com/vi/Wwp_riSsLAs/0.jpg)](https://www.youtube.com/watch?v=Wwp_riSsLAs)
+(click on the image for the video)
+
+#### Public Transportation Example
+[![Public Transportation Example](https://img.youtube.com/vi/r7iE3LRiSNA/0.jpg)](https://www.youtube.com/watch?v=r7iE3LRiSNA)
+(click on the image for the video)
