@@ -39,6 +39,10 @@ Additional mobility can be generated using
 
 Note: the configuration files contained in `tools/static/typemap` are a slightly modified version of a subset of the SUMO files availavle at https://github.com/eclipse/sumo/tree/master/data/typemap.
 
+#### Mobility Example
+[![Mobility Example](https://img.youtube.com/vi/nFVhodnJKws/0.jpg)](https://www.youtube.com/watch?v=nFVhodnJKws)
+(click on the image for the video)
+
 #### Traffic Light Example
 [![Traffic Light Example](https://img.youtube.com/vi/Wwp_riSsLAs/0.jpg)](https://www.youtube.com/watch?v=Wwp_riSsLAs)
 (click on the image for the video)
