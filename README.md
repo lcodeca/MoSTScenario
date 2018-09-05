@@ -4,8 +4,8 @@ Contacts: Lara CODECA [codeca@eurecom.fr], A-Team [a-team@eurecom.fr]
 This project is licensed under the terms of the GPLv3 license.
 
 MoST Scenario is meant to be used with SUMO (Simulator of Urban MObility).
-* Version 0.2 has been tested with [SUMO 1.0](https://github.com/eclipse/sumo/tree/v1_0_0).
-* Due to [Bug #4518](https://github.com/eclipse/sumo/issues/4518) it requires the development
+* Version 0.3 has been tested with [SUMO 1.0](https://github.com/eclipse/sumo/tree/v1_0_0).
+* Due to [Issue #4518](https://github.com/eclipse/sumo/issues/4518) it requires the development
   version of [SUMO](https://github.com/eclipse/sumo.git) in order to use multi-threading.
 
 Please refer to the [SUMO wiki](http://sumo.dlr.de/wiki/Simulation_of_Urban_MObility_-_Wiki) for further information on the simulator itself.
