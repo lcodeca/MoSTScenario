@@ -5,8 +5,8 @@
     "saveToPrefix": "pypml.stats",
 
     "interval":{
-        "begin": 14400.0,
-        "end": 50400.0
+        "begin": 14400,
+        "end": 50400
     }
 }
 

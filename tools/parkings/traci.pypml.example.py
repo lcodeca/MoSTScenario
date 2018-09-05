@@ -152,7 +152,6 @@ def _main():
 
     _time = _begin_sec
     try:
-        counter = 0
         running_people = set()
 
         for step in tqdm(range(_begin_sec, _end_sec, 1)):
