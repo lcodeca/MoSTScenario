@@ -1,0 +1,12 @@
+{
+    "sumocfg": "../../scenario/most.traci.sumocfg",
+    "traci_port": 59759,
+
+    "saveToPrefix": "pypml.stats",
+
+    "interval":{
+        "begin": 14400.0,
+        "end": 50400.0
+    }
+}
+
