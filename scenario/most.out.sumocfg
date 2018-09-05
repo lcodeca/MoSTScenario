@@ -66,7 +66,7 @@
         <device.rerouting.probability value="1" type="FLOAT" help="The probability for a vehicle to have a &apos;rerouting&apos; device"/>
         <device.rerouting.period value="300" synonymes="device.routing.period" type="TIME" help="The period with which the vehicle shall be rerouted"/>
         <device.rerouting.pre-period value="600" synonymes="device.routing.pre-period" type="TIME" help="The rerouting period before depart"/>
-        <device.rerouting.threads value="4" type="INT" help="The number of parallel execution threads used for rerouting"/>
+        <!-- <device.rerouting.threads value="4" type="INT" help="The number of parallel execution threads used for rerouting"/> -->
     </routing>
 
     <report>

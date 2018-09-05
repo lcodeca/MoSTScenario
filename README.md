@@ -4,8 +4,9 @@ Contacts: Lara CODECA [codeca@eurecom.fr], A-Team [a-team@eurecom.fr]
 This project is licensed under the terms of the GPLv3 license.
 
 MoST Scenario is meant to be used with SUMO (Simulator of Urban MObility).
-* Version 0.1 has been tested with [SUMO 0.32.0](https://github.com/eclipse/sumo/tree/v0_32_0).
-* For the following commits is necessary to use (at least) [Eclipse SUMO Version 267588bdfc](https://github.com/eclipse/sumo) due to the major improvements they made to the public transport system.
+* Version 0.2 has been tested with [SUMO 1.0](https://github.com/eclipse/sumo/tree/v1_0_0).
+* Due to [Bug #4518][https://github.com/eclipse/sumo/issues/4518] it requires the development
+  version of [SUMO][https://github.com/eclipse/sumo.git] in order to use multi-threading.
 
 Please refer to the [SUMO wiki](http://sumo.dlr.de/wiki/Simulation_of_Urban_MObility_-_Wiki) for further information on the simulator itself.
 
@@ -34,7 +35,7 @@ Additional mobility can be generated using
 #### Files:
 * `scenario` is the ready-to-use scenario
 * `tools/mobility` contains the files required to generate various traffic demands.
-* `tools/pypml` contains the parking mornitor library, still 'work in progess'.
+* `tools/parkings` contains the an example of parking mornitoring done with [PyPML][https://github.com/lcodeca/PyPML].
 * `tools/static` contains the raw OSM-like file, scripts, and configuration files to regenerate the scenario from the beginning.
 
 Note: the configuration files contained in `tools/static/typemap` are a slightly modified version of a subset of the SUMO files availavle at https://github.com/eclipse/sumo/tree/master/data/typemap.

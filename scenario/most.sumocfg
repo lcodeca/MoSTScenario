@@ -54,7 +54,7 @@
         <device.rerouting.probability value="1"/>
         <device.rerouting.period value="300"/>
         <device.rerouting.pre-period value="300"/>
-        <device.rerouting.threads value="4"/>
+        <!-- <device.rerouting.threads value="4"/> -->
     </routing>
 
     <report>
