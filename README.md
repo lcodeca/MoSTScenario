@@ -37,7 +37,7 @@ Additional mobility can be generated using
 #### Files:
 * `scenario` is the ready-to-use scenario
 * `tools/mobility` contains the files required to generate various traffic demands.
-* `tools/parkings` contains an example of parking monitoring done with [PyPML](shttps://github.com/lcodeca/PyPML).
+* `tools/parkings` contains the an example of parking mornitoring done with [PyPML](https://github.com/lcodeca/PyPML).
 * `tools/static` contains the raw OSM-like file, scripts, and configuration files to regenerate the scenario from the beginning.
 
 Note: the configuration files contained in `tools/static/typemap` are a slightly modified version of a subset of the SUMO files available at https://github.com/eclipse/sumo/tree/master/data/typemap.

@@ -27,10 +27,6 @@
         <additional-files value="in/add/most.poly.xml,in/add/most.busstops.add.xml,in/add/most.trainstops.add.xml,in/add/most.parkings.add.norerouters.xml,in/add/basic.vType.xml"/>
     </input>
 
-    <output>
-	    <output-prefix value="out/most."/>
-    </output>
-
     <time>
         <begin value="14400"/>
         <step-length value="1"/>
@@ -59,7 +55,6 @@
     <report>
         <verbose value="true"/>
         <duration-log.statistics value="true"/>
-        <log value="sim.log"/>
     </report>
 
     <random_number>
