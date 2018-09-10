@@ -166,7 +166,7 @@ class MobilityGenerator(object):
         xml_tree = xml.etree.ElementTree.parse(filename).getroot()
         for child in xml_tree:
             if (child.tag == 'parkingArea' and
-                    child.attrib['id'] in self._conf['SUMOadditionals']['plotWhitelist']):
+                    child.attrib['id'] in self._conf['SUMOadditionals']['parkingAreaWhitelist']):
                 edge = child.attrib['lane'].split('_')[0]
                 position = float(child.attrib['startPos']) + 2.5
                 self._sumo_parkings[edge].append(child.attrib['id'])
@@ -358,7 +358,7 @@ class MobilityGenerator(object):
         for p_edge, parkings in self._sumo_parkings.items():
             _is_allowed = False
             for parking in parkings:
-                if parking in self._conf['SUMOadditionals']['plotWhitelist']:
+                if parking in self._conf['SUMOadditionals']['parkingAreaWhitelist']:
                     _is_allowed = True
                     break
             if not _is_allowed:
