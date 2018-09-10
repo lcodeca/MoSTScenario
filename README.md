@@ -32,13 +32,15 @@ To use the scrips in the `tools` directory it's necessary to exec `source setenv
 Additional mobility can be generated using
 * `mobility.generator.sh` from the _tools/mobility_ folder.
 
+##### See [Scenario re-genration](https://github.com/lcodeca/MoSTScenario/wiki/How-to-rebuild-the-scenario.)
+
 #### Files:
 * `scenario` is the ready-to-use scenario
 * `tools/mobility` contains the files required to generate various traffic demands.
-* `tools/parkings` contains the an example of parking mornitoring done with [PyPML](shttps://github.com/lcodeca/PyPML).
+* `tools/parkings` contains an example of parking monitoring done with [PyPML](shttps://github.com/lcodeca/PyPML).
 * `tools/static` contains the raw OSM-like file, scripts, and configuration files to regenerate the scenario from the beginning.
 
-Note: the configuration files contained in `tools/static/typemap` are a slightly modified version of a subset of the SUMO files availavle at https://github.com/eclipse/sumo/tree/master/data/typemap.
+Note: the configuration files contained in `tools/static/typemap` are a slightly modified version of a subset of the SUMO files available at https://github.com/eclipse/sumo/tree/master/data/typemap.
 
 #### Mobility Example
 [![Mobility Example](https://img.youtube.com/vi/nFVhodnJKws/0.jpg)](https://www.youtube.com/watch?v=nFVhodnJKws)
