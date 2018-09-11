@@ -451,7 +451,7 @@ class MobilityGenerator(object):
     def _find_intermodal_route(self, from_edge, to_edge, modes, departure, with_pl):
         """ Evaluate all the possible (intermodal) routes. """
         solutions = list()
-        for mode in modes:
+        for mode, weight in modes:
             _last_mile = None
             _modes, _ptype, _vtype = self._get_mode_parameters(mode)
 
@@ -471,7 +471,7 @@ class MobilityGenerator(object):
                             route[-1].stageType == tc.STAGE_DRIVING):
                         route[-1] = route[-1]._replace(destStop=self._get_parking_id(p_edge))
                         route.extend(_last_mile)
-                        solutions.append((self._cost_from_route(route), mode, route))
+                        solutions.append((self._cost_from_route(route) * weight, mode, route))
             else:
                 try:
                     route = traci.simulation.findIntermodalRoute(
@@ -483,7 +483,7 @@ class MobilityGenerator(object):
                     route = None
 
                 if self._is_valid_route(_modes, route):
-                    solutions.append((self._cost_from_route(route), mode, route))
+                    solutions.append((self._cost_from_route(route) * weight, mode, route))
 
         return solutions
 

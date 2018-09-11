@@ -41,70 +41,70 @@
             "perc": 0.80,
             "composition": {
                 "1-1-pt": {
-                    "modes": ["walk", "bicycle", "public"],
+                    "modes": [["walk", 1.0], ["bicycle", 1.5], ["public", 0.5]],
                     "from": "MonacoArea1Detailed",
                     "to": "MonacoArea1Detailed",
                     "perc": 0.15,
                     "withPL": false
                 },
                 "1-1-veh": {
-                    "modes": ["public", "passenger", "ptw", "on-demand"],
+                    "modes": [["public", 1.0], ["passenger", 1.25], ["ptw", 0.85], ["on-demand", 1.5]],
                     "from": "MonacoArea1Detailed",
                     "to": "MonacoArea1Detailed",
                     "perc": 0.05,
                     "withPL": true
                 },
                 "2-1": {
-                    "modes": ["public", "passenger", "ptw", "on-demand"],
+                    "modes": [["public", 1.0], ["passenger", 1.25], ["ptw", 0.85], ["on-demand", 1.5]],
                     "from": "FranceArea2",
                     "to": "MonacoArea1Generic",
                     "perc": 0.18,
                     "withPL": true
                 },
                 "1-2": {
-                    "modes": ["public", "passenger", "ptw", "on-demand"],
+                    "modes": [["public", 1.0], ["passenger", 1.25], ["ptw", 0.85], ["on-demand", 1.5]],
                     "from": "MonacoArea1Generic",
                     "to": "FranceArea2",
                     "perc": 0.10,
                     "withPL": false
                 },
                 "3-1": {
-                    "modes": ["public", "passenger", "ptw"],
+                    "modes": [["public", 0.85], ["passenger", 1.0], ["ptw", 1.0]],
                     "from": "FranceArea3",
                     "to": "MonacoArea1Generic",
                     "perc": 0.16,
                     "withPL": true
                 },
-                "3": {
-                    "modes": ["public", "passenger", "ptw"],
+                "1-3": {
+                    "modes": [["public", 0.85], ["passenger", 1.0], ["ptw", 1.0]],
                     "from": "MonacoArea1Generic",
                     "to": "FranceArea3",
                     "perc": 0.10,
                     "withPL": false
                 },
                 "GW1-1": {
-                    "modes": ["passenger", "ptw"],
+                    "modes": [["passenger", 1.0], ["ptw", 1.0]],
                     "from": "PrimaryGW",
                     "to": "MonacoArea1Generic",
                     "perc": 0.12,
                     "withPL": true
                 },
                 "GW2-1": {
-                    "modes": ["passenger", "ptw"],
+                    "modes": [["passenger", 1.0], ["ptw", 1.0]],
                     "from": "SecondaryGW",
                     "to": "MonacoArea1Generic",
                     "perc": 0.08,
                     "withPL": true
                 },
                 "1-GW1": {
-                    "modes": ["passenger", "ptw"],
+                    "modes": [["passenger", 1.0], ["ptw", 1.0]],
                     "from": "PrimaryGW",
                     "to": "MonacoArea1Generic",
                     "perc": 0.03,
                     "withPL": false
                 },
                 "1-GW2": {
-                    "modes": ["passenger", "ptw"],
+                    "modes": [["passenger", 1.0], ["ptw", 1.0]],
                     "from": "SecondaryGW",
                     "to": "MonacoArea1Generic",
                     "perc": 0.03,
