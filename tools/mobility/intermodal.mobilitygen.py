@@ -277,7 +277,7 @@ class MobilityGenerator(object):
                     ## Trip generation
 
                     # Parking lot at the end of the trip.
-                    with_pl = 'withPL' in area.keys() and area['withPL']
+                    with_parking = 'withParking' in area.keys() and area['withParking']
 
                     # Modes for intermodal trips.
                     modes = None
@@ -291,15 +291,15 @@ class MobilityGenerator(object):
                     _from, _to, _mode, _stages = self._find_allowed_pair_traci(
                         v_type, modes, _depart,
                         self._conf['taz'][area['from']], self._conf['taz'][area['to']],
-                        with_pl)
+                        with_parking)
                     modes = _mode
 
                     # Fixing the parking lots stops from the configuration.
                     parking_id = None
-                    if with_pl:
+                    if with_parking:
                         parking_id = self._has_parking_lot(_to)
                     if not parking_id:
-                        with_pl = False
+                        with_parking = False
 
                     # Trip creation
                     self._all_trips[v_type][_depart].append({
@@ -309,7 +309,7 @@ class MobilityGenerator(object):
                         'to': _to,
                         'type': v_type,
                         'mode': modes,
-                        'withPL': with_pl,
+                        'withParking': with_parking,
                         'PLid': parking_id,
                         'stages': _stages
                         })
@@ -370,7 +370,6 @@ class MobilityGenerator(object):
             except traci.exceptions.TraCIException:
                 logging.error('_find_closest_parking: findIntermodalRoute %s -> %s failed.',
                               p_edge, edge)
-
                 route = None
 
             if route:
@@ -389,7 +388,7 @@ class MobilityGenerator(object):
 
     ## ----     Functions for _compute_trips_per_type: _find_allowed_pair_traci            ---- ##
 
-    def _find_allowed_pair_traci(self, v_type, modes, departure, from_area, to_area, with_pl):
+    def _find_allowed_pair_traci(self, v_type, modes, departure, from_area, to_area, with_parking):
         """ Return an origin ad an allowed destination, with mode and route stages.
 
             findRoute(self, fromEdge, toEdge, vType="", depart=-1., routingMode=0)
@@ -415,7 +414,7 @@ class MobilityGenerator(object):
 
                 ## Evaluate all the possible (intermodal) routes
                 solutions = self._find_intermodal_route(
-                    from_edge, to_edge, modes, departure, with_pl)
+                    from_edge, to_edge, modes, departure, with_parking)
                 if solutions:
                     winner = sorted(solutions)[0] # let the winner win
                     selected_mode = winner[1]
@@ -448,14 +447,14 @@ class MobilityGenerator(object):
             logging.debug('It required %d iterations to find a valid pair.', counter)
         return from_edge, to_edge, selected_mode, selected_route
 
-    def _find_intermodal_route(self, from_edge, to_edge, modes, departure, with_pl):
+    def _find_intermodal_route(self, from_edge, to_edge, modes, departure, with_parking):
         """ Evaluate all the possible (intermodal) routes. """
         solutions = list()
         for mode, weight in modes:
             _last_mile = None
             _modes, _ptype, _vtype = self._get_mode_parameters(mode)
 
-            if with_pl and _vtype in self._conf['intermodalOptions']['vehicleAllowedParking']:
+            if with_parking and _vtype in self._conf['intermodalOptions']['vehicleAllowedParking']:
                 ## Find the closest parking area
                 p_edge, _last_mile = self._find_closest_parking(to_edge)
                 if _last_mile:
@@ -752,7 +751,7 @@ class MobilityGenerator(object):
                         else:
                             _route = self.ROUTE.format(edges=' '.join(vehicle['stages'].edges))
                             _stop = ''
-                            if vehicle['withPL']:
+                            if vehicle['withParking']:
                                 _stop = self.STOP_PARKING.format(id=vehicle['PLid'],
                                                                  until=random.randint(_begin, _end))
                             _arrival = 'random'
