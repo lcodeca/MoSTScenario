@@ -23,16 +23,12 @@ L. Codeca, J. Härri,
 SUMO 2018, SUMO User Conference, Simulating Autonomous and Intermodal Transport Systems
 May 14-16, 2018, Berlin, Germany
 
-#### How To:
+### How To:
 MoST Scenario can be lunched directly with its configuration file.
 * `sumo -c most.sumocfg` or `run.sh` from the _scenario_ folder.
 
 To use the scrips in the `tools` directory it's necessary to exec `source setenv.sh`.
-
-Additional mobility can be generated using
-* `mobility.generator.sh` from the _tools/mobility_ folder.
-
-##### See [Scenario re-genration](https://github.com/lcodeca/MoSTScenario/wiki/How-to-rebuild-the-scenario.)
+#### See [Scenario re-genration](https://github.com/lcodeca/MoSTScenario/wiki/How-to-rebuild-the-scenario.)
 
 #### Files:
 * `scenario` is the ready-to-use scenario
