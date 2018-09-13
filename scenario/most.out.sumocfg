@@ -23,7 +23,7 @@
 
     <input>
         <net-file value="in/most.net.xml"/>
-        <route-files value="in/route/most.buses.flows.xml,in/route/most.trains.flows.xml,in/route/most.pedestrian.rou.xml,in/route/most.other.rou.xml,in/route/most.special.rou.xml"/>
+        <route-files value="in/route/most.buses.flows.xml,in/route/most.trains.flows.xml,in/route/most.pedestrian.rou.xml,in/route/most.commercial.rou.xml,in/route/most.special.rou.xml"/>
         <additional-files value="in/add/most.poly.xml,in/add/most.busstops.add.xml,in/add/most.trainstops.add.xml,in/add/most.parkings.add.xml,in/add/basic.vType.xml"/>
     </input>
 
@@ -50,29 +50,29 @@
     </time>
 
     <processing>
-        <lateral-resolution value="0.3" type="FLOAT" help="Defines the resolution in m when handling lateral positioning within a lane (with -1 all vehicles drive at the center of their lane"/>
-        <ignore-junction-blocker value="60" type="TIME" help="Ignore vehicles which block the junction after they have been standing for SECONDS (-1 means never ignore)"/>
-        <collision.action value="teleport" type="STR" help="How to deal with collisions: [none,warn,teleport,remove]"/>
-        <time-to-teleport value="180" type="TIME" help="Specify how long a vehicle may wait until being teleported, defaults to 300, non-positive values disable teleporting"/>
-        <max-depart-delay value="900" type="TIME" help="How long vehicles wait for departure before being skipped, defaults to -1 which means vehicles are never skipped"/>
-        <time-to-impatience value="30" type="TIME" help="Specify how long a vehicle may wait until impatience grows from 0 to 1, defaults to 300, non-positive values disable impatience growth"/>
-        <pedestrian.model value="striping" type="STR" help="Select among pedestrian models [&apos;nonInteracting&apos;, &apos;striping&apos;, &apos;remote&apos;]"/>
-        <pedestrian.striping.stripe-width value="0.55" type="FLOAT" help="Width of parallel stripes for segmenting a sidewalk (meters) for use with model &apos;striping&apos;"/>
-        <pedestrian.striping.jamtime value="15" type="TIME" help="Time in seconds after which pedestrians start squeezing through a jam when using model &apos;striping&apos; (non-positive values disable squeezing)"/>
+        <lateral-resolution value="0.3"/>
+        <ignore-junction-blocker value="60"/>
+        <collision.action value="teleport"/>
+        <time-to-teleport value="180"/>
+        <max-depart-delay value="900"/>
+        <time-to-impatience value="30"/>
+        <pedestrian.model value="striping"/>
+        <pedestrian.striping.stripe-width value="0.55"/>
+        <pedestrian.striping.jamtime value="15"/>
     </processing>
 
     <routing>
-        <persontrip.transfer.car-walk value="parkingAreas,ptStops" type="STR" help="Where are mode changes from car to walking allowed (possible values: &apos;parkingAreas&apos;, &apos;ptStops&apos;, &apos;allJunctions&apos; and combinations)"/>
-        <device.rerouting.probability value="1" type="FLOAT" help="The probability for a vehicle to have a &apos;rerouting&apos; device"/>
-        <device.rerouting.period value="300" synonymes="device.routing.period" type="TIME" help="The period with which the vehicle shall be rerouted"/>
-        <device.rerouting.pre-period value="600" synonymes="device.routing.pre-period" type="TIME" help="The rerouting period before depart"/>
-        <!-- <device.rerouting.threads value="4" type="INT" help="The number of parallel execution threads used for rerouting"/> -->
+        <persontrip.transfer.car-walk value="parkingAreas,ptStops"/>
+        <device.rerouting.probability value="1"/>
+        <device.rerouting.period value="300"/>
+        <device.rerouting.pre-period value="600"/>
+        <!-- <device.rerouting.threads value="4"/> -->
     </routing>
 
     <report>
-        <verbose value="true" synonymes="v" type="BOOL" help="Switches to verbose output"/>
-        <log value="sim.log" synonymes="l log-file" type="FILE" help="Writes all messages to FILE (implies verbose)"/>
-        <duration-log.statistics value="true" type="BOOL" help="Enable statistics on vehicle trips"/>
+        <verbose value="true" synonymes="v"/>
+        <log value="sim.log" synonymes="l log-file"/>
+        <duration-log.statistics value="true"/>
     </report>
 
     <random_number>

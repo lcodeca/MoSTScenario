@@ -23,7 +23,7 @@
 
     <input>
         <net-file value="in/most.net.xml"/>
-        <route-files value="in/route/most.buses.flows.xml,in/route/most.trains.flows.xml,in/route/most.pedestrian.rou.xml,in/route/most.other.rou.xml,in/route/most.special.rou.xml"/>
+        <route-files value="in/route/most.buses.flows.xml,in/route/most.trains.flows.xml,in/route/most.pedestrian.rou.xml,in/route/most.commercial.rou.xml,in/route/most.special.rou.xml"/>
         <additional-files value="in/add/most.poly.xml,in/add/most.busstops.add.xml,in/add/most.trainstops.add.xml,in/add/most.parkings.add.xml,in/add/basic.vType.xml"/>
     </input>
 
@@ -33,7 +33,7 @@
 
     <time>
         <begin value="14400"/>
-        <step-length value="1"/>
+        <step-length value="0.25"/>
         <end value="50400"/>
     </time>
 
