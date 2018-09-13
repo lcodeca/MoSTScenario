@@ -1,0 +1,773 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmfilter 1.4.4">
+	<bounds minlat="43.6987" minlon="7.3629" maxlat="43.786" maxlon="7.4858"/>
+	<node id="-64564" lat="43.7397318" lon="7.414382">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="225"/>
+		<tag k="parking" v="surface"/>
+	</node>
+	<node id="-64566" lat="43.7677533" lon="7.4579778">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+		<tag k="parking" v="surface"/>
+		<tag k="source" v="local_knowledge"/>
+	</node>
+	<node id="-64568" lat="43.7316793" lon="7.402904">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="350"/>
+	</node>
+	<node id="-64570" lat="43.737918" lon="7.4001449">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="350"/>
+	</node>
+	<node id="-64572" lat="43.7516887" lon="7.4428192">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="50"/>
+	</node>
+	<node id="-64574" lat="43.7241174" lon="7.3992651">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="250"/>
+	</node>
+	<node id="-64576" lat="43.7356215" lon="7.4021217">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="50"/>
+	</node>
+	<node id="-64578" lat="43.7653828" lon="7.457965">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+		<tag k="parking" v="surface"/>
+		<tag k="source" v="local_knowledge"/>
+	</node>
+	<node id="-64580" lat="43.7312003" lon="7.401824">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="350"/>
+	</node>
+	<node id="-64582" lat="43.7376757" lon="7.3998767">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="500"/>
+	</node>
+	<node id="-64584" lat="43.7553585" lon="7.3979138">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="30"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="-64586" lat="43.7547335" lon="7.3970099">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="10"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="-64588" lat="43.7545089" lon="7.3968851">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="10"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="-64590" lat="43.7549437" lon="7.3983417">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="10"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="-64592" lat="43.7546325" lon="7.3984541">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="10"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="-64594" lat="43.754705" lon="7.3986993">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="10"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="-64596" lat="43.7546627" lon="7.3990666">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="10"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="-64598" lat="43.7548967" lon="7.3987781">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="10"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="-64600" lat="43.7548579" lon="7.3991385">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="10"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="-64602" lat="43.755056" lon="7.3988883">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="10"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="-64604" lat="43.7550136" lon="7.39927">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="10"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="-64606" lat="43.7552226" lon="7.3992389">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="10"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="-64608" lat="43.7552399" lon="7.3989139">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="10"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="-64610" lat="43.7544407" lon="7.3973579">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="10"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="-64612" lat="43.7535711" lon="7.4203727">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="50"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="-64614" lat="43.7534325" lon="7.4197836">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="50"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="-64616" lat="43.7534184" lon="7.4191869">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="50"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="-64618" lat="43.7529336" lon="7.4186989">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="30"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="8183" lat="43.7262071" lon="7.3965527" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="150"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="8193" lat="43.7602885" lon="7.4571783" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="550"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="8200" lat="43.7447345" lon="7.3735978" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="250"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="8203" lat="43.7456322" lon="7.403286" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="250"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="8209" lat="43.7306197" lon="7.3634963" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="3500"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="8221" lat="43.7558252" lon="7.3983494" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="30"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="8238" lat="43.7248482" lon="7.3796488" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="8244" lat="43.7450614" lon="7.3736949" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="250"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="8245" lat="43.745839" lon="7.4008725" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="1500"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="8246" lat="43.7461969" lon="7.4019497" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="250"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="8248" lat="43.7510929" lon="7.3836802" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="100"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="8249" lat="43.7523125" lon="7.3826995" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="100"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="8250" lat="43.753053" lon="7.4197715" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="50"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="8251" lat="43.7639329" lon="7.4802908" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="8252" lat="43.7616652" lon="7.484287" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="250"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="8258" lat="43.7623773" lon="7.471027" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="50"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="8259" lat="43.7270533" lon="7.411081" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="8261" lat="43.7436447" lon="7.4258441" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="250"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="8266" lat="43.751954" lon="7.3809533" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="100"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Géoroute"/>
+	</node>
+	<node id="8426" lat="43.7449107" lon="7.3634061" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="2500"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Orthophotographie"/>
+	</node>
+	<node id="8510" lat="43.7516091" lon="7.436183" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="250"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Orthophotographie"/>
+	</node>
+	<node id="8511" lat="43.7517618" lon="7.4374251" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="550"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Orthophotographie"/>
+	</node>
+	<node id="8699" lat="43.7389269" lon="7.4191502" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="750"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Terrain"/>
+	</node>
+	<node id="8728" lat="43.7387062" lon="7.4147592" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Terrain"/>
+	</node>
+	<node id="9000" lat="43.731936" lon="7.4174196" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+		<tag k="importance" v="8"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Terrain"/>
+	</node>
+	<node id="9044" lat="43.7244326" lon="7.4103431" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="250"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Terrain"/>
+	</node>
+	<node id="9045" lat="43.727344" lon="7.4125937" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="2500"/>
+		<tag k="importance" v="8"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Terrain"/>
+	</node>
+	<node id="9093" lat="43.7432369" lon="7.4278187" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+		<tag k="importance" v="8"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Terrain"/>
+	</node>
+	<node id="9094" lat="43.7422602" lon="7.4267849" version="1">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="35"/>
+		<tag k="importance" v="8"/>
+		<tag k="nature" v="Parking"/>
+		<tag k="origine" v="Terrain"/>
+	</node>
+	<node id="25191432" lat="43.7314109" lon="7.427205" version="5" timestamp="2016-08-05T11:03:59Z" changeset="41257155" uid="129060" user="Klenje">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="1500"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Chemin des Pêcheurs"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="25239190" lat="43.7454037" lon="7.4291009" version="3" timestamp="2017-06-17T19:31:04Z" changeset="49621452" uid="1617449" user="aceman444">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+		<tag k="parking" v="surface"/>
+	</node>
+	<node id="25239191" lat="43.7308619" lon="7.4179308" version="4" timestamp="2012-08-17T22:26:02Z" changeset="12768091" uid="805403" user="Luc Monaco">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="1500"/>
+		<tag k="name" v="Parking du centre commercial"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="267898764" lat="43.7414451" lon="7.4288383" version="5" timestamp="2015-06-05T09:29:04Z" changeset="31736999" uid="290680" user="wheelmap_visitor">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="35"/>
+		<tag k="name" v="Metropole"/>
+		<tag k="wheelchair" v="yes"/>
+	</node>
+	<node id="273247950" lat="43.7431374" lon="7.4266722" version="1" timestamp="2008-06-26T02:24:35Z" changeset="300960" uid="42427" user="efes">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+		<tag k="created_by" v="Potlatch 0.9c"/>
+	</node>
+	<node id="477617730" lat="43.7422469" lon="7.4284579" version="3" timestamp="2017-06-17T19:31:04Z" changeset="49621452" uid="1617449" user="aceman444">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+		<tag k="parking" v="surface"/>
+	</node>
+	<node id="937022667" lat="43.7604713" lon="7.4760112" version="3" timestamp="2016-07-31T22:31:19Z" changeset="41155365" uid="42427" user="efes">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="250"/>
+	</node>
+	<node id="1079045434" lat="43.7320893" lon="7.4175149" version="3" timestamp="2013-01-13T20:11:17Z" changeset="14640296" uid="191786" user="bulzor14">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="1500"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Parking de la Colle"/>
+		<tag k="parking" v="multi-storey"/>
+	</node>
+	<node id="1079750865" lat="43.7475206" lon="7.4346004" version="3" timestamp="2012-09-24T14:25:49Z" changeset="13233375" uid="852996" user="Mg2">
+		<tag k="access" v="yes"/>
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="1250"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Parking du Larvotto"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1080623893" lat="43.7671633" lon="7.4601628" version="1" timestamp="2011-01-03T16:01:08Z" changeset="6851223" uid="24982" user="Djam">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="250"/>
+		<tag k="name" v="Place Maréchal Jean de Lattre de Tassigny"/>
+		<tag k="parking" v="surface"/>
+	</node>
+	<node id="1382604877" lat="43.723105" lon="7.3960186" version="2" timestamp="2011-08-13T21:51:09Z" changeset="9010192" uid="24247" user="Vlad">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="1500"/>
+		<tag k="name" v="Square Beaverbrook"/>
+	</node>
+	<node id="1395082012" lat="43.7458759" lon="7.4023571" version="1" timestamp="2011-08-11T15:28:58Z" changeset="8986580" uid="24247" user="Vlad">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+		<tag k="parking" v="surface"/>
+	</node>
+	<node id="1685061940" lat="43.7413004" lon="7.4306404" version="2" timestamp="2012-09-24T14:16:23Z" changeset="13233375" uid="852996" user="Mg2">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="1250"/>
+		<tag k="fee" v="yes"/>
+		<tag k="parking" v="underground"/>
+		<tag k="supervised" v="yes"/>
+	</node>
+	<node id="1690130858" lat="43.7369254" lon="7.4211408" version="2" timestamp="2012-05-02T14:50:30Z" changeset="11480240" uid="378737" user="Scrup">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="225"/>
+	</node>
+	<node id="1696714147" lat="43.731747" lon="7.4133774" version="1" timestamp="2012-03-29T20:06:14Z" changeset="11142695" uid="87367" user="marl">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="250"/>
+		<tag k="parking" v="surface"/>
+	</node>
+	<node id="1699777473" lat="43.7392729" lon="7.4257268" version="1" timestamp="2012-03-31T16:05:17Z" changeset="11168123" uid="24247" user="Vlad">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="35"/>
+	</node>
+	<node id="1704201071" lat="43.7229635" lon="7.4107945" version="1" timestamp="2012-04-06T10:22:36Z" changeset="11199351" uid="24247" user="Vlad">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="1000"/>
+		<tag k="parking" v="surface"/>
+	</node>
+	<node id="1704201282" lat="43.727854" lon="7.4146093" version="3" timestamp="2012-08-18T15:57:04Z" changeset="12774450" uid="805403" user="Luc Monaco">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="6500"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Parking du Stade"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1704462505" lat="43.7256129" lon="7.4188616" version="3" timestamp="2017-06-17T19:31:04Z" changeset="49621452" uid="1617449" user="aceman444">
+		<tag k="amenity" v="parking_entrance"/>
+		<tag k="capacity" v="50"/>
+		<tag k="name" v="Parking de l&#39;Héliport"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1704462969" lat="43.728124" lon="7.4195756" version="2" timestamp="2012-08-17T22:21:34Z" changeset="12768091" uid="805403" user="Luc Monaco">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="1500"/>
+		<tag k="name" v="Parking du Port"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1712696830" lat="43.7342977" lon="7.4207326" version="3" timestamp="2015-01-18T14:01:49Z" changeset="28231304" uid="129060" user="Klenje">
+		<tag k="access" v="yes"/>
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="750"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Parking du Square Gastaud"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1759785787" lat="43.7329243" lon="7.4213392" version="3" timestamp="2012-08-19T11:55:04Z" changeset="12782522" uid="805403" user="Luc Monaco">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="750"/>
+		<tag k="name" v="Parking de la Condamine"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1790048571" lat="43.7321493" lon="7.4218957" version="2" timestamp="2016-07-23T11:35:35Z" changeset="40969408" uid="42427" user="efes">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="750"/>
+		<tag k="name" v="Parkhaus"/>
+	</node>
+	<node id="1794111141" lat="43.7296282" lon="7.4105843" version="2" timestamp="2017-06-17T19:31:05Z" changeset="49621452" uid="1617449" user="aceman444">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+		<tag k="parking" v="surface"/>
+	</node>
+	<node id="1794111142" lat="43.7302738" lon="7.4115618" version="1" timestamp="2012-06-19T08:24:46Z" changeset="11945469" uid="24247" user="Vlad">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+	</node>
+	<node id="1794111143" lat="43.7323591" lon="7.4201667" version="1" timestamp="2012-06-19T08:24:46Z" changeset="11945469" uid="24247" user="Vlad">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+	</node>
+	<node id="1794111179" lat="43.7522109" lon="7.442712" version="1" timestamp="2012-06-19T08:24:48Z" changeset="11945469" uid="24247" user="Vlad">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="250"/>
+	</node>
+	<node id="1868752067" lat="43.7390746" lon="7.4227355" version="2" timestamp="2012-08-23T22:26:56Z" changeset="12839022" uid="805403" user="Luc Monaco">
+		<tag k="access" v="yes"/>
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="750"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Parking Roqueville"/>
+		<tag k="operator" v="Monaco Parkings"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1871591727" lat="43.7288781" lon="7.4141447" version="1" timestamp="2012-08-18T15:57:04Z" changeset="12774450" uid="805403" user="Luc Monaco">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="750"/>
+		<tag k="name" v="Parking Uter"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1871618733" lat="43.7352557" lon="7.4181012" version="1" timestamp="2012-08-18T16:22:30Z" changeset="12774699" uid="805403" user="Luc Monaco">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="1000"/>
+		<tag k="name" v="Parking des Agaves"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1872542777" lat="43.7327216" lon="7.4220989" version="3" timestamp="2016-07-23T11:35:35Z" changeset="40969408" uid="42427" user="efes">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="750"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Parkhaus"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1872889461" lat="43.7374887" lon="7.422842" version="1" timestamp="2012-08-19T14:55:53Z" changeset="12784559" uid="805403" user="Luc Monaco">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="750"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Parking de la Costa"/>
+		<tag k="parking" v="multi-storey"/>
+	</node>
+	<node id="1875140081" lat="43.7257004" lon="7.4189844" version="1" timestamp="2012-08-20T22:20:44Z" changeset="12802161" uid="805403" user="Luc Monaco">
+		<tag k="amenity" v="car_wash"/>
+		<tag k="capacity" v="50"/>
+		<tag k="name" v="Parking de l&#39;Héliport"/>
+		<tag k="opening_hours" v="24/7"/>
+		<tag k="operator" v="Monaco Parkings"/>
+	</node>
+	<node id="1875157903" lat="43.7266897" lon="7.4169477" version="1" timestamp="2012-08-20T22:40:34Z" changeset="12802334" uid="805403" user="Luc Monaco">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Parking des Ecoles"/>
+		<tag k="operator" v="Monaco Parkings"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1875157904" lat="43.7274212" lon="7.4174824" version="2" timestamp="2012-08-20T22:45:25Z" changeset="12802367" uid="805403" user="Luc Monaco">
+		<tag k="access" v="yes"/>
+		<tag k="amenity" v="parking_entrance"/>
+		<tag k="capacity" v="50"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Parking des Ecoles"/>
+		<tag k="operator" v="Monaco Parkings"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1875160729" lat="43.729599" lon="7.4174133" version="1" timestamp="2012-08-20T22:45:24Z" changeset="12802367" uid="805403" user="Luc Monaco">
+		<tag k="access" v="yes"/>
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="750"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Parking des Papalins"/>
+		<tag k="operator" v="Monaco Parkings"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1876665260" lat="43.7398035" lon="7.4273268" version="1" timestamp="2012-08-21T20:21:49Z" changeset="12813278" uid="805403" user="Luc Monaco">
+		<tag k="access" v="yes"/>
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="250"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Parking des Boulingrins"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1876823460" lat="43.7325895" lon="7.4163599" version="1" timestamp="2012-08-21T22:01:36Z" changeset="12814385" uid="805403" user="Luc Monaco">
+		<tag k="access" v="yes"/>
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="1000"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Parking Plati"/>
+		<tag k="parking" v="multi-storey"/>
+	</node>
+	<node id="1876837909" lat="43.7342558" lon="7.4148762" version="1" timestamp="2012-08-21T22:15:47Z" changeset="12814497" uid="805403" user="Luc Monaco">
+		<tag k="access" v="yes"/>
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Parking du Jardin Exotique"/>
+		<tag k="operator" v="Monaco Parkings"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1876837914" lat="43.7350225" lon="7.4153585" version="2" timestamp="2014-06-10T07:52:05Z" changeset="22844660" uid="1496982" user="uil">
+		<tag k="access" v="yes"/>
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="50"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Parking du Jardin Exotique"/>
+		<tag k="operator" v="Monaco Parkings"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1876870084" lat="43.7400115" lon="7.4259516" version="2" timestamp="2016-07-23T13:24:07Z" changeset="40971553" uid="42427" user="efes">
+		<tag k="access" v="yes"/>
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="750"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Parking du Casino"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1878359520" lat="43.7326857" lon="7.4238322" version="4" timestamp="2016-12-10T14:48:09Z" changeset="44304703" uid="129060" user="Klenje">
+		<tag k="access" v="yes"/>
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="100"/>
+		<tag k="fee" v="yes"/>
+		<tag k="maxheight" v="1.9"/>
+		<tag k="name" v="Parking du Quai Antoine 1er"/>
+		<tag k="opening_hours" v="24/7"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1878520547" lat="43.7362736" lon="7.4316056" version="3" timestamp="2015-01-02T23:29:15Z" changeset="27876196" uid="24247" user="Vlad">
+		<tag k="access" v="yes"/>
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="1500"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Parking de la Digue"/>
+		<tag k="operator" v="Monaco Parkings"/>
+		<tag k="parking" v="multi-storey"/>
+		<tag k="wheelchair" v="yes"/>
+	</node>
+	<node id="1878520549" lat="43.7469171" lon="7.4335693" version="1" timestamp="2012-08-22T22:13:06Z" changeset="12826482" uid="805403" user="Luc Monaco">
+		<tag k="access" v="yes"/>
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="550"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Parking du Larvotto"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1878539785" lat="43.7452335" lon="7.4292895" version="2" timestamp="2013-06-22T13:49:55Z" changeset="16656685" uid="411998" user="sergio7826">
+		<tag k="access" v="yes"/>
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="1250"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Parking des Moulins"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1880126681" lat="43.7419986" lon="7.4268109" version="2" timestamp="2012-09-21T18:05:50Z" changeset="13198913" uid="411998" user="sergio7826">
+		<tag k="access" v="yes"/>
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="750"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Parking Saint-Charles"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1880126682" lat="43.7427281" lon="7.4276032" version="2" timestamp="2012-09-21T18:05:50Z" changeset="13198913" uid="411998" user="sergio7826">
+		<tag k="access" v="yes"/>
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="1250"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Parking Saint-Laurent"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1880130278" lat="43.7483113" lon="7.4349877" version="1" timestamp="2012-08-23T22:41:26Z" changeset="12839172" uid="805403" user="Luc Monaco">
+		<tag k="access" v="yes"/>
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="550"/>
+		<tag k="fee" v="yes"/>
+		<tag k="name" v="Parking des Carmes"/>
+		<tag k="operator" v="Monaco Parkings"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1897502892" lat="43.7212853" lon="7.4071254" version="1" timestamp="2012-09-04T02:07:58Z" changeset="12975862" uid="510060" user="fal7i">
+		<tag k="access" v="yes"/>
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="1500"/>
+		<tag k="fee" v="yes"/>
+		<tag k="parking" v="surface"/>
+	</node>
+	<node id="2074567209" lat="43.7657398" lon="7.4586633" version="1" timestamp="2012-12-19T13:40:04Z" changeset="14331295" uid="77947" user="Roman Guy">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="250"/>
+		<tag k="parking" v="surface"/>
+		<tag k="source" v="local_knowledge"/>
+	</node>
+	<node id="2092599797" lat="43.7450732" lon="7.394435" version="1" timestamp="2013-01-02T18:49:04Z" changeset="14503831" uid="24247" user="Vlad">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="250"/>
+		<tag k="parking" v="surface"/>
+	</node>
+	<node id="2092692275" lat="43.7447028" lon="7.400068" version="1" timestamp="2013-01-02T19:52:57Z" changeset="14504587" uid="24247" user="Vlad">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="1500"/>
+		<tag k="parking" v="surface"/>
+	</node>
+	<node id="2104768962" lat="43.7474383" lon="7.4386625" version="4" timestamp="2015-05-23T12:53:13Z" changeset="31396958" uid="152074" user="beweta">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="1250"/>
+		<tag k="layer" v="-1"/>
+	</node>
+	<node id="2132084775" lat="43.7302927" lon="7.4234381" version="2" timestamp="2017-06-17T19:31:05Z" changeset="49621452" uid="1617449" user="aceman444">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+		<tag k="parking" v="surface"/>
+	</node>
+	<node id="2202983055" lat="43.7623209" lon="7.478782" version="1" timestamp="2013-03-15T09:28:36Z" changeset="15370680" uid="1263441" user="olivia084">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+		<tag k="parking" v="surface"/>
+	</node>
+	<node id="2303688840" lat="43.7280786" lon="7.4175173" version="2" timestamp="2013-05-14T13:17:21Z" changeset="16125441" uid="393883" user="fmalamaire">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+		<tag k="name" v="Parking Saint-Nicolas"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="2504772193" lat="43.7453531" lon="7.3994104" version="1" timestamp="2013-10-22T09:41:15Z" changeset="18483086" uid="22290" user="Ale_Zena_IT">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="25"/>
+		<tag k="parking" v="surface"/>
+	</node>
+	<node id="2592915522" lat="43.7398248" lon="7.4111341" version="1" timestamp="2013-12-24T15:59:32Z" changeset="19619888" uid="1729058" user="vialma">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+		<tag k="parking" v="surface"/>
+	</node>
+	<node id="3022809767" lat="43.7478939" lon="7.4197028" version="1" timestamp="2014-08-17T17:06:14Z" changeset="24813436" uid="1088559" user="GabrielV">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="750"/>
+	</node>
+	<node id="3365391461" lat="43.7356181" lon="7.4177395" version="2" timestamp="2015-03-01T10:21:56Z" changeset="29173098" uid="411998" user="sergio7826">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="1000"/>
+		<tag k="name" v="Les Agaves"/>
+		<tag k="park_ride" v="yes"/>
+	</node>
+	<node id="3469287870" lat="43.7337771" lon="7.429164" version="1" timestamp="2015-04-21T11:25:27Z" changeset="30376076" uid="1016290" user="Amaroussi">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="225"/>
+		<tag k="parking" v="surface"/>
+	</node>
+	<node id="3559713711" lat="43.7235829" lon="7.3959888" version="2" timestamp="2016-02-19T22:24:21Z" changeset="37319757" uid="61942" user="SomeoneElse">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="150"/>
+	</node>
+	<node id="3584491426" lat="43.7301304" lon="7.4119833" version="1" timestamp="2015-06-09T22:53:13Z" changeset="31858179" uid="13010" user="Peda">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="1000"/>
+		<tag k="parking" v="surface"/>
+	</node>
+	<node id="3660763050" lat="43.7471742" lon="7.4305122" version="1" timestamp="2015-07-21T19:48:41Z" changeset="32787008" uid="1123434" user="Bertrand_A">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="1250"/>
+		<tag k="name" v="Annonciade"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="3781280061" lat="43.7489435" lon="7.4028259" version="1" timestamp="2015-10-10T20:36:14Z" changeset="34557768" uid="334258" user="Kurt34">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="500"/>
+		<tag k="fee" v="no"/>
+	</node>
+	<node id="3781320815" lat="43.7467564" lon="7.4008675" version="1" timestamp="2015-10-10T21:15:32Z" changeset="34558081" uid="334258" user="Kurt34">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="3500"/>
+		<tag k="name" v="Parking Mont Agel"/>
+		<tag k="parking" v="multi-storey"/>
+	</node>
+	<node id="4056395701" lat="43.7265782" lon="7.4204247" version="1" timestamp="2016-03-12T12:51:36Z" changeset="37782467" uid="324552" user="Fabimaru">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+		<tag k="name" v="Parking de la mer"/>
+	</node>
+	<node id="4317298676" lat="43.7595362" lon="7.4516897" version="1" timestamp="2016-07-23T16:51:16Z" changeset="40975500" uid="257555" user="rene78">
+		<tag k="amenity" v="motorcycle_parking"/>
+		<tag k="capacity" v="250"/>
+	</node>
+	<node id="4317298679" lat="43.7557695" lon="7.4485192" version="1" timestamp="2016-07-23T16:51:16Z" changeset="40975500" uid="257555" user="rene78">
+		<tag k="access" v="private"/>
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="75"/>
+	</node>
+	<node id="4471007334" lat="43.7529887" lon="7.419102" version="1" timestamp="2016-10-30T07:56:50Z" changeset="43278790" uid="2362150" user="Anonix35">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="50"/>
+		<tag k="name" v="Vival"/>
+	</node>
+	<node id="4824530756" lat="43.7446117" lon="7.3806123" version="1" timestamp="2017-04-29T08:02:47Z" changeset="48248482" uid="2362150" user="Anonix35">
+		<tag k="amenity" v="parking"/>
+		<tag k="capacity" v="350"/>
+	</node>
+</osm>

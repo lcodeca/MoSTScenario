@@ -23,6 +23,7 @@ SCENARIO=$MOST_SCENARIO/scenario
 
 cd $STATIC
 echo "[$(date)] ~~~ Scenario Generation ~~~ "
+bash osm-like.aggregator.sh
 bash scenario.generator.sh
 bash mover.sh
 
@@ -33,6 +34,6 @@ bash mover.sh
 
 cd $SCENARIO
 echo "[$(date)] ~~~ SUMO Simulation ~~~ "
-bash run.out.sh
+bash run.sh
 
 echo "Done."

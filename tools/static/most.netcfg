@@ -50,10 +50,6 @@
         <ramps.guess value="true"/>
     </ramp_guessing>
 
-    <edge_removal>
-        <remove-edges.isolated value="true"/>
-    </edge_removal>
-
     <processing>
         <geometry.remove value="true"/>
         <roundabouts.guess value="true"/>
