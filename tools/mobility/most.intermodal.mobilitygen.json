@@ -11,12 +11,12 @@
 
     "intermodalOptions": {
         "parkingAreaWhitelist": ["1035", "1039", "1040", "1063", "1079", "1080", "1083", "1084",
-            "1086", "1087", "1088", "1089", "1090", "1091", "1092", "1093", "1094", "1095", "1096",
-            "1097", "1099", "1100", "1102", "1104", "1105", "1106", "1107", "1108", "1109", "1110",
-            "1111", "1112", "1113", "1114", "1115", "1116", "1117", "1118", "1119", "1120", "1121",
-            "1122", "1123", "1125", "1126", "1127", "1128", "1129", "1130", "1131", "1132", "1133",
-            "1134", "1135", "1136", "1137", "1138", "1139", "1140", "1144", "1145", "1147", "1149",
-            "1150", "1151", "1152", "1153", "1154", "1155", "1158", "1160", "1085"],
+        "1085", "1086", "1087", "1088", "1089", "1090", "1091", "1092", "1093", "1094", "1095",
+        "1096", "1097", "1099", "1100", "1102", "1104", "1105", "1106", "1107", "1108", "1109",
+        "1110", "1111", "1112", "1113", "1114", "1115", "1116", "1117", "1118", "1119", "1120",
+        "1121", "1122", "1123", "1125", "1126", "1127", "1128", "1129", "1130", "1131", "1132",
+        "1133", "1134", "1135", "1136", "1137", "1138", "1139", "1140", "1144", "1145", "1147",
+        "1149", "1150", "1151", "1152", "1153", "1154", "1155", "1158", "1160"],
         "vehicleAllowedParking": ["passenger", "ptw", "e-vehicle"]
     },
 
@@ -45,129 +45,129 @@
                     "from": "MonacoArea1Detailed",
                     "to": "MonacoArea1Detailed",
                     "perc": 0.15,
-                    "withPL": false
+                    "withParking": false
                 },
                 "1-1-veh": {
                     "modes": [["public", 1.0], ["passenger", 1.25], ["ptw", 0.85], ["on-demand", 1.5]],
                     "from": "MonacoArea1Detailed",
                     "to": "MonacoArea1Detailed",
                     "perc": 0.05,
-                    "withPL": true
+                    "withParking": true
                 },
                 "2-1": {
                     "modes": [["public", 1.0], ["passenger", 1.25], ["ptw", 0.85], ["on-demand", 1.5]],
                     "from": "FranceArea2",
                     "to": "MonacoArea1Generic",
                     "perc": 0.18,
-                    "withPL": true
+                    "withParking": true
                 },
                 "1-2": {
                     "modes": [["public", 1.0], ["passenger", 1.25], ["ptw", 0.85], ["on-demand", 1.5]],
                     "from": "MonacoArea1Generic",
                     "to": "FranceArea2",
                     "perc": 0.10,
-                    "withPL": false
+                    "withParking": false
                 },
                 "3-1": {
                     "modes": [["public", 0.85], ["passenger", 1.0], ["ptw", 1.0]],
                     "from": "FranceArea3",
                     "to": "MonacoArea1Generic",
                     "perc": 0.16,
-                    "withPL": true
+                    "withParking": true
                 },
                 "1-3": {
                     "modes": [["public", 0.85], ["passenger", 1.0], ["ptw", 1.0]],
                     "from": "MonacoArea1Generic",
                     "to": "FranceArea3",
                     "perc": 0.10,
-                    "withPL": false
+                    "withParking": false
                 },
                 "GW1-1": {
                     "modes": [["passenger", 1.0], ["ptw", 1.0]],
                     "from": "PrimaryGW",
                     "to": "MonacoArea1Generic",
                     "perc": 0.12,
-                    "withPL": true
+                    "withParking": true
                 },
                 "GW2-1": {
                     "modes": [["passenger", 1.0], ["ptw", 1.0]],
                     "from": "SecondaryGW",
                     "to": "MonacoArea1Generic",
                     "perc": 0.08,
-                    "withPL": true
+                    "withParking": true
                 },
                 "1-GW1": {
                     "modes": [["passenger", 1.0], ["ptw", 1.0]],
                     "from": "PrimaryGW",
                     "to": "MonacoArea1Generic",
                     "perc": 0.03,
-                    "withPL": false
+                    "withParking": false
                 },
                 "1-GW2": {
                     "modes": [["passenger", 1.0], ["ptw", 1.0]],
                     "from": "SecondaryGW",
                     "to": "MonacoArea1Generic",
                     "perc": 0.03,
-                    "withPL": false
+                    "withParking": false
                 }
             }
         },
-        "other": {
+        "commercial": {
             "perc": 0.15,
             "composition": {
                 "1": {
                     "from": "MonacoArea1Detailed",
                     "to": "MonacoArea1Detailed",
                     "perc": 0.2,
-                    "withPL": true
+                    "withParking": true
                 },
                 "2-1": {
                     "from": "FranceArea2",
                     "to": "MonacoArea1Generic",
                     "perc": 0.1,
-                    "withPL": true
+                    "withParking": true
                 },
                 "1-2": {
                     "from": "MonacoArea1Generic",
                     "to": "FranceArea2",
                     "perc": 0.1,
-                    "withPL": false
+                    "withParking": false
                 },
                 "3-1": {
                     "from": "FranceArea3",
                     "to": "MonacoArea1Generic",
                     "perc": 0.1,
-                    "withPL": true
+                    "withParking": true
                 },
                 "1-3": {
                     "from": "MonacoArea1Generic",
                     "to": "FranceArea3",
                     "perc": 0.1,
-                    "withPL": false
+                    "withParking": false
                 },
                 "GW1-1": {
                     "from": "PrimaryGW",
                     "to": "MonacoArea1Generic",
                     "perc": 0.12,
-                    "withPL": true
+                    "withParking": true
                 },
                 "GW2-1": {
                     "from": "SecondaryGW",
                     "to": "MonacoArea1Generic",
                     "perc": 0.08,
-                    "withPL": true
+                    "withParking": true
                 },
                 "1-GW1": {
                     "from": "MonacoArea1Generic",
                     "to": "PrimaryGW",
                     "perc": 0.12,
-                    "withPL": false
+                    "withParking": false
                 },
                 "1-GW2": {
                     "from": "MonacoArea1Generic",
                     "to": "SecondaryGW",
                     "perc": 0.08,
-                    "withPL": false
+                    "withParking": false
                 }
             }
         },
