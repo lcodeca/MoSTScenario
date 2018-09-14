@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-""" Compute the area of the polygon and tag it in a OSM-like file.
+""" Compute the area of the polygons and tag it in a OSM-like file.
 
     Monaco SUMO Traffic (MoST) Scenario
     Copyright (C) 2018
@@ -71,7 +71,7 @@ def _args():
     parser = argparse.ArgumentParser(
         prog='{}'.format(sys.argv[0]),
         usage='%(prog)s -i osmstruct -o osmfile -f factor',
-        description='Shrink the polygons in a OSM-like file.')
+        description='Compute the area of the polygons and tag it in a OSM-like file.')
     parser.add_argument(
         '-i', type=str, dest='input', required=True,
         help='OSM-like input in pickle format.')
@@ -220,7 +220,7 @@ def _write_osm_file(boundaries, polygons, filename):
         outfile.write(FOOTER_TPL)
 
 def _main():
-    """ Fixes the elevation of polygons in an OSM-like file. """
+    """ Compute the area of the polygons and tag it in a OSM-like file. """
 
     args = _args()
 
