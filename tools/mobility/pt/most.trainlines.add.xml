@@ -20,22 +20,22 @@
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd"> 
-    <ptLine id="34" name="MoSTtoItaly" line="M0:Italy" type="train">
-        <route edges="13242_0 13242_0 13242_0 13242_0 13250#1_0 13250#1_0"/>
-        <busStop id="117852" name="Carnoles"/>
-        <busStop id="117851" name="Roquebrune-Cap-Martin"/>
-        <busStop id="117820" name="Monte-Carlo Country Club"/>
-        <busStop id="117850" name="Monaco - Monte Carlo"/>
-        <busStop id="117838" name="Cap d'Ail"/>
-        <busStop id="117809" name="Eze"/>
+    <ptLine id="131212" name="MoSTtoItaly" line="M0:Italy" type="train">
+        <route edges="-152211_0 -152211_0 -152211_0 -152211_0 -152211_0 -152211_0"/>
+        <busStop id="131066" name="Carnoles"/>
+        <busStop id="131065" name="Roquebrune-Cap-Martin"/>
+        <busStop id="131034" name="Monte-Carlo Country Club"/>
+        <busStop id="131064" name="Monaco - Monte Carlo"/>
+        <busStop id="131052" name="Cap d'Ail"/>
+        <busStop id="131023" name="Eze"/>
     </ptLine> 
-    <ptLine id="41" name="MoSTtoFrance" line="M0:France" type="train">
-        <route edges="13251_0 13251_0 13251_0 13233#1_0 13233#1_0 13233#1_0"/>
-        <busStop id="117839" name="Eze"/>
-        <busStop id="117818" name="Cap d'Ail"/>
-        <busStop id="117814" name="Monaco - Monte Carlo"/>
-        <busStop id="117899" name="Monte-Carlo Country Club"/>
-        <busStop id="117811" name="Roquebrune-Cap-Martin"/>
-        <busStop id="117804" name="Carnoles"/>
+    <ptLine id="131219" name="MoSTtoFrance" line="M0:France" type="train">
+        <route edges="152213_0 152213_0 152213_0 152213_0 152213_0 152213_0"/>
+        <busStop id="131053" name="Eze"/>
+        <busStop id="131032" name="Cap d'Ail"/>
+        <busStop id="131028" name="Monaco - Monte Carlo"/>
+        <busStop id="131113" name="Monte-Carlo Country Club"/>
+        <busStop id="131025" name="Roquebrune-Cap-Martin"/>
+        <busStop id="131018" name="Carnoles"/>
     </ptLine> 
 </additional>
