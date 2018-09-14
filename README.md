@@ -49,3 +49,9 @@ Note: the configuration files contained in `tools/static/typemap` are a slightly
 #### Public Transportation Example
 [![Public Transportation Example](https://img.youtube.com/vi/r7iE3LRiSNA/0.jpg)](https://www.youtube.com/watch?v=r7iE3LRiSNA)
 (click on the image for the video)
+
+### Users:
+* Vincent Terrier, Aerospace System Design Laboratory, Georgia Institute of Technology, Atlanta, GA 30332-0105
+
+If you are using MoST Scenario, or its tools to generate a new one, we would gladly add you to the list.
+You can send an e-mail to codeca@eurecom.fr with your name and affiliation (if any).
