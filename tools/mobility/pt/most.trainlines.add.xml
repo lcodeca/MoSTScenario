@@ -21,7 +21,7 @@
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd"> 
     <ptLine id="131212" name="MoSTtoItaly" line="M0:Italy" type="train">
-        <route edges="-152211_0 -152211_0 -152211_0 -152211_0 -152211_0 -152211_0"/>
+        <route edges="-152194_0 -152194_0 -152194_0 -152194_0 -152194_0 -152194_0"/>
         <busStop id="131066" name="Carnoles"/>
         <busStop id="131065" name="Roquebrune-Cap-Martin"/>
         <busStop id="131034" name="Monte-Carlo Country Club"/>
@@ -30,7 +30,7 @@
         <busStop id="131023" name="Eze"/>
     </ptLine> 
     <ptLine id="131219" name="MoSTtoFrance" line="M0:France" type="train">
-        <route edges="152213_0 152213_0 152213_0 152213_0 152213_0 152213_0"/>
+        <route edges="152196_0 152196_0 152196_0 152196_0 152196_0 152196_0"/>
         <busStop id="131053" name="Eze"/>
         <busStop id="131032" name="Cap d'Ail"/>
         <busStop id="131028" name="Monaco - Monte Carlo"/>
