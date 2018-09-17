@@ -20,184 +20,184 @@
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd"> 
-    <busStop id="117805" name="117805" lane="13401#0_1" startPos="360.4190025792369" endPos="375.41900257923686" lines="M3:Hospital" friendlyPos="true"/> <!-- 117805 -->
-    <busStop id="117806" name="117806" lane="13980#8_1" startPos="445.5240741266236" endPos="460.5240741266236" lines="M3:Hospital" friendlyPos="true"/> <!-- 117806 -->
-    <busStop id="117807" name="Rotondes" lane="-13886#5_1" startPos="5.210000000000001" endPos="20.21" lines="3:Otto" friendlyPos="true"/> <!-- 117807 -->
-    <busStop id="117808" name="117808" lane="-13218_1" startPos="15.177610802795574" endPos="30.177610802795577" lines="M3:Turbie" friendlyPos="true"/> <!-- 117808 -->
-    <busStop id="117810" name="117810" lane="-13481#0_1" startPos="1365.8223720800777" endPos="1380.822372080078" lines="M3:Turbie" friendlyPos="true"/> <!-- 117810 -->
-    <busStop id="117812" name="Cimetiere" lane="-14011#2_1" startPos="100.85183695150938" endPos="115.85183695150938" lines="3:Otto" friendlyPos="true"/> <!-- 117812 -->
-    <busStop id="117813" name="Bois Joli" lane="13992#2_1" startPos="44.386496658576505" endPos="59.386496658576505" lines="M4:HotelVille" friendlyPos="true"/> <!-- 117813 -->
-    <busStop id="117815" name="117815" lane="13218_1" startPos="56.64527334442964" endPos="71.64527334442964" lines="M3:Hospital" friendlyPos="true"/> <!-- 117815 -->
-    <busStop id="117816" name="La Turbie Marie" lane="13980#0_1" startPos="5.379999999999999" endPos="20.38" lines="M3:Hospital M2:Turbie" friendlyPos="true"/> <!-- 117816 -->
-    <busStop id="117817" name="Chapelle de Saint-Laurent" lane="-13975_1" startPos="985.5343411731861" endPos="1000.5343411731861" lines="M1:France" friendlyPos="true"/> <!-- 117817 -->
-    <busStop id="117819" name="117819" lane="-13401#4_1" startPos="153.6698277287881" endPos="168.6698277287881" lines="M3:Turbie" friendlyPos="true"/> <!-- 117819 -->
-    <busStop id="117821" name="Les Cigognes" lane="-14084#0_1" startPos="30.470612647958475" endPos="45.470612647958475" lines="M4:Train" friendlyPos="true"/> <!-- 117821 -->
-    <busStop id="117822" name="Louis Aureglia" lane="-14043#0_1" startPos="131.89" endPos="146.89" lines="4:SaintRoman" friendlyPos="true"/> <!-- 117822 -->
-    <busStop id="117823" name="117823" lane="13401#4_1" startPos="178.51307860694115" endPos="193.51307860694115" lines="M3:Hospital" friendlyPos="true"/> <!-- 117823 -->
-    <busStop id="117824" name="117824" lane="13980#6_1" startPos="207.8094312424659" endPos="222.8094312424659" lines="M3:Hospital" friendlyPos="true"/> <!-- 117824 -->
-    <busStop id="117825" name="117825" lane="-13401#2_1" startPos="317.89088647173224" endPos="332.89088647173224" lines="M3:Turbie" friendlyPos="true"/> <!-- 117825 -->
-    <busStop id="117826" name="117826" lane="-13980#6_1" startPos="434.691006100712" endPos="449.691006100712" lines="M3:Turbie" friendlyPos="true"/> <!-- 117826 -->
-    <busStop id="117827" name="117827" lane="14553#8_1" startPos="59.4847457633191" endPos="74.4847457633191" lines="" friendlyPos="true"/> <!-- 117827 -->
-    <busStop id="117828" name="Monte-Carlo (TAM)" lane="13739#3_1" startPos="6.719919127758226" endPos="21.719919127758224" lines="100:Menton" friendlyPos="true"/> <!-- 117828 -->
-    <busStop id="117829" name="Portier" lane="13726#2_1" startPos="21.62823473697742" endPos="36.62823473697742" lines="1:SaintRoman 5:Larvotto 6:Larvotto" friendlyPos="true"/> <!-- 117829 -->
-    <busStop id="117830" name="Princesse Stephanie" lane="13458_1" startPos="11.71" endPos="26.71" lines="1:SaintRoman 2:Jardin" friendlyPos="true"/> <!-- 117830 -->
-    <busStop id="117831" name="Castelleretto" lane="14043#3_1" startPos="11.3" endPos="26.3" lines="4:Fontvieille" friendlyPos="true"/> <!-- 117831 -->
-    <busStop id="117832" name="Honore II" lane="-13867#1_1" startPos="169.4399142936434" endPos="184.4399142936434" lines="4:Fontvieille" friendlyPos="true"/> <!-- 117832 -->
-    <busStop id="117833" name="Pont Sainte-Devote" lane="13299_1" startPos="9.64" endPos="24.64" lines="2:Jardin 4:Fontvieille 5:Hopital" friendlyPos="true"/> <!-- 117833 -->
-    <busStop id="117834" name="Villa Paloma" lane="13886#3_1" startPos="77.68052213782883" endPos="92.68052213782883" lines="2:Monaco 3:Fontvieille" friendlyPos="true"/> <!-- 117834 -->
-    <busStop id="117835" name="Villa Paloma" lane="-13886#3_1" startPos="87.1424711625332" endPos="102.1424711625332" lines="2:Jardin 3:Otto" friendlyPos="true"/> <!-- 117835 -->
-    <busStop id="117836" name="Citronniers" lane="13749#3_1" startPos="5.0" endPos="20.0" lines="1:SaintRoman 5:Hopital 6:Fontvieille" friendlyPos="true"/> <!-- 117836 -->
-    <busStop id="117837" name="Spelugues" lane="13749#0_1" startPos="103.09142255632335" endPos="118.09142255632335" lines="1:SaintRoman 5:Hopital 6:Fontvieille" friendlyPos="true"/> <!-- 117837 -->
-    <busStop id="117840" name="Cimetiere" lane="14011#2_1" startPos="307.41749137621844" endPos="322.4174913762185" lines="3:Fontvieille" friendlyPos="true"/> <!-- 117840 -->
-    <busStop id="117841" name="Hopital" lane="13971#1_1" startPos="159.03" endPos="174.03" lines="M3:Hospital 5:Hopital 5:Larvotto 3:Otto" friendlyPos="true"/> <!-- 117841 -->
-    <busStop id="117842" name="Athanee" lane="-14011#0_1" startPos="5.0" endPos="20.0" lines="5:Hopital 3:Otto" friendlyPos="true"/> <!-- 117842 -->
-    <busStop id="117843" name="Monte-Carlo (Tourisme)" lane="13739#3_1" startPos="5.0" endPos="20.0" lines="1:SaintRoman 2:Jardin 4:SaintRoman 5:Hopital 5:Larvotto 6:Larvotto" friendlyPos="true"/> <!-- 117843 -->
-    <busStop id="117844" name="Roseraie" lane="13718_1" startPos="5.0" endPos="20.0" lines="4:SaintRoman 6:Larvotto" friendlyPos="true"/> <!-- 117844 -->
-    <busStop id="117845" name="Place du Casino" lane="13749#5_1" startPos="16.83083921615352" endPos="31.83083921615352" lines="1:SaintRoman 5:Hopital 6:Fontvieille" friendlyPos="true"/> <!-- 117845 -->
-    <busStop id="117846" name="Place Sainte-Devote (Gare)" lane="13892_1" startPos="36.01708123155929" endPos="51.01708123155929" lines="1:Monaco 2:Monaco 6:Fontvieille 100:Nice 3:Otto" friendlyPos="true"/> <!-- 117846 -->
-    <busStop id="117847" name="Saint-Charles" lane="13739#7_1" startPos="13.155289879350608" endPos="28.155289879350608" lines="1:SaintRoman 4:SaintRoman" friendlyPos="true"/> <!-- 117847 -->
-    <busStop id="117848" name="Monte-Carlo" lane="13774#1_1" startPos="27.54" endPos="42.54" lines="1:Monaco 2:Monaco 6:Fontvieille" friendlyPos="true"/> <!-- 117848 -->
-    <busStop id="117849" name="Square Beaumarchais" lane="13744#2_1" startPos="45.019999999999996" endPos="60.019999999999996" lines="1:Monaco 2:Monaco 6:Fontvieille" friendlyPos="true"/> <!-- 117849 -->
-    <busStop id="117853" name="Beaverbrook" lane="14550#22_1" startPos="23.03462510791088" endPos="38.034625107910884" lines="100:Nice" friendlyPos="true"/> <!-- 117853 -->
-    <busStop id="117854" name="Casernes" lane="-14066_1" startPos="302.27672145173" endPos="317.27672145173" lines="100:Nice" friendlyPos="true"/> <!-- 117854 -->
-    <busStop id="117855" name="Moneghetti" lane="13886#6_1" startPos="105.17" endPos="120.17" lines="2:Monaco 3:Fontvieille" friendlyPos="true"/> <!-- 117855 -->
-    <busStop id="117856" name="Marche" lane="14427_1" startPos="75.22566816517377" endPos="90.22566816517377" lines="100:Menton" friendlyPos="true"/> <!-- 117856 -->
-    <busStop id="117857" name="Casernes" lane="-14086#0_1" startPos="1632.4390438660032" endPos="1647.4390438660032" lines="100:Menton" friendlyPos="true"/> <!-- 117857 -->
-    <busStop id="117858" name="Bien Situee" lane="-14066_1" startPos="658.8487402323234" endPos="673.8487402323234" lines="100:Nice" friendlyPos="true"/> <!-- 117858 -->
-    <busStop id="117859" name="Place d'Armes (TAM)" lane="-13893#2_1" startPos="10.670840234348024" endPos="25.67084023434802" lines="100:Nice" friendlyPos="true"/> <!-- 117859 -->
-    <busStop id="117860" name="Mairie" lane="-13627_1" startPos="977.0409780476758" endPos="992.0409780476758" lines="M5:Ramingao" friendlyPos="true"/> <!-- 117860 -->
-    <busStop id="117861" name="Victoria" lane="13626_1" startPos="621.3971060722524" endPos="636.3971060722524" lines="M5:PontUnion" friendlyPos="true"/> <!-- 117861 -->
-    <busStop id="117862" name="Le Cirta" lane="-13627_1" startPos="672.9829392718673" endPos="687.9829392718673" lines="M5:Ramingao" friendlyPos="true"/> <!-- 117862 -->
-    <busStop id="117863" name="Orchidees" lane="-14031_1" startPos="1333.36910503312" endPos="1348.36910503312" lines="M5:PontUnion" friendlyPos="true"/> <!-- 117863 -->
-    <busStop id="117864" name="Cypris" lane="-14031_1" startPos="956.958983145131" endPos="971.9589831451311" lines="M5:PontUnion" friendlyPos="true"/> <!-- 117864 -->
-    <busStop id="117865" name="Pont Sainte-Devote" lane="13773#0_1" startPos="11.71" endPos="26.71" lines="2:Monaco 4:SaintRoman 5:Larvotto" friendlyPos="true"/> <!-- 117865 -->
-    <busStop id="117866" name="Plages" lane="13607#2_1" startPos="118.69195420861294" endPos="133.69195420861294" lines="5:Hopital 6:Fontvieille" friendlyPos="true"/> <!-- 117866 -->
-    <busStop id="117867" name="Varavilla" lane="14450_1" startPos="17.92454413207882" endPos="32.92454413207882" lines="4:Fontvieille" friendlyPos="true"/> <!-- 117867 -->
-    <busStop id="117868" name="Portier" lane="13607#6_1" startPos="32.87411559240632" endPos="47.87411559240632" lines="5:Hopital 6:Fontvieille" friendlyPos="true"/> <!-- 117868 -->
-    <busStop id="117869" name="Larvotto" lane="13606#7_1" startPos="71.71" endPos="86.71" lines="5:Hopital 5:Larvotto 6:Larvotto 6:Fontvieille" friendlyPos="true"/> <!-- 117869 -->
-    <busStop id="117870" name="Place d'Armes (vers Monaco Ville)" lane="-13889#2_1" startPos="5.0" endPos="20.0" lines="2:Monaco" friendlyPos="true"/> <!-- 117870 -->
-    <busStop id="117871" name="Saint-Roman (Bus 4)" lane="-13420_1" startPos="5.0" endPos="20.0" lines="4:SaintRoman 4:Fontvieille" friendlyPos="true"/> <!-- 117871 -->
-    <busStop id="117872" name="Hopital" lane="13942#5_1" startPos="161.76" endPos="176.76" lines="M3:Turbie 5:Hopital 3:Fontvieille" friendlyPos="true"/> <!-- 117872 -->
-    <busStop id="117873" name="Spelugues" lane="-13749#0_1" startPos="62.7804359517431" endPos="77.78043595174312" lines="5:Larvotto 6:Larvotto" friendlyPos="true"/> <!-- 117873 -->
-    <busStop id="117874" name="Fontvieille - Centre Commercial" lane="14715_1" startPos="46.343001267719444" endPos="61.343001267719444" lines="4:SaintRoman 4:Fontvieille 6:Larvotto 6:Fontvieille 3:Fontvieille" friendlyPos="true"/> <!-- 117874 -->
-    <busStop id="117875" name="Monte-Carlo (TAM)" lane="13774#1_1" startPos="19.635925850660765" endPos="34.63592585066077" lines="100:Nice" friendlyPos="true"/> <!-- 117875 -->
-    <busStop id="117876" name="Cremaillere" lane="13786#1_1" startPos="11.406136569907382" endPos="26.406136569907382" lines="2:Jardin 4:Fontvieille 5:Hopital" friendlyPos="true"/> <!-- 117876 -->
-    <busStop id="117877" name="Terrasses du Casino" lane="13847#0_1" startPos="16.333843318113665" endPos="31.333843318113658" lines="2:Jardin 6:Larvotto" friendlyPos="true"/> <!-- 117877 -->
-    <busStop id="117878" name="Stade Nautique" lane="13888#3_1" startPos="17.50230178304174" endPos="32.502301783041744" lines="1:SaintRoman 2:Jardin 6:Larvotto 3:Otto" friendlyPos="true"/> <!-- 117878 -->
-    <busStop id="117879" name="Princesse Antoinette" lane="13888#5_1" startPos="8.611939672180899" endPos="23.6119396721809" lines="1:SaintRoman 2:Jardin 6:Larvotto 3:Otto" friendlyPos="true"/> <!-- 117879 -->
-    <busStop id="117880" name="Kennedy" lane="13859#1_1" startPos="62.758223323291745" endPos="77.75822332329174" lines="1:SaintRoman" friendlyPos="true"/> <!-- 117880 -->
-    <busStop id="117881" name="Auditorium Rainier III" lane="13834_1" startPos="176.27" endPos="191.27" lines="1:SaintRoman" friendlyPos="true"/> <!-- 117881 -->
-    <busStop id="117882" name="Ostende" lane="-13882#1_1" startPos="136.48300709744453" endPos="151.48300709744453" lines="2:Jardin 6:Larvotto" friendlyPos="true"/> <!-- 117882 -->
-    <busStop id="117883" name="Roqueville" lane="-13773#3_1" startPos="5.84" endPos="20.84" lines="2:Jardin 4:Fontvieille 5:Hopital" friendlyPos="true"/> <!-- 117883 -->
-    <busStop id="117884" name="Moneghetti" lane="-13886#7_1" startPos="5.0" endPos="20.0" lines="2:Jardin 3:Otto" friendlyPos="true"/> <!-- 117884 -->
-    <busStop id="117885" name="Louis Aureglia" lane="14043#0_1" startPos="5.0" endPos="20.0" lines="4:Fontvieille" friendlyPos="true"/> <!-- 117885 -->
-    <busStop id="117886" name="Castelleretto" lane="-14043#1_1" startPos="7.813791170053538" endPos="22.813791170053538" lines="4:SaintRoman" friendlyPos="true"/> <!-- 117886 -->
-    <busStop id="117887" name="Heliport" lane="-13945#3_1" startPos="10.690000000000001" endPos="25.69" lines="4:SaintRoman 6:Larvotto" friendlyPos="true"/> <!-- 117887 -->
-    <busStop id="117888" name="Papalins" lane="13523_1" startPos="153.45344334429166" endPos="168.45344334429163" lines="4:SaintRoman 6:Larvotto" friendlyPos="true"/> <!-- 117888 -->
-    <busStop id="117889" name="Port de Fontvieille" lane="14714_1" startPos="26.62675344709467" endPos="41.62675344709467" lines="6:Larvotto 3:Otto" friendlyPos="true"/> <!-- 117889 -->
-    <busStop id="117890" name="Pasteur" lane="-14011#2_1" startPos="436.3291023489299" endPos="451.3291023489299" lines="3:Otto" friendlyPos="true"/> <!-- 117890 -->
-    <busStop id="117891" name="Observatoire" lane="-13942#4_1" startPos="49.22729597467476" endPos="64.22729597467476" lines="5:Larvotto 3:Otto" friendlyPos="true"/> <!-- 117891 -->
-    <busStop id="117892" name="Bosio" lane="-13942#0_1" startPos="62.66" endPos="77.66" lines="5:Larvotto 3:Otto" friendlyPos="true"/> <!-- 117892 -->
-    <busStop id="117893" name="Bosio" lane="-14019#0_1" startPos="67.51" endPos="82.51" lines="5:Hopital 3:Fontvieille" friendlyPos="true"/> <!-- 117893 -->
-    <busStop id="117894" name="Grimaldi Forum/Villa Sauber" lane="13606#2_1" startPos="132.9412889448295" endPos="147.9412889448295" lines="5:Larvotto 6:Larvotto" friendlyPos="true"/> <!-- 117894 -->
-    <busStop id="117895" name="Sea Club" lane="13606#6_1" startPos="133.05641002019541" endPos="148.05641002019544" lines="5:Larvotto 6:Larvotto" friendlyPos="true"/> <!-- 117895 -->
-    <busStop id="117896" name="Grimaldi Forum/Villa Sauber" lane="13607#4_1" startPos="81.38652738381393" endPos="96.38652738381393" lines="5:Hopital 6:Fontvieille" friendlyPos="true"/> <!-- 117896 -->
-    <busStop id="117897" name="Hector Otto" lane="13908#6_1" startPos="42.08278055380589" endPos="57.08278055380588" lines="3:Fontvieille 3:Otto" friendlyPos="true"/> <!-- 117897 -->
-    <busStop id="117898" name="Belgique" lane="13886#10_1" startPos="82.41398360062692" endPos="97.41398360062692" lines="2:Monaco 3:Fontvieille" friendlyPos="true"/> <!-- 117898 -->
-    <busStop id="117900" name="Place d'Armes (Charles III)" lane="-13893#2_1" startPos="22.619999999999997" endPos="37.62" lines="3:Otto" friendlyPos="true"/> <!-- 117900 -->
-    <busStop id="117901" name="Place d'Armes (Charles III)" lane="13893#2_1" startPos="23.740000000000002" endPos="38.74" lines="4:SaintRoman 100:Menton 3:Fontvieille" friendlyPos="true"/> <!-- 117901 -->
-    <busStop id="117902" name="Monaco Ville (le Rocher)" lane="-13845_1" startPos="14.485290537084268" endPos="29.485290537084268" lines="1:SaintRoman 1:Monaco 2:Jardin 2:Monaco" friendlyPos="true"/> <!-- 117902 -->
-    <busStop id="117903" name="Athanee" lane="14011#0_1" startPos="5.0" endPos="20.0" lines="3:Fontvieille" friendlyPos="true"/> <!-- 117903 -->
-    <busStop id="117904" name="Place d'Armes (Port)" lane="13874_1" startPos="14.560000000000002" endPos="29.560000000000002" lines="1:SaintRoman 1:Monaco 2:Jardin 4:Fontvieille 6:Fontvieille 3:Fontvieille" friendlyPos="true"/> <!-- 117904 -->
-    <busStop id="117905" name="Belgique" lane="-13886#10_1" startPos="12.265184036582674" endPos="27.265184036582674" lines="2:Jardin 3:Otto" friendlyPos="true"/> <!-- 117905 -->
-    <busStop id="117906" name="La Vigie" lane="-13904#5_1" startPos="143.67" endPos="158.67" lines="" friendlyPos="true"/> <!-- 117906 -->
-    <busStop id="117907" name="Princesse Stephanie" lane="13861#0_1" startPos="5.0" endPos="20.0" lines="4:Fontvieille 6:Fontvieille 3:Fontvieille" friendlyPos="true"/> <!-- 117907 -->
-    <busStop id="117908" name="Princesse Florestine" lane="13892_1" startPos="186.8753699780366" endPos="201.8753699780366" lines="1:Monaco 2:Monaco 6:Fontvieille 3:Otto" friendlyPos="true"/> <!-- 117908 -->
-    <busStop id="117909" name="Belgique" lane="14019#2_1" startPos="38.11136583662956" endPos="53.11136583662957" lines="5:Larvotto 3:Otto" friendlyPos="true"/> <!-- 117909 -->
-    <busStop id="117910" name="La Rousse" lane="-13677#1_1" startPos="33.42102028499167" endPos="48.42102028499167" lines="1:Monaco 4:Fontvieille" friendlyPos="true"/> <!-- 117910 -->
-    <busStop id="117911" name="Carmes" lane="-13654#3_1" startPos="9.927707824037011" endPos="24.92770782403701" lines="1:SaintRoman 4:SaintRoman" friendlyPos="true"/> <!-- 117911 -->
-    <busStop id="117912" name="Place du Casino" lane="-13749#4_1" startPos="5.0" endPos="20.0" lines="5:Larvotto 6:Larvotto" friendlyPos="true"/> <!-- 117912 -->
-    <busStop id="117913" name="La Rousse" lane="13677#2_1" startPos="7.559999999999999" endPos="22.56" lines="1:SaintRoman 4:SaintRoman" friendlyPos="true"/> <!-- 117913 -->
-    <busStop id="117914" name="Place des Moulins" lane="-13677#0_1" startPos="64.32420425126165" endPos="79.32420425126165" lines="1:Monaco 4:Fontvieille 100:Nice" friendlyPos="true"/> <!-- 117914 -->
-    <busStop id="117915" name="Place des Moulins" lane="13739#11_1" startPos="57.50788319335187" endPos="72.50788319335187" lines="1:SaintRoman 4:SaintRoman" friendlyPos="true"/> <!-- 117915 -->
-    <busStop id="117916" name="117916" lane="13773#4_1" startPos="23.49457706929419" endPos="38.494577069294195" lines="" friendlyPos="true"/> <!-- 117916 -->
-    <busStop id="117917" name="Plages" lane="13606#4_1" startPos="234.94242145572485" endPos="249.94242145572485" lines="5:Larvotto 6:Larvotto" friendlyPos="true"/> <!-- 117917 -->
-    <busStop id="117918" name="Ostende" lane="13882#0_1" startPos="155.24824861557687" endPos="170.24824861557687" lines="1:Monaco 2:Monaco 6:Fontvieille" friendlyPos="true"/> <!-- 117918 -->
-    <busStop id="117919" name="Carmes" lane="13654#4_1" startPos="20.049294001843116" endPos="35.049294001843116" lines="1:Monaco 4:Fontvieille" friendlyPos="true"/> <!-- 117919 -->
-    <busStop id="117920" name="Saint-Charles" lane="-13725_1" startPos="64.84" endPos="79.84" lines="1:Monaco 4:Fontvieille" friendlyPos="true"/> <!-- 117920 -->
-    <busStop id="117921" name="Rotondes" lane="-13886#4_1" startPos="128.86278842656833" endPos="143.86278842656833" lines="2:Jardin" friendlyPos="true"/> <!-- 117921 -->
-    <busStop id="117922" name="Rotondes" lane="13886#5_1" startPos="6.649999999999999" endPos="21.65" lines="3:Fontvieille" friendlyPos="true"/> <!-- 117922 -->
-    <busStop id="117923" name="Jardin Exotique" lane="13968_1" startPos="5.0" endPos="20.0" lines="2:Jardin 2:Monaco" friendlyPos="true"/> <!-- 117923 -->
-    <busStop id="117924" name="Rotondes" lane="13886#3_1" startPos="90.54" endPos="105.54" lines="2:Monaco" friendlyPos="true"/> <!-- 117924 -->
-    <busStop id="117925" name="Saint-Joseph" lane="13619_1" startPos="106.99864378779777" endPos="121.99864378779777" lines="100:Nice" friendlyPos="true"/> <!-- 117925 -->
-    <busStop id="117926" name="Pont de l'Union" lane="14732_1" startPos="49.09420128977331" endPos="64.09420128977331" lines="M5:Ramingao" friendlyPos="true"/> <!-- 117926 -->
-    <busStop id="117927" name="Bien Situee" lane="-14086#0_1" startPos="1260.1161192441602" endPos="1275.1161192441602" lines="100:Menton" friendlyPos="true"/> <!-- 117927 -->
-    <busStop id="117928" name="1er Hameau" lane="-14086#0_1" startPos="607.8246235227087" endPos="622.8246235227087" lines="100:Menton" friendlyPos="true"/> <!-- 117928 -->
-    <busStop id="117929" name="1er Hameau" lane="-14066_1" startPos="1283.8160226163525" endPos="1298.8160226163527" lines="100:Nice" friendlyPos="true"/> <!-- 117929 -->
-    <busStop id="117930" name="2e Hameau" lane="-14066_1" startPos="1639.198131457575" endPos="1654.1981314575753" lines="100:Nice" friendlyPos="true"/> <!-- 117930 -->
-    <busStop id="117931" name="Torraca" lane="14566_1" startPos="291.1318910562448" endPos="306.1318910562448" lines="100:Menton" friendlyPos="true"/> <!-- 117931 -->
-    <busStop id="117932" name="Torraca" lane="-14566_1" startPos="273.8259772522721" endPos="288.8259772522721" lines="100:Nice" friendlyPos="true"/> <!-- 117932 -->
-    <busStop id="117933" name="2e Hameau" lane="-14086#0_1" startPos="269.2354042642565" endPos="284.2354042642565" lines="100:Menton 21:Menton" friendlyPos="true"/> <!-- 117933 -->
-    <busStop id="117934" name="Riva Bella" lane="-14086#0_1" startPos="67.3879828965056" endPos="82.3879828965056" lines="100:Menton" friendlyPos="true"/> <!-- 117934 -->
-    <busStop id="117935" name="Massolin" lane="-14566_1" startPos="430.65252361292715" endPos="445.65252361292715" lines="100:Nice" friendlyPos="true"/> <!-- 117935 -->
-    <busStop id="117936" name="Massolin" lane="14431#2_1" startPos="100.39622897522483" endPos="115.39622897522483" lines="100:Menton" friendlyPos="true"/> <!-- 117936 -->
-    <busStop id="117937" name="Massolin" lane="-14031_1" startPos="113.35636440607514" endPos="128.35636440607516" lines="M5:PontUnion" friendlyPos="true"/> <!-- 117937 -->
-    <busStop id="117938" name="1er Escalier" lane="-14431#1_1" startPos="17.84901378752203" endPos="32.849013787522026" lines="M5:Ramingao 100:Nice" friendlyPos="true"/> <!-- 117938 -->
-    <busStop id="117939" name="1er Escalier" lane="14431#1_1" startPos="477.966828701451" endPos="492.96682870145094" lines="M5:PontUnion 100:Menton" friendlyPos="true"/> <!-- 117939 -->
-    <busStop id="117940" name="2e Escalier" lane="-14431#1_1" startPos="310.7258028550495" endPos="325.72580285504944" lines="M5:Ramingao 100:Nice" friendlyPos="true"/> <!-- 117940 -->
-    <busStop id="117941" name="2e Escalier" lane="14431#1_1" startPos="216.9466253442298" endPos="231.9466253442298" lines="M5:PontUnion 100:Menton" friendlyPos="true"/> <!-- 117941 -->
-    <busStop id="117942" name="Datcha" lane="14431#0_1" startPos="82.24148046423593" endPos="97.24148046423593" lines="100:Menton" friendlyPos="true"/> <!-- 117942 -->
-    <busStop id="117943" name="Les 4 Chemins" lane="-14067#0_1" startPos="359.97105964563804" endPos="374.97105964563804" lines="100:Nice" friendlyPos="true"/> <!-- 117943 -->
-    <busStop id="117944" name="Ramingao" lane="14067#0_1" startPos="310.65561101225364" endPos="325.6556110122537" lines="M5:PontUnion" friendlyPos="true"/> <!-- 117944 -->
-    <busStop id="117945" name="Ramingao" lane="-14067#0_1" startPos="8.812179881191268" endPos="23.81217988119127" lines="M5:Ramingao 100:Nice" friendlyPos="true"/> <!-- 117945 -->
-    <busStop id="117946" name="Les 4 Chemins" lane="14397#4_1" startPos="239.86368222688307" endPos="254.86368222688307" lines="100:Menton" friendlyPos="true"/> <!-- 117946 -->
-    <busStop id="117947" name="Deux Tunnels" lane="14551#1_1" startPos="495.41157804347364" endPos="510.41157804347364" lines="100:Menton" friendlyPos="true"/> <!-- 117947 -->
-    <busStop id="117948" name="Chapelle de Saint-Laurent" lane="13975_1" startPos="2520.392635209705" endPos="2535.392635209705" lines="M1:Eze" friendlyPos="true"/> <!-- 117948 -->
-    <busStop id="117949" name="Saint-Roman" lane="13654#0_1" startPos="55.61782750533816" endPos="70.61782750533817" lines="4:Fontvieille 100:Nice" friendlyPos="true"/> <!-- 117949 -->
-    <busStop id="117950" name="La Turbie Marie" lane="-13817_1" startPos="3.289999999999999" endPos="18.29" lines="M2:France M3:Turbie" friendlyPos="true"/> <!-- 117950 -->
-    <busStop id="117951" name="117951" lane="-14553#8_1" startPos="82.88281097585693" endPos="97.88281097585693" lines="" friendlyPos="true"/> <!-- 117951 -->
-    <busStop id="117952" name="Saint-Roman (Bus 1)" lane="13420_1" startPos="23.577089989932166" endPos="38.57708998993217" lines="1:SaintRoman 1:Monaco" friendlyPos="true"/> <!-- 117952 -->
-    <busStop id="117953" name="117953" lane="-14534_1" startPos="21.404384690587825" endPos="36.40438469058783" lines="M1:Eze M2:Turbie" friendlyPos="true"/> <!-- 117953 -->
-    <busStop id="117954" name="117954" lane="14534_1" startPos="74.96862739158762" endPos="89.9686273915876" lines="M1:France M2:France" friendlyPos="true"/> <!-- 117954 -->
-    <busStop id="117955" name="Cap Estel" lane="-13999_1" startPos="755.6427451947118" endPos="770.6427451947118" lines="100:Nice" friendlyPos="true"/> <!-- 117955 -->
-    <busStop id="117956" name="Cap Estel" lane="13999_1" startPos="74.75683042781924" endPos="89.75683042781924" lines="100:Menton" friendlyPos="true"/> <!-- 117956 -->
-    <busStop id="117957" name="Parking Saint-Laurent d'Eze" lane="-13999_1" startPos="307.0252755908137" endPos="322.0252755908137" lines="M1:Eze 100:Nice" friendlyPos="true"/> <!-- 117957 -->
-    <busStop id="117958" name="Parking Saint-Laurent d'Eze" lane="13999_1" startPos="444.77716144670376" endPos="459.77716144670364" lines="M1:France 100:Menton" friendlyPos="true"/> <!-- 117958 -->
-    <busStop id="117959" name="Gianton" lane="14551#0_1" startPos="56.68333838777133" endPos="71.68333838777133" lines="100:Menton" friendlyPos="true"/> <!-- 117959 -->
-    <busStop id="117960" name="Gianton" lane="-14551#1_1" startPos="625.1879542818655" endPos="640.1879542818655" lines="100:Nice" friendlyPos="true"/> <!-- 117960 -->
-    <busStop id="117961" name="Deux Tunnels" lane="-14551#1_1" startPos="121.94796984658635" endPos="136.94796984658635" lines="100:Nice" friendlyPos="true"/> <!-- 117961 -->
-    <busStop id="117962" name="Edmond's Cap d'Ail" lane="-14550#24_1" startPos="6.281121144522299" endPos="21.2811211445223" lines="100:Menton" friendlyPos="true"/> <!-- 117962 -->
-    <busStop id="117963" name="Guillaume Apollinaire" lane="-14550#20_1" startPos="117.05326754858109" endPos="132.0532675485811" lines="M4:HotelVille 100:Menton" friendlyPos="true"/> <!-- 117963 -->
-    <busStop id="117964" name="La Source" lane="14550#18_1" startPos="10.071778509872168" endPos="25.071778509872168" lines="M4:Train 100:Nice" friendlyPos="true"/> <!-- 117964 -->
-    <busStop id="117965" name="L'Eglise" lane="-14550#16_1" startPos="229.81" endPos="244.81" lines="M4:HotelVille 100:Menton" friendlyPos="true"/> <!-- 117965 -->
-    <busStop id="117966" name="L'Eglise" lane="14550#13_1" startPos="267.93" endPos="282.93" lines="M4:Train 100:Nice" friendlyPos="true"/> <!-- 117966 -->
-    <busStop id="117967" name="Hotel de Ville" lane="-14550#13_1" startPos="225.34268130074514" endPos="240.34268130074514" lines="M4:HotelVille 100:Menton" friendlyPos="true"/> <!-- 117967 -->
-    <busStop id="117968" name="Hotel de Ville" lane="14550#13_1" startPos="104.83201497205104" endPos="119.83201497205104" lines="100:Nice" friendlyPos="true"/> <!-- 117968 -->
-    <busStop id="117969" name="Le Loup Blanc" lane="14082#0_1" startPos="5.0" endPos="20.0" lines="100:Nice" friendlyPos="true"/> <!-- 117969 -->
-    <busStop id="117970" name="Le Loup Blanc" lane="-14550#8_1" startPos="23.295092141443465" endPos="38.29509214144346" lines="100:Menton" friendlyPos="true"/> <!-- 117970 -->
-    <busStop id="117971" name="Liberte" lane="-14550#6_1" startPos="27.11303169480749" endPos="42.11303169480748" lines="100:Menton" friendlyPos="true"/> <!-- 117971 -->
-    <busStop id="117972" name="Liberte" lane="14550#2_1" startPos="13.96" endPos="28.96" lines="100:Nice" friendlyPos="true"/> <!-- 117972 -->
-    <busStop id="117973" name="Cimetiere" lane="13610#0_1" startPos="142.4494125961817" endPos="157.4494125961817" lines="100:Menton" friendlyPos="true"/> <!-- 117973 -->
-    <busStop id="117974" name="Cimetiere" lane="13490_1" startPos="73.02094815556939" endPos="88.02094815556939" lines="4:SaintRoman" friendlyPos="true"/> <!-- 117974 -->
-    <busStop id="117975" name="Saint-Roman" lane="14439#0_1" startPos="80.31521192381787" endPos="95.31521192381786" lines="100:Menton" friendlyPos="true"/> <!-- 117975 -->
-    <busStop id="117976" name="La Tranchee" lane="14439#4_1" startPos="223.3354689109787" endPos="238.3354689109787" lines="100:Menton" friendlyPos="true"/> <!-- 117976 -->
-    <busStop id="117977" name="La Tranchee" lane="-14397#1_1" startPos="123.46137235066801" endPos="138.46137235066806" lines="100:Nice" friendlyPos="true"/> <!-- 117977 -->
-    <busStop id="117978" name="La Boucherie" lane="-14397#2_1" startPos="74.2116191491834" endPos="89.2116191491834" lines="100:Nice" friendlyPos="true"/> <!-- 117978 -->
-    <busStop id="117979" name="La Boucherie" lane="14397#4_1" startPos="24.39210932706632" endPos="39.39210932706632" lines="100:Menton" friendlyPos="true"/> <!-- 117979 -->
-    <busStop id="117980" name="Pont de l'Union" lane="13626_1" startPos="1237.749420723116" endPos="1252.749420723116" lines="M5:PontUnion" friendlyPos="true"/> <!-- 117980 -->
-    <busStop id="117981" name="Bois Joli" lane="-13992#2_1" startPos="114.3717764518739" endPos="129.3717764518739" lines="M4:Train" friendlyPos="true"/> <!-- 117981 -->
-    <busStop id="117982" name="Les Cigognes" lane="14084#0_1" startPos="22.35536101506356" endPos="37.355361015063565" lines="M4:HotelVille" friendlyPos="true"/> <!-- 117982 -->
-    <busStop id="117983" name="117983" lane="13721#3_1" startPos="14.604411324438892" endPos="29.604411324438892" lines="" friendlyPos="true"/> <!-- 117983 -->
-    <busStop id="117984" name="117984" lane="14732_1" startPos="755.8977340514126" endPos="770.8977340514126" lines="M5:Ramingao" friendlyPos="true"/> <!-- 117984 -->
-    <busStop id="117985" name="Parc Princesse Antoinette" lane="13942#3_1" startPos="58.53662291502788" endPos="73.53662291502788" lines="5:Hopital 3:Fontvieille" friendlyPos="true"/> <!-- 117985 -->
-    <busStop id="117986" name="Parc Princesse Antoinette" lane="-13942#3_1" startPos="43.85669479240293" endPos="58.85669479240293" lines="5:Larvotto 3:Otto" friendlyPos="true"/> <!-- 117986 -->
-    <busStop id="117987" name="Roqueville" lane="13773#4_1" startPos="11.670998930676394" endPos="26.670998930676394" lines="2:Monaco 4:SaintRoman 5:Larvotto" friendlyPos="true"/> <!-- 117987 -->
-    <busStop id="117988" name="Stade Louis II" lane="14057_1" startPos="68.7579909062213" endPos="83.7579909062213" lines="4:SaintRoman 6:Larvotto" friendlyPos="true"/> <!-- 117988 -->
-    <busStop id="117989" name="Belgique" lane="-14019#2_1" startPos="38.57" endPos="53.57" lines="5:Hopital 3:Fontvieille" friendlyPos="true"/> <!-- 117989 -->
-    <busStop id="117990" name="Musee Oceanographique" lane="-13933_1" startPos="51.09" endPos="66.09" lines="" friendlyPos="true"/> <!-- 117990 -->
-    <busStop id="117991" name="Place du Palais" lane="-13935_1" startPos="71.95" endPos="86.95" lines="" friendlyPos="true"/> <!-- 117991 -->
-    <busStop id="117992" name="Digue Croisieres" lane="-13454#0_1" startPos="23.439354384664767" endPos="38.43935438466477" lines="" friendlyPos="true"/> <!-- 117992 -->
-    <busStop id="117993" name="Terrasses du Casino" lane="-13842_1" startPos="5.0" endPos="20.0" lines="" friendlyPos="true"/> <!-- 117993 -->
-    <busStop id="117994" name="Albert II" lane="13955#0_1" startPos="87.04" endPos="102.04" lines="6:Larvotto" friendlyPos="true"/> <!-- 117994 -->
-    <busStop id="117995" name="Sea Club" lane="13607#0_1" startPos="214.1743440837039" endPos="229.1743440837039" lines="5:Hopital 6:Fontvieille" friendlyPos="true"/> <!-- 117995 -->
+    <busStop id="131019" name="131019" lane="152333#0_1" startPos="360.4089072466573" endPos="375.40890724665735" lines="M3:Hospital" friendlyPos="true"/> <!-- 131019 -->
+    <busStop id="131020" name="131020" lane="152912#8_1" startPos="445.52683860193054" endPos="460.52683860193054" lines="M3:Hospital" friendlyPos="true"/> <!-- 131020 -->
+    <busStop id="131021" name="Rotondes" lane="-152818#5_1" startPos="5.210000000000001" endPos="20.21" lines="3:Otto" friendlyPos="true"/> <!-- 131021 -->
+    <busStop id="131022" name="131022" lane="-152169_1" startPos="15.177610802795574" endPos="30.177610802795577" lines="M3:Turbie" friendlyPos="true"/> <!-- 131022 -->
+    <busStop id="131024" name="131024" lane="-152413#0_1" startPos="1365.819961936734" endPos="1380.8199619367342" lines="M3:Turbie" friendlyPos="true"/> <!-- 131024 -->
+    <busStop id="131026" name="Cimetiere" lane="-152942#2_1" startPos="100.85183695150855" endPos="115.85183695150855" lines="3:Otto" friendlyPos="true"/> <!-- 131026 -->
+    <busStop id="131027" name="Bois Joli" lane="152924#2_1" startPos="44.389664612461615" endPos="59.389664612461615" lines="M4:HotelVille" friendlyPos="true"/> <!-- 131027 -->
+    <busStop id="131029" name="131029" lane="152169_1" startPos="56.644728585263785" endPos="71.64472858526378" lines="M3:Hospital" friendlyPos="true"/> <!-- 131029 -->
+    <busStop id="131030" name="La Turbie Marie" lane="152912#0_1" startPos="5.379999999999999" endPos="20.38" lines="M3:Hospital M2:Turbie" friendlyPos="true"/> <!-- 131030 -->
+    <busStop id="131031" name="Chapelle de Saint-Laurent" lane="-152907_1" startPos="985.5428412451238" endPos="1000.542841245124" lines="M1:France" friendlyPos="true"/> <!-- 131031 -->
+    <busStop id="131033" name="131033" lane="-152333#4_1" startPos="153.67121262369727" endPos="168.67121262369727" lines="M3:Turbie" friendlyPos="true"/> <!-- 131033 -->
+    <busStop id="131035" name="Les Cigognes" lane="-153015#0_1" startPos="30.473857275989303" endPos="45.4738572759893" lines="M4:Train" friendlyPos="true"/> <!-- 131035 -->
+    <busStop id="131036" name="Louis Aureglia" lane="-152974#0_1" startPos="222.3" endPos="237.3" lines="4:SaintRoman" friendlyPos="true"/> <!-- 131036 -->
+    <busStop id="131037" name="131037" lane="152333#4_1" startPos="178.51288447250525" endPos="193.51288447250522" lines="M3:Hospital" friendlyPos="true"/> <!-- 131037 -->
+    <busStop id="131038" name="131038" lane="152912#6_1" startPos="207.80943128670089" endPos="222.80943128670089" lines="M3:Hospital" friendlyPos="true"/> <!-- 131038 -->
+    <busStop id="131039" name="131039" lane="-152333#2_1" startPos="317.8913352507928" endPos="332.8913352507928" lines="M3:Turbie" friendlyPos="true"/> <!-- 131039 -->
+    <busStop id="131040" name="131040" lane="-152912#6_1" startPos="434.69594222087215" endPos="449.69594222087215" lines="M3:Turbie" friendlyPos="true"/> <!-- 131040 -->
+    <busStop id="131041" name="131041" lane="153484#8_1" startPos="59.48462954874597" endPos="74.48462954874597" lines="" friendlyPos="true"/> <!-- 131041 -->
+    <busStop id="131042" name="Monte-Carlo (TAM)" lane="152671#3_1" startPos="6.719919127758226" endPos="21.719919127758224" lines="100:Menton" friendlyPos="true"/> <!-- 131042 -->
+    <busStop id="131043" name="Portier" lane="152658#2_1" startPos="21.620802522282133" endPos="36.620802522282126" lines="1:SaintRoman 5:Larvotto 6:Larvotto" friendlyPos="true"/> <!-- 131043 -->
+    <busStop id="131044" name="Princesse Stephanie" lane="152390_1" startPos="11.71" endPos="26.71" lines="1:SaintRoman 2:Jardin" friendlyPos="true"/> <!-- 131044 -->
+    <busStop id="131045" name="Castelleretto" lane="152974#2_1" startPos="11.3" endPos="26.3" lines="4:Fontvieille" friendlyPos="true"/> <!-- 131045 -->
+    <busStop id="131046" name="Honore II" lane="-152799#1_1" startPos="169.43720628527834" endPos="184.43720628527834" lines="4:Fontvieille" friendlyPos="true"/> <!-- 131046 -->
+    <busStop id="131047" name="Pont Sainte-Devote" lane="152232_1" startPos="9.64" endPos="24.64" lines="2:Jardin 4:Fontvieille 5:Hopital" friendlyPos="true"/> <!-- 131047 -->
+    <busStop id="131048" name="Villa Paloma" lane="152818#3_1" startPos="77.68069348911638" endPos="92.68069348911638" lines="2:Monaco 3:Fontvieille" friendlyPos="true"/> <!-- 131048 -->
+    <busStop id="131049" name="Villa Paloma" lane="-152818#3_1" startPos="87.14298643692618" endPos="102.14298643692618" lines="2:Jardin 3:Otto" friendlyPos="true"/> <!-- 131049 -->
+    <busStop id="131050" name="Citronniers" lane="152681#3_1" startPos="5.0" endPos="20.0" lines="1:SaintRoman 5:Hopital 6:Fontvieille" friendlyPos="true"/> <!-- 131050 -->
+    <busStop id="131051" name="Spelugues" lane="152681#0_1" startPos="103.08731399576278" endPos="118.08731399576278" lines="1:SaintRoman 5:Hopital 6:Fontvieille" friendlyPos="true"/> <!-- 131051 -->
+    <busStop id="131054" name="Cimetiere" lane="152942#2_1" startPos="307.43104671025105" endPos="322.43104671025105" lines="3:Fontvieille" friendlyPos="true"/> <!-- 131054 -->
+    <busStop id="131055" name="Hopital" lane="152903#1_1" startPos="159.03" endPos="174.03" lines="M3:Hospital 5:Hopital 5:Larvotto 3:Otto" friendlyPos="true"/> <!-- 131055 -->
+    <busStop id="131056" name="Athanee" lane="-152942#0_1" startPos="5.0" endPos="20.0" lines="5:Hopital 3:Otto" friendlyPos="true"/> <!-- 131056 -->
+    <busStop id="131057" name="Monte-Carlo (Tourisme)" lane="152671#3_1" startPos="5.0" endPos="20.0" lines="1:SaintRoman 2:Jardin 4:SaintRoman 5:Hopital 5:Larvotto 6:Larvotto" friendlyPos="true"/> <!-- 131057 -->
+    <busStop id="131058" name="Roseraie" lane="152650_1" startPos="5.0" endPos="20.0" lines="4:SaintRoman 6:Larvotto" friendlyPos="true"/> <!-- 131058 -->
+    <busStop id="131059" name="Place du Casino" lane="152681#5_1" startPos="16.83083921615352" endPos="31.83083921615352" lines="1:SaintRoman 5:Hopital 6:Fontvieille" friendlyPos="true"/> <!-- 131059 -->
+    <busStop id="131060" name="Place Sainte-Devote (Gare)" lane="152824_1" startPos="36.01715305850847" endPos="51.01715305850847" lines="1:Monaco 2:Monaco 6:Fontvieille 100:Nice 3:Otto" friendlyPos="true"/> <!-- 131060 -->
+    <busStop id="131061" name="Saint-Charles" lane="152671#7_1" startPos="13.159063386320469" endPos="28.15906338632047" lines="1:SaintRoman 4:SaintRoman" friendlyPos="true"/> <!-- 131061 -->
+    <busStop id="131062" name="Monte-Carlo" lane="152706#1_1" startPos="27.54" endPos="42.54" lines="1:Monaco 2:Monaco 6:Fontvieille" friendlyPos="true"/> <!-- 131062 -->
+    <busStop id="131063" name="Square Beaumarchais" lane="152676#2_1" startPos="45.019999999999996" endPos="60.019999999999996" lines="1:Monaco 2:Monaco 6:Fontvieille" friendlyPos="true"/> <!-- 131063 -->
+    <busStop id="131067" name="Beaverbrook" lane="153481#22_1" startPos="23.03462510791087" endPos="38.03462510791087" lines="100:Nice" friendlyPos="true"/> <!-- 131067 -->
+    <busStop id="131068" name="Casernes" lane="-152997_1" startPos="302.2775841724468" endPos="317.2775841724468" lines="100:Nice" friendlyPos="true"/> <!-- 131068 -->
+    <busStop id="131069" name="Moneghetti" lane="152818#6_1" startPos="105.17" endPos="120.17" lines="2:Monaco 3:Fontvieille" friendlyPos="true"/> <!-- 131069 -->
+    <busStop id="131070" name="Marche" lane="153358_1" startPos="75.22501981789728" endPos="90.2250198178973" lines="100:Menton" friendlyPos="true"/> <!-- 131070 -->
+    <busStop id="131071" name="Casernes" lane="-153017#0_1" startPos="1632.4290802061073" endPos="1647.4290802061073" lines="100:Menton" friendlyPos="true"/> <!-- 131071 -->
+    <busStop id="131072" name="Bien Situee" lane="-152997_1" startPos="658.8449373943146" endPos="673.8449373943146" lines="100:Nice" friendlyPos="true"/> <!-- 131072 -->
+    <busStop id="131073" name="Place d'Armes (TAM)" lane="-152825#2_1" startPos="10.66230724241614" endPos="25.66230724241614" lines="100:Nice" friendlyPos="true"/> <!-- 131073 -->
+    <busStop id="131074" name="Mairie" lane="-152559_1" startPos="977.0462950675609" endPos="992.0462950675609" lines="M5:Ramingao" friendlyPos="true"/> <!-- 131074 -->
+    <busStop id="131075" name="Victoria" lane="152558_1" startPos="621.3969043029098" endPos="636.3969043029098" lines="M5:PontUnion" friendlyPos="true"/> <!-- 131075 -->
+    <busStop id="131076" name="Le Cirta" lane="-152559_1" startPos="672.9882827032433" endPos="687.9882827032433" lines="M5:Ramingao" friendlyPos="true"/> <!-- 131076 -->
+    <busStop id="131077" name="Orchidees" lane="-152962_1" startPos="1334.2897768057126" endPos="1349.2897768057126" lines="M5:PontUnion" friendlyPos="true"/> <!-- 131077 -->
+    <busStop id="131078" name="Cypris" lane="-152962_1" startPos="957.8852640083534" endPos="972.8852640083534" lines="M5:PontUnion" friendlyPos="true"/> <!-- 131078 -->
+    <busStop id="131079" name="Pont Sainte-Devote" lane="152705#0_1" startPos="11.71" endPos="26.71" lines="2:Monaco 4:SaintRoman 5:Larvotto" friendlyPos="true"/> <!-- 131079 -->
+    <busStop id="131080" name="Plages" lane="152539#2_1" startPos="118.69115203028541" endPos="133.6911520302854" lines="5:Hopital 6:Fontvieille" friendlyPos="true"/> <!-- 131080 -->
+    <busStop id="131081" name="Varavilla" lane="153381_1" startPos="17.932794074772737" endPos="32.93279407477274" lines="4:Fontvieille" friendlyPos="true"/> <!-- 131081 -->
+    <busStop id="131082" name="Portier" lane="152539#6_1" startPos="32.87410353463279" endPos="47.87410353463279" lines="5:Hopital 6:Fontvieille" friendlyPos="true"/> <!-- 131082 -->
+    <busStop id="131083" name="Larvotto" lane="152538#7_1" startPos="71.71" endPos="86.71" lines="5:Hopital 5:Larvotto 6:Larvotto 6:Fontvieille" friendlyPos="true"/> <!-- 131083 -->
+    <busStop id="131084" name="Place d'Armes (vers Monaco Ville)" lane="-152821#2_1" startPos="5.0" endPos="20.0" lines="2:Monaco" friendlyPos="true"/> <!-- 131084 -->
+    <busStop id="131085" name="Saint-Roman (Bus 4)" lane="-152352_1" startPos="5.0" endPos="20.0" lines="4:SaintRoman 4:Fontvieille" friendlyPos="true"/> <!-- 131085 -->
+    <busStop id="131086" name="Hopital" lane="152874#5_1" startPos="161.76" endPos="176.76" lines="M3:Turbie 5:Hopital 3:Fontvieille" friendlyPos="true"/> <!-- 131086 -->
+    <busStop id="131087" name="Spelugues" lane="-152681#0_1" startPos="62.783530262197566" endPos="77.78353026219756" lines="5:Larvotto 6:Larvotto" friendlyPos="true"/> <!-- 131087 -->
+    <busStop id="131088" name="Fontvieille - Centre Commercial" lane="153644_1" startPos="46.34273723073568" endPos="61.34273723073568" lines="4:SaintRoman 4:Fontvieille 6:Larvotto 6:Fontvieille 3:Fontvieille" friendlyPos="true"/> <!-- 131088 -->
+    <busStop id="131089" name="Monte-Carlo (TAM)" lane="152706#1_1" startPos="19.635925850660758" endPos="34.63592585066076" lines="100:Nice" friendlyPos="true"/> <!-- 131089 -->
+    <busStop id="131090" name="Cremaillere" lane="152177#0_1" startPos="12.185451480725508" endPos="27.185451480725508" lines="2:Jardin 4:Fontvieille 5:Hopital" friendlyPos="true"/> <!-- 131090 -->
+    <busStop id="131091" name="Terrasses du Casino" lane="152779#0_1" startPos="23.32405194075496" endPos="38.32405194075496" lines="2:Jardin 6:Larvotto" friendlyPos="true"/> <!-- 131091 -->
+    <busStop id="131092" name="Stade Nautique" lane="152820#3_1" startPos="17.505155271138584" endPos="32.505155271138584" lines="1:SaintRoman 2:Jardin 6:Larvotto 3:Otto" friendlyPos="true"/> <!-- 131092 -->
+    <busStop id="131093" name="Princesse Antoinette" lane="152820#5_1" startPos="8.611939672180899" endPos="23.6119396721809" lines="1:SaintRoman 2:Jardin 6:Larvotto 3:Otto" friendlyPos="true"/> <!-- 131093 -->
+    <busStop id="131094" name="Kennedy" lane="152791#1_1" startPos="62.75822332329085" endPos="77.75822332329085" lines="1:SaintRoman" friendlyPos="true"/> <!-- 131094 -->
+    <busStop id="131095" name="Auditorium Rainier III" lane="152766_1" startPos="176.27" endPos="191.27" lines="1:SaintRoman" friendlyPos="true"/> <!-- 131095 -->
+    <busStop id="131096" name="Ostende" lane="-152814#1_1" startPos="111.69509796928678" endPos="126.69509796928678" lines="2:Jardin 6:Larvotto" friendlyPos="true"/> <!-- 131096 -->
+    <busStop id="131097" name="Roqueville" lane="-152705#3_1" startPos="5.84" endPos="20.84" lines="2:Jardin 4:Fontvieille 5:Hopital" friendlyPos="true"/> <!-- 131097 -->
+    <busStop id="131098" name="Moneghetti" lane="-152818#7_1" startPos="5.0" endPos="20.0" lines="2:Jardin 3:Otto" friendlyPos="true"/> <!-- 131098 -->
+    <busStop id="131099" name="Louis Aureglia" lane="152974#0_1" startPos="5.0" endPos="20.0" lines="4:Fontvieille" friendlyPos="true"/> <!-- 131099 -->
+    <busStop id="131100" name="Castelleretto" lane="-152974#0_1" startPos="7.813791170053538" endPos="22.813791170053538" lines="4:SaintRoman" friendlyPos="true"/> <!-- 131100 -->
+    <busStop id="131101" name="Heliport" lane="-152877#3_1" startPos="10.690000000000001" endPos="25.69" lines="4:SaintRoman 6:Larvotto" friendlyPos="true"/> <!-- 131101 -->
+    <busStop id="131102" name="Papalins" lane="152455_1" startPos="153.45803188370843" endPos="168.45803188370843" lines="4:SaintRoman 6:Larvotto" friendlyPos="true"/> <!-- 131102 -->
+    <busStop id="131103" name="Port de Fontvieille" lane="153643_1" startPos="26.62675344709445" endPos="41.62675344709445" lines="6:Larvotto 3:Otto" friendlyPos="true"/> <!-- 131103 -->
+    <busStop id="131104" name="Pasteur" lane="-152942#2_1" startPos="436.326365754743" endPos="451.326365754743" lines="3:Otto" friendlyPos="true"/> <!-- 131104 -->
+    <busStop id="131105" name="Observatoire" lane="-152874#4_1" startPos="49.23162080449983" endPos="64.23162080449984" lines="5:Larvotto 3:Otto" friendlyPos="true"/> <!-- 131105 -->
+    <busStop id="131106" name="Bosio" lane="-152874#0_1" startPos="62.66" endPos="77.66" lines="5:Larvotto 3:Otto" friendlyPos="true"/> <!-- 131106 -->
+    <busStop id="131107" name="Bosio" lane="-152950#0_1" startPos="67.51" endPos="82.51" lines="5:Hopital 3:Fontvieille" friendlyPos="true"/> <!-- 131107 -->
+    <busStop id="131108" name="Grimaldi Forum/Villa Sauber" lane="152538#2_1" startPos="132.9412889448293" endPos="147.9412889448293" lines="5:Larvotto 6:Larvotto" friendlyPos="true"/> <!-- 131108 -->
+    <busStop id="131109" name="Sea Club" lane="152538#6_1" startPos="133.054344287579" endPos="148.05434428757897" lines="5:Larvotto 6:Larvotto" friendlyPos="true"/> <!-- 131109 -->
+    <busStop id="131110" name="Grimaldi Forum/Villa Sauber" lane="152539#4_1" startPos="79.46156825435155" endPos="94.46156825435153" lines="5:Hopital 6:Fontvieille" friendlyPos="true"/> <!-- 131110 -->
+    <busStop id="131111" name="Hector Otto" lane="152840#6_1" startPos="42.08278055544728" endPos="57.08278055544728" lines="3:Fontvieille 3:Otto" friendlyPos="true"/> <!-- 131111 -->
+    <busStop id="131112" name="Belgique" lane="152818#10_1" startPos="82.422604128472" endPos="97.42260412847199" lines="2:Monaco 3:Fontvieille" friendlyPos="true"/> <!-- 131112 -->
+    <busStop id="131114" name="Place d'Armes (Charles III)" lane="-152825#2_1" startPos="22.619999999999997" endPos="37.62" lines="3:Otto" friendlyPos="true"/> <!-- 131114 -->
+    <busStop id="131115" name="Place d'Armes (Charles III)" lane="152825#2_1" startPos="23.740000000000002" endPos="38.74" lines="4:SaintRoman 100:Menton 3:Fontvieille" friendlyPos="true"/> <!-- 131115 -->
+    <busStop id="131116" name="Monaco Ville (le Rocher)" lane="-152777_1" startPos="14.494428840049832" endPos="29.49442884004983" lines="1:SaintRoman 1:Monaco 2:Jardin 2:Monaco" friendlyPos="true"/> <!-- 131116 -->
+    <busStop id="131117" name="Athanee" lane="152942#0_1" startPos="5.0" endPos="20.0" lines="3:Fontvieille" friendlyPos="true"/> <!-- 131117 -->
+    <busStop id="131118" name="Place d'Armes (Port)" lane="152806_1" startPos="14.560000000000002" endPos="29.560000000000002" lines="1:SaintRoman 1:Monaco 2:Jardin 4:Fontvieille 6:Fontvieille 3:Fontvieille" friendlyPos="true"/> <!-- 131118 -->
+    <busStop id="131119" name="Belgique" lane="-152818#10_1" startPos="12.258203359618168" endPos="27.258203359618168" lines="2:Jardin 3:Otto" friendlyPos="true"/> <!-- 131119 -->
+    <busStop id="131120" name="La Vigie" lane="-152836#5_1" startPos="143.67" endPos="158.67" lines="" friendlyPos="true"/> <!-- 131120 -->
+    <busStop id="131121" name="Princesse Stephanie" lane="152793#0_1" startPos="5.0" endPos="20.0" lines="4:Fontvieille 6:Fontvieille 3:Fontvieille" friendlyPos="true"/> <!-- 131121 -->
+    <busStop id="131122" name="Princesse Florestine" lane="152824_1" startPos="186.87544180498577" endPos="201.87544180498577" lines="1:Monaco 2:Monaco 6:Fontvieille 3:Otto" friendlyPos="true"/> <!-- 131122 -->
+    <busStop id="131123" name="Belgique" lane="152950#2_1" startPos="38.11263056900823" endPos="53.11263056900823" lines="5:Larvotto 3:Otto" friendlyPos="true"/> <!-- 131123 -->
+    <busStop id="131124" name="La Rousse" lane="-152609#1_1" startPos="33.423609619645056" endPos="48.423609619645056" lines="1:Monaco 4:Fontvieille" friendlyPos="true"/> <!-- 131124 -->
+    <busStop id="131125" name="Carmes" lane="-152586#3_1" startPos="9.927707824037011" endPos="24.92770782403701" lines="1:SaintRoman 4:SaintRoman" friendlyPos="true"/> <!-- 131125 -->
+    <busStop id="131126" name="Place du Casino" lane="-152681#4_1" startPos="5.0" endPos="20.0" lines="5:Larvotto 6:Larvotto" friendlyPos="true"/> <!-- 131126 -->
+    <busStop id="131127" name="La Rousse" lane="152609#2_1" startPos="7.559999999999999" endPos="22.56" lines="1:SaintRoman 4:SaintRoman" friendlyPos="true"/> <!-- 131127 -->
+    <busStop id="131128" name="Place des Moulins" lane="-152609#0_1" startPos="64.32420001660974" endPos="79.32420001660974" lines="1:Monaco 4:Fontvieille 100:Nice" friendlyPos="true"/> <!-- 131128 -->
+    <busStop id="131129" name="Place des Moulins" lane="152671#11_1" startPos="57.513249910712815" endPos="72.51324991071282" lines="1:SaintRoman 4:SaintRoman" friendlyPos="true"/> <!-- 131129 -->
+    <busStop id="131130" name="131130" lane="152705#4_1" startPos="23.503990944533477" endPos="38.50399094453348" lines="" friendlyPos="true"/> <!-- 131130 -->
+    <busStop id="131131" name="Plages" lane="152538#4_1" startPos="226.29455966117143" endPos="241.29455966117146" lines="5:Larvotto 6:Larvotto" friendlyPos="true"/> <!-- 131131 -->
+    <busStop id="131132" name="Ostende" lane="152814#0_1" startPos="153.75442349812167" endPos="168.75442349812167" lines="1:Monaco 2:Monaco 6:Fontvieille" friendlyPos="true"/> <!-- 131132 -->
+    <busStop id="131133" name="Carmes" lane="152586#4_1" startPos="20.049294001843116" endPos="35.049294001843116" lines="1:Monaco 4:Fontvieille" friendlyPos="true"/> <!-- 131133 -->
+    <busStop id="131134" name="Saint-Charles" lane="-152657_1" startPos="64.84" endPos="79.84" lines="1:Monaco 4:Fontvieille" friendlyPos="true"/> <!-- 131134 -->
+    <busStop id="131135" name="Rotondes" lane="-152818#4_1" startPos="128.8630740370474" endPos="143.8630740370474" lines="2:Jardin" friendlyPos="true"/> <!-- 131135 -->
+    <busStop id="131136" name="Rotondes" lane="152818#5_1" startPos="6.649999999999999" endPos="21.65" lines="3:Fontvieille" friendlyPos="true"/> <!-- 131136 -->
+    <busStop id="131137" name="Jardin Exotique" lane="152900_1" startPos="5.0" endPos="20.0" lines="2:Jardin 2:Monaco" friendlyPos="true"/> <!-- 131137 -->
+    <busStop id="131138" name="Rotondes" lane="152818#3_1" startPos="90.54" endPos="105.54" lines="2:Monaco" friendlyPos="true"/> <!-- 131138 -->
+    <busStop id="131139" name="Saint-Joseph" lane="152551_1" startPos="106.99864378779921" endPos="121.99864378779922" lines="100:Nice" friendlyPos="true"/> <!-- 131139 -->
+    <busStop id="131140" name="Pont de l'Union" lane="153661_1" startPos="49.09420128977431" endPos="64.09420128977432" lines="M5:Ramingao" friendlyPos="true"/> <!-- 131140 -->
+    <busStop id="131141" name="Bien Situee" lane="-153017#0_1" startPos="1260.1049722759772" endPos="1275.1049722759772" lines="100:Menton" friendlyPos="true"/> <!-- 131141 -->
+    <busStop id="131142" name="1er Hameau" lane="-153017#0_1" startPos="607.816377126805" endPos="622.816377126805" lines="100:Menton" friendlyPos="true"/> <!-- 131142 -->
+    <busStop id="131143" name="1er Hameau" lane="-152997_1" startPos="1283.8146426438466" endPos="1298.8146426438466" lines="100:Nice" friendlyPos="true"/> <!-- 131143 -->
+    <busStop id="131144" name="2e Hameau" lane="-152997_1" startPos="1639.1950540734008" endPos="1654.1950540734008" lines="100:Nice" friendlyPos="true"/> <!-- 131144 -->
+    <busStop id="131145" name="Torraca" lane="153497_1" startPos="291.1315178469216" endPos="306.1315178469216" lines="100:Menton" friendlyPos="true"/> <!-- 131145 -->
+    <busStop id="131146" name="Torraca" lane="-153497_1" startPos="273.83296289060183" endPos="288.8329628906018" lines="100:Nice" friendlyPos="true"/> <!-- 131146 -->
+    <busStop id="131147" name="2e Hameau" lane="-153017#0_1" startPos="269.23521042125276" endPos="284.23521042125276" lines="100:Menton 21:Menton" friendlyPos="true"/> <!-- 131147 -->
+    <busStop id="131148" name="Riva Bella" lane="-153017#0_1" startPos="67.38861171880055" endPos="82.38861171880055" lines="100:Menton" friendlyPos="true"/> <!-- 131148 -->
+    <busStop id="131149" name="Massolin" lane="-153497_1" startPos="430.6593728436393" endPos="445.65937284363923" lines="100:Nice" friendlyPos="true"/> <!-- 131149 -->
+    <busStop id="131150" name="Massolin" lane="153362#2_1" startPos="100.3961813768618" endPos="115.3961813768618" lines="100:Menton" friendlyPos="true"/> <!-- 131150 -->
+    <busStop id="131151" name="Massolin" lane="-152962_1" startPos="114.28178861388287" endPos="129.28178861388287" lines="M5:PontUnion" friendlyPos="true"/> <!-- 131151 -->
+    <busStop id="131152" name="1er Escalier" lane="-153362#1_1" startPos="17.84901378752203" endPos="32.849013787522026" lines="M5:Ramingao 100:Nice" friendlyPos="true"/> <!-- 131152 -->
+    <busStop id="131153" name="1er Escalier" lane="153362#1_1" startPos="477.96769491858026" endPos="492.9676949185804" lines="M5:PontUnion 100:Menton" friendlyPos="true"/> <!-- 131153 -->
+    <busStop id="131154" name="2e Escalier" lane="-153362#1_1" startPos="310.72525326236524" endPos="325.7252532623653" lines="M5:Ramingao 100:Nice" friendlyPos="true"/> <!-- 131154 -->
+    <busStop id="131155" name="2e Escalier" lane="153362#1_1" startPos="216.95762159107124" endPos="231.95762159107124" lines="M5:PontUnion 100:Menton" friendlyPos="true"/> <!-- 131155 -->
+    <busStop id="131156" name="Datcha" lane="153362#0_1" startPos="82.23518283045517" endPos="97.23518283045517" lines="100:Menton" friendlyPos="true"/> <!-- 131156 -->
+    <busStop id="131157" name="Les 4 Chemins" lane="-152998#0_1" startPos="359.97803250506865" endPos="374.97803250506865" lines="100:Nice" friendlyPos="true"/> <!-- 131157 -->
+    <busStop id="131158" name="Ramingao" lane="152998#0_1" startPos="313.0197656559889" endPos="328.0197656559889" lines="M5:PontUnion" friendlyPos="true"/> <!-- 131158 -->
+    <busStop id="131159" name="Ramingao" lane="-152998#0_1" startPos="8.82198808309112" endPos="23.82198808309112" lines="M5:Ramingao 100:Nice" friendlyPos="true"/> <!-- 131159 -->
+    <busStop id="131160" name="Les 4 Chemins" lane="153328#4_1" startPos="238.5023960475931" endPos="253.5023960475931" lines="100:Menton" friendlyPos="true"/> <!-- 131160 -->
+    <busStop id="131161" name="Deux Tunnels" lane="153482#1_1" startPos="495.40776155601617" endPos="510.40776155601617" lines="100:Menton" friendlyPos="true"/> <!-- 131161 -->
+    <busStop id="131162" name="Chapelle de Saint-Laurent" lane="152907_1" startPos="2520.394309820882" endPos="2535.394309820882" lines="M1:Eze" friendlyPos="true"/> <!-- 131162 -->
+    <busStop id="131163" name="Saint-Roman" lane="152586#0_1" startPos="55.610930053018905" endPos="70.6109300530189" lines="4:Fontvieille 100:Nice" friendlyPos="true"/> <!-- 131163 -->
+    <busStop id="131164" name="La Turbie Marie" lane="-152749_1" startPos="3.289999999999999" endPos="18.29" lines="M2:France M3:Turbie" friendlyPos="true"/> <!-- 131164 -->
+    <busStop id="131165" name="131165" lane="-153484#8_1" startPos="82.8926267242922" endPos="97.8926267242922" lines="" friendlyPos="true"/> <!-- 131165 -->
+    <busStop id="131166" name="Saint-Roman (Bus 1)" lane="152352_1" startPos="23.577089989932166" endPos="38.57708998993217" lines="1:SaintRoman 1:Monaco" friendlyPos="true"/> <!-- 131166 -->
+    <busStop id="131167" name="131167" lane="-153465_1" startPos="21.404384690587825" endPos="36.40438469058783" lines="M1:Eze M2:Turbie" friendlyPos="true"/> <!-- 131167 -->
+    <busStop id="131168" name="131168" lane="153465_1" startPos="74.96862739158762" endPos="89.9686273915876" lines="M1:France M2:France" friendlyPos="true"/> <!-- 131168 -->
+    <busStop id="131169" name="Cap Estel" lane="-152931_1" startPos="755.6470604406618" endPos="770.6470604406618" lines="100:Nice" friendlyPos="true"/> <!-- 131169 -->
+    <busStop id="131170" name="Cap Estel" lane="152931_1" startPos="74.7576451116938" endPos="89.7576451116938" lines="100:Menton" friendlyPos="true"/> <!-- 131170 -->
+    <busStop id="131171" name="Parking Saint-Laurent d'Eze" lane="-152931_1" startPos="307.0287253920442" endPos="322.0287253920442" lines="M1:Eze 100:Nice" friendlyPos="true"/> <!-- 131171 -->
+    <busStop id="131172" name="Parking Saint-Laurent d'Eze" lane="152931_1" startPos="444.7795562759498" endPos="459.77955627594986" lines="M1:France 100:Menton" friendlyPos="true"/> <!-- 131172 -->
+    <busStop id="131173" name="Gianton" lane="153482#0_1" startPos="56.68589552527662" endPos="71.68589552527662" lines="100:Menton" friendlyPos="true"/> <!-- 131173 -->
+    <busStop id="131174" name="Gianton" lane="-153482#1_1" startPos="625.1868215079454" endPos="640.1868215079453" lines="100:Nice" friendlyPos="true"/> <!-- 131174 -->
+    <busStop id="131175" name="Deux Tunnels" lane="-153482#1_1" startPos="121.94827771201292" endPos="136.94827771201292" lines="100:Nice" friendlyPos="true"/> <!-- 131175 -->
+    <busStop id="131176" name="Edmond's Cap d'Ail" lane="-153481#24_1" startPos="6.281121144522299" endPos="21.2811211445223" lines="100:Menton" friendlyPos="true"/> <!-- 131176 -->
+    <busStop id="131177" name="Guillaume Apollinaire" lane="-153481#20_1" startPos="117.05823802276967" endPos="132.05823802276967" lines="M4:HotelVille 100:Menton" friendlyPos="true"/> <!-- 131177 -->
+    <busStop id="131178" name="La Source" lane="153481#18_1" startPos="10.071778509871777" endPos="25.071778509871777" lines="M4:Train 100:Nice" friendlyPos="true"/> <!-- 131178 -->
+    <busStop id="131179" name="L'Eglise" lane="-153481#16_1" startPos="229.81" endPos="244.81" lines="M4:HotelVille 100:Menton" friendlyPos="true"/> <!-- 131179 -->
+    <busStop id="131180" name="L'Eglise" lane="153481#13_1" startPos="267.93" endPos="282.93" lines="M4:Train 100:Nice" friendlyPos="true"/> <!-- 131180 -->
+    <busStop id="131181" name="Hotel de Ville" lane="-153481#13_1" startPos="225.3413937924876" endPos="240.3413937924876" lines="M4:HotelVille 100:Menton" friendlyPos="true"/> <!-- 131181 -->
+    <busStop id="131182" name="Hotel de Ville" lane="153481#13_1" startPos="104.83331914665807" endPos="119.83331914665807" lines="100:Nice" friendlyPos="true"/> <!-- 131182 -->
+    <busStop id="131183" name="Le Loup Blanc" lane="153481#10_1" startPos="40.86394561490199" endPos="55.86394561490199" lines="100:Nice" friendlyPos="true"/> <!-- 131183 -->
+    <busStop id="131184" name="Le Loup Blanc" lane="-153481#8_1" startPos="23.288065869749" endPos="38.288065869749005" lines="100:Menton" friendlyPos="true"/> <!-- 131184 -->
+    <busStop id="131185" name="Liberte" lane="-153481#6_1" startPos="27.11303169480749" endPos="42.11303169480748" lines="100:Menton" friendlyPos="true"/> <!-- 131185 -->
+    <busStop id="131186" name="Liberte" lane="153481#2_1" startPos="13.96" endPos="28.96" lines="100:Nice" friendlyPos="true"/> <!-- 131186 -->
+    <busStop id="131187" name="Cimetiere" lane="152542#0_1" startPos="142.44856122531579" endPos="157.4485612253158" lines="100:Menton" friendlyPos="true"/> <!-- 131187 -->
+    <busStop id="131188" name="Cimetiere" lane="152422_1" startPos="73.02610140022848" endPos="88.02610140022848" lines="4:SaintRoman" friendlyPos="true"/> <!-- 131188 -->
+    <busStop id="131189" name="Saint-Roman" lane="153370#0_1" startPos="80.31521955258083" endPos="95.31521955258083" lines="100:Menton" friendlyPos="true"/> <!-- 131189 -->
+    <busStop id="131190" name="La Tranchee" lane="153370#4_1" startPos="223.34107008809272" endPos="238.34107008809272" lines="100:Menton" friendlyPos="true"/> <!-- 131190 -->
+    <busStop id="131191" name="La Tranchee" lane="-153328#1_1" startPos="123.45457650791722" endPos="138.45457650791724" lines="100:Nice" friendlyPos="true"/> <!-- 131191 -->
+    <busStop id="131192" name="La Boucherie" lane="-153328#2_1" startPos="74.21598602165355" endPos="89.21598602165355" lines="100:Nice" friendlyPos="true"/> <!-- 131192 -->
+    <busStop id="131193" name="La Boucherie" lane="153328#4_1" startPos="24.39751041415574" endPos="39.39751041415574" lines="100:Menton" friendlyPos="true"/> <!-- 131193 -->
+    <busStop id="131194" name="Pont de l'Union" lane="152558_1" startPos="1237.7486730529295" endPos="1252.7486730529295" lines="M5:PontUnion" friendlyPos="true"/> <!-- 131194 -->
+    <busStop id="131195" name="Bois Joli" lane="-152924#2_1" startPos="114.37870282866773" endPos="129.3787028286677" lines="M4:Train" friendlyPos="true"/> <!-- 131195 -->
+    <busStop id="131196" name="Les Cigognes" lane="153015#0_1" startPos="22.362918951367195" endPos="37.36291895136719" lines="M4:HotelVille" friendlyPos="true"/> <!-- 131196 -->
+    <busStop id="131197" name="131197" lane="152653#3_1" startPos="14.604411324438892" endPos="29.604411324438892" lines="" friendlyPos="true"/> <!-- 131197 -->
+    <busStop id="131198" name="131198" lane="153661_1" startPos="755.8980050602494" endPos="770.8980050602494" lines="M5:Ramingao" friendlyPos="true"/> <!-- 131198 -->
+    <busStop id="131199" name="Parc Princesse Antoinette" lane="152874#3_1" startPos="59.128442386281364" endPos="74.12844238628136" lines="5:Hopital 3:Fontvieille" friendlyPos="true"/> <!-- 131199 -->
+    <busStop id="131200" name="Parc Princesse Antoinette" lane="-152874#3_1" startPos="43.03596442139009" endPos="58.03596442139009" lines="5:Larvotto 3:Otto" friendlyPos="true"/> <!-- 131200 -->
+    <busStop id="131201" name="Roqueville" lane="152705#4_1" startPos="11.670998930676394" endPos="26.670998930676394" lines="2:Monaco 4:SaintRoman 5:Larvotto" friendlyPos="true"/> <!-- 131201 -->
+    <busStop id="131202" name="Stade Louis II" lane="152988_1" startPos="68.75745621336728" endPos="83.75745621336728" lines="4:SaintRoman 6:Larvotto" friendlyPos="true"/> <!-- 131202 -->
+    <busStop id="131203" name="Belgique" lane="-152950#2_1" startPos="38.57" endPos="53.57" lines="5:Hopital 3:Fontvieille" friendlyPos="true"/> <!-- 131203 -->
+    <busStop id="131204" name="Musee Oceanographique" lane="-152865_1" startPos="51.09" endPos="66.09" lines="" friendlyPos="true"/> <!-- 131204 -->
+    <busStop id="131205" name="Place du Palais" lane="-152867_1" startPos="71.95" endPos="86.95" lines="" friendlyPos="true"/> <!-- 131205 -->
+    <busStop id="131206" name="Digue Croisieres" lane="-152386#0_1" startPos="23.439080714102772" endPos="38.43908071410277" lines="" friendlyPos="true"/> <!-- 131206 -->
+    <busStop id="131207" name="Terrasses du Casino" lane="152774_1" startPos="5.0" endPos="20.0" lines="" friendlyPos="true"/> <!-- 131207 -->
+    <busStop id="131208" name="Albert II" lane="152887#0_1" startPos="87.04" endPos="102.04" lines="6:Larvotto" friendlyPos="true"/> <!-- 131208 -->
+    <busStop id="131209" name="Sea Club" lane="152539#0_1" startPos="214.1735772975838" endPos="229.17357729758382" lines="5:Hopital 6:Fontvieille" friendlyPos="true"/> <!-- 131209 -->
 </additional>

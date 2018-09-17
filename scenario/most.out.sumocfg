@@ -23,7 +23,7 @@
 
     <input>
         <net-file value="in/most.net.xml"/>
-        <route-files value="in/route/most.buses.flows.xml,in/route/most.trains.flows.xml,in/route/most.pedestrian.rou.xml,in/route/most.commercial.rou.xml,in/route/most.special.rou.xml"/>
+        <route-files value="in/route/most.buses.flows.xml,in/route/most.trains.flows.xml,in/route/most.pedestrian.rou.xml,in/route/most.commercial.rou.xml,in/route/most.special.rou.xml,in/route/most.highway.flows.xml"/>
         <additional-files value="in/add/most.poly.xml,in/add/most.busstops.add.xml,in/add/most.trainstops.add.xml,in/add/most.parkings.add.xml,in/add/basic.vType.xml"/>
     </input>
 
@@ -31,16 +31,16 @@
         <output-prefix value="out/most."/>
         <summary-output value="summary.xml"/>
         <tripinfo-output value="tripinfo.xml"/>
-        <tripinfo-output.write-unfinished value="true"/>
+        <!-- <tripinfo-output.write-unfinished value="true"/> -->
         <vehroute-output value="vehroute.xml"/>
-        <vehroute-output.route-length value="true"/>
-        <vehroute-output.write-unfinished value="true"/>
-        <vehroute-output.skip-ptlines value="true"/>
-        <vehroute-output.exit-times value="true"/>
+        <!-- <vehroute-output.route-length value="true"/> -->
+        <!-- <vehroute-output.write-unfinished value="true"/> -->
+        <!-- <vehroute-output.skip-ptlines value="true"/> -->
+        <!-- <vehroute-output.exit-times value="true"/> -->
         <stop-output value="stop.out.xml"/>
-        <lanechange-output value="lanechanges.out.xml"/>
-        <lanechange-output.started value="true"/>
-        <lanechange-output.ended value="true"/>
+        <!-- <lanechange-output value="lanechanges.out.xml"/> -->
+        <!-- <lanechange-output.started value="true"/> -->
+        <!-- <lanechange-output.ended value="true"/> -->
     </output>
 
     <time>
@@ -58,7 +58,7 @@
         <time-to-impatience value="30"/>
         <pedestrian.model value="striping"/>
         <pedestrian.striping.stripe-width value="0.55"/>
-        <pedestrian.striping.jamtime value="15"/>
+        <pedestrian.striping.jamtime value="30"/>
     </processing>
 
     <routing>
