@@ -21,7 +21,7 @@
     },
 
     "population": {
-        "entities" : 35000,
+        "entities" : 30000,
         "tazDefinition": "tools/mobility/taz/most.complete.taz.xml",
         "tazWeights": "tools/mobility/taz/most.complete.taz.weight.csv",
         "buildingsWeight": "tools/mobility/taz/buildings/"
@@ -38,93 +38,93 @@
 
     "distribution": {
         "pedestrian": {
-            "perc": 0.80,
+            "perc": 0.90,
             "composition": {
                 "1-1-pt": {
                     "modes": [["walk", 1.0], ["bicycle", 1.5], ["public", 0.5]],
                     "from": "MonacoArea1Detailed",
                     "to": "MonacoArea1Detailed",
-                    "perc": 0.15,
+                    "perc": 0.20,
                     "withParking": false
                 },
                 "1-1-veh": {
                     "modes": [["public", 1.0], ["passenger", 1.25], ["ptw", 0.85], ["on-demand", 1.5]],
                     "from": "MonacoArea1Detailed",
                     "to": "MonacoArea1Detailed",
-                    "perc": 0.05,
+                    "perc": 0.02,
                     "withParking": true
                 },
                 "2-1": {
                     "modes": [["public", 1.0], ["passenger", 1.25], ["ptw", 0.85], ["on-demand", 1.5]],
                     "from": "FranceArea2",
                     "to": "MonacoArea1Generic",
-                    "perc": 0.18,
+                    "perc": 0.14,
                     "withParking": true
                 },
                 "1-2": {
                     "modes": [["public", 1.0], ["passenger", 1.25], ["ptw", 0.85], ["on-demand", 1.5]],
                     "from": "MonacoArea1Generic",
                     "to": "FranceArea2",
-                    "perc": 0.10,
+                    "perc": 0.135,
                     "withParking": false
                 },
                 "3-1": {
                     "modes": [["public", 0.85], ["passenger", 1.0], ["ptw", 1.0]],
                     "from": "FranceArea3",
                     "to": "MonacoArea1Generic",
-                    "perc": 0.16,
+                    "perc": 0.13,
                     "withParking": true
                 },
                 "1-3": {
                     "modes": [["public", 0.85], ["passenger", 1.0], ["ptw", 1.0]],
                     "from": "MonacoArea1Generic",
                     "to": "FranceArea3",
-                    "perc": 0.10,
+                    "perc": 0.125,
                     "withParking": false
                 },
                 "GW1-1": {
                     "modes": [["passenger", 1.0], ["ptw", 1.0]],
                     "from": "PrimaryGW",
                     "to": "MonacoArea1Generic",
-                    "perc": 0.12,
+                    "perc": 0.09,
                     "withParking": true
                 },
                 "GW2-1": {
                     "modes": [["passenger", 1.0], ["ptw", 1.0]],
                     "from": "SecondaryGW",
                     "to": "MonacoArea1Generic",
-                    "perc": 0.08,
+                    "perc": 0.07,
                     "withParking": true
                 },
                 "1-GW1": {
                     "modes": [["passenger", 1.0], ["ptw", 1.0]],
                     "from": "PrimaryGW",
                     "to": "MonacoArea1Generic",
-                    "perc": 0.03,
+                    "perc": 0.05,
                     "withParking": false
                 },
                 "1-GW2": {
                     "modes": [["passenger", 1.0], ["ptw", 1.0]],
                     "from": "SecondaryGW",
                     "to": "MonacoArea1Generic",
-                    "perc": 0.03,
+                    "perc": 0.04,
                     "withParking": false
                 }
             }
         },
         "commercial": {
-            "perc": 0.15,
+            "perc": 0.07,
             "composition": {
-                "1": {
+                "1-1": {
                     "from": "MonacoArea1Detailed",
                     "to": "MonacoArea1Detailed",
-                    "perc": 0.2,
+                    "perc": 0.18,
                     "withParking": true
                 },
                 "2-1": {
                     "from": "FranceArea2",
                     "to": "MonacoArea1Generic",
-                    "perc": 0.1,
+                    "perc": 0.11,
                     "withParking": true
                 },
                 "1-2": {
@@ -136,7 +136,7 @@
                 "3-1": {
                     "from": "FranceArea3",
                     "to": "MonacoArea1Generic",
-                    "perc": 0.1,
+                    "perc": 0.11,
                     "withParking": true
                 },
                 "1-3": {
@@ -172,7 +172,7 @@
             }
         },
         "special": {
-            "perc": 0.05,
+            "perc": 0.03,
             "composition": {
                 "1-1": {
                     "from": "MonacoArea1Detailed",
@@ -209,8 +209,8 @@
     },
 
     "peak": {
-        "mean": 30600,
-        "std": 7200
+        "mean": 28800,
+        "std": 10800
     },
 
     "stopUntil": {

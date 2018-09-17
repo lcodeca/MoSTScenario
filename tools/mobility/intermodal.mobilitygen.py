@@ -647,57 +647,57 @@ class MobilityGenerator(object):
 
     ROUTES_TPL = """<?xml version="1.0" encoding="UTF-8"?>
 
-    <!--
-        Monaco SUMO Traffic (MoST) Scenario
-        Copyright (C) 2018
-        Lara CODECA
+<!--
+    Monaco SUMO Traffic (MoST) Scenario
+    Copyright (C) 2018
+    Lara CODECA
 
-        This program is free software: you can redistribute it and/or modify
-        it under the terms of the GNU General Public License as published by
-        the Free Software Foundation, either version 3 of the License, or
-        (at your option) any later version.
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-        This program is distributed in the hope that it will be useful,
-        but WITHOUT ANY WARRANTY; without even the implied warranty of
-        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-        GNU General Public License for more details.
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
 
-        You should have received a copy of the GNU General Public License
-        along with this program.  If not, see <http://www.gnu.org/licenses/>.
-    -->
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
 
-    <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd"> {trips}
-    </routes>"""
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd"> {trips}
+</routes>"""
 
     VEHICLE = """
-        <vehicle id="{id}" type="{v_type}" depart="{depart}" departLane="best" arrivalPos="{arrival}">{route}{stop}
-        </vehicle>"""
+    <vehicle id="{id}" type="{v_type}" depart="{depart}" departLane="best" arrivalPos="{arrival}">{route}{stop}
+    </vehicle>"""
 
     ROUTE = """
-            <route edges="{edges}"/>"""
+        <route edges="{edges}"/>"""
 
     STOP_PARKING = """
-            <stop parkingArea="{id}" until="{until}"/>"""
+        <stop parkingArea="{id}" until="{until}"/>"""
 
     PERSON = """
-        <person id="{id}" depart="{depart}">{stages}
-        </person>"""
+    <person id="{id}" depart="{depart}">{stages}
+    </person>"""
 
     WALK = """
-            <walk edges="{edges}"/>"""
+        <walk edges="{edges}"/>"""
 
     WALK_BUS = """
-            <walk edges="{edges}" busStop="{busStop}"/>"""
+        <walk edges="{edges}" busStop="{busStop}"/>"""
 
     RIDE_BUS = """
-            <ride busStop="{busStop}" lines="{lines}" intended="{intended}" depart="{depart}"/>"""
+        <ride busStop="{busStop}" lines="{lines}" intended="{intended}" depart="{depart}"/>"""
 
     RIDE_TRIGGERED = """
-            <ride from="{from_edge}" to="{to_edge}" lines="{vehicle_id}"/>"""
+        <ride from="{from_edge}" to="{to_edge}" lines="{vehicle_id}"/>"""
 
     VEHICLE_TRIGGERED = """
-        <vehicle id="{id}" type="{v_type}" depart="triggered" departLane="best" arrivalPos="{arrival}">{route}{stop}
-        </vehicle>"""
+    <vehicle id="{id}" type="{v_type}" depart="triggered" departLane="best" arrivalPos="{arrival}">{route}{stop}
+    </vehicle>"""
 
     def _saving_trips_to_files(self):
         """ Saving all te trips to files divided by vType. """

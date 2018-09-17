@@ -34,6 +34,6 @@ bash mover.sh
 
 cd $SCENARIO
 echo "[$(date)] ~~~ SUMO Simulation ~~~ "
-bash run.sh
+bash run.out.sh
 
 echo "Done."
