@@ -176,10 +176,17 @@ class ParkingGeneration(object):
                 continue
 
             stop_lane = None
-            try:
-                stop_lane = edge.getLane(1)
-            except IndexError:
-                stop_lane = edge.getLane(0)
+            index = 0
+            while not stop_lane:
+                try:
+                    stop_lane = edge.getLane(index)
+                    if not stop_lane.allows('passenger'):
+                        stop_lane = None
+                        index += 1
+                except IndexError:
+                    stop_lane = None
+                    break
+
 
             if stop_lane:
                 # compute all the distances
@@ -334,50 +341,50 @@ class ParkingGeneration(object):
 
     _ADDITIONALS_TPL = """<?xml version="1.0" encoding="UTF-8"?>
 
-    <!--
-        Monaco SUMO Traffic (MoST) Scenario
-        Copyright (C) 2018
-        Lara CODECA
+<!--
+    Monaco SUMO Traffic (MoST) Scenario
+    Copyright (C) 2018
+    Lara CODECA
 
-        This program is free software: you can redistribute it and/or modify
-        it under the terms of the GNU General Public License as published by
-        the Free Software Foundation, either version 3 of the License, or
-        (at your option) any later version.
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-        This program is distributed in the hope that it will be useful,
-        but WITHOUT ANY WARRANTY; without even the implied warranty of
-        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-        GNU General Public License for more details.
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
 
-        You should have received a copy of the GNU General Public License
-        along with this program.  If not, see <http://www.gnu.org/licenses/>.
-    -->
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
 
-    <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd"> {content}
-    </additional>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd"> {content}
+</additional>
     """
 
     _PARKINGS_TPL = """
-        <parkingArea id="{id}" lane="{lane}" startPos="{start}" endPos="{end}" roadsideCapacity="{capacity} length="{len}" angle="{angle}" friendlyPos="true"/>""" # pylint: disable=C0301
+    <parkingArea id="{id}" lane="{lane}" startPos="{start}" endPos="{end}" roadsideCapacity="{capacity} length="{len}" angle="{angle}" friendlyPos="true"/>""" # pylint: disable=C0301
 
     _SIDE_PARKINGS_TPL = """
-        <parkingArea id="{id}" lane="{lane}" startPos="{start}" endPos="{end}" roadsideCapacity="{capacity}" friendlyPos="true"/>""" # pylint: disable=C0301
+    <parkingArea id="{id}" lane="{lane}" startPos="{start}" endPos="{end}" roadsideCapacity="{capacity}" friendlyPos="true"/>""" # pylint: disable=C0301
 
     _AREA_PARKINGS_TPL = """
-        <parkingArea id="{id}" lane="{lane}" startPos="{start}" endPos="{end}" friendlyPos="true"> {spaces}
-        </parkingArea>"""
+    <parkingArea id="{id}" lane="{lane}" startPos="{start}" endPos="{end}" friendlyPos="true"> {spaces}
+    </parkingArea>"""
 
     _AREA_SPACE_TPL = """
-            <space x="{x}" y="{y}" length="{len}" angle="{angle}"/>"""
+        <space x="{x}" y="{y}" length="{len}" angle="{angle}"/>"""
 
     _REROUTER_TPL = """
-        <rerouter id="{rid}" edges="{edges}">
-            <interval begin="0.0" end="86400">
-                <!-- in order of distance --> {parkings}
-            </interval>
-        </rerouter>"""
+    <rerouter id="{rid}" edges="{edges}">
+        <interval begin="0.0" end="86400">
+            <!-- in order of distance --> {parkings}
+        </interval>
+    </rerouter>"""
     _RR_PARKING_TPL = """
-                <parkingAreaReroute id="{pid}" visible="{visible}"/>"""
+            <parkingAreaReroute id="{pid}" visible="{visible}"/>"""
 
     def _save_parkings_to_file(self, prefix):
         """ Save the parking lots into a SUMO XML additional file. """
