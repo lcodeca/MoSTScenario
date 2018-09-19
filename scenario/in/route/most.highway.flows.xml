@@ -21,17 +21,17 @@
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <vTypeDistribution id="highway">
-        <vType vClass="passenger"  id="hw_passenger1"  personCapacity="4"      latAlignment="arbitrary" sigma="0.25" probability=".1" speedDev="0.1" guiShape="passenger"/>
-        <vType vClass="passenger"  id="hw_passenger2a" personCapacity="4"      latAlignment="arbitrary" sigma="0.30" probability=".1" speedDev="0.1" guiShape="passenger/sedan"/>
-        <vType vClass="passenger"  id="hw_passenger2b" personCapacity="4"      latAlignment="arbitrary" sigma="0.35" probability=".1" speedDev="0.1" guiShape="passenger/hatchback"/>
-        <vType vClass="passenger"  id="hw_passenger3"  personCapacity="6"      latAlignment="arbitrary" sigma="0.40" probability=".1" speedDev="0.1" guiShape="passenger/wagon"/>
-        <vType vClass="passenger"  id="hw_passenger4"  personCapacity="6"      latAlignment="arbitrary" sigma="0.50" probability=".1" speedDev="0.1" guiShape="passenger/van"/>
+        <vType vClass="passenger"  id="hw_passenger1"  personCapacity="4"      latAlignment="center" sigma="0.25" probability=".1" speedDev="0.1" guiShape="passenger"/>
+        <vType vClass="passenger"  id="hw_passenger2a" personCapacity="4"      latAlignment="center" sigma="0.30" probability=".1" speedDev="0.1" guiShape="passenger/sedan"/>
+        <vType vClass="passenger"  id="hw_passenger2b" personCapacity="4"      latAlignment="center" sigma="0.35" probability=".1" speedDev="0.1" guiShape="passenger/hatchback"/>
+        <vType vClass="passenger"  id="hw_passenger3"  personCapacity="6"      latAlignment="center" sigma="0.40" probability=".1" speedDev="0.1" guiShape="passenger/wagon"/>
+        <vType vClass="passenger"  id="hw_passenger4"  personCapacity="6"      latAlignment="center" sigma="0.50" probability=".1" speedDev="0.1" guiShape="passenger/van"/>
         <vType vClass="motorcycle" id="hw_motorcycle"                          latAlignment="compact" probability=".1"/>
-        <vType vClass="delivery"   id="hw_delivery"    containerCapacity="15"  latAlignment="compact" probability=".1"/>
-        <vType vClass="truck"      id="hw_truck"       containerCapacity="5"   latAlignment="compact" probability=".1"/>
-        <vType vClass="trailer"    id="hw_trailer"     containerCapacity="5"   latAlignment="compact" probability=".1"/>
-        <vType vClass="coach"      id="hw_coach"       containerCapacity="50"  latAlignment="compact" probability=".1"/>
+        <vType vClass="delivery"   id="hw_delivery"    containerCapacity="15"  latAlignment="center" probability=".1"/>
+        <vType vClass="truck"      id="hw_truck"       containerCapacity="5"   latAlignment="center" probability=".1"/>
+        <vType vClass="trailer"    id="hw_trailer"     containerCapacity="5"   latAlignment="center" probability=".1"/>
+        <vType vClass="coach"      id="hw_coach"       containerCapacity="50"  latAlignment="center" probability=".1"/>
     </vTypeDistribution>
-    <flow id="France:Italy" from="152529#0" to="152276" type="highway" begin="18000.0" end="41400.0" period="30"/>
-    <flow id="Italy:France" from="152275" to="152326#1" type="highway" begin="18000.0" end="41400.0" period="30"/>
+    <flow id="France:Italy" from="152527#0" to="152274" type="highway" begin="18000.0" end="41400.0" period="30"/>
+    <flow id="Italy:France" from="152273" to="152324#1" type="highway" begin="18000.0" end="41400.0" period="30"/>
 </routes>
