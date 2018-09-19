@@ -65,6 +65,12 @@ def _args():
         '--cfg', type=str, dest='sumocfg', required=True,
         help='SUMO configuration file for TraCI.')
     parser.add_argument(
+        '--visibility-threshold', type=int, dest='threshold', required=True,
+        help='Rerouter: parking visibility threshold (min capacity).')
+    parser.add_argument(
+        '--max-alternatives', type=int, dest='alternatives', required=True,
+        help='Rerouter: number of alternatives.')
+    parser.add_argument(
         '-o', type=str, dest='output', required=True,
         help='Prefix for the output files.')
 
@@ -84,17 +90,22 @@ class ParkingGeneration(object):
 
     _sumocfg = None
 
+    _threshold = None
+    _alternatives = None
+
     _parkings_edges_dict = dict()
 
     _osm_parkings = dict()
     _sumo_parkings = dict()
     _sumo_rerouters = dict()
 
-    def __init__(self, osm_struct, sumo_network, sumocfg):
+    def __init__(self, osm_struct, sumo_network, sumocfg, threshold, alternatives):
 
         self._osm = osm_struct
         self._net = sumo_network
         self._sumocfg = sumocfg
+        self._threshold = threshold
+        self._alternatives = alternatives
 
     def parkings_generation(self):
         """ Main finction to generate all the parking areas. """
@@ -285,9 +296,6 @@ class ParkingGeneration(object):
             for parking_b in parkings.values():
                 if parking_a['id'] == parking_b['id']:
                     continue
-                if (parking_a['id'] in distances.keys() and
-                        parking_b['id'] in distances[parking_a['id']].keys()):
-                    continue
                 if parking_a['edge'] == parking_b['edge']:
                     continue
 
@@ -308,24 +316,19 @@ class ParkingGeneration(object):
 
         traci.close()
 
-        ## select closest 3 - three
+        ## select closest parking areas
         for plid, dists in distances.items():
             list_of_dist = [tuple(reversed(x)) for x in dists.items() if x[1] is not None]
             list_of_dist = sorted(list_of_dist)
             rerouters = [plid]
-            for time, parking in list_of_dist:
-                if time < 600 and len(rerouters) < 10:
+            for _, parking in list_of_dist:
+                if len(rerouters) < self._alternatives:
                         rerouters.append(parking)
                 else:
                     break
+
             if not list_of_dist:
                 logging.fatal('Parking %s has 0 neighbours!', plid)
-            elif len(rerouters) == 1:
-                ## adding one alternative anyway
-                rerouters.append(list_of_dist[0][1])
-                logging.critical("Parking %s has no neighbours in a 10' range, %s [%0.2f] added.",
-                                  plid, list_of_dist[0][1], list_of_dist[0][1])
-
 
             self._sumo_rerouters[plid] = {
                 'rid': plid,
@@ -387,8 +390,39 @@ class ParkingGeneration(object):
             <parkingAreaReroute id="{pid}" visible="{visible}"/>"""
 
     def _save_parkings_to_file(self, prefix):
-        """ Save the parking lots into a SUMO XML additional file. """
-        filename = '{}parkings.add.xml'.format(prefix)
+        """ Save all possible parking files: all-true, threshold, no-rerouters """
+        self._save_parkings_all_true(prefix)
+        self._save_parkings_threshold(prefix)
+        self._save_parkings_no_rerouters(prefix)
+
+    def _save_parkings_all_true(self, prefix):
+        """ Save the parking lots into a SUMO XML additional file
+            with all visibility set to True. """
+        filename = '{}parking.allvisible.add.xml'.format(prefix)
+        logging.info("Creation of %s", filename)
+        with open(filename, 'w') as outfile:
+            list_of_parkings = ''
+            for parking in self._sumo_parkings.values():
+                list_of_parkings += self._SIDE_PARKINGS_TPL.format(
+                    id=parking['id'], lane=parking['lane'], start=parking['start'],
+                    end=parking['end'], capacity=parking['capacity'])
+
+            list_of_routers = ''
+            for rerouter in self._sumo_rerouters.values():
+                alternatives = ''
+                for alt in rerouter['rerouters']:
+                    alternatives += self._RR_PARKING_TPL.format(pid=alt, visible='true')
+                list_of_routers += self._REROUTER_TPL.format(
+                    rid=rerouter['rid'], edges=rerouter['edge'], parkings=alternatives)
+
+            content = list_of_parkings + list_of_routers
+            outfile.write(self._ADDITIONALS_TPL.format(content=content))
+        logging.info("%s created.", filename)
+
+    def _save_parkings_threshold(self, prefix):
+        """ Save the parking lots into a SUMO XML additional file
+            with threshold visibility set to True. """
+        filename = '{}parking.add.xml'.format(prefix)
         logging.info("Creation of %s", filename)
         with open(filename, 'w') as outfile:
             list_of_parkings = ''
@@ -404,7 +438,7 @@ class ParkingGeneration(object):
                     _visibility = 'false'
                     if alt == rerouter['rid']:
                         _visibility = 'true'
-                    if int(self._sumo_parkings[alt]['capacity']) >= 1000:
+                    if int(self._sumo_parkings[alt]['capacity']) >= self._threshold:
                         _visibility = 'true'
                     alternatives += self._RR_PARKING_TPL.format(pid=alt, visible=_visibility)
                 list_of_routers += self._REROUTER_TPL.format(
@@ -413,6 +447,37 @@ class ParkingGeneration(object):
             content = list_of_parkings + list_of_routers
             outfile.write(self._ADDITIONALS_TPL.format(content=content))
         logging.info("%s created.", filename)
+
+    def _save_parkings_no_rerouters(self, prefix):
+        """ Save the parking lots into a SUMO XML additional file
+            without rerouters. """
+        filename = '{}parking.norerouters.add.xml'.format(prefix)
+        logging.info("Creation of %s", filename)
+        with open(filename, 'w') as outfile:
+            list_of_parkings = ''
+            for parking in self._sumo_parkings.values():
+                list_of_parkings += self._SIDE_PARKINGS_TPL.format(
+                    id=parking['id'], lane=parking['lane'], start=parking['start'],
+                    end=parking['end'], capacity=parking['capacity'])
+
+            list_of_routers = ''
+            for rerouter in self._sumo_rerouters.values():
+                alternatives = ''
+                for alt in rerouter['rerouters']:
+                    _visibility = 'false'
+                    if alt == rerouter['rid']:
+                        _visibility = 'true'
+                    if int(self._sumo_parkings[alt]['capacity']) >= self._threshold:
+                        _visibility = 'true'
+                    alternatives += self._RR_PARKING_TPL.format(pid=alt, visible=_visibility)
+                list_of_routers += self._REROUTER_TPL.format(
+                    rid=rerouter['rid'], edges=rerouter['edge'], parkings=alternatives)
+
+            content = list_of_parkings + list_of_routers
+            outfile.write(self._ADDITIONALS_TPL.format(content=content))
+        logging.info("%s created.", filename)
+
+    ## ----------------------------------------------------------------------------------------- ##
 
 
 def _main():
@@ -423,7 +488,7 @@ def _main():
     logging.info('Loading from %s..', args.netstruct)
     net = sumolib.net.readNet(args.netstruct)
 
-    parkings = ParkingGeneration(osm, net, args.sumocfg)
+    parkings = ParkingGeneration(osm, net, args.sumocfg, args.threshold, args.alternatives)
     parkings.parkings_generation()
     parkings.save_parkings_to_file(args.output)
 
