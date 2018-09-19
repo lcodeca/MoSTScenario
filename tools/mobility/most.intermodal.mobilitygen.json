@@ -6,7 +6,7 @@
     "SUMOnetFile": "scenario/in/most.net.xml",
     "SUMOadditionals": {
         "vTypes": "scenario/add/basic.vType.xml",
-        "parkings": "scenario/in/add/most.parkings.add.xml"
+        "parkings": "scenario/in/add/most.parking.add.xml"
     },
 
     "intermodalOptions": {
@@ -21,7 +21,7 @@
     },
 
     "population": {
-        "entities" : 25000,
+        "entities" : 35000,
         "tazDefinition": "tools/mobility/taz/most.complete.taz.xml",
         "tazWeights": "tools/mobility/taz/most.complete.taz.weight.csv",
         "buildingsWeight": "tools/mobility/taz/buildings/"

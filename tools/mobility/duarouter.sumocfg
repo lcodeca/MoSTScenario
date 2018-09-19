@@ -24,7 +24,7 @@
     <input>
         <net-file value="../../scenario/in/most.net.xml"/>
         <route-files value="out/most.buses.flows.xml,out/most.trains.flows.xml"/>
-        <additional-files value="../../scenario/in/add/most.busstops.add.xml,../../scenario/in/add/most.trainstops.add.xml,../../scenario/in/add/most.parkings.add.xml,../../scenario/in/add/basic.vType.xml"/>
+        <additional-files value="../../scenario/in/add/most.busstops.add.xml,../../scenario/in/add/most.trainstops.add.xml,../../scenario/in/add/most.parking.add.xml,../../scenario/in/add/basic.vType.xml"/>
     </input>
 
     <time>
