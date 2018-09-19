@@ -24,6 +24,6 @@ cp -v out/*.taz.* 	        $MOST_SCENARIO/tools/mobility/taz/.
 cp -v out/*.poly.weight.* 	$MOST_SCENARIO/tools/mobility/taz/buildings/.
 cp -v out/*lines*           $MOST_SCENARIO/tools/mobility/pt/.
 cp -v out/*stops*           $MOST_SCENARIO/scenario/in/add/.
-cp -v out/*parkings*        $MOST_SCENARIO/scenario/in/add/.
+cp -v out/*parking*         $MOST_SCENARIO/scenario/in/add/.
 cp -v most.poly.xml         $MOST_SCENARIO/scenario/in/add/.
 cp -v most.net.xml          $MOST_SCENARIO/scenario/in/.

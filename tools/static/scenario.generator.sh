@@ -36,7 +36,7 @@ python3 scripts/xml2pickle.py -i most.net.xml -o $OUTPUT/net.pkl
 
 echo "Creating Parking Lots..."
 python3 scripts/parkings.osm2sumo.py --osm $OUTPUT/osm.pkl --net most.net.xml \
-    --cfg duarouter.sumocfg -o $OUTPUT/most.
+    --cfg duarouter.sumocfg --visibility-threshold 50 --max-alternatives 15 -o $OUTPUT/most.
 
 echo "Creating Public Transports..."
 python3 scripts/pt.osm2sumo.py --osm $OUTPUT/osm.pkl --net most.net.xml -o $OUTPUT/most.
@@ -50,5 +50,5 @@ echo "Generate the TAZ for the AoI..."
 python3 $SUMO_DEV_TOOLS/edgesInDistricts.py -n most.net.xml -t aoi.taz.shape.xml -o aoi.taz.xml
 
 echo "Extract the parkign areas in the AoI..."
-python3 scripts/parkings.in.aoi.py -t aoi.taz.xml -p $OUTPUT/most.parkings.add.xml \
+python3 scripts/parkings.in.aoi.py -t aoi.taz.xml -p $OUTPUT/most.parking.add.xml \
     -o parkings.aoi.json
