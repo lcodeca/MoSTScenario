@@ -460,20 +460,7 @@ class ParkingGeneration(object):
                     id=parking['id'], lane=parking['lane'], start=parking['start'],
                     end=parking['end'], capacity=parking['capacity'])
 
-            list_of_routers = ''
-            for rerouter in self._sumo_rerouters.values():
-                alternatives = ''
-                for alt in rerouter['rerouters']:
-                    _visibility = 'false'
-                    if alt == rerouter['rid']:
-                        _visibility = 'true'
-                    if int(self._sumo_parkings[alt]['capacity']) >= self._threshold:
-                        _visibility = 'true'
-                    alternatives += self._RR_PARKING_TPL.format(pid=alt, visible=_visibility)
-                list_of_routers += self._REROUTER_TPL.format(
-                    rid=rerouter['rid'], edges=rerouter['edge'], parkings=alternatives)
-
-            content = list_of_parkings + list_of_routers
+            content = list_of_parkings
             outfile.write(self._ADDITIONALS_TPL.format(content=content))
         logging.info("%s created.", filename)
 
