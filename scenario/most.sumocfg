@@ -33,7 +33,7 @@
 
     <time>
         <begin value="14400"/>
-        <step-length value="1"/>
+        <step-length value=".25"/>
         <end value="50400"/>
     </time>
 
