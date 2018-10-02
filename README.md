@@ -55,3 +55,77 @@ Note: the configuration files contained in `tools/static/typemap` are a slightly
 
 If you are using MoST Scenario, or its tools to generate a new one, we would gladly add you to the list.
 You can send an e-mail to codeca@eurecom.fr with your name and affiliation (if any).
+
+### Tested with:
+
+#### Eclipse SUMO Version 5345f89a38 (Build features: Linux-4.18.0-1-amd64 x86_64 GNU 8.2.0 Proj GUI GDAL FFmpeg OSG GL2PS SWIG)
+```
+Performance:
+ Duration: 14335221ms
+ Real time factor: 2.5113
+ UPS: 83421.788684
+Vehicles:
+ Inserted: 47232 (Loaded: 47233)
+ Running: 23
+ Waiting: 0
+Teleports: 777 (Collisions: 190, Jam: 169, Yield: 270, Wrong Lane: 148)
+Emergency Stops: 2
+Persons:
+ Inserted: 45000
+ Running: 0
+ Jammed: 618
+Statistics (avg):
+ RouteLength: 7992.86
+ Duration: 6332.43
+ WaitingTime: 160.87
+ TimeLoss: 345.51
+ DepartDelay: 0.70
+Pedestrian Statistics (avg of 29617 walks):
+ RouteLength: 479.37
+ Duration: 404.91
+ TimeLoss: 55.53
+Ride Statistics (avg of 45234 rides):
+ WaitingTime: 46.57
+ RouteLength: 7243.00
+ Duration: 921.88
+ Bus: 5331
+ Train: 10
+ Bike: 4335
+ Aborted: 0
+ ```
+
+#### Eclipse SUMO Version 1.0.1 (Build features: Linux-4.18.0-1-amd64 Proj GUI GDAL FFmpeg OSG GL2PS SWIG)
+```
+Performance:
+ Duration: 13923066ms
+ Real time factor: 2.58564
+ UPS: 85404.430245
+Vehicles:
+ Inserted: 47232 (Loaded: 47233)
+ Running: 23
+ Waiting: 0
+Teleports: 727 (Collisions: 197, Jam: 130, Yield: 236, Wrong Lane: 164)
+Emergency Stops: 1
+Persons:
+ Inserted: 45000
+ Running: 0
+ Jammed: 643
+Statistics (avg):
+ RouteLength: 7831.52
+ Duration: 6296.54
+ WaitingTime: 144.19
+ TimeLoss: 318.86
+ DepartDelay: 0.65
+Pedestrian Statistics (avg of 29617 walks):
+ RouteLength: 480.20
+ Duration: 405.35
+ TimeLoss: 55.40
+Ride Statistics (avg of 45234 rides):
+ WaitingTime: 46.21
+ RouteLength: 7091.25
+ Duration: 885.65
+ Bus: 5331
+ Train: 10
+ Bike: 4335
+ Aborted: 0
+ ```
