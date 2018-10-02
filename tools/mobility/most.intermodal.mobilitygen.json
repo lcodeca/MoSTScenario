@@ -21,7 +21,7 @@
     },
 
     "population": {
-        "entities" : 35000,
+        "entities" : 50000,
         "tazDefinition": "tools/mobility/taz/most.complete.taz.xml",
         "tazWeights": "tools/mobility/taz/most.complete.taz.weight.csv",
         "buildingsWeight": "tools/mobility/taz/buildings/"

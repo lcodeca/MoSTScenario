@@ -768,8 +768,8 @@ def _main():
     """ Person Trip Activity-based Mobility Generation with PoIs and TAZ. """
 
     ## ========================              PROFILER              ======================== ##
-    profiler = cProfile.Profile()
-    profiler.enable()
+    # profiler = cProfile.Profile()
+    # profiler.enable()
     ## ========================              PROFILER              ======================== ##
 
     args = _args()
@@ -783,10 +783,10 @@ def _main():
     mobility.close_traci()
 
     ## ========================              PROFILER              ======================== ##
-    profiler.disable()
-    results = io.StringIO()
-    pstats.Stats(profiler, stream=results).sort_stats('cumulative').print_stats(25)
-    print(results.getvalue())
+    # profiler.disable()
+    # results = io.StringIO()
+    # pstats.Stats(profiler, stream=results).sort_stats('cumulative').print_stats(25)
+    # print(results.getvalue())
     ## ========================              PROFILER              ======================== ##
 
     logging.info('Done.')
