@@ -69,7 +69,6 @@
 
     <building_defaults>
         <default.crossing-width value="2.0"/>
-        <!-- <default.lanewidth value="2.7"/> -->
     </building_defaults>
 
     <report>
