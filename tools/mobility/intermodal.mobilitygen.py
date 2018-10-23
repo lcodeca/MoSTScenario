@@ -680,7 +680,7 @@ class MobilityGenerator(object):
         <stop parkingArea="{id}" until="{until}"/>"""
 
     PERSON = """
-    <person id="{id}" depart="{depart}">{stages}
+    <person id="{id}" type="pedestrian" depart="{depart}">{stages}
     </person>"""
 
     WALK = """
