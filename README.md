@@ -58,74 +58,74 @@ You can send an e-mail to codeca@eurecom.fr with your name and affiliation (if a
 
 ### Tested with:
 
-#### Eclipse SUMO Version 5345f89a38 (Build features: Linux-4.18.0-1-amd64 x86_64 GNU 8.2.0 Proj GUI GDAL FFmpeg OSG GL2PS SWIG)
+#### Eclipse SUMO Version 5345f89a38 (Build features: Linux-4.17.0-1-amd64 x86_64 GNU 8.2.0 Release Proj GUI GDAL FFmpeg OSG GL2PS SWIG)
 ```
 Performance:
- Duration: 14335221ms
- Real time factor: 2.5113
- UPS: 83421.788684
+ Duration: 8872758ms
+ Real time factor: 4.05736
+ UPS: 133877.978978
 Vehicles:
- Inserted: 47232 (Loaded: 47233)
- Running: 23
+ Inserted: 47283
+ Running: 22
  Waiting: 0
-Teleports: 777 (Collisions: 190, Jam: 169, Yield: 270, Wrong Lane: 148)
-Emergency Stops: 2
+Teleports: 835 (Collisions: 384, Jam: 142, Yield: 187, Wrong Lane: 122)
+Emergency Stops: 1
 Persons:
  Inserted: 45000
  Running: 0
- Jammed: 618
+ Jammed: 492
 Statistics (avg):
- RouteLength: 7992.86
- Duration: 6332.43
- WaitingTime: 160.87
- TimeLoss: 345.51
- DepartDelay: 0.70
-Pedestrian Statistics (avg of 29617 walks):
- RouteLength: 479.37
- Duration: 404.91
- TimeLoss: 55.53
-Ride Statistics (avg of 45234 rides):
- WaitingTime: 46.57
- RouteLength: 7243.00
- Duration: 921.88
- Bus: 5331
- Train: 10
- Bike: 4335
+ RouteLength: 7622.57
+ Duration: 6283.18
+ WaitingTime: 120.51
+ TimeLoss: 278.01
+ DepartDelay: 0.61
+Pedestrian Statistics (avg of 29541 walks):
+ RouteLength: 472.38
+ Duration: 398.49
+ TimeLoss: 54.52
+Ride Statistics (avg of 45181 rides):
+ WaitingTime: 51.21
+ RouteLength: 6916.92
+ Duration: 832.03
+ Bus: 5223
+ Train: 15
+ Bike: 4409
  Aborted: 0
  ```
 
 #### Eclipse SUMO Version 1.0.1 (Build features: Linux-4.18.0-1-amd64 Proj GUI GDAL FFmpeg OSG GL2PS SWIG)
 ```
 Performance:
- Duration: 13923066ms
- Real time factor: 2.58564
- UPS: 85404.430245
+ Duration: 11921949ms
+ Real time factor: 3.01964
+ UPS: 99541.035027
 Vehicles:
- Inserted: 47232 (Loaded: 47233)
- Running: 23
+ Inserted: 47283
+ Running: 22
  Waiting: 0
-Teleports: 727 (Collisions: 197, Jam: 130, Yield: 236, Wrong Lane: 164)
+Teleports: 679 (Collisions: 271, Jam: 132, Yield: 140, Wrong Lane: 136)
 Emergency Stops: 1
 Persons:
  Inserted: 45000
  Running: 0
- Jammed: 643
+ Jammed: 580
 Statistics (avg):
- RouteLength: 7831.52
- Duration: 6296.54
- WaitingTime: 144.19
- TimeLoss: 318.86
- DepartDelay: 0.65
-Pedestrian Statistics (avg of 29617 walks):
- RouteLength: 480.20
- Duration: 405.35
- TimeLoss: 55.40
-Ride Statistics (avg of 45234 rides):
- WaitingTime: 46.21
- RouteLength: 7091.25
- Duration: 885.65
- Bus: 5331
- Train: 10
- Bike: 4335
+ RouteLength: 7673.19
+ Duration: 6277.13
+ WaitingTime: 122.32
+ TimeLoss: 283.79
+ DepartDelay: 0.59
+Pedestrian Statistics (avg of 29541 walks):
+ RouteLength: 472.06
+ Duration: 398.11
+ TimeLoss: 54.46
+Ride Statistics (avg of 45181 rides):
+ WaitingTime: 51.49
+ RouteLength: 6961.77
+ Duration: 838.20
+ Bus: 5223
+ Train: 15
+ Bike: 4409
  Aborted: 0
  ```
