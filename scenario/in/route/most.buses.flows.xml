@@ -1,51 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--
-    Monaco SUMO Traffic (MoST) Scenario
-    Copyright (C) 2018
-    Lara CODECA
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+<!-- generated on 2019-01-07 09:38:43.617839 by ptlines2flows.py
+  options: -n /home/drone/EURECOM/Projects/GITHUB/MoSTScenario/scenario/in/most.net.xml -b 14400 -e 50400 -p 1200 <doubleminus>random-begin <doubleminus>seed 42 <doubleminus>no-vtypes <doubleminus>ptstops /home/drone/EURECOM/Projects/GITHUB/MoSTScenario/scenario/in/add/most.busstops.add.xml <doubleminus>ptlines pt/most.buslines.add.xml -o out/most.buses.flows.xml
 -->
-
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <route id="bus_M2:France" edges="153435#1 152736#0 -152738#2 -152741 -152736#0 -153426#0 -153435#0 -153453#6 -153453#5 -153453#4 -153453#3 -153453#2 -153453#1 -153453#0 -153454#1 153459 -153461#0 -152257 153462" >
         <stop busStop="131164" duration="30.00" until="37.0"/> <!-- La Turbie Marie -->
-        <stop busStop="131168" duration="30.00" until="454.0"/> <!-- 131168 -->
+        <stop busStop="131168" duration="30.00" until="453.0"/> <!-- 131168 -->
     </route>
-    <route id="bus_M4:Train" edges="-152911 152911 153478#14 153478#15 153478#16 153478#17 153478#18 153478#19 153478#20 152921#0 -152924 -153012#0 -152922#2" >
+    <route id="bus_M4:Train" edges="-152911 152911 153478#14 153478#15 153478#16 153478#17 153478#18 153478#19 153478#20 153478#22 -153012#1 -153012#0 -152922#2" >
         <stop busStop="131180" duration="30.00" until="37.0"/> <!-- L'Eglise -->
         <stop busStop="131178" duration="30.00" until="171.0"/> <!-- La Source -->
-        <stop busStop="131035" duration="30.00" until="258.0"/> <!-- Les Cigognes -->
-        <stop busStop="131195" duration="30.00" until="315.0"/> <!-- Bois Joli -->
+        <stop busStop="131035" duration="30.00" until="254.0"/> <!-- Les Cigognes -->
+        <stop busStop="131195" duration="30.00" until="312.0"/> <!-- Bois Joli -->
     </route>
-    <route id="bus_M4:HotelVille" edges="152922#2 153012#0 152924 -152921#0 -153478#20 -153478#19 -153478#18 -153478#17 -153478#16 -153478#15 -153478#14 -153478#13" >
+    <route id="bus_M4:HotelVille" edges="152922#2 153012#0 153012#1 -153478#22 -153478#20 -153478#19 -153478#18 -153478#17 -153478#16 -153478#15 -153478#14 -153478#13" >
         <stop busStop="131027" duration="30.00" until="44.0"/> <!-- Bois Joli -->
         <stop busStop="131196" duration="30.00" until="103.0"/> <!-- Les Cigognes -->
-        <stop busStop="131177" duration="30.00" until="182.0"/> <!-- Guillaume Apollinaire -->
-        <stop busStop="131179" duration="30.00" until="259.0"/> <!-- L'Eglise -->
-        <stop busStop="131181" duration="30.00" until="324.0"/> <!-- Hotel de Ville -->
+        <stop busStop="131177" duration="30.00" until="179.0"/> <!-- Guillaume Apollinaire -->
+        <stop busStop="131179" duration="30.00" until="255.0"/> <!-- L'Eglise -->
+        <stop busStop="131181" duration="30.00" until="320.0"/> <!-- Hotel de Ville -->
     </route>
     <route id="bus_M1:France" edges="152929 152258 153479#0 -152905 -153460#0 -153461#0 -152257 153462" >
         <stop busStop="131172" duration="30.00" until="74.0"/> <!-- Parking Saint-Laurent d'Eze -->
         <stop busStop="131031" duration="30.00" until="241.0"/> <!-- Chapelle de Saint-Laurent -->
-        <stop busStop="131168" duration="30.00" until="615.0"/> <!-- 131168 -->
+        <stop busStop="131168" duration="30.00" until="616.0"/> <!-- 131168 -->
     </route>
     <route id="bus_M1:Eze" edges="-153462 152257 153461#0 153461#1 152905 -153479#0 -152258 -152929" >
         <stop busStop="131167" duration="30.00" until="41.0"/> <!-- 131167 -->
         <stop busStop="131162" duration="30.00" until="431.0"/> <!-- Chapelle de Saint-Laurent -->
-        <stop busStop="131171" duration="30.00" until="586.0"/> <!-- Parking Saint-Laurent d'Eze -->
+        <stop busStop="131171" duration="30.00" until="587.0"/> <!-- Parking Saint-Laurent d'Eze -->
     </route>
     <route id="bus_M2:Turbie" edges="-153462 152257 153461#0 -153459 153454#1 153454#2 153453#1 153453#2 153453#3 153453#4 153453#5 153453#6 153453#7 152910#0" >
         <stop busStop="131167" duration="30.00" until="41.0"/> <!-- 131167 -->
@@ -57,314 +40,314 @@
         <stop busStop="131153" duration="30.00" until="205.0"/> <!-- 1er Escalier -->
         <stop busStop="131151" duration="30.00" until="304.0"/> <!-- Massolin -->
         <stop busStop="131078" duration="30.00" until="406.0"/> <!-- Cypris -->
-        <stop busStop="131077" duration="30.00" until="474.0"/> <!-- Orchidees -->
+        <stop busStop="131077" duration="30.00" until="475.0"/> <!-- Orchidees -->
         <stop busStop="131075" duration="30.00" until="614.0"/> <!-- Victoria -->
-        <stop busStop="131194" duration="30.00" until="701.0"/> <!-- Pont de l'Union -->
+        <stop busStop="131194" duration="30.00" until="700.0"/> <!-- Pont de l'Union -->
     </route>
     <route id="bus_M5:Ramingao" edges="153658 152284 -152557 -153359#2 -153359#1 -153359#0 -152240 -152995#1 -152995#0" >
         <stop busStop="131140" duration="30.00" until="43.0"/> <!-- Pont de l'Union -->
         <stop busStop="131198" duration="30.00" until="135.0"/> <!-- 131198 -->
         <stop busStop="131076" duration="30.00" until="274.0"/> <!-- Le Cirta -->
-        <stop busStop="131074" duration="30.00" until="337.0"/> <!-- Mairie -->
+        <stop busStop="131074" duration="30.00" until="338.0"/> <!-- Mairie -->
         <stop busStop="131152" duration="30.00" until="489.0"/> <!-- 1er Escalier -->
         <stop busStop="131154" duration="30.00" until="550.0"/> <!-- 2e Escalier -->
         <stop busStop="131159" duration="30.00" until="633.0"/> <!-- Ramingao -->
     </route>
-    <route id="bus_M3:Hospital" edges="152910#0 152910#1 152910#2 152910#3 152910#5 152910#6 152910#7 152910#8 152411#1 152411#2 152411#3 152331#0 152406 152331#2 152331#3 152331#4 152331#5 152331#6 152331#7 152167 -153008#3 -153008#2 -153008#1 -153008#0 -152901#1 -152901#0 152403#0 152403#1 152403#2 152403#3 152901#0 152901#1" >
+    <route id="bus_M3:Hospital" edges="152910#0 152910#1 152910#2 152910#3 152910#5 152910#6 152910#7 152910#8 152411#1 152411#2 152411#3 152331#0 152331#1 152331#2 152331#3 152331#4 152331#5 152331#6 152331#7 152167 -153008#3 -153008#2 -153008#1 -153008#0 -152901#1 -152901#0 152403#0 152403#1 152403#2 152403#3 152901#0 152901#1" >
         <stop busStop="131030" duration="30.00" until="37.0"/> <!-- La Turbie Marie -->
         <stop busStop="131038" duration="30.00" until="117.0"/> <!-- 131038 -->
         <stop busStop="131020" duration="30.00" until="230.0"/> <!-- 131020 -->
-        <stop busStop="131019" duration="30.00" until="558.0"/> <!-- 131019 -->
-        <stop busStop="131037" duration="30.00" until="656.0"/> <!-- 131037 -->
+        <stop busStop="131019" duration="30.00" until="557.0"/> <!-- 131019 -->
+        <stop busStop="131037" duration="30.00" until="655.0"/> <!-- 131037 -->
         <stop busStop="131029" duration="30.00" until="733.0"/> <!-- 131029 -->
         <stop busStop="131055" duration="30.00" until="898.0"/> <!-- Hopital -->
     </route>
-    <route id="bus_1:Monaco" edges="152350 152584#1 152584#2 152584#3 152584#4 152456#2 152456#3 152456#4 -152455 -152224 -152170 -152607#2 -152607#1 -152607#0 -152669#10 -152669#9 -152655 -152675 -152661 -152653 -152951 -152663 -152669#3 -152669#2 -152669#1 152704#0 152704#1 -152777#5 -152777#4 -152777#3 -152777#2 -152674#2 -152674#1 152690#0 -152950#1 -152950#0 152674#2 -152777#0 152812#0 152812#1 152812#2 152822 152962#1 152962#2 152962#3 152962#4 152962#5 152962#6 152962#7 152962#8 -153275#2 -153275#1 -152136#1 -152136#0 152804 152820#1 152820#2 152820#3 152820#4 152818#0 152818#1 152818#2 152818#3 152833#0 152833#1 152807#1 152807#2 -152768#1 -152768#0 152962#7 152962#8 152962#10 152961#2 152961#3 152961#4 -152819#3 -152819#2 -152819#1 -152819#0 -152778 152765 -152774 -152775" >
+    <route id="bus_1:Monaco" edges="152350 152584#1 152584#2 152584#3 152584#4 152456#2 152456#3 152456#4 -152455 -152224 -152170 -152607#2 -152607#1 -152607#0 -152669#10 -152669#9 -152655 -152675 -152661 -152653 -152951 -152663 -152669#3 -152669#2 -152669#1 152704#0 152704#1 152715 -152715 -152704#1 -152690#2 -152690#1 -152690#0 152674#1 152674#2 -152777#0 152812#0 152812#1 152812#2 152822 152962#1 152962#2 152962#3 152962#4 152962#5 152962#6 152962#7 152962#8 -153275#2 -153275#1 -152136#1 -152136#0 152804 152820#1 152820#2 152820#3 152820#4 152818#0 152818#1 152818#2 152818#3 152833#0 152833#1 152833#2 152962#5 152962#6 152962#7 152962#8 152962#10 152961#2 152961#3 152961#4 -152819#3 -152819#2 -152819#1 -152819#0 -152778 152765 -152774 -152775" >
         <stop busStop="131166" duration="30.00" until="42.0"/> <!-- Saint-Roman (Bus 1) -->
-        <stop busStop="131133" duration="30.00" until="119.0"/> <!-- Carmes -->
-        <stop busStop="131124" duration="30.00" until="200.0"/> <!-- La Rousse -->
-        <stop busStop="131128" duration="30.00" until="258.0"/> <!-- Place des Moulins -->
-        <stop busStop="131134" duration="30.00" until="330.0"/> <!-- Saint-Charles -->
-        <stop busStop="131062" duration="30.00" until="420.0"/> <!-- Monte-Carlo -->
-        <stop busStop="131063" duration="30.00" until="542.0"/> <!-- Square Beaumarchais -->
-        <stop busStop="131132" duration="30.00" until="610.0"/> <!-- Ostende -->
+        <stop busStop="131133" duration="30.00" until="117.0"/> <!-- Carmes -->
+        <stop busStop="131124" duration="30.00" until="196.0"/> <!-- La Rousse -->
+        <stop busStop="131128" duration="30.00" until="253.0"/> <!-- Place des Moulins -->
+        <stop busStop="131134" duration="30.00" until="325.0"/> <!-- Saint-Charles -->
+        <stop busStop="131062" duration="30.00" until="422.0"/> <!-- Monte-Carlo -->
+        <stop busStop="131063" duration="30.00" until="536.0"/> <!-- Square Beaumarchais -->
+        <stop busStop="131132" duration="30.00" until="603.0"/> <!-- Ostende -->
         <stop busStop="131060" duration="30.00" until="693.0"/> <!-- Place Sainte-Devote (Gare) -->
-        <stop busStop="131122" duration="30.00" until="745.0"/> <!-- Princesse Florestine -->
-        <stop busStop="131118" duration="30.00" until="842.0"/> <!-- Place d'Armes (Port) -->
-        <stop busStop="131116" duration="30.00" until="1069.0"/> <!-- Monaco Ville (le Rocher) -->
+        <stop busStop="131122" duration="30.00" until="744.0"/> <!-- Princesse Florestine -->
+        <stop busStop="131118" duration="30.00" until="841.0"/> <!-- Place d'Armes (Port) -->
+        <stop busStop="131116" duration="30.00" until="1054.0"/> <!-- Monaco Ville (le Rocher) -->
     </route>
-    <route id="bus_2:Monaco" edges="152898 152816#1 152816#2 152816#3 152816#4 152816#5 152816#6 152816#7 152816#8 152816#9 152816#10 152816#11 152761 152231 152787#0 152821 152946#2 152235 152703#0 152703#1 152703#2 152703#3 152703#4 152703#5 152705 152706 152704#0 152704#1 -152777#5 -152777#4 -152777#3 -152777#2 -152674#2 -152674#1 152690#0 -152950#1 -152950#0 152674#2 -152777#0 152812#0 152812#1 152812#2 152822 152962#1 152962#2 152962#3 152962#4 152962#5 152962#6 152962#7 152962#8 152962#10 152961#2 152961#3 152961#4 -152819#3 -152819#2 -152819#1 -152819#0 -152778 152765 -152774 -152775" >
-        <stop busStop="131137" duration="30.00" until="38.0"/> <!-- Jardin Exotique -->
-        <stop busStop="131048" duration="30.00" until="125.0"/> <!-- Villa Paloma -->
-        <stop busStop="131138" duration="30.00" until="164.0"/> <!-- Rotondes -->
-        <stop busStop="131069" duration="30.00" until="231.0"/> <!-- Moneghetti -->
-        <stop busStop="131112" duration="30.00" until="290.0"/> <!-- Belgique -->
-        <stop busStop="131079" duration="30.00" until="371.0"/> <!-- Pont Sainte-Devote -->
-        <stop busStop="131201" duration="30.00" until="455.0"/> <!-- Roqueville -->
-        <stop busStop="131062" duration="30.00" until="541.0"/> <!-- Monte-Carlo -->
-        <stop busStop="131063" duration="30.00" until="662.0"/> <!-- Square Beaumarchais -->
-        <stop busStop="131132" duration="30.00" until="729.0"/> <!-- Ostende -->
-        <stop busStop="131060" duration="30.00" until="798.0"/> <!-- Place Sainte-Devote (Gare) -->
-        <stop busStop="131122" duration="30.00" until="850.0"/> <!-- Princesse Florestine -->
-        <stop busStop="131084" duration="30.00" until="939.0"/> <!-- Place d'Armes (vers Monaco Ville) -->
-        <stop busStop="131116" duration="30.00" until="1041.0"/> <!-- Monaco Ville (le Rocher) -->
+    <route id="bus_2:Monaco" edges="152898 152816#1 152816#2 152816#3 152816#4 152816#5 152816#6 152816#7 152816#8 152816#9 152816#10 152816#11 152761 152231 152787#0 152821 152946#2 152235 152703#0 152703#1 152703#2 152703#3 152703#4 152703#5 152705 152706 152704#0 152704#1 152715 -152715 -152704#1 -152690#2 -152690#1 -152690#0 152674#1 152674#2 -152777#0 152812#0 152812#1 152812#2 152822 152962#1 152962#2 152962#3 152962#4 152962#5 152962#6 152962#7 152962#8 152962#10 152961#2 152961#3 152961#4 -152819#3 -152819#2 -152819#1 -152819#0 -152778 152765 -152774 -152775" >
+        <stop busStop="131137" duration="30.00" until="37.0"/> <!-- Jardin Exotique -->
+        <stop busStop="131048" duration="30.00" until="123.0"/> <!-- Villa Paloma -->
+        <stop busStop="131138" duration="30.00" until="160.0"/> <!-- Rotondes -->
+        <stop busStop="131069" duration="30.00" until="224.0"/> <!-- Moneghetti -->
+        <stop busStop="131112" duration="30.00" until="284.0"/> <!-- Belgique -->
+        <stop busStop="131079" duration="30.00" until="363.0"/> <!-- Pont Sainte-Devote -->
+        <stop busStop="131201" duration="30.00" until="425.0"/> <!-- Roqueville -->
+        <stop busStop="131062" duration="30.00" until="508.0"/> <!-- Monte-Carlo -->
+        <stop busStop="131063" duration="30.00" until="625.0"/> <!-- Square Beaumarchais -->
+        <stop busStop="131132" duration="30.00" until="692.0"/> <!-- Ostende -->
+        <stop busStop="131060" duration="30.00" until="766.0"/> <!-- Place Sainte-Devote (Gare) -->
+        <stop busStop="131122" duration="30.00" until="817.0"/> <!-- Princesse Florestine -->
+        <stop busStop="131084" duration="30.00" until="908.0"/> <!-- Place d'Armes (vers Monaco Ville) -->
+        <stop busStop="131116" duration="30.00" until="1010.0"/> <!-- Monaco Ville (le Rocher) -->
     </route>
     <route id="bus_1:SaintRoman" edges="-152775 152776 -152762 -152765 152778 152819#0 152819#1 152819#2 152819#3 152961#5 152961#1 152961#2 152961#3 -152823#2 -152823#1 -152823#0 152138#6 152138#7 -152140 152319#4 152310 152313#3 -152306 152962#5 152962#6 152962#7 152962#8 -153275#2 -153275#1 -152136#1 -152136#0 152804 152820#1 152820#2 152820#3 152820#4 152390 152388 152818#1 152818#2 152818#3 152818#4 152818#5 152789#0 152789#1 152789#2 152764 152290 152664 152656#2 152656#3 152656#4 152672#3 152679#0 152679#1 152679#2 152679#3 152679#4 152679#5 -152659#2 -152659#1 -152659#0 152669#1 152669#2 152669#3 152669#4 152669#5 152669#6 152669#7 152669#8 152669#9 152669#10 152669#11 152607#1 152607#2 152170 152224 152455 152456#1 -152584#4 -152584#3 -152584#2 152350" >
         <stop busStop="131116" duration="30.00" until="39.0"/> <!-- Monaco Ville (le Rocher) -->
-        <stop busStop="131118" duration="30.00" until="307.0"/> <!-- Place d'Armes (Port) -->
-        <stop busStop="131044" duration="30.00" until="384.0"/> <!-- Princesse Stephanie -->
-        <stop busStop="131092" duration="30.00" until="437.0"/> <!-- Stade Nautique -->
-        <stop busStop="131093" duration="30.00" until="492.0"/> <!-- Princesse Antoinette -->
-        <stop busStop="131094" duration="30.00" until="579.0"/> <!-- Kennedy -->
-        <stop busStop="131095" duration="30.00" until="642.0"/> <!-- Auditorium Rainier III -->
-        <stop busStop="131043" duration="30.00" until="727.0"/> <!-- Portier -->
-        <stop busStop="131051" duration="30.00" until="836.0"/> <!-- Spelugues -->
-        <stop busStop="131050" duration="30.00" until="897.0"/> <!-- Citronniers -->
-        <stop busStop="131059" duration="30.00" until="949.0"/> <!-- Place du Casino -->
-        <stop busStop="131057" duration="30.00" until="1071.0"/> <!-- Monte-Carlo (Tourisme) -->
-        <stop busStop="131061" duration="30.00" until="1129.0"/> <!-- Saint-Charles -->
-        <stop busStop="131129" duration="30.00" until="1193.0"/> <!-- Place des Moulins -->
-        <stop busStop="131127" duration="30.00" until="1253.0"/> <!-- La Rousse -->
-        <stop busStop="131125" duration="30.00" until="1321.0"/> <!-- Carmes -->
-        <stop busStop="131166" duration="30.00" until="1389.0"/> <!-- Saint-Roman (Bus 1) -->
-    </route>
-    <route id="bus_2:Jardin" edges="-152775 152776 -152762 -152765 152778 152819#0 152819#1 152819#2 152819#3 152961#5 152961#1 152961#2 152961#3 -152823#2 -152823#1 -152823#0 152138#6 152138#7 -152140 152319#4 152310 152313#3 -152306 152962#5 152962#6 152962#7 152962#8 -153275#2 -153275#1 -152136#1 -152136#0 152804 152820#1 152820#2 152820#3 152820#4 152390 152388 152818#1 152818#2 152818#3 152818#4 152818#5 -152812#2 -152812#1 -152812#0 152777#0 152777#2 152777#3 152777#4 152777#5 -152704#1 -152704#0 152669#1 152669#2 152669#3 152716 152175#0 152175#1 -152703#5 -152703#4 -152703#3 -152703#2 -152703#1 -152703#0 152230 152945#0 152945#1 -152816#11 -152816#10 -152816#9 -152816#8 -152816#7 -152816#6 -152816#5 -152816#4 -152816#3 -152816#2 152898" >
-        <stop busStop="131116" duration="30.00" until="39.0"/> <!-- Monaco Ville (le Rocher) -->
-        <stop busStop="131118" duration="30.00" until="312.0"/> <!-- Place d'Armes (Port) -->
-        <stop busStop="131044" duration="30.00" until="388.0"/> <!-- Princesse Stephanie -->
+        <stop busStop="131118" duration="30.00" until="309.0"/> <!-- Place d'Armes (Port) -->
+        <stop busStop="131044" duration="30.00" until="386.0"/> <!-- Princesse Stephanie -->
         <stop busStop="131092" duration="30.00" until="440.0"/> <!-- Stade Nautique -->
         <stop busStop="131093" duration="30.00" until="496.0"/> <!-- Princesse Antoinette -->
-        <stop busStop="131096" duration="30.00" until="569.0"/> <!-- Ostende -->
-        <stop busStop="131091" duration="30.00" until="632.0"/> <!-- Terrasses du Casino -->
+        <stop busStop="131094" duration="30.00" until="579.0"/> <!-- Kennedy -->
+        <stop busStop="131095" duration="30.00" until="643.0"/> <!-- Auditorium Rainier III -->
+        <stop busStop="131043" duration="30.00" until="729.0"/> <!-- Portier -->
+        <stop busStop="131051" duration="30.00" until="835.0"/> <!-- Spelugues -->
+        <stop busStop="131050" duration="30.00" until="895.0"/> <!-- Citronniers -->
+        <stop busStop="131059" duration="30.00" until="946.0"/> <!-- Place du Casino -->
+        <stop busStop="131057" duration="30.00" until="1069.0"/> <!-- Monte-Carlo (Tourisme) -->
+        <stop busStop="131061" duration="30.00" until="1128.0"/> <!-- Saint-Charles -->
+        <stop busStop="131129" duration="30.00" until="1193.0"/> <!-- Place des Moulins -->
+        <stop busStop="131127" duration="30.00" until="1255.0"/> <!-- La Rousse -->
+        <stop busStop="131125" duration="30.00" until="1322.0"/> <!-- Carmes -->
+        <stop busStop="131166" duration="30.00" until="1391.0"/> <!-- Saint-Roman (Bus 1) -->
+    </route>
+    <route id="bus_2:Jardin" edges="-152775 152776 -152762 -152765 152778 152819#0 152819#1 152819#2 152819#3 152961#5 152961#1 152961#2 152961#3 -152823#2 -152823#1 -152823#0 152138#6 152138#7 -152140 152319#4 152310 152313#3 -152306 152962#5 152962#6 152962#7 152962#8 -153275#2 -153275#1 -152136#1 -152136#0 152804 152820#1 152820#2 152820#3 152820#4 152390 152388 152818#1 152818#2 152818#3 152818#4 152818#5 -152812#2 -152812#1 -152812#0 152777#0 152777#2 152777#3 152777#4 152777#5 -152704#1 -152704#0 152669#1 152669#2 152669#3 152716 152175#0 152175#1 -152703#5 -152703#4 -152703#3 -152703#2 -152703#1 -152703#0 152230 152945#0 152945#1 -152816#11 -152816#10 -152816#9 -152816#8 -152816#7 -152816#6 -152816#5 -152816#4 -152816#3 -152816#2 152898" >
+        <stop busStop="131116" duration="30.00" until="41.0"/> <!-- Monaco Ville (le Rocher) -->
+        <stop busStop="131118" duration="30.00" until="308.0"/> <!-- Place d'Armes (Port) -->
+        <stop busStop="131044" duration="30.00" until="384.0"/> <!-- Princesse Stephanie -->
+        <stop busStop="131092" duration="30.00" until="436.0"/> <!-- Stade Nautique -->
+        <stop busStop="131093" duration="30.00" until="492.0"/> <!-- Princesse Antoinette -->
+        <stop busStop="131096" duration="30.00" until="572.0"/> <!-- Ostende -->
+        <stop busStop="131091" duration="30.00" until="636.0"/> <!-- Terrasses du Casino -->
         <stop busStop="131057" duration="30.00" until="732.0"/> <!-- Monte-Carlo (Tourisme) -->
-        <stop busStop="131090" duration="30.00" until="832.0"/> <!-- Cremaillere -->
-        <stop busStop="131097" duration="30.00" until="914.0"/> <!-- Roqueville -->
-        <stop busStop="131047" duration="30.00" until="993.0"/> <!-- Pont Sainte-Devote -->
-        <stop busStop="131119" duration="30.00" until="1055.0"/> <!-- Belgique -->
-        <stop busStop="131098" duration="30.00" until="1111.0"/> <!-- Moneghetti -->
-        <stop busStop="131135" duration="30.00" until="1176.0"/> <!-- Rotondes -->
-        <stop busStop="131049" duration="30.00" until="1226.0"/> <!-- Villa Paloma -->
-        <stop busStop="131137" duration="30.00" until="1290.0"/> <!-- Jardin Exotique -->
+        <stop busStop="131090" duration="30.00" until="829.0"/> <!-- Cremaillere -->
+        <stop busStop="131097" duration="30.00" until="911.0"/> <!-- Roqueville -->
+        <stop busStop="131047" duration="30.00" until="991.0"/> <!-- Pont Sainte-Devote -->
+        <stop busStop="131119" duration="30.00" until="1053.0"/> <!-- Belgique -->
+        <stop busStop="131098" duration="30.00" until="1110.0"/> <!-- Moneghetti -->
+        <stop busStop="131135" duration="30.00" until="1174.0"/> <!-- Rotondes -->
+        <stop busStop="131049" duration="30.00" until="1224.0"/> <!-- Villa Paloma -->
+        <stop busStop="131137" duration="30.00" until="1291.0"/> <!-- Jardin Exotique -->
     </route>
     <route id="bus_5:Larvotto" edges="152901#1 152901#2 -152872#4 -152872#3 -152872#2 -152872#1 -152872#0 153554#3 153554#0 152947#0 152947#1 152947#2 152816#11 152761 152231 152787#0 152821 152946#2 152235 152703#0 152703#1 152703#2 152703#3 152703#4 152703#5 152705 152706 152669#1 152669#2 152669#3 -152670#2 -152670#1 -152670#0 -152679#4 -152679#3 -152679#2 -152679#1 -152679#0 152656#0 152656#1 152656#2 152536#0 152536#2 152536#4 152536#5 152536#6 152536#7" >
-        <stop busStop="131055" duration="30.00" until="52.0"/> <!-- Hopital -->
-        <stop busStop="131105" duration="30.00" until="112.0"/> <!-- Observatoire -->
-        <stop busStop="131200" duration="30.00" until="169.0"/> <!-- Parc Princesse Antoinette -->
-        <stop busStop="131106" duration="30.00" until="227.0"/> <!-- Bosio -->
-        <stop busStop="131123" duration="30.00" until="299.0"/> <!-- Belgique -->
-        <stop busStop="131079" duration="30.00" until="383.0"/> <!-- Pont Sainte-Devote -->
-        <stop busStop="131201" duration="30.00" until="463.0"/> <!-- Roqueville -->
-        <stop busStop="131057" duration="30.00" until="582.0"/> <!-- Monte-Carlo (Tourisme) -->
-        <stop busStop="131126" duration="30.00" until="663.0"/> <!-- Place du Casino -->
-        <stop busStop="131087" duration="30.00" until="734.0"/> <!-- Spelugues -->
-        <stop busStop="131043" duration="30.00" until="798.0"/> <!-- Portier -->
-        <stop busStop="131108" duration="30.00" until="859.0"/> <!-- Grimaldi Forum/Villa Sauber -->
-        <stop busStop="131131" duration="30.00" until="928.0"/> <!-- Plages -->
-        <stop busStop="131109" duration="30.00" until="984.0"/> <!-- Sea Club -->
-        <stop busStop="131083" duration="30.00" until="1038.0"/> <!-- Larvotto -->
+        <stop busStop="131055" duration="30.00" until="54.0"/> <!-- Hopital -->
+        <stop busStop="131105" duration="30.00" until="114.0"/> <!-- Observatoire -->
+        <stop busStop="131200" duration="30.00" until="171.0"/> <!-- Parc Princesse Antoinette -->
+        <stop busStop="131106" duration="30.00" until="230.0"/> <!-- Bosio -->
+        <stop busStop="131123" duration="30.00" until="303.0"/> <!-- Belgique -->
+        <stop busStop="131079" duration="30.00" until="386.0"/> <!-- Pont Sainte-Devote -->
+        <stop busStop="131201" duration="30.00" until="465.0"/> <!-- Roqueville -->
+        <stop busStop="131057" duration="30.00" until="580.0"/> <!-- Monte-Carlo (Tourisme) -->
+        <stop busStop="131126" duration="30.00" until="658.0"/> <!-- Place du Casino -->
+        <stop busStop="131087" duration="30.00" until="729.0"/> <!-- Spelugues -->
+        <stop busStop="131043" duration="30.00" until="791.0"/> <!-- Portier -->
+        <stop busStop="131108" duration="30.00" until="853.0"/> <!-- Grimaldi Forum/Villa Sauber -->
+        <stop busStop="131131" duration="30.00" until="921.0"/> <!-- Plages -->
+        <stop busStop="131109" duration="30.00" until="976.0"/> <!-- Sea Club -->
+        <stop busStop="131083" duration="30.00" until="1030.0"/> <!-- Larvotto -->
     </route>
     <route id="bus_4:Fontvieille" edges="-152350 -152584#1 -152584#0 152578 152220 152347#1 152222 152217 153378 152222 152587#1 152351 152584#0 152584#1 152584#2 152584#3 152584#4 152456#2 152456#3 152456#4 -152455 -152224 -152170 -152607#2 -152607#1 -152607#0 -152669#10 -152669#9 -152655 -152675 -152661 -152653 -152951 -152663 152716 152175#0 152175#1 -152703#5 -152703#4 -152703#3 -152703#2 -152703#1 -152703#0 152230 152945#0 152795 152787#2 152168 152971#0 152971#1 152971#2 152971#3 -152797#1 152826#0 152826#1 152138#7 -152140 152319#4 152310 152313#3 -152306 152962#5 152962#6 152962#7 152962#8 -153275#2 -153275#1 -152136#1 -152136#0 152804 152820#1 152820#2 152820#3 152820#4 152390 152791#0 152791#1 152830 152799#1 -152799#1 -152830 -152791#1 -152791#0 152470 152297 153642 153641" >
         <stop busStop="131085" duration="30.00" until="39.0"/> <!-- Saint-Roman (Bus 4) -->
         <stop busStop="131081" duration="30.00" until="151.0"/> <!-- Varavilla -->
-        <stop busStop="131163" duration="30.00" until="215.0"/> <!-- Saint-Roman -->
-        <stop busStop="131133" duration="30.00" until="285.0"/> <!-- Carmes -->
-        <stop busStop="131124" duration="30.00" until="366.0"/> <!-- La Rousse -->
-        <stop busStop="131128" duration="30.00" until="426.0"/> <!-- Place des Moulins -->
-        <stop busStop="131134" duration="30.00" until="497.0"/> <!-- Saint-Charles -->
-        <stop busStop="131090" duration="30.00" until="574.0"/> <!-- Cremaillere -->
+        <stop busStop="131163" duration="30.00" until="214.0"/> <!-- Saint-Roman -->
+        <stop busStop="131133" duration="30.00" until="283.0"/> <!-- Carmes -->
+        <stop busStop="131124" duration="30.00" until="365.0"/> <!-- La Rousse -->
+        <stop busStop="131128" duration="30.00" until="423.0"/> <!-- Place des Moulins -->
+        <stop busStop="131134" duration="30.00" until="494.0"/> <!-- Saint-Charles -->
+        <stop busStop="131090" duration="30.00" until="573.0"/> <!-- Cremaillere -->
         <stop busStop="131097" duration="30.00" until="657.0"/> <!-- Roqueville -->
-        <stop busStop="131047" duration="30.00" until="735.0"/> <!-- Pont Sainte-Devote -->
-        <stop busStop="131099" duration="30.00" until="802.0"/> <!-- Louis Aureglia -->
+        <stop busStop="131047" duration="30.00" until="734.0"/> <!-- Pont Sainte-Devote -->
+        <stop busStop="131099" duration="30.00" until="803.0"/> <!-- Louis Aureglia -->
         <stop busStop="131045" duration="30.00" until="867.0"/> <!-- Castelleretto -->
-        <stop busStop="131046" duration="30.00" until="928.0"/> <!-- Honore II -->
-        <stop busStop="131118" duration="30.00" until="1084.0"/> <!-- Place d'Armes (Port) -->
-        <stop busStop="131121" duration="30.00" until="1152.0"/> <!-- Princesse Stephanie -->
-        <stop busStop="131088" duration="30.00" until="1344.0"/> <!-- Fontvieille - Centre Commercial -->
+        <stop busStop="131046" duration="30.00" until="929.0"/> <!-- Honore II -->
+        <stop busStop="131118" duration="30.00" until="1085.0"/> <!-- Place d'Armes (Port) -->
+        <stop busStop="131121" duration="30.00" until="1154.0"/> <!-- Princesse Stephanie -->
+        <stop busStop="131088" duration="30.00" until="1347.0"/> <!-- Fontvieille - Centre Commercial -->
     </route>
-    <route id="bus_6:Fontvieille" edges="152536#7 152537#0 152537#1 152537#2 152537#4 152537#6 152656#4 152672#3 152679#0 152679#1 152679#2 152679#3 152679#4 152679#5 -152659#2 -152659#1 -152659#0 152704#0 152704#1 -152777#5 -152777#4 -152777#3 -152777#2 -152674#2 -152674#1 152690#0 -152950#1 -152950#0 152674#2 -152777#0 152812#0 152812#1 152812#2 152822 152962#1 152962#2 152962#3 152962#4 152962#5 152962#6 152962#7 152962#8 -153275#2 -153275#1 -152136#1 -152136#0 152804 152820#1 152820#2 152820#3 152820#4 152390 152791#0 152791#1 152830 152799#1 -152799#1 -152830 -152791#1 -152791#0 152470 152297 153642 153641" >
-        <stop busStop="131083" duration="30.00" until="46.0"/> <!-- Larvotto -->
-        <stop busStop="131209" duration="30.00" until="110.0"/> <!-- Sea Club -->
-        <stop busStop="131080" duration="30.00" until="172.0"/> <!-- Plages -->
-        <stop busStop="131110" duration="30.00" until="233.0"/> <!-- Grimaldi Forum/Villa Sauber -->
+    <route id="bus_6:Fontvieille" edges="152536#7 152537#0 152537#1 152537#2 152537#4 152537#6 152656#4 152672#3 152679#0 152679#1 152679#2 152679#3 152679#4 152679#5 152652#0 152690#0 152690#1 152690#2 152704#1 152715 -152715 -152704#1 -152690#2 -152690#1 -152690#0 152674#1 152674#2 -152777#0 152812#0 152812#1 152812#2 152822 152962#1 152962#2 152962#3 152962#4 152962#5 152962#6 152962#7 152962#8 -153275#2 -153275#1 -152136#1 -152136#0 152804 152820#1 152820#2 152820#3 152820#4 152390 152791#0 152791#1 152830 152799#1 -152799#1 -152830 -152791#1 -152791#0 152470 152297 153642 153641" >
+        <stop busStop="131083" duration="30.00" until="48.0"/> <!-- Larvotto -->
+        <stop busStop="131209" duration="30.00" until="113.0"/> <!-- Sea Club -->
+        <stop busStop="131080" duration="30.00" until="174.0"/> <!-- Plages -->
+        <stop busStop="131110" duration="30.00" until="235.0"/> <!-- Grimaldi Forum/Villa Sauber -->
         <stop busStop="131082" duration="30.00" until="291.0"/> <!-- Portier -->
-        <stop busStop="131051" duration="30.00" until="369.0"/> <!-- Spelugues -->
-        <stop busStop="131050" duration="30.00" until="431.0"/> <!-- Citronniers -->
-        <stop busStop="131059" duration="30.00" until="484.0"/> <!-- Place du Casino -->
-        <stop busStop="131062" duration="30.00" until="560.0"/> <!-- Monte-Carlo -->
-        <stop busStop="131063" duration="30.00" until="681.0"/> <!-- Square Beaumarchais -->
-        <stop busStop="131132" duration="30.00" until="747.0"/> <!-- Ostende -->
-        <stop busStop="131060" duration="30.00" until="811.0"/> <!-- Place Sainte-Devote (Gare) -->
-        <stop busStop="131122" duration="30.00" until="862.0"/> <!-- Princesse Florestine -->
-        <stop busStop="131118" duration="30.00" until="998.0"/> <!-- Place d'Armes (Port) -->
-        <stop busStop="131121" duration="30.00" until="1067.0"/> <!-- Princesse Stephanie -->
-        <stop busStop="131088" duration="30.00" until="1259.0"/> <!-- Fontvieille - Centre Commercial -->
+        <stop busStop="131051" duration="30.00" until="367.0"/> <!-- Spelugues -->
+        <stop busStop="131050" duration="30.00" until="429.0"/> <!-- Citronniers -->
+        <stop busStop="131059" duration="30.00" until="482.0"/> <!-- Place du Casino -->
+        <stop busStop="131062" duration="30.00" until="557.0"/> <!-- Monte-Carlo -->
+        <stop busStop="131063" duration="30.00" until="674.0"/> <!-- Square Beaumarchais -->
+        <stop busStop="131132" duration="30.00" until="741.0"/> <!-- Ostende -->
+        <stop busStop="131060" duration="30.00" until="807.0"/> <!-- Place Sainte-Devote (Gare) -->
+        <stop busStop="131122" duration="30.00" until="860.0"/> <!-- Princesse Florestine -->
+        <stop busStop="131118" duration="30.00" until="994.0"/> <!-- Place d'Armes (Port) -->
+        <stop busStop="131121" duration="30.00" until="1064.0"/> <!-- Princesse Stephanie -->
+        <stop busStop="131088" duration="30.00" until="1256.0"/> <!-- Fontvieille - Centre Commercial -->
     </route>
     <route id="bus_6:Larvotto" edges="153641 152876#4 152876#5 152876#0 152453 152460#0 152460#1 152460#2 152399#0 152399#1 152648 -152299 -152875#3 -152875#2 -152875#1 -152875#0 152985 152984#3 -152902#1 -152902#0 152977#3 152977#4 152885#0 152885#1 152885#2 152876#5 152876#0 152876#1 152876#2 153640 152298#0 152298#0-AddedOffRampEdge 152298#1 152969 152818#2 152818#3 152818#4 152818#5 -152812#2 -152812#1 -152812#0 152777#0 152777#2 152777#3 152777#4 152777#5 -152704#1 -152704#0 152669#1 152669#2 152669#3 -152670#2 -152670#1 -152670#0 -152679#4 -152679#3 -152679#2 -152679#1 -152679#0 152656#0 152656#1 152656#2 152536#0 152536#2 152536#4 152536#5 152536#6 152536#7" >
-        <stop busStop="131088" duration="30.00" until="45.0"/> <!-- Fontvieille - Centre Commercial -->
-        <stop busStop="131102" duration="30.00" until="125.0"/> <!-- Papalins -->
-        <stop busStop="131058" duration="30.00" until="196.0"/> <!-- Roseraie -->
-        <stop busStop="131101" duration="30.00" until="248.0"/> <!-- Heliport -->
-        <stop busStop="131202" duration="30.00" until="309.0"/> <!-- Stade Louis II -->
-        <stop busStop="131208" duration="30.00" until="400.0"/> <!-- Albert II -->
-        <stop busStop="131103" duration="30.00" until="464.0"/> <!-- Port de Fontvieille -->
-        <stop busStop="131092" duration="30.00" until="550.0"/> <!-- Stade Nautique -->
-        <stop busStop="131093" duration="30.00" until="607.0"/> <!-- Princesse Antoinette -->
-        <stop busStop="131096" duration="30.00" until="679.0"/> <!-- Ostende -->
-        <stop busStop="131091" duration="30.00" until="744.0"/> <!-- Terrasses du Casino -->
-        <stop busStop="131057" duration="30.00" until="843.0"/> <!-- Monte-Carlo (Tourisme) -->
-        <stop busStop="131126" duration="30.00" until="923.0"/> <!-- Place du Casino -->
-        <stop busStop="131087" duration="30.00" until="994.0"/> <!-- Spelugues -->
-        <stop busStop="131043" duration="30.00" until="1058.0"/> <!-- Portier -->
-        <stop busStop="131108" duration="30.00" until="1121.0"/> <!-- Grimaldi Forum/Villa Sauber -->
-        <stop busStop="131131" duration="30.00" until="1189.0"/> <!-- Plages -->
-        <stop busStop="131109" duration="30.00" until="1246.0"/> <!-- Sea Club -->
-        <stop busStop="131083" duration="30.00" until="1301.0"/> <!-- Larvotto -->
-    </route>
-    <route id="bus_4:SaintRoman" edges="153641 152876#4 152876#5 152876#0 152453 152460#0 152460#1 152460#2 152399#0 152399#1 152648 -152299 -152875#3 -152875#2 -152875#1 -152875#0 152985 152984#3 152984#4 152975 -152897#1 -153478#0 152420 152271 152421#0 152421#1 152309 152319#3 152140 152138#0 152138#1 152138#2 152138#3 152138#4 152138#5 152823#0 152823#1 152823#2 152961#4 152961#5 152961#1 152961#2 152961#3 -152823#2 -152823#1 -152823#0 152138#6 152138#7 152138#0 152139 152970 152421#0 -152940#2 -152940#1 -152940#0 152403#3 152901#0 152901#1 152901#2 -152872#4 -152834#6 -152834#5 -152834#4 -152834#3 -152834#2 -152834#1 -152834#0 -152989#1 -152989#0 -152971#3 -152971#2 -152971#1 -152971#0 -152168 152946#1 152946#2 152235 152703#0 152703#1 152703#2 152703#3 152703#4 152703#5 152705 152706 152669#1 152669#2 152669#3 152669#4 152669#5 152669#6 152669#7 152669#8 152669#9 152669#10 152669#11 152607#1 152607#2 152170 152224 152455 152456#1 -152584#4 -152584#3 -152584#2 -152584#1 -152350" >
-        <stop busStop="131088" duration="30.00" until="45.0"/> <!-- Fontvieille - Centre Commercial -->
+        <stop busStop="131088" duration="30.00" until="44.0"/> <!-- Fontvieille - Centre Commercial -->
         <stop busStop="131102" duration="30.00" until="124.0"/> <!-- Papalins -->
         <stop busStop="131058" duration="30.00" until="195.0"/> <!-- Roseraie -->
-        <stop busStop="131101" duration="30.00" until="249.0"/> <!-- Heliport -->
-        <stop busStop="131202" duration="30.00" until="310.0"/> <!-- Stade Louis II -->
-        <stop busStop="131188" duration="30.00" until="399.0"/> <!-- Cimetiere -->
-        <stop busStop="131115" duration="30.00" until="522.0"/> <!-- Place d'Armes (Charles III) -->
-        <stop busStop="131100" duration="30.00" until="891.0"/> <!-- Castelleretto -->
-        <stop busStop="131036" duration="30.00" until="948.0"/> <!-- Louis Aureglia -->
-        <stop busStop="131079" duration="30.00" until="1019.0"/> <!-- Pont Sainte-Devote -->
-        <stop busStop="131201" duration="30.00" until="1086.0"/> <!-- Roqueville -->
-        <stop busStop="131057" duration="30.00" until="1167.0"/> <!-- Monte-Carlo (Tourisme) -->
+        <stop busStop="131101" duration="30.00" until="247.0"/> <!-- Heliport -->
+        <stop busStop="131202" duration="30.00" until="308.0"/> <!-- Stade Louis II -->
+        <stop busStop="131208" duration="30.00" until="398.0"/> <!-- Albert II -->
+        <stop busStop="131103" duration="30.00" until="462.0"/> <!-- Port de Fontvieille -->
+        <stop busStop="131092" duration="30.00" until="551.0"/> <!-- Stade Nautique -->
+        <stop busStop="131093" duration="30.00" until="605.0"/> <!-- Princesse Antoinette -->
+        <stop busStop="131096" duration="30.00" until="676.0"/> <!-- Ostende -->
+        <stop busStop="131091" duration="30.00" until="739.0"/> <!-- Terrasses du Casino -->
+        <stop busStop="131057" duration="30.00" until="840.0"/> <!-- Monte-Carlo (Tourisme) -->
+        <stop busStop="131126" duration="30.00" until="919.0"/> <!-- Place du Casino -->
+        <stop busStop="131087" duration="30.00" until="988.0"/> <!-- Spelugues -->
+        <stop busStop="131043" duration="30.00" until="1051.0"/> <!-- Portier -->
+        <stop busStop="131108" duration="30.00" until="1113.0"/> <!-- Grimaldi Forum/Villa Sauber -->
+        <stop busStop="131131" duration="30.00" until="1182.0"/> <!-- Plages -->
+        <stop busStop="131109" duration="30.00" until="1239.0"/> <!-- Sea Club -->
+        <stop busStop="131083" duration="30.00" until="1296.0"/> <!-- Larvotto -->
+    </route>
+    <route id="bus_4:SaintRoman" edges="153641 152876#4 152876#5 152876#0 152453 152460#0 152460#1 152460#2 152399#0 152399#1 152648 -152299 -152875#3 -152875#2 -152875#1 -152875#0 152985 152984#3 152984#4 152975 -152897#1 -153478#0 152420 152271 152421#0 152421#1 152309 152319#3 152140 152138#0 152138#1 152138#2 152138#3 152138#4 152138#5 152823#0 152823#1 152823#2 152961#4 152961#5 152961#1 152961#2 152961#3 -152823#2 -152823#1 -152823#0 152138#6 152138#7 152138#0 152139 152970 152421#0 -152940#2 -152940#1 -152940#0 152403#3 152901#0 152901#1 152901#2 -152872#4 -152834#6 -152834#5 -152834#4 -152834#3 -152834#2 -152834#1 -152834#0 -152989#1 -152989#0 -152971#3 -152971#2 -152971#1 -152971#0 -152168 152946#1 152946#2 152235 152703#0 152703#1 152703#2 152703#3 152703#4 152703#5 152705 152706 152669#1 152669#2 152669#3 152669#4 152669#5 152669#6 152669#7 152669#8 152669#9 152669#10 152669#11 152607#1 152607#2 152170 152224 152455 152456#1 -152584#4 -152584#3 -152584#2 -152584#1 -152350" >
+        <stop busStop="131088" duration="30.00" until="44.0"/> <!-- Fontvieille - Centre Commercial -->
+        <stop busStop="131102" duration="30.00" until="124.0"/> <!-- Papalins -->
+        <stop busStop="131058" duration="30.00" until="195.0"/> <!-- Roseraie -->
+        <stop busStop="131101" duration="30.00" until="248.0"/> <!-- Heliport -->
+        <stop busStop="131202" duration="30.00" until="309.0"/> <!-- Stade Louis II -->
+        <stop busStop="131188" duration="30.00" until="400.0"/> <!-- Cimetiere -->
+        <stop busStop="131115" duration="30.00" until="523.0"/> <!-- Place d'Armes (Charles III) -->
+        <stop busStop="131100" duration="30.00" until="894.0"/> <!-- Castelleretto -->
+        <stop busStop="131036" duration="30.00" until="952.0"/> <!-- Louis Aureglia -->
+        <stop busStop="131079" duration="30.00" until="1023.0"/> <!-- Pont Sainte-Devote -->
+        <stop busStop="131201" duration="30.00" until="1085.0"/> <!-- Roqueville -->
+        <stop busStop="131057" duration="30.00" until="1166.0"/> <!-- Monte-Carlo (Tourisme) -->
         <stop busStop="131061" duration="30.00" until="1226.0"/> <!-- Saint-Charles -->
-        <stop busStop="131129" duration="30.00" until="1290.0"/> <!-- Place des Moulins -->
-        <stop busStop="131127" duration="30.00" until="1351.0"/> <!-- La Rousse -->
-        <stop busStop="131125" duration="30.00" until="1419.0"/> <!-- Carmes -->
+        <stop busStop="131129" duration="30.00" until="1291.0"/> <!-- Place des Moulins -->
+        <stop busStop="131127" duration="30.00" until="1353.0"/> <!-- La Rousse -->
+        <stop busStop="131125" duration="30.00" until="1420.0"/> <!-- Carmes -->
         <stop busStop="131085" duration="30.00" until="1491.0"/> <!-- Saint-Roman (Bus 4) -->
     </route>
     <route id="bus_5:Hopital" edges="152536#7 152537#0 152537#1 152537#2 152537#4 152537#6 152656#4 152672#3 152679#0 152679#1 152679#2 152679#3 152679#4 152679#5 -152659#2 -152659#1 -152659#0 152669#1 152669#2 152669#3 152716 152175#0 152175#1 -152703#5 -152703#4 -152703#3 -152703#2 -152703#1 -152703#0 152230 152945#0 152945#1 -152816#11 -152947#2 -152947#1 -152947#0 153554#1 153554#2 152872#0 152872#1 152872#2 152872#3 152872#4 152872#5 -152901#1 -152901#0 152403#0 152403#1 152403#2 152940#0 152940#1 152940#2 152421#1 152309 152319#3 152140 152138#0 152139 152970 152421#0 -152940#2 -152940#1 -152940#0 152403#3 152901#0 152901#1" >
         <stop busStop="131083" duration="30.00" until="46.0"/> <!-- Larvotto -->
-        <stop busStop="131209" duration="30.00" until="112.0"/> <!-- Sea Club -->
-        <stop busStop="131080" duration="30.00" until="173.0"/> <!-- Plages -->
-        <stop busStop="131110" duration="30.00" until="231.0"/> <!-- Grimaldi Forum/Villa Sauber -->
-        <stop busStop="131082" duration="30.00" until="289.0"/> <!-- Portier -->
-        <stop busStop="131051" duration="30.00" until="359.0"/> <!-- Spelugues -->
-        <stop busStop="131050" duration="30.00" until="420.0"/> <!-- Citronniers -->
-        <stop busStop="131059" duration="30.00" until="472.0"/> <!-- Place du Casino -->
-        <stop busStop="131057" duration="30.00" until="555.0"/> <!-- Monte-Carlo (Tourisme) -->
-        <stop busStop="131090" duration="30.00" until="624.0"/> <!-- Cremaillere -->
-        <stop busStop="131097" duration="30.00" until="711.0"/> <!-- Roqueville -->
+        <stop busStop="131209" duration="30.00" until="110.0"/> <!-- Sea Club -->
+        <stop busStop="131080" duration="30.00" until="171.0"/> <!-- Plages -->
+        <stop busStop="131110" duration="30.00" until="230.0"/> <!-- Grimaldi Forum/Villa Sauber -->
+        <stop busStop="131082" duration="30.00" until="288.0"/> <!-- Portier -->
+        <stop busStop="131051" duration="30.00" until="358.0"/> <!-- Spelugues -->
+        <stop busStop="131050" duration="30.00" until="419.0"/> <!-- Citronniers -->
+        <stop busStop="131059" duration="30.00" until="470.0"/> <!-- Place du Casino -->
+        <stop busStop="131057" duration="30.00" until="553.0"/> <!-- Monte-Carlo (Tourisme) -->
+        <stop busStop="131090" duration="30.00" until="623.0"/> <!-- Cremaillere -->
+        <stop busStop="131097" duration="30.00" until="706.0"/> <!-- Roqueville -->
         <stop busStop="131047" duration="30.00" until="784.0"/> <!-- Pont Sainte-Devote -->
         <stop busStop="131203" duration="30.00" until="856.0"/> <!-- Belgique -->
         <stop busStop="131107" duration="30.00" until="914.0"/> <!-- Bosio -->
         <stop busStop="131199" duration="30.00" until="985.0"/> <!-- Parc Princesse Antoinette -->
-        <stop busStop="131086" duration="30.00" until="1059.0"/> <!-- Hopital -->
+        <stop busStop="131086" duration="30.00" until="1061.0"/> <!-- Hopital -->
         <stop busStop="131056" duration="30.00" until="1329.0"/> <!-- Athanee -->
         <stop busStop="131055" duration="30.00" until="1401.0"/> <!-- Hopital -->
     </route>
     <route id="bus_3:Fontvieille" edges="152838#6 152816#3 152816#4 152816#5 152816#6 152816#7 152816#8 152816#9 152816#10 -152947#2 -152947#1 -152947#0 153554#1 153554#2 152872#0 152872#1 152872#2 152872#3 152872#4 152872#5 -152901#1 -152901#0 152403#0 152403#1 152403#2 152940#0 152940#1 152940#2 152421#1 152309 152319#3 152140 152138#0 152138#1 152138#2 152138#3 152138#4 152138#5 152823#0 152823#1 152823#2 152961#4 152961#5 152961#1 152961#2 152961#3 -152823#2 -152823#1 -152823#0 152138#6 152138#7 -152140 152319#4 152310 152313#3 -152306 152962#5 152962#6 152962#7 152962#8 -153275#2 -153275#1 -152136#1 -152136#0 152804 152820#1 152820#2 152820#3 152820#4 152390 152791#0 152791#1 152830 152799#1 -152799#1 -152830 -152791#1 -152791#0 152470 152297 153642 153641" >
         <stop busStop="131111" duration="30.00" until="44.0"/> <!-- Hector Otto -->
-        <stop busStop="131048" duration="30.00" until="112.0"/> <!-- Villa Paloma -->
-        <stop busStop="131136" duration="30.00" until="168.0"/> <!-- Rotondes -->
-        <stop busStop="131069" duration="30.00" until="219.0"/> <!-- Moneghetti -->
-        <stop busStop="131112" duration="30.00" until="279.0"/> <!-- Belgique -->
+        <stop busStop="131048" duration="30.00" until="114.0"/> <!-- Villa Paloma -->
+        <stop busStop="131136" duration="30.00" until="169.0"/> <!-- Rotondes -->
+        <stop busStop="131069" duration="30.00" until="220.0"/> <!-- Moneghetti -->
+        <stop busStop="131112" duration="30.00" until="278.0"/> <!-- Belgique -->
         <stop busStop="131203" duration="30.00" until="328.0"/> <!-- Belgique -->
         <stop busStop="131107" duration="30.00" until="387.0"/> <!-- Bosio -->
-        <stop busStop="131199" duration="30.00" until="458.0"/> <!-- Parc Princesse Antoinette -->
+        <stop busStop="131199" duration="30.00" until="459.0"/> <!-- Parc Princesse Antoinette -->
         <stop busStop="131086" duration="30.00" until="534.0"/> <!-- Hopital -->
-        <stop busStop="131117" duration="30.00" until="612.0"/> <!-- Athanee -->
-        <stop busStop="131054" duration="30.00" until="692.0"/> <!-- Cimetiere -->
-        <stop busStop="131115" duration="30.00" until="825.0"/> <!-- Place d'Armes (Charles III) -->
-        <stop busStop="131118" duration="30.00" until="1007.0"/> <!-- Place d'Armes (Port) -->
-        <stop busStop="131121" duration="30.00" until="1075.0"/> <!-- Princesse Stephanie -->
-        <stop busStop="131088" duration="30.00" until="1268.0"/> <!-- Fontvieille - Centre Commercial -->
+        <stop busStop="131117" duration="30.00" until="613.0"/> <!-- Athanee -->
+        <stop busStop="131054" duration="30.00" until="690.0"/> <!-- Cimetiere -->
+        <stop busStop="131115" duration="30.00" until="821.0"/> <!-- Place d'Armes (Charles III) -->
+        <stop busStop="131118" duration="30.00" until="1001.0"/> <!-- Place d'Armes (Port) -->
+        <stop busStop="131121" duration="30.00" until="1070.0"/> <!-- Princesse Stephanie -->
+        <stop busStop="131088" duration="30.00" until="1260.0"/> <!-- Fontvieille - Centre Commercial -->
     </route>
-    <route id="bus_M3:Turbie" edges="153435#1 152736#0 -152738#2 -152741 -152736#0 -153426#0 152910#0 152910#1 152910#2 152910#3 152910#5 152910#6 152471 -153052#0 153052#0 -152471 -152910#6 153429#12 -153429#12 152910#6 152910#7 152910#8 153574#0 153574#1 -153574#1 -153574#0 -152411#0 152933#0 153009#0 153009#2 153009#3 153009#4 153009#5 153009#6 152408 153638#1 153004#0 152840 153007#1 152236 153340 153643 152331#0 152406 152331#2 152405#0 152405#1 152405#2 152405#3 -152405#3 -152405#2 -152405#1 -152405#0 -152331#2 -152331#1 152406 152331#2 152331#3 152331#4 152331#5 152409 -152409 -152331#5 -152331#4 153470#0 152923#0 152923#1 -152927 -152923#0 -153470#0 152331#4 152331#5 152331#6 152331#7 152167 152169#0 152169#1 152400#1 152400#2 152400#3 152400#0 -152169#1 -152169#0 -152167 -152331#7 -152331#6 152409 -152409 152331#6 152331#7 152167 -153008#3 -153008#2 -153008#1 -153008#0 152901#2 -152872#4 -152872#3 -152872#2 -152872#1 -152872#0 153554#3 153554#0 153554#1 153554#2 152872#0 152872#1 152872#2 152872#3 152872#4 152872#5" >
+    <route id="bus_M3:Turbie" edges="153435#1 152736#0 -152738#2 -152741 -152736#0 -153426#0 152910#0 152910#1 152910#2 152910#3 152910#5 152910#6 152471 -153052#0 153052#0 -152471 -152910#6 153429#12 -153429#12 152910#6 152910#7 152910#8 153574#0 153574#1 -153574#1 -153574#0 -152411#0 152933#0 153009#0 153009#2 153009#3 153009#4 153009#5 153009#6 152408 153638#1 153004#0 152840 153007#1 152236 153340 153643 152331#0 152331#1 152331#2 152405#0 152405#1 152405#2 152405#3 -152405#3 -152405#2 -152405#1 -152405#0 -152331#2 -152331#1 152406 152331#2 152331#3 152331#4 152331#5 152409 -152409 -152331#5 -152331#4 153470#0 152923#0 152923#1 -152927 -152923#0 -153470#0 152331#4 152331#5 152331#6 152331#7 152167 152169#0 152169#1 152400#1 152400#2 152400#3 152400#0 -152169#1 -152169#0 -152167 -152331#7 -152331#6 152409 -152409 152331#6 152331#7 152167 -153008#3 -153008#2 -153008#1 -153008#0 152901#2 -152872#4 -152872#3 -152872#2 -152872#1 -152872#0 153554#3 153554#0 153554#1 153554#2 152872#0 152872#1 152872#2 152872#3 152872#4 152872#5" >
         <stop busStop="131164" duration="30.00" until="37.0"/> <!-- La Turbie Marie -->
         <stop busStop="131040" duration="30.00" until="337.0"/> <!-- 131040 -->
-        <stop busStop="131024" duration="30.00" until="814.0"/> <!-- 131024 -->
+        <stop busStop="131024" duration="30.00" until="812.0"/> <!-- 131024 -->
         <stop busStop="131039" duration="30.00" until="1377.0"/> <!-- 131039 -->
-        <stop busStop="131033" duration="30.00" until="1562.0"/> <!-- 131033 -->
+        <stop busStop="131033" duration="30.00" until="1558.0"/> <!-- 131033 -->
         <stop busStop="131022" duration="30.00" until="1771.0"/> <!-- 131022 -->
         <stop busStop="131086" duration="30.00" until="2091.0"/> <!-- Hopital -->
     </route>
     <route id="bus_3:Otto" edges="153640 152298#0 152298#0-AddedOffRampEdge 152298#1 152969 152818#2 152818#3 152818#4 152818#5 152822 152962#1 152962#2 152962#3 152962#4 152962#5 152962#6 152962#7 152962#8 152962#10 152961#2 152961#3 -152823#2 -152823#1 -152823#0 152138#6 152138#7 152138#0 152139 152970 152421#0 -152940#2 -152940#1 -152940#0 152403#3 152901#0 152901#1 152901#2 -152872#4 -152872#3 -152872#2 -152872#1 -152872#0 153554#3 153554#0 152947#0 152947#1 152947#2 -152816#10 -152816#9 -152816#8 -152816#7 -152816#6 -152816#5 -152816#4 -152816#3 -152838#6 -152838#5 -152838#4 -152838#3 -152838#2 -152392 152838#3 152838#4 152838#5 152838#6" >
-        <stop busStop="131103" duration="30.00" until="40.0"/> <!-- Port de Fontvieille -->
-        <stop busStop="131092" duration="30.00" until="128.0"/> <!-- Stade Nautique -->
-        <stop busStop="131093" duration="30.00" until="182.0"/> <!-- Princesse Antoinette -->
-        <stop busStop="131060" duration="30.00" until="248.0"/> <!-- Place Sainte-Devote (Gare) -->
-        <stop busStop="131122" duration="30.00" until="301.0"/> <!-- Princesse Florestine -->
+        <stop busStop="131103" duration="30.00" until="41.0"/> <!-- Port de Fontvieille -->
+        <stop busStop="131092" duration="30.00" until="129.0"/> <!-- Stade Nautique -->
+        <stop busStop="131093" duration="30.00" until="183.0"/> <!-- Princesse Antoinette -->
+        <stop busStop="131060" duration="30.00" until="251.0"/> <!-- Place Sainte-Devote (Gare) -->
+        <stop busStop="131122" duration="30.00" until="302.0"/> <!-- Princesse Florestine -->
         <stop busStop="131114" duration="30.00" until="384.0"/> <!-- Place d'Armes (Charles III) -->
-        <stop busStop="131026" duration="30.00" until="506.0"/> <!-- Cimetiere -->
-        <stop busStop="131104" duration="30.00" until="571.0"/> <!-- Pasteur -->
-        <stop busStop="131056" duration="30.00" until="625.0"/> <!-- Athanee -->
-        <stop busStop="131055" duration="30.00" until="697.0"/> <!-- Hopital -->
+        <stop busStop="131026" duration="30.00" until="504.0"/> <!-- Cimetiere -->
+        <stop busStop="131104" duration="30.00" until="570.0"/> <!-- Pasteur -->
+        <stop busStop="131056" duration="30.00" until="624.0"/> <!-- Athanee -->
+        <stop busStop="131055" duration="30.00" until="696.0"/> <!-- Hopital -->
         <stop busStop="131105" duration="30.00" until="757.0"/> <!-- Observatoire -->
-        <stop busStop="131200" duration="30.00" until="815.0"/> <!-- Parc Princesse Antoinette -->
-        <stop busStop="131106" duration="30.00" until="875.0"/> <!-- Bosio -->
-        <stop busStop="131123" duration="30.00" until="947.0"/> <!-- Belgique -->
-        <stop busStop="131119" duration="30.00" until="993.0"/> <!-- Belgique -->
-        <stop busStop="131098" duration="30.00" until="1050.0"/> <!-- Moneghetti -->
-        <stop busStop="131021" duration="30.00" until="1104.0"/> <!-- Rotondes -->
-        <stop busStop="131049" duration="30.00" until="1164.0"/> <!-- Villa Paloma -->
-        <stop busStop="131111" duration="30.00" until="1334.0"/> <!-- Hector Otto -->
+        <stop busStop="131200" duration="30.00" until="814.0"/> <!-- Parc Princesse Antoinette -->
+        <stop busStop="131106" duration="30.00" until="873.0"/> <!-- Bosio -->
+        <stop busStop="131123" duration="30.00" until="945.0"/> <!-- Belgique -->
+        <stop busStop="131119" duration="30.00" until="990.0"/> <!-- Belgique -->
+        <stop busStop="131098" duration="30.00" until="1046.0"/> <!-- Moneghetti -->
+        <stop busStop="131021" duration="30.00" until="1100.0"/> <!-- Rotondes -->
+        <stop busStop="131049" duration="30.00" until="1162.0"/> <!-- Villa Paloma -->
+        <stop busStop="131111" duration="30.00" until="1307.0"/> <!-- Hector Otto -->
     </route>
-    <route id="bus_100:Menton" edges="152929 152258 153479#0 153479#1 152303 153344 152304 -153478#26 -153478#25 -153478#24 -153478#23 -153478#22 -153478#20 -153478#19 -153478#18 -153478#17 -153478#16 -153478#15 -153478#14 -153478#13 -153478#12 -153478#11 -153478#10 -153478#9 -153478#8 -153478#7 -153478#6 -153478#5 -153478#3 -153478#2 -153478#1 -153478#0 152540#0 152540#1 152138#2 152138#3 152138#4 152138#5 152823#0 152823#1 152823#2 152961#4 152961#5 152781 152820#0 152820#1 152820#2 152820#3 152820#4 152818#0 152818#1 152818#2 152818#3 152818#4 152818#5 -152812#2 -152812#1 -152806 152941#1 152941#2 152941#4 152941#5 -152704#1 -152704#0 152669#1 152669#2 152669#3 152669#4 152669#5 152669#6 152669#7 152669#8 152669#9 152669#10 152669#11 152607#1 152607#2 152170 152224 152455 152456#1 -152584#4 -152584#3 -152584#2 -152584#1 -152584#0 152578 152220 153367#0 153367#1 153367#3 153367#4 153325#0 153325#1 153325#2 153325#3 153325#4 152995#0 152995#1 152240 153359#0 153359#1 153359#2 153494 -153014#0 153355" >
-        <stop busStop="131170" duration="30.00" until="46.0"/> <!-- Cap Estel -->
-        <stop busStop="131172" duration="30.00" until="115.0"/> <!-- Parking Saint-Laurent d'Eze -->
-        <stop busStop="131173" duration="30.00" until="193.0"/> <!-- Gianton -->
+    <route id="bus_100:Menton" edges="152929 152258 153479#0 153479#1 152303 153344 152304 -153478#26 -153478#25 -153478#24 -153478#23 -153478#22 -153478#20 -153478#19 -153478#18 -153478#17 -153478#16 -153478#15 -153478#14 -153478#13 -153478#12 -153478#11 -153478#10 -153478#9 -153478#8 -153478#7 -153478#6 -153478#5 -153478#3 -153478#2 -153478#1 -153478#0 152540#0 152540#1 152138#2 152138#3 152138#4 152138#5 152823#0 152823#1 152823#2 152961#4 152961#5 152781 152820#0 152820#1 152820#2 152820#3 152820#4 152818#0 152818#1 152818#2 152818#3 152818#4 152818#5 -152812#2 -152812#1 -152812#0 152777#0 152777#2 152777#3 152777#4 152777#5 -152704#1 -152704#0 152669#1 152669#2 152669#3 152669#4 152669#5 152669#6 152669#7 152669#8 152669#9 152669#10 152669#11 152607#1 152607#2 152170 152224 152455 152456#1 -152584#4 -152584#3 -152584#2 -152584#1 -152584#0 152578 152220 153367#0 153367#1 153367#3 153367#4 153325#0 153325#1 153325#2 153325#3 153325#4 152995#0 152995#1 152240 153359#0 153359#1 153359#2 153494 -153014#0 153355" >
+        <stop busStop="131170" duration="30.00" until="48.0"/> <!-- Cap Estel -->
+        <stop busStop="131172" duration="30.00" until="117.0"/> <!-- Parking Saint-Laurent d'Eze -->
+        <stop busStop="131173" duration="30.00" until="196.0"/> <!-- Gianton -->
         <stop busStop="131161" duration="30.00" until="288.0"/> <!-- Deux Tunnels -->
-        <stop busStop="131176" duration="30.00" until="382.0"/> <!-- Edmond's Cap d'Ail -->
-        <stop busStop="131177" duration="30.00" until="441.0"/> <!-- Guillaume Apollinaire -->
-        <stop busStop="131179" duration="30.00" until="517.0"/> <!-- L'Eglise -->
-        <stop busStop="131181" duration="30.00" until="582.0"/> <!-- Hotel de Ville -->
-        <stop busStop="131184" duration="30.00" until="649.0"/> <!-- Le Loup Blanc -->
-        <stop busStop="131185" duration="30.00" until="708.0"/> <!-- Liberte -->
-        <stop busStop="131187" duration="30.00" until="779.0"/> <!-- Cimetiere -->
-        <stop busStop="131115" duration="30.00" until="873.0"/> <!-- Place d'Armes (Charles III) -->
-        <stop busStop="131042" duration="30.00" until="1113.0"/> <!-- Monte-Carlo (TAM) -->
-        <stop busStop="131189" duration="30.00" until="1302.0"/> <!-- Saint-Roman -->
-        <stop busStop="131190" duration="30.00" until="1395.0"/> <!-- La Tranchee -->
-        <stop busStop="131193" duration="30.00" until="1477.0"/> <!-- La Boucherie -->
-        <stop busStop="131160" duration="30.00" until="1533.0"/> <!-- Les 4 Chemins -->
-        <stop busStop="131156" duration="30.00" until="1621.0"/> <!-- Datcha -->
-        <stop busStop="131155" duration="30.00" until="1684.0"/> <!-- 2e Escalier -->
-        <stop busStop="131153" duration="30.00" until="1745.0"/> <!-- 1er Escalier -->
-        <stop busStop="131150" duration="30.00" until="1802.0"/> <!-- Massolin -->
-        <stop busStop="131145" duration="30.00" until="1890.0"/> <!-- Torraca -->
-        <stop busStop="131148" duration="30.00" until="1964.0"/> <!-- Riva Bella -->
-        <stop busStop="131147" duration="30.00" until="2019.0"/> <!-- 2e Hameau -->
-        <stop busStop="131142" duration="30.00" until="2085.0"/> <!-- 1er Hameau -->
-        <stop busStop="131141" duration="30.00" until="2174.0"/> <!-- Bien Situee -->
-        <stop busStop="131071" duration="30.00" until="2241.0"/> <!-- Casernes -->
-        <stop busStop="131070" duration="30.00" until="2304.0"/> <!-- Marche -->
+        <stop busStop="131176" duration="30.00" until="381.0"/> <!-- Edmond's Cap d'Ail -->
+        <stop busStop="131177" duration="30.00" until="439.0"/> <!-- Guillaume Apollinaire -->
+        <stop busStop="131179" duration="30.00" until="516.0"/> <!-- L'Eglise -->
+        <stop busStop="131181" duration="30.00" until="581.0"/> <!-- Hotel de Ville -->
+        <stop busStop="131184" duration="30.00" until="647.0"/> <!-- Le Loup Blanc -->
+        <stop busStop="131185" duration="30.00" until="706.0"/> <!-- Liberte -->
+        <stop busStop="131187" duration="30.00" until="777.0"/> <!-- Cimetiere -->
+        <stop busStop="131115" duration="30.00" until="871.0"/> <!-- Place d'Armes (Charles III) -->
+        <stop busStop="131042" duration="30.00" until="1079.0"/> <!-- Monte-Carlo (TAM) -->
+        <stop busStop="131189" duration="30.00" until="1269.0"/> <!-- Saint-Roman -->
+        <stop busStop="131190" duration="30.00" until="1363.0"/> <!-- La Tranchee -->
+        <stop busStop="131193" duration="30.00" until="1444.0"/> <!-- La Boucherie -->
+        <stop busStop="131160" duration="30.00" until="1501.0"/> <!-- Les 4 Chemins -->
+        <stop busStop="131156" duration="30.00" until="1586.0"/> <!-- Datcha -->
+        <stop busStop="131155" duration="30.00" until="1651.0"/> <!-- 2e Escalier -->
+        <stop busStop="131153" duration="30.00" until="1712.0"/> <!-- 1er Escalier -->
+        <stop busStop="131150" duration="30.00" until="1770.0"/> <!-- Massolin -->
+        <stop busStop="131145" duration="30.00" until="1840.0"/> <!-- Torraca -->
+        <stop busStop="131148" duration="30.00" until="1913.0"/> <!-- Riva Bella -->
+        <stop busStop="131147" duration="30.00" until="1968.0"/> <!-- 2e Hameau -->
+        <stop busStop="131142" duration="30.00" until="2033.0"/> <!-- 1er Hameau -->
+        <stop busStop="131141" duration="30.00" until="2121.0"/> <!-- Bien Situee -->
+        <stop busStop="131071" duration="30.00" until="2187.0"/> <!-- Casernes -->
+        <stop busStop="131070" duration="30.00" until="2249.0"/> <!-- Marche -->
     </route>
     <route id="bus_100:Nice" edges="152549 -152994 -153494 -153359#2 -153359#1 -153359#0 -152240 -152995#1 -152995#0 -153325#4 -153325#3 -153325#2 -153325#1 -153325#0 -153367#4 -153367#3 -153367#1 -153367#0 152347#1 152222 152587#1 152351 152584#0 152584#1 152584#2 152584#3 152584#4 152456#2 152456#3 152456#4 -152455 -152224 -152170 -152607#2 -152607#1 -152607#0 -152669#10 -152669#9 -152669#8 -152669#7 -152669#6 -152669#5 -152669#4 -152669#3 -152669#2 -152669#1 152704#0 152704#1 -152777#5 -152777#4 -152777#3 -152777#2 -152777#0 152812#0 152812#1 152812#2 152822 152962#1 152962#2 152962#3 152962#4 152962#5 152962#6 152962#7 152962#8 152962#10 152961#2 152961#3 -152823#2 -152823#1 -152823#0 152138#6 152138#7 152138#0 152139 152970 -152271 -152420 -152960 153478#1 153478#2 153478#3 153478#5 153478#6 153478#7 153478#8 153478#9 153478#10 153478#11 153478#12 153478#13 -152911 152911 153478#14 153478#15 153478#16 153478#17 153478#18 153478#19 153478#20 153478#22 153478#23 153478#24 153478#25 153478#26 -152304 -153344 -152303 -153479#1 -153479#0 -152258 -152929" >
-        <stop busStop="131139" duration="30.00" until="50.0"/> <!-- Saint-Joseph -->
-        <stop busStop="131068" duration="30.00" until="127.0"/> <!-- Casernes -->
-        <stop busStop="131072" duration="30.00" until="195.0"/> <!-- Bien Situee -->
-        <stop busStop="131143" duration="30.00" until="282.0"/> <!-- 1er Hameau -->
-        <stop busStop="131144" duration="30.00" until="349.0"/> <!-- 2e Hameau -->
-        <stop busStop="131146" duration="30.00" until="436.0"/> <!-- Torraca -->
-        <stop busStop="131149" duration="30.00" until="488.0"/> <!-- Massolin -->
-        <stop busStop="131152" duration="30.00" until="553.0"/> <!-- 1er Escalier -->
-        <stop busStop="131154" duration="30.00" until="614.0"/> <!-- 2e Escalier -->
-        <stop busStop="131159" duration="30.00" until="695.0"/> <!-- Ramingao -->
-        <stop busStop="131157" duration="30.00" until="761.0"/> <!-- Les 4 Chemins -->
+        <stop busStop="131139" duration="30.00" until="49.0"/> <!-- Saint-Joseph -->
+        <stop busStop="131068" duration="30.00" until="126.0"/> <!-- Casernes -->
+        <stop busStop="131072" duration="30.00" until="194.0"/> <!-- Bien Situee -->
+        <stop busStop="131143" duration="30.00" until="280.0"/> <!-- 1er Hameau -->
+        <stop busStop="131144" duration="30.00" until="346.0"/> <!-- 2e Hameau -->
+        <stop busStop="131146" duration="30.00" until="433.0"/> <!-- Torraca -->
+        <stop busStop="131149" duration="30.00" until="486.0"/> <!-- Massolin -->
+        <stop busStop="131152" duration="30.00" until="550.0"/> <!-- 1er Escalier -->
+        <stop busStop="131154" duration="30.00" until="612.0"/> <!-- 2e Escalier -->
+        <stop busStop="131159" duration="30.00" until="693.0"/> <!-- Ramingao -->
+        <stop busStop="131157" duration="30.00" until="760.0"/> <!-- Les 4 Chemins -->
         <stop busStop="131192" duration="30.00" until="837.0"/> <!-- La Boucherie -->
-        <stop busStop="131191" duration="30.00" until="897.0"/> <!-- La Tranchee -->
-        <stop busStop="131163" duration="30.00" until="1026.0"/> <!-- Saint-Roman -->
-        <stop busStop="131128" duration="30.00" until="1154.0"/> <!-- Place des Moulins -->
-        <stop busStop="131089" duration="30.00" until="1270.0"/> <!-- Monte-Carlo (TAM) -->
-        <stop busStop="131060" duration="30.00" until="1391.0"/> <!-- Place Sainte-Devote (Gare) -->
-        <stop busStop="131073" duration="30.00" until="1486.0"/> <!-- Place d'Armes (TAM) -->
-        <stop busStop="131186" duration="30.00" until="1614.0"/> <!-- Liberte -->
-        <stop busStop="131183" duration="30.00" until="1689.0"/> <!-- Le Loup Blanc -->
+        <stop busStop="131191" duration="30.00" until="898.0"/> <!-- La Tranchee -->
+        <stop busStop="131163" duration="30.00" until="1030.0"/> <!-- Saint-Roman -->
+        <stop busStop="131128" duration="30.00" until="1157.0"/> <!-- Place des Moulins -->
+        <stop busStop="131089" duration="30.00" until="1265.0"/> <!-- Monte-Carlo (TAM) -->
+        <stop busStop="131060" duration="30.00" until="1397.0"/> <!-- Place Sainte-Devote (Gare) -->
+        <stop busStop="131073" duration="30.00" until="1489.0"/> <!-- Place d'Armes (TAM) -->
+        <stop busStop="131186" duration="30.00" until="1616.0"/> <!-- Liberte -->
+        <stop busStop="131183" duration="30.00" until="1690.0"/> <!-- Le Loup Blanc -->
         <stop busStop="131182" duration="30.00" until="1752.0"/> <!-- Hotel de Ville -->
         <stop busStop="131180" duration="30.00" until="1815.0"/> <!-- L'Eglise -->
         <stop busStop="131178" duration="30.00" until="1948.0"/> <!-- La Source -->
-        <stop busStop="131067" duration="30.00" until="2009.0"/> <!-- Beaverbrook -->
-        <stop busStop="131175" duration="30.00" until="2107.0"/> <!-- Deux Tunnels -->
-        <stop busStop="131174" duration="30.00" until="2183.0"/> <!-- Gianton -->
-        <stop busStop="131171" duration="30.00" until="2265.0"/> <!-- Parking Saint-Laurent d'Eze -->
-        <stop busStop="131169" duration="30.00" until="2338.0"/> <!-- Cap Estel -->
+        <stop busStop="131067" duration="30.00" until="2010.0"/> <!-- Beaverbrook -->
+        <stop busStop="131175" duration="30.00" until="2105.0"/> <!-- Deux Tunnels -->
+        <stop busStop="131174" duration="30.00" until="2182.0"/> <!-- Gianton -->
+        <stop busStop="131171" duration="30.00" until="2263.0"/> <!-- Parking Saint-Laurent d'Eze -->
+        <stop busStop="131169" duration="30.00" until="2337.0"/> <!-- Cap Estel -->
     </route>
     <flow id="bus_M2:France" type="bus" route="bus_M2:France" begin="14431.0" end="50431.0" period="1200" line="M2:France" >
         <param key="name" value="MoSTtoFrance2"/>
