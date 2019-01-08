@@ -47,6 +47,9 @@
         <pedestrian.model value="striping"/>
         <pedestrian.striping.stripe-width value="0.55"/>
         <pedestrian.striping.jamtime value="30"/>
+        <!-- <default.action-step-length value="1"/> -->
+        <!-- <emergencydecel.warning-threshold value="1.1"/> -->
+        <default.emergencydecel value="decel"/>
     </processing>
 
     <routing>
