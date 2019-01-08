@@ -468,7 +468,7 @@ class ParkingGeneration(object):
 
 
 def _main():
-    """ Extract STOPS and LINES from OSM public transports and a SUMO network. """
+    """ Extract Parking Lots from OSM and import them in a SUMO network. """
     args = _args()
     logging.info('Loading from %s..', args.osmstruct)
     osm = _read_from_pickle(args.osmstruct)

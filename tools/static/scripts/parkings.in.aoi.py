@@ -94,7 +94,7 @@ class ParkingFilter(object):
 
 
 def _main():
-    """ Extract STOPS and LINES from OSM public transports and a SUMO network. """
+    """ Extract Parking Lots from a SUMO TAZ. """
     args = _args()
 
     parkings = ParkingFilter(args.tazfile, args.parkingsfile)
