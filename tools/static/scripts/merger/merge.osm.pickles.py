@@ -351,9 +351,9 @@ def _main():
     """ Merge OSM-like files from a directory. """
 
     ## ========================              PROFILER              ======================== ##
-    import cProfile, pstats, io
-    profiler = cProfile.Profile()
-    profiler.enable()
+    # import cProfile, pstats, io
+    # profiler = cProfile.Profile()
+    # profiler.enable()
     ## ========================              PROFILER              ======================== ##
 
     args = _args()
@@ -362,10 +362,10 @@ def _main():
     merger.write_osm_file(args.output)
 
     ## ========================              PROFILER              ======================== ##
-    profiler.disable()
-    results = io.StringIO()
-    pstats.Stats(profiler, stream=results).sort_stats('cumulative').print_stats(25)
-    print(results.getvalue())
+    # profiler.disable()
+    # results = io.StringIO()
+    # pstats.Stats(profiler, stream=results).sort_stats('cumulative').print_stats(25)
+    # print(results.getvalue())
     ## ========================              PROFILER              ======================== ##
 
 if __name__ == "__main__":

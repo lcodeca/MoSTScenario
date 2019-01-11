@@ -29,14 +29,14 @@ import sys
 from tqdm import tqdm
 
 # """ Import SUMOLIB """
-if 'SUMO_DEV_TOOLS' in os.environ:
-    sys.path.append(os.environ['SUMO_DEV_TOOLS'])
+if 'SUMO_TOOLS' in os.environ:
+    sys.path.append(os.environ['SUMO_TOOLS'])
     import traci
     import sumolib
     from sumolib.miscutils import euclidean
 
 else:
-    sys.exit("Please declare environment variable 'SUMO_DEV_TOOLS'")
+    sys.exit("Please declare environment variable 'SUMO_TOOLS'")
 
 def _logs():
     """ Log init. """
@@ -128,8 +128,8 @@ class ParkingGeneration(object):
     ##                                   Parking Generation                                     ##
     ## ---------------------------------------------------------------------------------------- ##
 
-    _BUFFER = 5.0
-    _PARKING_LEN = 5.0
+    _BUFFER = 10.0
+    _PARKING_LEN = 10.0
     _PARKING_ANGLE = 45
 
     def _filter_parkings(self):

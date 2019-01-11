@@ -31,11 +31,11 @@ import gmplot
 from tqdm import tqdm
 
 # """ Import SUMOLIB """
-if 'SUMO_DEV_TOOLS' in os.environ:
-    sys.path.append(os.environ['SUMO_DEV_TOOLS'])
+if 'SUMO_TOOLS' in os.environ:
+    sys.path.append(os.environ['SUMO_TOOLS'])
     import sumolib
 else:
-    sys.exit("Please declare environment variable 'SUMO_DEV_TOOLS'")
+    sys.exit("Please declare environment variable 'SUMO_TOOLS'")
 
 def _logs():
     """ Log init. """
