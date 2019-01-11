@@ -21,412 +21,415 @@
 
 <osm version="0.6" generator="osmfilter 1.4.4">
 	<bounds minlat="43.718985" minlon="7.3629133" maxlat="43.7859891" maxlon="7.4857817"/>
-	<node id="-41712" lat="43.7249558" lon="7.3912467">
+	<node id="-107044" lat="43.7249558" lon="7.3912467">
 		<tag k="ele" v="195.2"/>
 	</node>
-	<node id="-41714" lat="43.7248666" lon="7.3916396">
+	<node id="-107046" lat="43.7248666" lon="7.3916396">
 		<tag k="ele" v="192.4"/>
 	</node>
-	<node id="-41716" lat="43.7263586" lon="7.4026776">
+	<node id="-107048" lat="43.7263586" lon="7.4026776">
 		<tag k="ele" v="232.2"/>
 	</node>
-	<node id="-41718" lat="43.7315135" lon="7.4174757">
+	<node id="-107050" lat="43.7315135" lon="7.4174757">
 		<tag k="ele" v="21.1333333333"/>
 	</node>
-	<node id="-41720" lat="43.7335047" lon="7.386587">
+	<node id="-107052" lat="43.7335047" lon="7.386587">
 		<tag k="ele" v="263.0"/>
 	</node>
-	<node id="-41722" lat="43.7576274" lon="7.4440833">
+	<node id="-107054" lat="43.7576274" lon="7.4440833">
 		<tag k="ele" v="298.9"/>
 	</node>
-	<node id="-41724" lat="43.7319256" lon="7.4150472"/>
-	<node id="-41726" lat="43.7457539" lon="7.380143">
+	<node id="-107056" lat="43.7319256" lon="7.4150472"/>
+	<node id="-107058" lat="43.7457539" lon="7.380143">
 		<tag k="ele" v="385.8"/>
 	</node>
-	<node id="-41728" lat="43.7523015" lon="7.4026098">
+	<node id="-107060" lat="43.7523015" lon="7.4026098">
 		<tag k="ele" v="536.3"/>
 	</node>
-	<node id="-41730" lat="43.7520573" lon="7.4024516">
+	<node id="-107062" lat="43.7520573" lon="7.4024516">
 		<tag k="ele" v="536.3"/>
 	</node>
-	<node id="-41732" lat="43.7520302" lon="7.4024757">
+	<node id="-107064" lat="43.7520302" lon="7.4024757">
 		<tag k="ele" v="524.1"/>
 	</node>
-	<node id="-41734" lat="43.7520631" lon="7.4025803">
+	<node id="-107066" lat="43.7520631" lon="7.4025803">
 		<tag k="ele" v="524.1"/>
 	</node>
-	<node id="-41736" lat="43.7319537" lon="7.4215114">
+	<node id="-107068" lat="43.7319537" lon="7.4215114">
 		<tag k="ele" v="9.5"/>
 	</node>
-	<node id="-41738" lat="43.7319571" lon="7.4216079">
+	<node id="-107070" lat="43.7319571" lon="7.4216079">
 		<tag k="ele" v="9.5"/>
 	</node>
-	<node id="-41740" lat="43.7319765" lon="7.4216012">
+	<node id="-107072" lat="43.7319765" lon="7.4216012">
 		<tag k="ele" v="6.2"/>
 	</node>
-	<node id="-41742" lat="43.7411939" lon="7.4296041">
+	<node id="-107074" lat="43.7411939" lon="7.4296041">
 		<tag k="ele" v="10.0"/>
 	</node>
-	<node id="-41744" lat="43.7413392" lon="7.4306889">
+	<node id="-107076" lat="43.7413392" lon="7.4306889">
 		<tag k="ele" v="7.4"/>
 	</node>
-	<node id="-41746" lat="43.7332648" lon="7.3884222">
+	<node id="-107078" lat="43.7332648" lon="7.3884222">
 		<tag k="ele" v="256.2"/>
 	</node>
-	<node id="-41748" lat="43.7220132" lon="7.4046532">
+	<node id="-107080" lat="43.7220132" lon="7.4046532">
 		<tag k="ele" v="63.3"/>
 	</node>
-	<node id="-41750" lat="43.7221411" lon="7.4046961">
+	<node id="-107082" lat="43.7221411" lon="7.4046961">
 		<tag k="ele" v="63.3"/>
 	</node>
-	<node id="-41752" lat="43.7246592" lon="7.408736">
+	<node id="-107084" lat="43.7246592" lon="7.408736">
 		<tag k="ele" v="47.0"/>
 	</node>
-	<node id="-41754" lat="43.7259656" lon="7.4108509">
+	<node id="-107086" lat="43.7259656" lon="7.4108509">
 		<tag k="ele" v="32.3"/>
 	</node>
-	<node id="-41756" lat="43.7275783" lon="7.4130007">
+	<node id="-107088" lat="43.7275783" lon="7.4130007">
 		<tag k="ele" v="6.5"/>
 	</node>
-	<node id="-41758" lat="43.7275124" lon="7.4131429">
+	<node id="-107090" lat="43.7275124" lon="7.4131429">
 		<tag k="ele" v="6.5"/>
 	</node>
-	<node id="-41760" lat="43.7325967" lon="7.4167706">
+	<node id="-107092" lat="43.7325967" lon="7.4167706">
 		<tag k="ele" v="40.9"/>
 	</node>
-	<node id="-41762" lat="43.7354432" lon="7.4171662">
+	<node id="-107094" lat="43.7354432" lon="7.4171662">
 		<tag k="ele" v="58.0"/>
 	</node>
-	<node id="-41764" lat="43.7378327" lon="7.4194292">
+	<node id="-107096" lat="43.7378327" lon="7.4194292">
 		<tag k="ele" v="70.8"/>
 	</node>
-	<node id="-41766" lat="43.7478635" lon="7.3877182">
+	<node id="-107098" lat="43.7478635" lon="7.3877182">
 		<tag k="ele" v="405.8"/>
 	</node>
-	<node id="-41768" lat="43.7478122" lon="7.3876954">
+	<node id="-107100" lat="43.7478122" lon="7.3876954">
 		<tag k="ele" v="405.8"/>
 	</node>
-	<node id="-41770" lat="43.7387552" lon="7.4122323">
+	<node id="-107102" lat="43.7387552" lon="7.4122323">
 		<tag k="ele" v="164.1"/>
 	</node>
-	<node id="-41772" lat="43.7386733" lon="7.4122893">
+	<node id="-107104" lat="43.7386733" lon="7.4122893">
 		<tag k="ele" v="164.1"/>
 	</node>
-	<node id="-41774" lat="43.7410205" lon="7.4200442">
+	<node id="-107106" lat="43.7410205" lon="7.4200442">
 		<tag k="ele" v="139.8"/>
 	</node>
-	<node id="-41776" lat="43.7410554" lon="7.4200315">
+	<node id="-107108" lat="43.7410554" lon="7.4200315">
 		<tag k="ele" v="139.8"/>
 	</node>
-	<node id="-41778" lat="43.7570586" lon="7.4438297">
+	<node id="-107110" lat="43.7570586" lon="7.4438297">
 		<tag k="ele" v="304.2"/>
 	</node>
-	<node id="-41780" lat="43.7702522" lon="7.4521958">
+	<node id="-107112" lat="43.7702522" lon="7.4521958">
 		<tag k="ele" v="277.5"/>
 	</node>
-	<node id="-41782" lat="43.7700343" lon="7.4522133">
+	<node id="-107114" lat="43.7700343" lon="7.4522133">
 		<tag k="ele" v="277.5"/>
 	</node>
-	<node id="-41784" lat="43.7501528" lon="7.426401">
+	<node id="-107116" lat="43.7501528" lon="7.426401">
 		<tag k="ele" v="189.6"/>
 	</node>
-	<node id="-41786" lat="43.744462" lon="7.4269415">
+	<node id="-107118" lat="43.744462" lon="7.4269415">
 		<tag k="ele" v="95.0"/>
 	</node>
-	<node id="-41788" lat="43.7377397" lon="7.4220854">
+	<node id="-107120" lat="43.7377397" lon="7.4220854">
 		<tag k="ele" v="34.7"/>
 	</node>
-	<node id="-41790" lat="43.737825" lon="7.4221953">
+	<node id="-107122" lat="43.737825" lon="7.4221953">
 		<tag k="ele" v="37.2"/>
 	</node>
-	<node id="-41792" lat="43.7325148" lon="7.4111285">
+	<node id="-107124" lat="43.7325148" lon="7.4111285">
 		<tag k="ele" v="199.1"/>
 	</node>
-	<node id="-41794" lat="43.7325846" lon="7.4112103">
+	<node id="-107126" lat="43.7325846" lon="7.4112103">
 		<tag k="ele" v="199.1"/>
 	</node>
-	<node id="-41796" lat="43.7405816" lon="7.4135237">
+	<node id="-107128" lat="43.7405816" lon="7.4135237">
 		<tag k="ele" v="155.1"/>
 	</node>
-	<node id="-41798" lat="43.7391088" lon="7.4124991">
+	<node id="-107130" lat="43.7391088" lon="7.4124991">
 		<tag k="ele" v="160.9"/>
 	</node>
-	<node id="-41800" lat="43.7392048" lon="7.4125595">
+	<node id="-107132" lat="43.7392048" lon="7.4125595">
 		<tag k="ele" v="160.9"/>
 	</node>
-	<node id="-41802" lat="43.7441641" lon="7.4104821">
+	<node id="-107134" lat="43.7441641" lon="7.4104821">
 		<tag k="ele" v="193.6"/>
 	</node>
-	<node id="-41804" lat="43.7441602" lon="7.4104352">
+	<node id="-107136" lat="43.7441602" lon="7.4104352">
 		<tag k="ele" v="193.6"/>
 	</node>
-	<node id="-41806" lat="43.7438613" lon="7.4129202">
+	<node id="-107138" lat="43.7438613" lon="7.4129202">
 		<tag k="ele" v="213.3"/>
 	</node>
-	<node id="-41808" lat="43.7437508" lon="7.4131388">
+	<node id="-107140" lat="43.7437508" lon="7.4131388">
 		<tag k="ele" v="217.7"/>
 	</node>
-	<node id="-41810" lat="43.746826" lon="7.4159605">
+	<node id="-107142" lat="43.746826" lon="7.4159605">
 		<tag k="ele" v="273.4"/>
 	</node>
-	<node id="-41812" lat="43.7447061" lon="7.4247367">
+	<node id="-107144" lat="43.7447061" lon="7.4247367">
 		<tag k="ele" v="140.5"/>
 	</node>
-	<node id="-41814" lat="43.7206215" lon="7.3910063">
+	<node id="-107146" lat="43.7206215" lon="7.3910063">
 		<tag k="ele" v="37.9"/>
 	</node>
-	<node id="-41816" lat="43.7206606" lon="7.3911175">
+	<node id="-107148" lat="43.7206606" lon="7.3911175">
 		<tag k="ele" v="37.9"/>
 	</node>
-	<node id="-41818" lat="43.7537913" lon="7.4203982">
+	<node id="-107150" lat="43.7537913" lon="7.4203982">
 		<tag k="ele" v="429.9"/>
 	</node>
-	<node id="-41820" lat="43.7531036" lon="7.4187782">
+	<node id="-107152" lat="43.7531036" lon="7.4187782">
 		<tag k="ele" v="429.6"/>
 	</node>
-	<node id="-41822" lat="43.7530106" lon="7.4190947">
+	<node id="-107154" lat="43.7530106" lon="7.4190947">
 		<tag k="ele" v="429.6"/>
 	</node>
-	<node id="-41824" lat="43.7532431" lon="7.4192932">
+	<node id="-107156" lat="43.7532431" lon="7.4192932">
 		<tag k="ele" v="429.6"/>
 	</node>
-	<node id="-41826" lat="43.7535267" lon="7.419416">
+	<node id="-107158" lat="43.7535267" lon="7.419416">
 		<tag k="ele" v="430.3"/>
 	</node>
-	<node id="-41828" lat="43.7308092" lon="7.4209449">
+	<node id="-107160" lat="43.7308092" lon="7.4209449">
 		<tag k="ele" v="62.5"/>
 	</node>
-	<node id="-41830" lat="43.7308538" lon="7.4208784">
+	<node id="-107162" lat="43.7308538" lon="7.4208784">
 		<tag k="ele" v="62.5"/>
 	</node>
-	<node id="-41832" lat="43.7309304" lon="7.4207483">
+	<node id="-107164" lat="43.7309304" lon="7.4207483">
 		<tag k="ele" v="59.2"/>
 	</node>
-	<node id="-41834" lat="43.7310477" lon="7.4206182">
+	<node id="-107166" lat="43.7310477" lon="7.4206182">
 		<tag k="ele" v="59.2"/>
 	</node>
-	<node id="-41836" lat="43.7306348" lon="7.4201488">
+	<node id="-107168" lat="43.7306348" lon="7.4201488">
 		<tag k="ele" v="62.5"/>
 	</node>
-	<node id="-41838" lat="43.7303693" lon="7.4206531">
+	<node id="-107170" lat="43.7303693" lon="7.4206531">
 		<tag k="ele" v="62.5"/>
 	</node>
-	<node id="-41840" lat="43.7308285" lon="7.420369">
+	<node id="-107172" lat="43.7308285" lon="7.420369">
 		<tag k="ele" v="62.5"/>
 	</node>
-	<node id="-41842" lat="43.7307841" lon="7.4204814"/>
-	<node id="-41844" lat="43.7307608" lon="7.4206329">
+	<node id="-107174" lat="43.7307841" lon="7.4204814"/>
+	<node id="-107176" lat="43.7307608" lon="7.4206329">
 		<tag k="ele" v="62.5"/>
 	</node>
-	<node id="-41846" lat="43.7307879" lon="7.4207523">
+	<node id="-107178" lat="43.7307879" lon="7.4207523">
 		<tag k="ele" v="62.5"/>
 	</node>
-	<node id="-41848" lat="43.7309449" lon="7.4209588">
+	<node id="-107180" lat="43.7309449" lon="7.4209588">
 		<tag k="ele" v="59.2"/>
 	</node>
-	<node id="-41850" lat="43.7310806" lon="7.4209856">
+	<node id="-107182" lat="43.7310806" lon="7.4209856">
 		<tag k="ele" v="59.2"/>
 	</node>
-	<node id="-41852" lat="43.7311678" lon="7.4209749">
+	<node id="-107184" lat="43.7311678" lon="7.4209749">
 		<tag k="ele" v="59.2"/>
 	</node>
-	<node id="-41854" lat="43.7312705" lon="7.4208998">
+	<node id="-107186" lat="43.7312705" lon="7.4208998">
 		<tag k="ele" v="59.2"/>
 	</node>
-	<node id="-41856" lat="43.7311291" lon="7.420814">
+	<node id="-107188" lat="43.7311291" lon="7.420814">
 		<tag k="ele" v="59.2"/>
 	</node>
-	<node id="-41858" lat="43.7312453" lon="7.4213129">
+	<node id="-107190" lat="43.7312453" lon="7.4213129">
 		<tag k="ele" v="59.2"/>
 	</node>
-	<node id="-41860" lat="43.7314837" lon="7.4211707">
+	<node id="-107192" lat="43.7314837" lon="7.4211707">
 		<tag k="ele" v="59.2"/>
 	</node>
-	<node id="-41862" lat="43.7310709" lon="7.420814">
+	<node id="-107194" lat="43.7310709" lon="7.420814">
 		<tag k="ele" v="59.2"/>
 	</node>
-	<node id="-41864" lat="43.7309953" lon="7.4208006">
+	<node id="-107196" lat="43.7309953" lon="7.4208006">
 		<tag k="ele" v="59.2"/>
 	</node>
-	<node id="-41866" lat="43.7308199" lon="7.4213463">
+	<node id="-107198" lat="43.7308199" lon="7.4213463">
 		<tag k="ele" v="63.6"/>
 	</node>
-	<node id="-41868" lat="43.7306813" lon="7.421168">
+	<node id="-107200" lat="43.7306813" lon="7.421168">
 		<tag k="ele" v="62.5"/>
 	</node>
-	<node id="-41870" lat="43.7309223" lon="7.4204756">
+	<node id="-107202" lat="43.7309223" lon="7.4204756">
 		<tag k="ele" v="62.5"/>
 	</node>
-	<node id="-41872" lat="43.7308891" lon="7.4206263">
+	<node id="-107204" lat="43.7308891" lon="7.4206263">
 		<tag k="ele" v="59.2"/>
 	</node>
-	<node id="-41874" lat="43.7311744" lon="7.4207783">
+	<node id="-107206" lat="43.7311744" lon="7.4207783">
 		<tag k="ele" v="59.2"/>
 	</node>
-	<node id="-41876" lat="43.7352216" lon="7.4189667">
+	<node id="-107208" lat="43.7352216" lon="7.4189667">
 		<tag k="ele" v="8.6"/>
 	</node>
-	<node id="-41878" lat="43.7206958" lon="7.3772443">
+	<node id="-107210" lat="43.7206958" lon="7.3772443">
 		<tag k="ele" v="55.6"/>
 	</node>
-	<node id="-41880" lat="43.7245637" lon="7.3817854">
+	<node id="-107212" lat="43.7245637" lon="7.3817854">
 		<tag k="ele" v="77.8"/>
 	</node>
-	<node id="-41882" lat="43.7411429" lon="7.39824">
+	<node id="-107214" lat="43.7411429" lon="7.39824">
 		<tag k="ele" v="455.2"/>
 	</node>
-	<node id="-41884" lat="43.7222062" lon="7.396581">
+	<node id="-107216" lat="43.7222062" lon="7.396581">
 		<tag k="ele" v="71.9"/>
 	</node>
-	<node id="-41886" lat="43.7230778" lon="7.3960382">
+	<node id="-107218" lat="43.7230778" lon="7.3960382">
 		<tag k="ele" v="83.8"/>
 	</node>
-	<node id="-41888" lat="43.7231391" lon="7.3969576">
+	<node id="-107220" lat="43.7231391" lon="7.3969576">
 		<tag k="ele" v="83.2"/>
 	</node>
-	<node id="-41890" lat="43.7218654" lon="7.3995522">
+	<node id="-107222" lat="43.7218654" lon="7.3995522">
 		<tag k="ele" v="78.1"/>
 	</node>
-	<node id="-41892" lat="43.7217802" lon="7.403894">
+	<node id="-107224" lat="43.7217802" lon="7.403894">
 		<tag k="ele" v="67.3"/>
 	</node>
-	<node id="-41894" lat="43.7241138" lon="7.4045725">
+	<node id="-107226" lat="43.7241138" lon="7.4045725">
 		<tag k="ele" v="131"/>
 	</node>
-	<node id="-41896" lat="43.7249437" lon="7.4092748">
+	<node id="-107228" lat="43.7249437" lon="7.4092748">
 		<tag k="ele" v="41.3"/>
 	</node>
-	<node id="-41898" lat="43.7307192" lon="7.4128236">
+	<node id="-107230" lat="43.7307192" lon="7.4128236">
 		<tag k="ele" v="79.9"/>
 	</node>
-	<node id="-41900" lat="43.7304158" lon="7.4130967">
+	<node id="-107232" lat="43.7304158" lon="7.4130967">
 		<tag k="ele" v="47.2"/>
 	</node>
-	<node id="-41902" lat="43.7301351" lon="7.4131849">
+	<node id="-107234" lat="43.7301351" lon="7.4131849">
 		<tag k="ele" v="35.6"/>
 	</node>
-	<node id="-41904" lat="43.7303178" lon="7.4137108">
+	<node id="-107236" lat="43.7303178" lon="7.4137108">
 		<tag k="ele" v="31.3"/>
 	</node>
-	<node id="-41906" lat="43.7273145" lon="7.4115394">
+	<node id="-107238" lat="43.7273145" lon="7.4115394">
 		<tag k="ele" v="28.9"/>
 	</node>
-	<node id="-41908" lat="43.7264675" lon="7.4173698">
+	<node id="-107240" lat="43.7264675" lon="7.4173698">
 		<tag k="ele" v="5.8"/>
 	</node>
-	<node id="-41910" lat="43.7294634" lon="7.4161662">
+	<node id="-107242" lat="43.7294634" lon="7.4161662">
 		<tag k="ele" v="4.9"/>
 	</node>
-	<node id="-41912" lat="43.7318083" lon="7.4136997">
+	<node id="-107244" lat="43.7318083" lon="7.4136997">
 		<tag k="ele" v="125.7"/>
 	</node>
-	<node id="-41914" lat="43.7328067" lon="7.4176862">
+	<node id="-107246" lat="43.7328067" lon="7.4176862">
 		<tag k="ele" v="26.4"/>
 	</node>
-	<node id="-41916" lat="43.7322251" lon="7.4196438">
+	<node id="-107248" lat="43.7322251" lon="7.4196438">
 		<tag k="ele" v="21.7"/>
 	</node>
-	<node id="-41918" lat="43.7311378" lon="7.4214444">
+	<node id="-107250" lat="43.7311378" lon="7.4214444">
 		<tag k="ele" v="63.1"/>
 	</node>
-	<node id="-41920" lat="43.7323194" lon="7.4229703">
+	<node id="-107252" lat="43.7323194" lon="7.4229703">
 		<tag k="ele" v="3.3"/>
 	</node>
-	<node id="-41922" lat="43.7325582" lon="7.4224046">
+	<node id="-107254" lat="43.7325582" lon="7.4224046">
 		<tag k="ele" v="4.8"/>
 	</node>
-	<node id="-41924" lat="43.7314516" lon="7.4252061">
+	<node id="-107256" lat="43.7314516" lon="7.4252061">
 		<tag k="ele" v="61.4"/>
 	</node>
-	<node id="-41926" lat="43.731094" lon="7.4256696">
+	<node id="-107258" lat="43.731094" lon="7.4256696">
 		<tag k="ele" v="53.3"/>
 	</node>
-	<node id="-41928" lat="43.7339662" lon="7.4285632">
+	<node id="-107260" lat="43.7339662" lon="7.4285632">
 		<tag k="ele" v="1.0"/>
 	</node>
-	<node id="-41930" lat="43.7339417" lon="7.4146098">
+	<node id="-107262" lat="43.7339417" lon="7.4146098">
 		<tag k="ele" v="109.4"/>
 	</node>
-	<node id="-41932" lat="43.7339993" lon="7.4140339">
+	<node id="-107264" lat="43.7339993" lon="7.4140339">
 		<tag k="ele" v="118.9"/>
 	</node>
-	<node id="-41934" lat="43.7335182" lon="7.4154622">
+	<node id="-107266" lat="43.7335182" lon="7.4154622">
 		<tag k="ele" v="83.3"/>
 	</node>
-	<node id="-41936" lat="43.7388253" lon="7.4260975">
+	<node id="-107268" lat="43.7388253" lon="7.4260975">
 		<tag k="ele" v="47.4"/>
 	</node>
-	<node id="-41938" lat="43.739467" lon="7.422564">
+	<node id="-107270" lat="43.739467" lon="7.422564">
 		<tag k="ele" v="75.4"/>
 	</node>
-	<node id="-41940" lat="43.7396612" lon="7.4231391">
+	<node id="-107272" lat="43.7396612" lon="7.4231391">
 		<tag k="ele" v="73.9"/>
 	</node>
-	<node id="-41942" lat="43.7409187" lon="7.4259296">
+	<node id="-107274" lat="43.7409187" lon="7.4259296">
 		<tag k="ele" v="54.0"/>
 	</node>
-	<node id="-41944" lat="43.7402832" lon="7.4278821">
+	<node id="-107276" lat="43.7402832" lon="7.4278821">
 		<tag k="ele" v="38.5"/>
 	</node>
-	<node id="-41946" lat="43.7414199" lon="7.430452">
+	<node id="-107278" lat="43.7414199" lon="7.430452">
 		<tag k="ele" v="7.4"/>
 	</node>
-	<node id="-41948" lat="43.7423109" lon="7.4304266">
+	<node id="-107280" lat="43.7423109" lon="7.4304266">
 		<tag k="ele" v="5.8"/>
 	</node>
-	<node id="-41950" lat="43.7440082" lon="7.4312188">
+	<node id="-107282" lat="43.7440082" lon="7.4312188">
 		<tag k="ele" v="5.8"/>
 	</node>
-	<node id="-41952" lat="43.7442766" lon="7.431212">
+	<node id="-107284" lat="43.7442766" lon="7.431212">
 		<tag k="ele" v="5.8"/>
 	</node>
-	<node id="-41954" lat="43.7469181" lon="7.4313986">
+	<node id="-107286" lat="43.7469181" lon="7.4313986">
 		<tag k="ele" v="47.7"/>
 	</node>
-	<node id="-41956" lat="43.7430511" lon="7.4277939">
+	<node id="-107288" lat="43.7430511" lon="7.4277939">
 		<tag k="ele" v="57.9"/>
 	</node>
-	<node id="-41958" lat="43.7487526" lon="7.434022">
+	<node id="-107290" lat="43.7487526" lon="7.434022">
 		<tag k="ele" v="38.4"/>
 	</node>
-	<node id="-41960" lat="43.7626747" lon="7.4613188">
+	<node id="-107292" lat="43.7626747" lon="7.4613188">
 		<tag k="ele" v="83.7"/>
 	</node>
-	<node id="-41962" lat="43.7307023" lon="7.4212614">
+	<node id="-107294" lat="43.7307023" lon="7.4212614">
 		<tag k="ele" v="63.0"/>
 	</node>
-	<node id="-41964" lat="43.730278" lon="7.4234544">
+	<node id="-107296" lat="43.730278" lon="7.4234544">
 		<tag k="ele" v="58.0"/>
 	</node>
-	<node id="-41966" lat="43.731708" lon="7.4174557">
+	<node id="-107298" lat="43.731708" lon="7.4174557">
 		<tag k="ele" v="22.2"/>
 	</node>
-	<node id="-41968" lat="43.7452229" lon="7.4293332">
+	<node id="-107300" lat="43.7452229" lon="7.4293332">
 		<tag k="ele" v="54.1"/>
 	</node>
-	<node id="-41970" lat="43.7422395" lon="7.4284911">
+	<node id="-107302" lat="43.7422395" lon="7.4284911">
 		<tag k="ele" v="42.0"/>
 	</node>
-	<node id="-41972" lat="43.7329179" lon="7.4212681">
+	<node id="-107304" lat="43.7329179" lon="7.4212681">
 		<tag k="ele" v="8.1"/>
 	</node>
-	<node id="-41974" lat="43.7322972" lon="7.4201761">
+	<node id="-107306" lat="43.7322972" lon="7.4201761">
 		<tag k="ele" v="18.3"/>
 	</node>
-	<node id="-41976" lat="43.7308458" lon="7.4179588">
+	<node id="-107308" lat="43.7308458" lon="7.4179588">
 		<tag k="ele" v="4.2"/>
 	</node>
-	<node id="-41978" lat="43.7595597" lon="7.4516596">
+	<node id="-107310" lat="43.7595597" lon="7.4516596">
 		<tag k="ele" v="71.7"/>
 	</node>
-	<node id="-41980" lat="43.7468351" lon="7.4325366">
+	<node id="-107312" lat="43.7468351" lon="7.4325366">
 		<tag k="ele" v="18.5"/>
 	</node>
-	<node id="-41982" lat="43.7329498" lon="7.3891475">
+	<node id="-107314" lat="43.7329498" lon="7.3891475">
 		<tag k="ele" v="252.0"/>
 	</node>
-	<node id="-41984" lat="43.7521184" lon="7.4254971">
+	<node id="-107316" lat="43.7521184" lon="7.4254971">
 		<tag k="ele" v="204.65"/>
+	</node>
+	<node id="-257249" lat="43.7454182" lon="7.3995098">
+		<tag k="ele" v="479.5"/>
 	</node>
 	<node id="1" lat="43.7221039" lon="7.4084876" version="1">
 		<tag k="ele" v="43.0"/>
@@ -1621,9 +1624,6 @@
 	</node>
 	<node id="501" lat="43.7236348" lon="7.3868745" version="1">
 		<tag k="ele" v="86.6"/>
-	</node>
-	<node id="503" lat="43.7261485" lon="7.3965582" version="1">
-		<tag k="ele" v="169.9"/>
 	</node>
 	<node id="504" lat="43.7475926" lon="7.438162" version="1">
 		<tag k="ele" v="11.7"/>
@@ -10340,9 +10340,6 @@
 	<node id="4177" lat="43.7426889" lon="7.3915384" version="1">
 		<tag k="ele" v="473.4"/>
 	</node>
-	<node id="4178" lat="43.7260842" lon="7.3967881" version="1">
-		<tag k="ele" v="169.2"/>
-	</node>
 	<node id="4179" lat="43.7226803" lon="7.3632475" version="1">
 		<tag k="ele" v="0.0"/>
 	</node>
@@ -15319,9 +15316,6 @@
 	<node id="6310" lat="43.7435001" lon="7.3767517" version="1">
 		<tag k="ele" v="415.2"/>
 	</node>
-	<node id="6311" lat="43.7261217" lon="7.3967313" version="1">
-		<tag k="ele" v="169.3"/>
-	</node>
 	<node id="6313" lat="43.7524724" lon="7.4438972" version="1">
 		<tag k="ele" v="21.2"/>
 	</node>
@@ -17424,9 +17418,6 @@
 	</node>
 	<node id="7207" lat="43.743251" lon="7.4133228" version="1">
 		<tag k="ele" v="203.2"/>
-	</node>
-	<node id="7208" lat="43.7261325" lon="7.3964625" version="1">
-		<tag k="ele" v="170.6"/>
 	</node>
 	<node id="7210" lat="43.7607962" lon="7.4573316" version="1">
 		<tag k="ele" v="27.3"/>
@@ -22177,9 +22168,6 @@
 	</node>
 	<node id="9195" lat="43.7336964" lon="7.4121827" version="1">
 		<tag k="ele" v="45.9"/>
-	</node>
-	<node id="9196" lat="43.7261456" lon="7.3966511" version="1">
-		<tag k="ele" v="169.5"/>
 	</node>
 	<node id="9197" lat="43.743597" lon="7.4146422" version="1">
 		<tag k="ele" v="253.7"/>
@@ -43924,9 +43912,6 @@
 	<node id="18324" lat="43.7521701" lon="7.4353567" version="1">
 		<tag k="ele" v="110.8"/>
 	</node>
-	<node id="18325" lat="43.7261002" lon="7.3963929" version="1">
-		<tag k="ele" v="170.7"/>
-	</node>
 	<node id="18326" lat="43.7573308" lon="7.4331234" version="1">
 		<tag k="ele" v="345.2"/>
 	</node>
@@ -52549,9 +52534,6 @@
 	</node>
 	<node id="21946" lat="43.7559356" lon="7.3986535" version="1">
 		<tag k="ele" v="492.0"/>
-	</node>
-	<node id="21948" lat="43.7260514" lon="7.3963519" version="1">
-		<tag k="ele" v="170.9"/>
 	</node>
 	<node id="21949" lat="43.7616723" lon="7.4733651" version="1">
 		<tag k="ele" v="68.8"/>
@@ -62717,7 +62699,7 @@
 	<node id="26290" lat="43.7522285" lon="7.4327079" version="1">
 		<tag k="ele" v="163.4"/>
 	</node>
-	<way id="-62745">
+	<way id="-128076">
 		<nd ref="8024"/>
 		<nd ref="12664"/>
 		<nd ref="20603"/>
@@ -62733,7 +62715,7 @@
 		<tag k="prec_plani" v="1.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62747">
+	<way id="-128077">
 		<nd ref="3686"/>
 		<nd ref="5347"/>
 		<nd ref="3855"/>
@@ -62751,9 +62733,9 @@
 		<tag k="prec_plani" v="1.5;2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62749">
+	<way id="-128078">
 		<nd ref="21140"/>
-		<nd ref="-41972"/>
+		<nd ref="-107304"/>
 		<nd ref="11131"/>
 		<tag k="highway" v="residential"/>
 		<tag k="id" v="TRONROUT0000000074274768;TRONROUT0000000074274542"/>
@@ -62765,7 +62747,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62751">
+	<way id="-128079">
 		<nd ref="13018"/>
 		<nd ref="3299"/>
 		<nd ref="9592"/>
@@ -62779,7 +62761,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62753">
+	<way id="-128080">
 		<nd ref="21886"/>
 		<nd ref="10613"/>
 		<nd ref="11526"/>
@@ -62794,7 +62776,7 @@
 		<tag k="prec_alti" v="2.5"/>
 		<tag k="prec_plani" v="2.5"/>
 	</way>
-	<way id="-62755">
+	<way id="-128081">
 		<nd ref="20508"/>
 		<nd ref="15531"/>
 		<nd ref="21247"/>
@@ -62802,11 +62784,11 @@
 		<nd ref="18844"/>
 		<nd ref="9304"/>
 		<nd ref="11857"/>
-		<nd ref="-41718"/>
+		<nd ref="-107050"/>
 		<nd ref="23360"/>
 		<nd ref="12745"/>
 		<nd ref="13852"/>
-		<nd ref="-41966"/>
+		<nd ref="-107298"/>
 		<nd ref="9610"/>
 		<nd ref="22356"/>
 		<nd ref="20508"/>
@@ -62821,7 +62803,7 @@
 		<tag k="prec_alti" v="2.5"/>
 		<tag k="prec_plani" v="2.5"/>
 	</way>
-	<way id="-62757">
+	<way id="-128082">
 		<nd ref="21247"/>
 		<nd ref="26262"/>
 		<nd ref="24307"/>
@@ -62837,7 +62819,7 @@
 		<tag k="prec_alti" v="2.5"/>
 		<tag k="prec_plani" v="2.5"/>
 	</way>
-	<way id="-62759">
+	<way id="-128083">
 		<nd ref="15179"/>
 		<nd ref="4649"/>
 		<nd ref="20508"/>
@@ -62852,7 +62834,7 @@
 		<tag k="sidewalk" v="none"/>
 		<tag k="tunnel" v="yes"/>
 	</way>
-	<way id="-62761">
+	<way id="-128084">
 		<nd ref="14023"/>
 		<nd ref="10195"/>
 		<nd ref="9083"/>
@@ -62869,7 +62851,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62763">
+	<way id="-128085">
 		<nd ref="7814"/>
 		<nd ref="17413"/>
 		<tag k="highway" v="steps"/>
@@ -62881,7 +62863,7 @@
 		<tag k="prec_alti" v="9999.0"/>
 		<tag k="prec_plani" v="5.0"/>
 	</way>
-	<way id="-62765">
+	<way id="-128086">
 		<nd ref="4612"/>
 		<nd ref="22376"/>
 		<nd ref="325"/>
@@ -62897,7 +62879,7 @@
 		<tag k="prec_alti" v="2.5"/>
 		<tag k="prec_plani" v="2.5"/>
 	</way>
-	<way id="-62767">
+	<way id="-128087">
 		<nd ref="20461"/>
 		<nd ref="4612"/>
 		<tag k="bridge" v="yes"/>
@@ -62910,7 +62892,7 @@
 		<tag k="prec_alti" v="2.5"/>
 		<tag k="prec_plani" v="2.5"/>
 	</way>
-	<way id="-62769">
+	<way id="-128088">
 		<nd ref="23509"/>
 		<nd ref="20310"/>
 		<tag k="highway" v="steps"/>
@@ -62922,7 +62904,7 @@
 		<tag k="prec_alti" v="2.5"/>
 		<tag k="prec_plani" v="2.5"/>
 	</way>
-	<way id="-62771">
+	<way id="-128089">
 		<nd ref="21712"/>
 		<nd ref="7720"/>
 		<nd ref="19550"/>
@@ -62939,7 +62921,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62773">
+	<way id="-128090">
 		<nd ref="1306"/>
 		<nd ref="23166"/>
 		<nd ref="15270"/>
@@ -62960,7 +62942,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62775">
+	<way id="-128091">
 		<nd ref="9017"/>
 		<nd ref="25207"/>
 		<tag k="highway" v="residential"/>
@@ -62973,7 +62955,7 @@
 		<tag k="prec_plani" v="1.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62777">
+	<way id="-128092">
 		<nd ref="11194"/>
 		<nd ref="10138"/>
 		<nd ref="1799"/>
@@ -62989,7 +62971,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62779">
+	<way id="-128093">
 		<nd ref="4615"/>
 		<nd ref="4002"/>
 		<nd ref="15563"/>
@@ -63003,7 +62985,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62781">
+	<way id="-128094">
 		<nd ref="14525"/>
 		<nd ref="21864"/>
 		<tag k="highway" v="steps"/>
@@ -63015,7 +62997,7 @@
 		<tag k="prec_alti" v="2.5"/>
 		<tag k="prec_plani" v="2.5"/>
 	</way>
-	<way id="-62783">
+	<way id="-128095">
 		<nd ref="26149"/>
 		<nd ref="15351"/>
 		<nd ref="17963"/>
@@ -63038,12 +63020,12 @@
 		<tag k="prec_alti" v="2.5"/>
 		<tag k="prec_plani" v="2.5"/>
 	</way>
-	<way id="-62785">
+	<way id="-128096">
 		<nd ref="26149"/>
-		<nd ref="-41820"/>
-		<nd ref="-41822"/>
-		<nd ref="-41824"/>
-		<nd ref="-41826"/>
+		<nd ref="-107152"/>
+		<nd ref="-107154"/>
+		<nd ref="-107156"/>
+		<nd ref="-107158"/>
 		<tag k="highway" v="service"/>
 		<tag k="id" v="TRONROUT0000000356854510;TRONROUT0000000074269864;TRONROUT0000000074269856;TRONROUT0000000074269846"/>
 		<tag k="importance" v="5"/>
@@ -63054,71 +63036,71 @@
 		<tag k="prec_alti" v="2.5"/>
 		<tag k="prec_plani" v="2.5"/>
 	</way>
-	<way id="-62787">
-		<nd ref="-41840"/>
-		<nd ref="-41842"/>
-		<nd ref="-41844"/>
-		<nd ref="-41846"/>
-		<nd ref="-41830"/>
-		<nd ref="-41848"/>
-		<nd ref="-41850"/>
-		<nd ref="-41852"/>
-		<nd ref="-41854"/>
+	<way id="-128097">
+		<nd ref="-107172"/>
+		<nd ref="-107174"/>
+		<nd ref="-107176"/>
+		<nd ref="-107178"/>
+		<nd ref="-107162"/>
+		<nd ref="-107180"/>
+		<nd ref="-107182"/>
+		<nd ref="-107184"/>
+		<nd ref="-107186"/>
 		<tag k="highway" v="steps"/>
 	</way>
-	<way id="-62789">
-		<nd ref="-41834"/>
-		<nd ref="-41856"/>
-		<nd ref="-41852"/>
-		<nd ref="-41858"/>
+	<way id="-128098">
+		<nd ref="-107166"/>
+		<nd ref="-107188"/>
+		<nd ref="-107184"/>
+		<nd ref="-107190"/>
 		<nd ref="1265"/>
 		<tag k="highway" v="steps"/>
 	</way>
-	<way id="-62791">
-		<nd ref="-41834"/>
-		<nd ref="-41862"/>
-		<nd ref="-41850"/>
+	<way id="-128099">
+		<nd ref="-107166"/>
+		<nd ref="-107194"/>
+		<nd ref="-107182"/>
 		<nd ref="6678"/>
 		<tag k="highway" v="steps"/>
 	</way>
-	<way id="-62793">
-		<nd ref="-41834"/>
-		<nd ref="-41864"/>
-		<nd ref="-41848"/>
-		<nd ref="-41866"/>
+	<way id="-128100">
+		<nd ref="-107166"/>
+		<nd ref="-107196"/>
+		<nd ref="-107180"/>
+		<nd ref="-107198"/>
 		<tag k="highway" v="steps"/>
 	</way>
-	<way id="-62795">
-		<nd ref="-41828"/>
-		<nd ref="-41868"/>
+	<way id="-128101">
+		<nd ref="-107160"/>
+		<nd ref="-107200"/>
 		<tag k="highway" v="steps"/>
 	</way>
-	<way id="-62797">
+	<way id="-128102">
 		<nd ref="13350"/>
-		<nd ref="-41868"/>
-		<nd ref="-41962"/>
+		<nd ref="-107200"/>
+		<nd ref="-107294"/>
 		<nd ref="6621"/>
 		<tag k="highway" v="steps"/>
 	</way>
-	<way id="-62799">
-		<nd ref="-41870"/>
-		<nd ref="-41872"/>
-		<nd ref="-41832"/>
-		<nd ref="-41864"/>
-		<nd ref="-41862"/>
-		<nd ref="-41856"/>
-		<nd ref="-41874"/>
+	<way id="-128103">
+		<nd ref="-107202"/>
+		<nd ref="-107204"/>
+		<nd ref="-107164"/>
+		<nd ref="-107196"/>
+		<nd ref="-107194"/>
+		<nd ref="-107188"/>
+		<nd ref="-107206"/>
 		<tag k="highway" v="steps"/>
 	</way>
-	<way id="-62801">
-		<nd ref="-41834"/>
-		<nd ref="-41872"/>
-		<nd ref="-41844"/>
-		<nd ref="-41838"/>
-		<nd ref="-41836"/>
-		<nd ref="-41840"/>
-		<nd ref="-41870"/>
-		<nd ref="-41834"/>
+	<way id="-128104">
+		<nd ref="-107166"/>
+		<nd ref="-107204"/>
+		<nd ref="-107176"/>
+		<nd ref="-107170"/>
+		<nd ref="-107168"/>
+		<nd ref="-107172"/>
+		<nd ref="-107202"/>
+		<nd ref="-107166"/>
 		<tag k="highway" v="steps"/>
 		<tag k="id" v="TRONROUT0000000074277560"/>
 		<tag k="importance" v="NC"/>
@@ -63128,19 +63110,19 @@
 		<tag k="prec_alti" v="2.5"/>
 		<tag k="prec_plani" v="2.5"/>
 	</way>
-	<way id="-62803">
-		<nd ref="-41854"/>
-		<nd ref="-41874"/>
-		<nd ref="-41834"/>
+	<way id="-128105">
+		<nd ref="-107186"/>
+		<nd ref="-107206"/>
+		<nd ref="-107166"/>
 		<tag k="highway" v="steps"/>
 	</way>
-	<way id="-62805">
+	<way id="-128106">
 		<nd ref="678"/>
 		<nd ref="4864"/>
 		<tag k="highway" v="residential"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62807">
+	<way id="-128107">
 		<nd ref="10100"/>
 		<nd ref="16261"/>
 		<nd ref="26035"/>
@@ -63156,7 +63138,7 @@
 		<tag k="prec_plani" v="1.5;2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62809">
+	<way id="-128108">
 		<nd ref="9863"/>
 		<nd ref="5080"/>
 		<nd ref="23443"/>
@@ -63175,7 +63157,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62811">
+	<way id="-128109">
 		<nd ref="12654"/>
 		<nd ref="2437"/>
 		<nd ref="3135"/>
@@ -63196,7 +63178,7 @@
 		<tag k="importance" v="5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62813">
+	<way id="-128110">
 		<nd ref="2666"/>
 		<nd ref="22776"/>
 		<nd ref="5872"/>
@@ -63217,7 +63199,7 @@
 		<tag k="prec_plani" v="10.0;1.5;2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62815">
+	<way id="-128111">
 		<nd ref="6224"/>
 		<nd ref="22550"/>
 		<nd ref="20638"/>
@@ -63237,7 +63219,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62817">
+	<way id="-128112">
 		<nd ref="1349"/>
 		<nd ref="21421"/>
 		<nd ref="5054"/>
@@ -63257,7 +63239,7 @@
 		<tag k="prec_plani" v="10.0;1.5;2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62819">
+	<way id="-128113">
 		<nd ref="24969"/>
 		<nd ref="5298"/>
 		<tag k="highway" v="secondary"/>
@@ -63270,10 +63252,10 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62821">
+	<way id="-128114">
 		<nd ref="11189"/>
 		<nd ref="18385"/>
-		<nd ref="-41980"/>
+		<nd ref="-107312"/>
 		<tag k="highway" v="tertiary"/>
 		<tag k="id" v="TRONROUT0000000074269751;TRONROUT0000000074269778"/>
 		<tag k="importance" v="4"/>
@@ -63284,7 +63266,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62823">
+	<way id="-128115">
 		<nd ref="16293"/>
 		<nd ref="13902"/>
 		<nd ref="11200"/>
@@ -63298,7 +63280,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62825">
+	<way id="-128116">
 		<nd ref="5917"/>
 		<nd ref="9642"/>
 		<nd ref="4891"/>
@@ -63320,7 +63302,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62827">
+	<way id="-128117">
 		<nd ref="15161"/>
 		<nd ref="3021"/>
 		<nd ref="21566"/>
@@ -63335,7 +63317,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62829">
+	<way id="-128118">
 		<nd ref="11141"/>
 		<nd ref="16256"/>
 		<nd ref="15335"/>
@@ -63354,7 +63336,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62831">
+	<way id="-128119">
 		<nd ref="11141"/>
 		<nd ref="15358"/>
 		<nd ref="26206"/>
@@ -63371,7 +63353,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62833">
+	<way id="-128120">
 		<nd ref="381"/>
 		<nd ref="15422"/>
 		<nd ref="16244"/>
@@ -63398,7 +63380,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-62835">
+	<way id="-128121">
 		<nd ref="6922"/>
 		<nd ref="13543"/>
 		<nd ref="17470"/>
@@ -64564,7 +64546,7 @@
 	</way>
 	<way id="96" version="1">
 		<nd ref="422"/>
-		<nd ref="-41764"/>
+		<nd ref="-107096"/>
 		<nd ref="24221"/>
 		<tag k="bridge" v="yes"/>
 		<tag k="highway" v="secondary_bridge"/>
@@ -65514,7 +65496,7 @@
 		<nd ref="12286"/>
 		<nd ref="16754"/>
 		<nd ref="20490"/>
-		<nd ref="-41724"/>
+		<nd ref="-107056"/>
 		<nd ref="16181"/>
 		<nd ref="16803"/>
 		<nd ref="6303"/>
@@ -66037,8 +66019,8 @@
 		<nd ref="1179"/>
 		<nd ref="10234"/>
 		<nd ref="19164"/>
-		<nd ref="-41738"/>
-		<nd ref="-41736"/>
+		<nd ref="-107070"/>
+		<nd ref="-107068"/>
 		<nd ref="10745"/>
 		<nd ref="10551"/>
 		<nd ref="24728"/>
@@ -66078,7 +66060,7 @@
 		<nd ref="9222"/>
 		<nd ref="14031"/>
 		<nd ref="7908"/>
-		<nd ref="-41740"/>
+		<nd ref="-107072"/>
 		<nd ref="23874"/>
 		<nd ref="7984"/>
 		<nd ref="16684"/>
@@ -66418,8 +66400,8 @@
 	</way>
 	<way id="220" version="1">
 		<nd ref="14001"/>
-		<nd ref="-41758"/>
-		<nd ref="-41756"/>
+		<nd ref="-107090"/>
+		<nd ref="-107088"/>
 		<nd ref="24617"/>
 		<nd ref="1083"/>
 		<tag k="highway" v="residential_tunnel"/>
@@ -66963,7 +66945,7 @@
 		<nd ref="17884"/>
 		<nd ref="111"/>
 		<nd ref="3017"/>
-		<nd ref="-41894"/>
+		<nd ref="-107226"/>
 		<nd ref="20203"/>
 		<nd ref="3771"/>
 		<nd ref="10499"/>
@@ -68119,7 +68101,7 @@
 		<nd ref="26127"/>
 		<nd ref="24767"/>
 		<nd ref="295"/>
-		<nd ref="-41928"/>
+		<nd ref="-107260"/>
 		<nd ref="25539"/>
 		<nd ref="4989"/>
 		<nd ref="1117"/>
@@ -68610,26 +68592,6 @@
 		<tag k="prec_plani" v="1.5;2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="479" version="1">
-		<nd ref="6386"/>
-		<nd ref="21948"/>
-		<nd ref="18325"/>
-		<nd ref="7208"/>
-		<nd ref="503"/>
-		<nd ref="9196"/>
-		<nd ref="6311"/>
-		<nd ref="4178"/>
-		<nd ref="24779"/>
-		<tag k="highway" v="residential"/>
-		<tag k="id" v="TRONROUT0000000074277818"/>
-		<tag k="importance" v="5"/>
-		<tag k="largeur" v="4.00"/>
-		<tag k="nature" v="Route à 1 chaussée"/>
-		<tag k="numero" v="NC"/>
-		<tag k="prec_alti" v="1.0"/>
-		<tag k="prec_plani" v="1.5"/>
-		<tag k="sidewalk" v="both"/>
-	</way>
 	<way id="480" version="1">
 		<nd ref="18108"/>
 		<nd ref="24677"/>
@@ -68781,7 +68743,7 @@
 		<nd ref="2156"/>
 		<nd ref="3288"/>
 		<nd ref="1039"/>
-		<nd ref="-41716"/>
+		<nd ref="-107048"/>
 		<nd ref="16525"/>
 		<nd ref="4204"/>
 		<nd ref="2380"/>
@@ -68866,7 +68828,7 @@
 		<nd ref="5953"/>
 		<nd ref="12759"/>
 		<nd ref="4565"/>
-		<nd ref="-41726"/>
+		<nd ref="-107058"/>
 		<nd ref="14173"/>
 		<tag k="highway" v="secondary"/>
 		<tag k="id" v="TRONROUT0000000090399144"/>
@@ -70115,7 +70077,7 @@
 		<nd ref="12405"/>
 		<nd ref="2535"/>
 		<nd ref="15327"/>
-		<nd ref="-41876"/>
+		<nd ref="-107208"/>
 		<tag k="highway" v="residential"/>
 		<tag k="id" v="TRONROUT0000000325450850"/>
 		<tag k="importance" v="5"/>
@@ -70129,7 +70091,7 @@
 	<way id="731" version="1">
 		<nd ref="848"/>
 		<nd ref="13827"/>
-		<nd ref="-41876"/>
+		<nd ref="-107208"/>
 		<nd ref="5384"/>
 		<nd ref="17381"/>
 		<nd ref="1896"/>
@@ -70247,7 +70209,7 @@
 	</way>
 	<way id="744" version="1">
 		<nd ref="9401"/>
-		<nd ref="-41920"/>
+		<nd ref="-107252"/>
 		<nd ref="3350"/>
 		<tag k="highway" v="tertiary"/>
 		<tag k="id" v="TRONROUT0000000074274629"/>
@@ -70530,7 +70492,7 @@
 		<tag k="sidewalk" v="both"/>
 	</way>
 	<way id="770" version="1">
-		<nd ref="-41744"/>
+		<nd ref="-107076"/>
 		<nd ref="25507"/>
 		<nd ref="14843"/>
 		<nd ref="21298"/>
@@ -71442,7 +71404,7 @@
 		<nd ref="11260"/>
 		<nd ref="3353"/>
 		<nd ref="13185"/>
-		<nd ref="-41722"/>
+		<nd ref="-107054"/>
 		<nd ref="7857"/>
 		<nd ref="16658"/>
 		<nd ref="24147"/>
@@ -71452,7 +71414,7 @@
 		<nd ref="21306"/>
 		<nd ref="4996"/>
 		<nd ref="23269"/>
-		<nd ref="-41778"/>
+		<nd ref="-107110"/>
 		<nd ref="18079"/>
 		<tag k="highway" v="primary"/>
 		<tag k="id" v="TRONROUT0000000074267771;TRONROUT0000000074267792;TRONROUT0000000074267747;TRONROUT0000000074267744"/>
@@ -71953,7 +71915,7 @@
 		<nd ref="26149"/>
 		<nd ref="102"/>
 		<nd ref="17611"/>
-		<nd ref="-41826"/>
+		<nd ref="-107158"/>
 		<nd ref="16668"/>
 		<nd ref="9409"/>
 		<nd ref="4939"/>
@@ -72158,7 +72120,7 @@
 		<nd ref="7622"/>
 		<nd ref="10061"/>
 		<nd ref="14130"/>
-		<nd ref="-41950"/>
+		<nd ref="-107282"/>
 		<nd ref="16988"/>
 		<nd ref="9038"/>
 		<nd ref="16514"/>
@@ -72235,12 +72197,12 @@
 		<nd ref="14641"/>
 		<nd ref="26046"/>
 		<nd ref="6870"/>
-		<nd ref="-41952"/>
+		<nd ref="-107284"/>
 		<nd ref="5626"/>
 		<nd ref="22827"/>
 		<nd ref="19169"/>
 		<nd ref="16672"/>
-		<nd ref="-41948"/>
+		<nd ref="-107280"/>
 		<nd ref="13933"/>
 		<nd ref="8352"/>
 		<nd ref="26108"/>
@@ -72259,7 +72221,7 @@
 	</way>
 	<way id="912" version="1">
 		<nd ref="2743"/>
-		<nd ref="-41746"/>
+		<nd ref="-107078"/>
 		<nd ref="26028"/>
 		<tag k="highway" v="primary"/>
 		<tag k="id" v="TRONROUT0000000074274967"/>
@@ -73511,7 +73473,7 @@
 		<nd ref="4154"/>
 		<nd ref="24451"/>
 		<nd ref="23138"/>
-		<nd ref="-41958"/>
+		<nd ref="-107290"/>
 		<nd ref="15167"/>
 		<nd ref="8205"/>
 		<nd ref="6679"/>
@@ -73994,7 +73956,7 @@
 		<nd ref="1378"/>
 		<nd ref="14118"/>
 		<nd ref="9499"/>
-		<nd ref="-41980"/>
+		<nd ref="-107312"/>
 		<tag k="highway" v="residential"/>
 		<tag k="id" v="TRONROUT0000000074269724"/>
 		<tag k="importance" v="5"/>
@@ -74043,7 +74005,7 @@
 		<nd ref="9477"/>
 		<nd ref="10351"/>
 		<nd ref="16366"/>
-		<nd ref="-41954"/>
+		<nd ref="-107286"/>
 		<nd ref="2532"/>
 		<nd ref="9030"/>
 		<nd ref="25686"/>
@@ -74131,7 +74093,7 @@
 		<tag k="sidewalk" v="both"/>
 	</way>
 	<way id="1219" version="1">
-		<nd ref="-41980"/>
+		<nd ref="-107312"/>
 		<nd ref="9760"/>
 		<nd ref="5727"/>
 		<nd ref="18541"/>
@@ -74968,7 +74930,7 @@
 	</way>
 	<way id="1282" version="1">
 		<nd ref="1717"/>
-		<nd ref="-41810"/>
+		<nd ref="-107142"/>
 		<nd ref="22689"/>
 		<nd ref="20460"/>
 		<nd ref="11717"/>
@@ -75181,8 +75143,8 @@
 	</way>
 	<way id="1299" version="1">
 		<nd ref="8027"/>
-		<nd ref="-41768"/>
-		<nd ref="-41766"/>
+		<nd ref="-107100"/>
+		<nd ref="-107098"/>
 		<nd ref="7514"/>
 		<nd ref="22927"/>
 		<nd ref="6542"/>
@@ -75294,7 +75256,7 @@
 	</way>
 	<way id="1307" version="1">
 		<nd ref="5884"/>
-		<nd ref="-41786"/>
+		<nd ref="-107118"/>
 		<nd ref="18132"/>
 		<nd ref="14665"/>
 		<nd ref="8074"/>
@@ -75376,7 +75338,7 @@
 	</way>
 	<way id="1318" version="1">
 		<nd ref="4329"/>
-		<nd ref="-41956"/>
+		<nd ref="-107288"/>
 		<nd ref="17146"/>
 		<nd ref="10256"/>
 		<nd ref="18533"/>
@@ -75401,7 +75363,7 @@
 		<nd ref="22304"/>
 		<nd ref="20076"/>
 		<nd ref="11063"/>
-		<nd ref="-41946"/>
+		<nd ref="-107278"/>
 		<nd ref="10544"/>
 		<nd ref="13779"/>
 		<nd ref="4202"/>
@@ -75590,7 +75552,7 @@
 		<nd ref="134"/>
 		<nd ref="11846"/>
 		<nd ref="9451"/>
-		<nd ref="-41970"/>
+		<nd ref="-107302"/>
 		<nd ref="15257"/>
 		<nd ref="12263"/>
 		<nd ref="19963"/>
@@ -75639,7 +75601,7 @@
 		<nd ref="5747"/>
 		<nd ref="5604"/>
 		<nd ref="23747"/>
-		<nd ref="-41942"/>
+		<nd ref="-107274"/>
 		<nd ref="8229"/>
 		<nd ref="7053"/>
 		<nd ref="8651"/>
@@ -75660,7 +75622,7 @@
 		<nd ref="10609"/>
 		<nd ref="10132"/>
 		<nd ref="2449"/>
-		<nd ref="-41968"/>
+		<nd ref="-107300"/>
 		<nd ref="11689"/>
 		<nd ref="7062"/>
 		<tag k="highway" v="secondary"/>
@@ -75880,7 +75842,7 @@
 		<nd ref="19837"/>
 		<nd ref="2810"/>
 		<nd ref="3059"/>
-		<nd ref="-41742"/>
+		<nd ref="-107074"/>
 		<nd ref="9719"/>
 		<nd ref="242"/>
 		<nd ref="12683"/>
@@ -75909,7 +75871,7 @@
 		<nd ref="9749"/>
 		<nd ref="289"/>
 		<nd ref="10806"/>
-		<nd ref="-41944"/>
+		<nd ref="-107276"/>
 		<nd ref="5074"/>
 		<nd ref="20786"/>
 		<nd ref="2531"/>
@@ -76329,9 +76291,9 @@
 		<nd ref="13573"/>
 		<nd ref="22504"/>
 		<nd ref="19418"/>
-		<nd ref="-41938"/>
+		<nd ref="-107270"/>
 		<nd ref="13441"/>
-		<nd ref="-41940"/>
+		<nd ref="-107272"/>
 		<nd ref="13232"/>
 		<nd ref="14568"/>
 		<nd ref="26241"/>
@@ -77002,12 +76964,12 @@
 		<nd ref="5979"/>
 		<nd ref="13348"/>
 		<nd ref="18342"/>
-		<nd ref="-41806"/>
+		<nd ref="-107138"/>
 		<nd ref="18370"/>
 		<nd ref="20520"/>
 		<nd ref="7393"/>
 		<nd ref="13769"/>
-		<nd ref="-41808"/>
+		<nd ref="-107140"/>
 		<nd ref="19831"/>
 		<nd ref="15745"/>
 		<nd ref="13928"/>
@@ -78024,7 +77986,7 @@
 	</way>
 	<way id="1607" version="1">
 		<nd ref="20780"/>
-		<nd ref="-41924"/>
+		<nd ref="-107256"/>
 		<nd ref="13052"/>
 		<tag k="highway" v="residential"/>
 		<tag k="id" v="TRONROUT0000000074274456"/>
@@ -78061,7 +78023,7 @@
 		<nd ref="467"/>
 		<nd ref="23464"/>
 		<nd ref="7796"/>
-		<nd ref="-41936"/>
+		<nd ref="-107268"/>
 		<nd ref="24825"/>
 		<nd ref="795"/>
 		<nd ref="13010"/>
@@ -78497,7 +78459,7 @@
 	<way id="1663" version="1">
 		<nd ref="24848"/>
 		<nd ref="6746"/>
-		<nd ref="-41914"/>
+		<nd ref="-107246"/>
 		<nd ref="2171"/>
 		<nd ref="21461"/>
 		<nd ref="1654"/>
@@ -78862,7 +78824,7 @@
 		<nd ref="14375"/>
 		<nd ref="17378"/>
 		<nd ref="14241"/>
-		<nd ref="-41930"/>
+		<nd ref="-107262"/>
 		<nd ref="1877"/>
 		<nd ref="3970"/>
 		<nd ref="11605"/>
@@ -78954,7 +78916,7 @@
 		<nd ref="1297"/>
 		<nd ref="7363"/>
 		<nd ref="8567"/>
-		<nd ref="-41922"/>
+		<nd ref="-107254"/>
 		<nd ref="11887"/>
 		<nd ref="8022"/>
 		<nd ref="11375"/>
@@ -79006,7 +78968,7 @@
 		<nd ref="13909"/>
 		<nd ref="14401"/>
 		<nd ref="26155"/>
-		<nd ref="-41916"/>
+		<nd ref="-107248"/>
 		<nd ref="22569"/>
 		<nd ref="10401"/>
 		<nd ref="2634"/>
@@ -79022,7 +78984,7 @@
 	</way>
 	<way id="1729" version="1">
 		<nd ref="3681"/>
-		<nd ref="-41974"/>
+		<nd ref="-107306"/>
 		<nd ref="24719"/>
 		<nd ref="17531"/>
 		<nd ref="1822"/>
@@ -79309,7 +79271,7 @@
 		<nd ref="21049"/>
 		<nd ref="14137"/>
 		<nd ref="14655"/>
-		<nd ref="-41760"/>
+		<nd ref="-107092"/>
 		<nd ref="1310"/>
 		<nd ref="510"/>
 		<nd ref="3437"/>
@@ -79508,7 +79470,7 @@
 		<nd ref="11624"/>
 		<nd ref="10133"/>
 		<nd ref="22717"/>
-		<nd ref="-41932"/>
+		<nd ref="-107264"/>
 		<nd ref="25212"/>
 		<nd ref="11617"/>
 		<nd ref="9346"/>
@@ -79556,7 +79518,7 @@
 		<nd ref="9249"/>
 		<nd ref="5250"/>
 		<nd ref="182"/>
-		<nd ref="-41720"/>
+		<nd ref="-107052"/>
 		<nd ref="14482"/>
 		<nd ref="13760"/>
 		<nd ref="5617"/>
@@ -80093,7 +80055,7 @@
 	</way>
 	<way id="1858" version="1">
 		<nd ref="25618"/>
-		<nd ref="-41926"/>
+		<nd ref="-107258"/>
 		<nd ref="2225"/>
 		<tag k="highway" v="residential"/>
 		<tag k="id" v="TRONROUT0000000074277372"/>
@@ -80198,7 +80160,7 @@
 	</way>
 	<way id="1877" version="1">
 		<nd ref="6678"/>
-		<nd ref="-41918"/>
+		<nd ref="-107250"/>
 		<nd ref="1265"/>
 		<tag k="highway" v="residential"/>
 		<tag k="id" v="TRONROUT0000000074277476"/>
@@ -80225,7 +80187,7 @@
 		<nd ref="22112"/>
 		<nd ref="18997"/>
 		<nd ref="11932"/>
-		<nd ref="-41934"/>
+		<nd ref="-107266"/>
 		<nd ref="21138"/>
 		<nd ref="16531"/>
 		<nd ref="19965"/>
@@ -80296,7 +80258,7 @@
 		<nd ref="9283"/>
 		<nd ref="6966"/>
 		<nd ref="10100"/>
-		<nd ref="-41908"/>
+		<nd ref="-107240"/>
 		<nd ref="22263"/>
 		<tag k="highway" v="residential"/>
 		<tag k="id" v="TRONROUT0000000074277487;TRONROUT0000000074277569;TRONROUT0000000074277459;TRONROUT0000000074277458"/>
@@ -80446,7 +80408,7 @@
 		<nd ref="24148"/>
 		<nd ref="6621"/>
 		<nd ref="14763"/>
-		<nd ref="-41866"/>
+		<nd ref="-107198"/>
 		<nd ref="307"/>
 		<tag k="highway" v="residential"/>
 		<tag k="id" v="TRONROUT0000000074277539"/>
@@ -80495,7 +80457,7 @@
 		<nd ref="13152"/>
 		<nd ref="18975"/>
 		<nd ref="12840"/>
-		<nd ref="-41910"/>
+		<nd ref="-107242"/>
 		<nd ref="15360"/>
 		<nd ref="23123"/>
 		<nd ref="21209"/>
@@ -80746,7 +80708,7 @@
 		<nd ref="18266"/>
 		<nd ref="7120"/>
 		<nd ref="16045"/>
-		<nd ref="-41912"/>
+		<nd ref="-107244"/>
 		<nd ref="9131"/>
 		<nd ref="6379"/>
 		<nd ref="12880"/>
@@ -80819,7 +80781,7 @@
 		<nd ref="24906"/>
 		<nd ref="17225"/>
 		<nd ref="16715"/>
-		<nd ref="-41898"/>
+		<nd ref="-107230"/>
 		<nd ref="23329"/>
 		<nd ref="13013"/>
 		<nd ref="7320"/>
@@ -81270,7 +81232,7 @@
 		<nd ref="18718"/>
 		<nd ref="18498"/>
 		<nd ref="20275"/>
-		<nd ref="-41882"/>
+		<nd ref="-107214"/>
 		<nd ref="24329"/>
 		<nd ref="1114"/>
 		<nd ref="20379"/>
@@ -81369,9 +81331,9 @@
 		<nd ref="24927"/>
 		<nd ref="13865"/>
 		<nd ref="17730"/>
-		<nd ref="-41750"/>
+		<nd ref="-107082"/>
 		<nd ref="22097"/>
-		<nd ref="-41748"/>
+		<nd ref="-107080"/>
 		<nd ref="3703"/>
 		<tag k="highway" v="residential"/>
 		<tag k="id" v="TRONROUT0000000074280331;TRONROUT0000000074280313"/>
@@ -81795,7 +81757,7 @@
 		<nd ref="15240"/>
 		<nd ref="11530"/>
 		<nd ref="19285"/>
-		<nd ref="-41878"/>
+		<nd ref="-107210"/>
 		<nd ref="11105"/>
 		<nd ref="11117"/>
 		<nd ref="15037"/>
@@ -82114,7 +82076,7 @@
 	<way id="2065" version="1">
 		<nd ref="15055"/>
 		<nd ref="3118"/>
-		<nd ref="-41964"/>
+		<nd ref="-107296"/>
 		<nd ref="678"/>
 		<tag k="highway" v="residential"/>
 		<tag k="id" v="TRONROUT0000000258988724"/>
@@ -82171,7 +82133,7 @@
 		<nd ref="7213"/>
 		<nd ref="23782"/>
 		<nd ref="6516"/>
-		<nd ref="-41900"/>
+		<nd ref="-107232"/>
 		<nd ref="16804"/>
 		<nd ref="11583"/>
 		<nd ref="4478"/>
@@ -82192,9 +82154,9 @@
 		<nd ref="13660"/>
 		<nd ref="22573"/>
 		<nd ref="3307"/>
-		<nd ref="-41902"/>
+		<nd ref="-107234"/>
 		<nd ref="14740"/>
-		<nd ref="-41904"/>
+		<nd ref="-107236"/>
 		<nd ref="5799"/>
 		<nd ref="7406"/>
 		<nd ref="20684"/>
@@ -82215,12 +82177,12 @@
 		<nd ref="17065"/>
 		<nd ref="9046"/>
 		<nd ref="12397"/>
-		<nd ref="-41788"/>
+		<nd ref="-107120"/>
 		<nd ref="12258"/>
 		<nd ref="19390"/>
 		<nd ref="7152"/>
 		<nd ref="10172"/>
-		<nd ref="-41790"/>
+		<nd ref="-107122"/>
 		<nd ref="24827"/>
 		<nd ref="17683"/>
 		<nd ref="352"/>
@@ -83252,10 +83214,10 @@
 		<nd ref="13833"/>
 		<nd ref="7493"/>
 		<nd ref="13319"/>
-		<nd ref="-41734"/>
-		<nd ref="-41732"/>
-		<nd ref="-41730"/>
-		<nd ref="-41728"/>
+		<nd ref="-107066"/>
+		<nd ref="-107064"/>
+		<nd ref="-107062"/>
+		<nd ref="-107060"/>
 		<nd ref="23758"/>
 		<nd ref="10090"/>
 		<nd ref="20944"/>
@@ -83557,8 +83519,8 @@
 		<nd ref="22570"/>
 		<nd ref="9468"/>
 		<nd ref="19868"/>
-		<nd ref="-41802"/>
-		<nd ref="-41804"/>
+		<nd ref="-107134"/>
+		<nd ref="-107136"/>
 		<nd ref="22442"/>
 		<tag k="highway" v="residential"/>
 		<tag k="id" v="TRONROUT0000000074272326;TRONROUT0000000356840056"/>
@@ -83572,7 +83534,7 @@
 	</way>
 	<way id="2257" version="1">
 		<nd ref="4939"/>
-		<nd ref="-41818"/>
+		<nd ref="-107150"/>
 		<nd ref="13305"/>
 		<nd ref="4956"/>
 		<nd ref="19990"/>
@@ -84308,7 +84270,7 @@
 	<way id="2367" version="1">
 		<nd ref="13890"/>
 		<nd ref="13975"/>
-		<nd ref="-41752"/>
+		<nd ref="-107084"/>
 		<nd ref="26057"/>
 		<nd ref="17947"/>
 		<nd ref="4862"/>
@@ -84387,7 +84349,7 @@
 	<way id="2370" version="1">
 		<nd ref="7047"/>
 		<nd ref="7959"/>
-		<nd ref="-41884"/>
+		<nd ref="-107216"/>
 		<nd ref="8448"/>
 		<nd ref="6295"/>
 		<nd ref="5176"/>
@@ -85316,7 +85278,7 @@
 		<nd ref="13448"/>
 		<nd ref="23252"/>
 		<nd ref="17758"/>
-		<nd ref="-41796"/>
+		<nd ref="-107128"/>
 		<nd ref="18189"/>
 		<nd ref="21310"/>
 		<nd ref="22666"/>
@@ -87140,7 +87102,7 @@
 		<nd ref="8301"/>
 		<nd ref="16541"/>
 		<nd ref="17736"/>
-		<nd ref="-41784"/>
+		<nd ref="-107116"/>
 		<nd ref="7687"/>
 		<nd ref="4475"/>
 		<nd ref="12945"/>
@@ -87857,8 +87819,8 @@
 		<nd ref="17582"/>
 		<nd ref="2048"/>
 		<nd ref="13954"/>
-		<nd ref="-41860"/>
-		<nd ref="-41852"/>
+		<nd ref="-107192"/>
+		<nd ref="-107184"/>
 		<tag k="highway" v="steps"/>
 		<tag k="id" v="TRONROUT0000000074274526;TRONROUT0000000074274496"/>
 		<tag k="importance" v="NC"/>
@@ -87908,7 +87870,7 @@
 		<nd ref="5370"/>
 		<nd ref="19402"/>
 		<nd ref="16187"/>
-		<nd ref="-41762"/>
+		<nd ref="-107094"/>
 		<nd ref="26152"/>
 		<nd ref="14451"/>
 		<tag k="highway" v="steps"/>
@@ -88364,10 +88326,10 @@
 		<tag k="prec_plani" v="2.5"/>
 	</way>
 	<way id="2661" version="1">
-		<nd ref="-41834"/>
-		<nd ref="-41832"/>
-		<nd ref="-41830"/>
-		<nd ref="-41828"/>
+		<nd ref="-107166"/>
+		<nd ref="-107164"/>
+		<nd ref="-107162"/>
+		<nd ref="-107160"/>
 		<nd ref="13350"/>
 		<nd ref="20976"/>
 		<nd ref="14799"/>
@@ -90611,7 +90573,7 @@
 		<tag k="prec_plani" v="2.5"/>
 	</way>
 	<way id="2839" version="1">
-		<nd ref="-41718"/>
+		<nd ref="-107050"/>
 		<nd ref="13551"/>
 		<nd ref="16118"/>
 		<nd ref="8133"/>
@@ -91565,7 +91527,7 @@
 		<nd ref="11307"/>
 		<nd ref="13517"/>
 		<nd ref="26058"/>
-		<nd ref="-41978"/>
+		<nd ref="-107310"/>
 		<nd ref="23094"/>
 		<nd ref="9578"/>
 		<nd ref="14901"/>
@@ -91957,7 +91919,7 @@
 		<nd ref="19825"/>
 		<nd ref="24711"/>
 		<nd ref="18617"/>
-		<nd ref="-41812"/>
+		<nd ref="-107144"/>
 		<nd ref="1640"/>
 		<nd ref="11708"/>
 		<nd ref="24842"/>
@@ -92080,7 +92042,7 @@
 		<nd ref="20201"/>
 		<nd ref="5926"/>
 		<nd ref="7855"/>
-		<nd ref="-41812"/>
+		<nd ref="-107144"/>
 		<tag k="highway" v="tertiary"/>
 		<tag k="id" v="TRONROUT0000000074271944;TRONROUT0000000074271945;TRONROUT0000000074271937;TRONROUT0000000074271928;TRONROUT0000000074272031;TRONROUT0000000074271980;TRONROUT0000000074272001;TRONROUT0000000074272026;TRONROUT0000000074271982;TRONROUT0000000074271960;TRONROUT0000000074272003;TRONROUT0000000074272039;TRONROUT0000000074271983"/>
 		<tag k="importance" v="4"/>
@@ -92201,8 +92163,8 @@
 		<nd ref="16184"/>
 		<nd ref="25496"/>
 		<nd ref="16615"/>
-		<nd ref="-41792"/>
-		<nd ref="-41794"/>
+		<nd ref="-107124"/>
+		<nd ref="-107126"/>
 		<nd ref="12845"/>
 		<nd ref="21312"/>
 		<nd ref="12266"/>
@@ -92307,7 +92269,7 @@
 		<nd ref="14725"/>
 		<nd ref="24420"/>
 		<nd ref="4297"/>
-		<nd ref="-41982"/>
+		<nd ref="-107314"/>
 		<nd ref="12271"/>
 		<tag k="highway" v="primary"/>
 		<tag k="id" v="TRONROUT0000000074274981"/>
@@ -93043,8 +93005,8 @@
 		<nd ref="11637"/>
 		<nd ref="5015"/>
 		<nd ref="10614"/>
-		<nd ref="-41780"/>
-		<nd ref="-41782"/>
+		<nd ref="-107112"/>
+		<nd ref="-107114"/>
 		<nd ref="23744"/>
 		<nd ref="15138"/>
 		<nd ref="9215"/>
@@ -93352,7 +93314,7 @@
 		<nd ref="8150"/>
 		<nd ref="8851"/>
 		<nd ref="9504"/>
-		<nd ref="-41960"/>
+		<nd ref="-107292"/>
 		<nd ref="6005"/>
 		<nd ref="24277"/>
 		<nd ref="23535"/>
@@ -94436,7 +94398,7 @@
 	</way>
 	<way id="3472" version="1">
 		<nd ref="5508"/>
-		<nd ref="-41984"/>
+		<nd ref="-107316"/>
 		<nd ref="13639"/>
 		<nd ref="21889"/>
 		<nd ref="6307"/>
@@ -95702,8 +95664,8 @@
 		<nd ref="1476"/>
 		<nd ref="18860"/>
 		<nd ref="4766"/>
-		<nd ref="-41774"/>
-		<nd ref="-41776"/>
+		<nd ref="-107106"/>
+		<nd ref="-107108"/>
 		<nd ref="21434"/>
 		<tag k="highway" v="tertiary"/>
 		<tag k="id" v="TRONROUT0000000074272008;TRONROUT0000000074272019;TRONROUT0000000074271942;TRONROUT0000000074271952;TRONROUT0000000074271977;TRONROUT0000000074272084;TRONROUT0000000074271968;TRONROUT0000000074272036"/>
@@ -96249,6 +96211,7 @@
 		<nd ref="20024"/>
 		<nd ref="21609"/>
 		<nd ref="1921"/>
+		<nd ref="-257249"/>
 		<nd ref="22101"/>
 		<nd ref="11313"/>
 		<tag k="highway" v="secondary"/>
@@ -96741,9 +96704,9 @@
 	</way>
 	<way id="3745" version="1">
 		<nd ref="4422"/>
-		<nd ref="-41772"/>
+		<nd ref="-107104"/>
 		<nd ref="15642"/>
-		<nd ref="-41770"/>
+		<nd ref="-107102"/>
 		<nd ref="19086"/>
 		<nd ref="24265"/>
 		<nd ref="12690"/>
@@ -97839,8 +97802,8 @@
 		<nd ref="19656"/>
 		<nd ref="1135"/>
 		<nd ref="759"/>
-		<nd ref="-41814"/>
-		<nd ref="-41816"/>
+		<nd ref="-107146"/>
+		<nd ref="-107148"/>
 		<nd ref="236"/>
 		<nd ref="21184"/>
 		<nd ref="9608"/>
@@ -98017,7 +97980,7 @@
 		<nd ref="23576"/>
 		<nd ref="9810"/>
 		<nd ref="21237"/>
-		<nd ref="-41906"/>
+		<nd ref="-107238"/>
 		<nd ref="4720"/>
 		<nd ref="6124"/>
 		<nd ref="4105"/>
@@ -98035,7 +97998,7 @@
 		<nd ref="18011"/>
 		<nd ref="7384"/>
 		<nd ref="4748"/>
-		<nd ref="-41896"/>
+		<nd ref="-107228"/>
 		<nd ref="25984"/>
 		<nd ref="19992"/>
 		<nd ref="13890"/>
@@ -98072,7 +98035,7 @@
 		<nd ref="14426"/>
 		<nd ref="7671"/>
 		<nd ref="12971"/>
-		<nd ref="-41892"/>
+		<nd ref="-107224"/>
 		<nd ref="21835"/>
 		<nd ref="1512"/>
 		<nd ref="13718"/>
@@ -98089,7 +98052,7 @@
 		<nd ref="7767"/>
 		<nd ref="12628"/>
 		<nd ref="16776"/>
-		<nd ref="-41890"/>
+		<nd ref="-107222"/>
 		<nd ref="7315"/>
 		<nd ref="20866"/>
 		<nd ref="14747"/>
@@ -98106,12 +98069,12 @@
 		<nd ref="17054"/>
 		<nd ref="1600"/>
 		<nd ref="19567"/>
-		<nd ref="-41888"/>
+		<nd ref="-107220"/>
 		<nd ref="25641"/>
 		<nd ref="13442"/>
 		<nd ref="5300"/>
 		<nd ref="21262"/>
-		<nd ref="-41886"/>
+		<nd ref="-107218"/>
 		<nd ref="2490"/>
 		<nd ref="7483"/>
 		<nd ref="12660"/>
@@ -98139,7 +98102,7 @@
 	<way id="3891" version="1">
 		<nd ref="18135"/>
 		<nd ref="663"/>
-		<nd ref="-41880"/>
+		<nd ref="-107212"/>
 		<nd ref="24008"/>
 		<nd ref="18834"/>
 		<nd ref="24323"/>
@@ -99741,8 +99704,8 @@
 		<nd ref="8456"/>
 		<nd ref="10815"/>
 		<nd ref="19092"/>
-		<nd ref="-41800"/>
-		<nd ref="-41798"/>
+		<nd ref="-107132"/>
+		<nd ref="-107130"/>
 		<nd ref="12690"/>
 		<nd ref="826"/>
 		<nd ref="24982"/>
@@ -99957,7 +99920,7 @@
 		<nd ref="25350"/>
 		<nd ref="15551"/>
 		<nd ref="8203"/>
-		<nd ref="-41754"/>
+		<nd ref="-107086"/>
 		<nd ref="600"/>
 		<nd ref="9866"/>
 		<tag k="highway" v="pedestrian"/>
@@ -102247,8 +102210,8 @@
 	</way>
 	<way id="4303" version="1">
 		<nd ref="19290"/>
-		<nd ref="-41714"/>
-		<nd ref="-41712"/>
+		<nd ref="-107046"/>
+		<nd ref="-107044"/>
 		<nd ref="11038"/>
 		<nd ref="18566"/>
 		<nd ref="2245"/>
@@ -102290,7 +102253,7 @@
 	</way>
 	<way id="4311" version="1">
 		<nd ref="9479"/>
-		<nd ref="-41976"/>
+		<nd ref="-107308"/>
 		<nd ref="21981"/>
 		<nd ref="3923"/>
 		<nd ref="5933"/>
@@ -102577,126 +102540,126 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<relation id="-64317">
+	<relation id="-128122">
 		<member type="way" ref="892" role="from"/>
-		<member type="way" ref="-62813" role="to"/>
+		<member type="way" ref="-128110" role="to"/>
 		<member type="node" ref="2666" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-64319">
+	<relation id="-128123">
 		<member type="way" ref="2184" role="from"/>
 		<member type="way" ref="1768" role="to"/>
 		<member type="node" ref="9768" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-64321">
-		<member type="way" ref="-62815" role="from"/>
+	<relation id="-128124">
+		<member type="way" ref="-128111" role="from"/>
 		<member type="way" ref="1653" role="to"/>
 		<member type="node" ref="9768" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-64323">
-		<member type="way" ref="-62817" role="from"/>
+	<relation id="-128125">
+		<member type="way" ref="-128112" role="from"/>
 		<member type="way" ref="2358" role="to"/>
 		<member type="node" ref="1349" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-64325">
+	<relation id="-128126">
 		<member type="way" ref="100" role="from"/>
 		<member type="way" ref="735" role="to"/>
 		<member type="node" ref="17518" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-64327">
-		<member type="way" ref="-62819" role="from"/>
+	<relation id="-128127">
+		<member type="way" ref="-128113" role="from"/>
 		<member type="way" ref="1198" role="to"/>
 		<member type="node" ref="24969" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-64329">
+	<relation id="-128128">
 		<member type="way" ref="1216" role="from"/>
 		<member type="way" ref="1222" role="to"/>
 		<member type="node" ref="24969" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-64331">
+	<relation id="-128129">
 		<member type="way" ref="1219" role="from"/>
 		<member type="way" ref="1198" role="to"/>
-		<member type="node" ref="-41980" role="via"/>
+		<member type="node" ref="-107312" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-64333">
+	<relation id="-128130">
 		<member type="way" ref="100" role="from"/>
 		<member type="way" ref="1453" role="to"/>
 		<member type="node" ref="17518" role="via"/>
 		<tag k="restriction" v="only_right_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-64335">
+	<relation id="-128131">
 		<member type="way" ref="2172" role="from"/>
 		<member type="way" ref="446" role="to"/>
 		<member type="node" ref="26028" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-64337">
+	<relation id="-128132">
 		<member type="way" ref="480" role="from"/>
 		<member type="way" ref="2366" role="to"/>
 		<member type="node" ref="11707" role="via"/>
 		<tag k="restriction" v="only_straight_on"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-64339">
+	<relation id="-128133">
 		<member type="way" ref="1481" role="from"/>
-		<member type="way" ref="-62831" role="to"/>
+		<member type="way" ref="-128119" role="to"/>
 		<member type="node" ref="11141" role="via"/>
 		<tag k="restriction" v="no_right_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-64341">
+	<relation id="-128134">
 		<member type="way" ref="2261" role="from"/>
 		<member type="way" ref="1961" role="to"/>
 		<member type="node" ref="11306" role="via"/>
 		<tag k="restriction" v="only_straight_on"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-64343">
+	<relation id="-128135">
 		<member type="way" ref="2259" role="from"/>
 		<member type="way" ref="1718" role="to"/>
 		<member type="node" ref="8981" role="via"/>
 		<tag k="restriction" v="only_straight_on"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-64345">
+	<relation id="-128136">
 		<member type="way" ref="273" role="from"/>
 		<member type="way" ref="4303" role="to"/>
 		<member type="node" ref="19290" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-64347">
-		<member type="way" ref="-62829" role="from"/>
+	<relation id="-128137">
+		<member type="way" ref="-128118" role="from"/>
 		<member type="way" ref="1457" role="to"/>
 		<member type="node" ref="1046" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-64349">
+	<relation id="-128138">
 		<member type="way" ref="1638" role="from"/>
 		<member type="way" ref="2079" role="to"/>
 		<member type="node" ref="6224" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-64351">
+	<relation id="-128139">
 		<member type="way" ref="2078" role="from"/>
 		<member type="way" ref="1590" role="to"/>
 		<member type="node" ref="1575" role="via"/>

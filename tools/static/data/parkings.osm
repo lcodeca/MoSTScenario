@@ -21,160 +21,160 @@
 
 <osm version="0.6" generator="osmfilter 1.4.4">
 	<bounds minlat="43.6987" minlon="7.3629" maxlat="43.786" maxlon="7.4858"/>
-	<node id="-64564" lat="43.7397318" lon="7.414382">
+	<node id="-128141" lat="43.7397318" lon="7.414382">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="225"/>
 		<tag k="parking" v="surface"/>
 	</node>
-	<node id="-64566" lat="43.7677533" lon="7.4579778">
+	<node id="-128143" lat="43.7677533" lon="7.4579778">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="75"/>
 		<tag k="parking" v="surface"/>
 		<tag k="source" v="local_knowledge"/>
 	</node>
-	<node id="-64568" lat="43.7316793" lon="7.402904">
+	<node id="-128145" lat="43.7316793" lon="7.402904">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="350"/>
 	</node>
-	<node id="-64570" lat="43.737918" lon="7.4001449">
+	<node id="-128147" lat="43.737918" lon="7.4001449">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="350"/>
 	</node>
-	<node id="-64572" lat="43.7516887" lon="7.4428192">
+	<node id="-128149" lat="43.7516887" lon="7.4428192">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="50"/>
 	</node>
-	<node id="-64574" lat="43.7241174" lon="7.3992651">
+	<node id="-128151" lat="43.7241174" lon="7.3992651">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="250"/>
 	</node>
-	<node id="-64576" lat="43.7356215" lon="7.4021217">
+	<node id="-128153" lat="43.7356215" lon="7.4021217">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="50"/>
 	</node>
-	<node id="-64578" lat="43.7653828" lon="7.457965">
+	<node id="-128155" lat="43.7653828" lon="7.457965">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="75"/>
 		<tag k="parking" v="surface"/>
 		<tag k="source" v="local_knowledge"/>
 	</node>
-	<node id="-64580" lat="43.7312003" lon="7.401824">
+	<node id="-128157" lat="43.7312003" lon="7.401824">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="350"/>
 	</node>
-	<node id="-64582" lat="43.7376757" lon="7.3998767">
+	<node id="-128159" lat="43.7376757" lon="7.3998767">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="500"/>
 	</node>
-	<node id="-64584" lat="43.7553585" lon="7.3979138">
+	<node id="-128161" lat="43.7553585" lon="7.3979138">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="30"/>
 		<tag k="nature" v="Parking"/>
 		<tag k="origine" v="Géoroute"/>
 	</node>
-	<node id="-64586" lat="43.7547335" lon="7.3970099">
+	<node id="-128163" lat="43.7547335" lon="7.3970099">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="10"/>
 		<tag k="nature" v="Parking"/>
 		<tag k="origine" v="Géoroute"/>
 	</node>
-	<node id="-64588" lat="43.7545089" lon="7.3968851">
+	<node id="-128165" lat="43.7545089" lon="7.3968851">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="10"/>
 		<tag k="nature" v="Parking"/>
 		<tag k="origine" v="Géoroute"/>
 	</node>
-	<node id="-64590" lat="43.7549437" lon="7.3983417">
+	<node id="-128167" lat="43.7549437" lon="7.3983417">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="10"/>
 		<tag k="nature" v="Parking"/>
 		<tag k="origine" v="Géoroute"/>
 	</node>
-	<node id="-64592" lat="43.7546325" lon="7.3984541">
+	<node id="-128169" lat="43.7546325" lon="7.3984541">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="10"/>
 		<tag k="nature" v="Parking"/>
 		<tag k="origine" v="Géoroute"/>
 	</node>
-	<node id="-64594" lat="43.754705" lon="7.3986993">
+	<node id="-128171" lat="43.754705" lon="7.3986993">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="10"/>
 		<tag k="nature" v="Parking"/>
 		<tag k="origine" v="Géoroute"/>
 	</node>
-	<node id="-64596" lat="43.7546627" lon="7.3990666">
+	<node id="-128173" lat="43.7546627" lon="7.3990666">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="10"/>
 		<tag k="nature" v="Parking"/>
 		<tag k="origine" v="Géoroute"/>
 	</node>
-	<node id="-64598" lat="43.7548967" lon="7.3987781">
+	<node id="-128175" lat="43.7548967" lon="7.3987781">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="10"/>
 		<tag k="nature" v="Parking"/>
 		<tag k="origine" v="Géoroute"/>
 	</node>
-	<node id="-64600" lat="43.7548579" lon="7.3991385">
+	<node id="-128177" lat="43.7548579" lon="7.3991385">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="10"/>
 		<tag k="nature" v="Parking"/>
 		<tag k="origine" v="Géoroute"/>
 	</node>
-	<node id="-64602" lat="43.755056" lon="7.3988883">
+	<node id="-128179" lat="43.755056" lon="7.3988883">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="10"/>
 		<tag k="nature" v="Parking"/>
 		<tag k="origine" v="Géoroute"/>
 	</node>
-	<node id="-64604" lat="43.7550136" lon="7.39927">
+	<node id="-128181" lat="43.7550136" lon="7.39927">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="10"/>
 		<tag k="nature" v="Parking"/>
 		<tag k="origine" v="Géoroute"/>
 	</node>
-	<node id="-64606" lat="43.7552226" lon="7.3992389">
+	<node id="-128183" lat="43.7552226" lon="7.3992389">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="10"/>
 		<tag k="nature" v="Parking"/>
 		<tag k="origine" v="Géoroute"/>
 	</node>
-	<node id="-64608" lat="43.7552399" lon="7.3989139">
+	<node id="-128185" lat="43.7552399" lon="7.3989139">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="10"/>
 		<tag k="nature" v="Parking"/>
 		<tag k="origine" v="Géoroute"/>
 	</node>
-	<node id="-64610" lat="43.7544407" lon="7.3973579">
+	<node id="-128187" lat="43.7544407" lon="7.3973579">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="10"/>
 		<tag k="nature" v="Parking"/>
 		<tag k="origine" v="Géoroute"/>
 	</node>
-	<node id="-64612" lat="43.7535711" lon="7.4203727">
+	<node id="-128189" lat="43.7535711" lon="7.4203727">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="50"/>
 		<tag k="nature" v="Parking"/>
 		<tag k="origine" v="Géoroute"/>
 	</node>
-	<node id="-64614" lat="43.7534325" lon="7.4197836">
+	<node id="-128191" lat="43.7534325" lon="7.4197836">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="50"/>
 		<tag k="nature" v="Parking"/>
 		<tag k="origine" v="Géoroute"/>
 	</node>
-	<node id="-64616" lat="43.7534184" lon="7.4191869">
+	<node id="-128193" lat="43.7534184" lon="7.4191869">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="50"/>
 		<tag k="nature" v="Parking"/>
 		<tag k="origine" v="Géoroute"/>
 	</node>
-	<node id="-64618" lat="43.7529336" lon="7.4186989">
+	<node id="-128195" lat="43.7529336" lon="7.4186989">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="30"/>
 		<tag k="nature" v="Parking"/>
 		<tag k="origine" v="Géoroute"/>
 	</node>
-	<node id="8183" lat="43.7262071" lon="7.3965527" version="1">
+	<node id="8183" lat="43.7260992" lon="7.3965272" version="1">
 		<tag k="amenity" v="parking"/>
 		<tag k="capacity" v="150"/>
 		<tag k="nature" v="Parking"/>
