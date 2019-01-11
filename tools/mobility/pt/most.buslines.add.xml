@@ -21,24 +21,24 @@
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd"> 
     <ptLine id="131210" name="MoSTtoFrance1" line="M1:France" type="bus">
-        <route edges="152929_1 -152905_1 153462_1"/>
+        <route edges="152922_1 -152898_1 153455_1"/>
         <busStop id="131172" name="Parking Saint-Laurent d'Eze"/>
         <busStop id="131031" name="Chapelle de Saint-Laurent"/>
         <busStop id="131168" name="131168"/>
     </ptLine> 
     <ptLine id="131211" name="MoSTtoEze" line="M1:Eze" type="bus">
-        <route edges="-153462_1 152905_1 -152929_1"/>
+        <route edges="-153455_1 152898_1 -152922_1"/>
         <busStop id="131167" name="131167"/>
         <busStop id="131162" name="Chapelle de Saint-Laurent"/>
         <busStop id="131171" name="Parking Saint-Laurent d'Eze"/>
     </ptLine> 
     <ptLine id="131213" name="MoSTtoFrance2" line="M2:France" type="bus">
-        <route edges="153435#1_1 153462_1"/>
+        <route edges="-153419#0_1 153455_1"/>
         <busStop id="131164" name="La Turbie Marie"/>
         <busStop id="131168" name="131168"/>
     </ptLine> 
     <ptLine id="131214" name="MoSTtoPontUnion" line="M5:PontUnion" type="bus">
-        <route edges="152995#0_1 153359#1_1 153359#1_1 -152959_1 -152959_1 -152959_1 152556_1 152556_1"/>
+        <route edges="152988#0_1 153352#1_1 153352#1_1 -152952_1 -152952_1 -152952_1 152549_1 152549_1"/>
         <busStop id="131158" name="Ramingao"/>
         <busStop id="131155" name="2e Escalier"/>
         <busStop id="131153" name="1er Escalier"/>
@@ -49,7 +49,7 @@
         <busStop id="131194" name="Pont de l'Union"/>
     </ptLine> 
     <ptLine id="131215" name="MoSTtoRamingao" line="M5:Ramingao" type="bus">
-        <route edges="153658_1 153658_1 -152557_1 -152557_1 -153359#1_1 -153359#1_1 -152995#0_1"/>
+        <route edges="153651_1 153651_1 -152550_1 -152550_1 -153352#1_1 -153352#1_1 -152988#0_1"/>
         <busStop id="131140" name="Pont de l'Union"/>
         <busStop id="131198" name="131198"/>
         <busStop id="131076" name="Le Cirta"/>
@@ -59,7 +59,7 @@
         <busStop id="131159" name="Ramingao"/>
     </ptLine> 
     <ptLine id="131216" name="HospitalToTurbie" line="M3:Turbie" type="bus">
-        <route edges="153435#1_1 -152910#6_1 -152411#0_1 -152331#2_1 -152331#4_1 -152167_1 152872#5_1"/>
+        <route edges="-153419#0_1 -152903#6_1 -152404#0_1 -152325#0_1 -152325#2_1 -152161_1 152865#5_1"/>
         <busStop id="131164" name="La Turbie Marie"/>
         <busStop id="131040" name="131040"/>
         <busStop id="131024" name="131024"/>
@@ -69,7 +69,7 @@
         <busStop id="131086" name="Hopital"/>
     </ptLine> 
     <ptLine id="131217" name="TurbieToHospital" line="M3:Hospital" type="bus">
-        <route edges="152910#0_1 152910#6_1 152910#8_1 152331#0_1 152331#4_1 152167_1 152901#1_1"/>
+        <route edges="153446#7_1 152903#6_1 152903#8_1 152325#0_1 152325#2_1 152161_1 152894#1_1"/>
         <busStop id="131030" name="La Turbie Marie"/>
         <busStop id="131038" name="131038"/>
         <busStop id="131020" name="131020"/>
@@ -79,19 +79,19 @@
         <busStop id="131055" name="Hopital"/>
     </ptLine> 
     <ptLine id="131218" name="MoSTtoLaTurbie" line="M2:Turbie" type="bus">
-        <route edges="-153462_1 152910#0_1"/>
+        <route edges="-153455_1 153446#7_1"/>
         <busStop id="131167" name="131167"/>
         <busStop id="131030" name="La Turbie Marie"/>
     </ptLine> 
     <ptLine id="131220" name="MoSTtoTrain" line="M4:Train" type="bus">
-        <route edges="-152911_1 153478#18_1 -153012#0_1 -152922#2_1"/>
+        <route edges="-152904_1 153471#18_1 -153005#0_1 -152915#2_1"/>
         <busStop id="131180" name="L'Eglise"/>
         <busStop id="131178" name="La Source"/>
         <busStop id="131035" name="Les Cigognes"/>
         <busStop id="131195" name="Bois Joli"/>
     </ptLine> 
     <ptLine id="131221" name="MoSTtoHotelVille" line="M4:HotelVille" type="bus">
-        <route edges="152922#2_1 153012#0_1 -153478#20_1 -153478#16_1 -153478#13_1"/>
+        <route edges="152915#2_1 153005#0_1 -153471#20_1 -153471#16_1 -153471#13_1"/>
         <busStop id="131027" name="Bois Joli"/>
         <busStop id="131196" name="Les Cigognes"/>
         <busStop id="131177" name="Guillaume Apollinaire"/>
@@ -99,7 +99,7 @@
         <busStop id="131181" name="Hotel de Ville"/>
     </ptLine> 
     <ptLine id="131222" name="Bus 1: Monaco Ville (le Rocher) - Saint-Roman" line="1:SaintRoman" type="bus">
-        <route edges="-152775_1 152804_1 152388_1 152818#3_1 152818#5_1 152789#1_1 152764_1 152656#2_1 152679#0_1 152679#3_1 152679#5_1 152669#3_1 152669#7_1 152669#11_1 152607#2_1 -152584#3_1 152350_1"/>
+        <route edges="-152768_1 152797_1 152382_1 152811#3_1 152811#5_1 152782#1_1 152757_1 152649#2_1 152672#0_1 152672#3_1 152672#5_1 152662#3_1 152662#7_1 152662#11_1 152600#2_1 -152577#3_1 152344_1"/>
         <busStop id="131116" name="Monaco Ville (le Rocher)"/>
         <busStop id="131118" name="Place d'Armes (Port)"/>
         <busStop id="131044" name="Princesse Stephanie"/>
@@ -119,7 +119,7 @@
         <busStop id="131166" name="Saint-Roman (Bus 1)"/>
     </ptLine> 
     <ptLine id="131223" name="Bus 1: Saint-Roman - Monaco Ville (le Rocher)" line="1:Monaco" type="bus">
-        <route edges="152350_1 152584#4_1 -152607#1_1 -152607#0_1 -152655_1 152704#1_1 152674#2_1 152812#0_1 152822_1 152822_1 152804_1 -152775_1"/>
+        <route edges="152344_1 152577#4_1 -152600#1_1 -152600#0_1 -152648_1 152697#1_1 152667#2_1 152805#0_1 152815_1 152815_1 152797_1 -152768_1"/>
         <busStop id="131166" name="Saint-Roman (Bus 1)"/>
         <busStop id="131133" name="Carmes"/>
         <busStop id="131124" name="La Rousse"/>
@@ -134,7 +134,7 @@
         <busStop id="131116" name="Monaco Ville (le Rocher)"/>
     </ptLine> 
     <ptLine id="131224" name="Bus 2: Monaco Ville (le Rocher) - Jardin Exotique" line="2:Jardin" type="bus">
-        <route edges="-152775_1 152804_1 152388_1 152818#3_1 152818#5_1 -152812#1_1 152777#0_1 152669#3_1 152175#0_1 -152703#3_1 152230_1 -152816#10_1 -152816#7_1 -152816#4_1 -152816#3_1 152898_1"/>
+        <route edges="-152768_1 152797_1 152382_1 152811#3_1 152811#5_1 -152805#1_1 152770#0_1 152662#3_1 152169#0_1 -152696#3_1 152224_1 -152809#10_1 -152809#7_1 -152809#4_1 -152809#3_1 152891_1"/>
         <busStop id="131116" name="Monaco Ville (le Rocher)"/>
         <busStop id="131118" name="Place d'Armes (Port)"/>
         <busStop id="131044" name="Princesse Stephanie"/>
@@ -153,7 +153,7 @@
         <busStop id="131137" name="Jardin Exotique"/>
     </ptLine> 
     <ptLine id="131225" name="Bus 2: Jardin Exotique - Monaco Ville (le Rocher)" line="2:Monaco" type="bus">
-        <route edges="152898_1 152816#3_1 152816#3_1 152816#6_1 152816#10_1 152703#0_1 152703#4_1 152704#1_1 152674#2_1 152812#0_1 152822_1 152822_1 -152819#2_1 -152775_1"/>
+        <route edges="152891_1 152809#3_1 152809#3_1 152809#6_1 152809#10_1 152696#0_1 152696#4_1 152697#1_1 152667#2_1 152805#0_1 152815_1 152815_1 -152812#2_1 -152768_1"/>
         <busStop id="131137" name="Jardin Exotique"/>
         <busStop id="131048" name="Villa Paloma"/>
         <busStop id="131138" name="Rotondes"/>
@@ -170,7 +170,7 @@
         <busStop id="131116" name="Monaco Ville (le Rocher)"/>
     </ptLine> 
     <ptLine id="131226" name="Bus 4: Fontvieille - Centre Commercial - Saint-Roman" line="4:SaintRoman" type="bus">
-        <route edges="153641_1 152453_1 152648_1 -152875#3_1 152985_1 152420_1 152823#2_1 -152971#0_1 -152971#0_1 152703#0_1 152703#4_1 152669#3_1 152669#7_1 152669#11_1 152607#2_1 -152584#3_1 -152350_1"/>
+        <route edges="153634_1 152446_1 152641_1 -152868#3_1 152978_1 152413_1 152816#2_1 -152964#0_1 -152964#0_1 152696#0_1 152696#4_1 152662#3_1 152662#7_1 152662#11_1 152600#2_1 -152577#3_1 -152344_1"/>
         <busStop id="131088" name="Fontvieille - Centre Commercial"/>
         <busStop id="131102" name="Papalins"/>
         <busStop id="131058" name="Roseraie"/>
@@ -190,7 +190,7 @@
         <busStop id="131085" name="Saint-Roman (Bus 4)"/>
     </ptLine> 
     <ptLine id="131227" name="Bus 4: Saint-Roman - Fontvieille - Centre Commercial" line="4:Fontvieille" type="bus">
-        <route edges="-152350_1 153378_1 152584#0_1 152584#4_1 -152607#1_1 -152607#0_1 -152655_1 152175#0_1 -152703#3_1 152230_1 152971#0_1 152971#2_1 -152797#1_1 152804_1 152791#0_1 153641_1"/>
+        <route edges="-152344_1 153371_1 152577#0_1 152577#4_1 -152600#1_1 -152600#0_1 -152648_1 152169#0_1 -152696#3_1 152224_1 152964#0_1 152964#2_1 -152790#1_1 152797_1 152784#0_1 153634_1"/>
         <busStop id="131085" name="Saint-Roman (Bus 4)"/>
         <busStop id="131081" name="Varavilla"/>
         <busStop id="131163" name="Saint-Roman"/>
@@ -209,7 +209,7 @@
         <busStop id="131088" name="Fontvieille - Centre Commercial"/>
     </ptLine> 
     <ptLine id="131228" name="Bus 5: Larvotto - Hopital" line="5:Hopital" type="bus">
-        <route edges="152536#7_1 152537#0_1 152537#2_1 152537#4_1 152537#6_1 152679#0_1 152679#3_1 152679#5_1 152669#3_1 152175#0_1 -152703#3_1 152230_1 -152947#2_1 -152947#0_1 152872#3_1 152872#5_1 -152940#0_1 152901#1_1"/>
+        <route edges="152529#7_1 152530#0_1 152530#2_1 152530#4_1 152530#6_1 152672#0_1 152672#3_1 152672#5_1 152662#3_1 152169#0_1 -152696#3_1 152224_1 -152940#2_1 -152940#0_1 152865#3_1 152865#5_1 -152933#0_1 152894#1_1"/>
         <busStop id="131083" name="Larvotto"/>
         <busStop id="131209" name="Sea Club"/>
         <busStop id="131080" name="Plages"/>
@@ -230,7 +230,7 @@
         <busStop id="131055" name="Hopital"/>
     </ptLine> 
     <ptLine id="131229" name="Bus 5: Hopital - Larvotto" line="5:Larvotto" type="bus">
-        <route edges="152901#1_1 -152872#4_1 -152872#3_1 -152872#0_1 152947#2_1 152703#0_1 152703#4_1 152669#3_1 -152679#4_1 -152679#0_1 152656#2_1 152536#2_1 152536#4_1 152536#6_1 152536#7_1"/>
+        <route edges="152894#1_1 -152865#4_1 -152865#3_1 -152865#0_1 152940#2_1 152696#0_1 152696#4_1 152662#3_1 -152672#4_1 -152672#0_1 152649#2_1 152529#2_1 152529#4_1 152529#6_1 152529#7_1"/>
         <busStop id="131055" name="Hopital"/>
         <busStop id="131105" name="Observatoire"/>
         <busStop id="131200" name="Parc Princesse Antoinette"/>
@@ -248,7 +248,7 @@
         <busStop id="131083" name="Larvotto"/>
     </ptLine> 
     <ptLine id="131230" name="Bus 6: Fontvieille - Centre Commercial - Larvotto" line="6:Larvotto" type="bus">
-        <route edges="153641_1 152453_1 152648_1 -152875#3_1 152985_1 152885#0_1 153640_1 152818#3_1 152818#5_1 -152812#1_1 152777#0_1 152669#3_1 -152679#4_1 -152679#0_1 152656#2_1 152536#2_1 152536#4_1 152536#6_1 152536#7_1"/>
+        <route edges="153634_1 152446_1 152641_1 -152868#3_1 152978_1 152878#0_1 153633_1 152811#3_1 152811#5_1 -152805#1_1 152770#0_1 152662#3_1 -152672#4_1 -152672#0_1 152649#2_1 152529#2_1 152529#4_1 152529#6_1 152529#7_1"/>
         <busStop id="131088" name="Fontvieille - Centre Commercial"/>
         <busStop id="131102" name="Papalins"/>
         <busStop id="131058" name="Roseraie"/>
@@ -270,7 +270,7 @@
         <busStop id="131083" name="Larvotto"/>
     </ptLine> 
     <ptLine id="131231" name="Bus 6: Larvotto - Fontvieille - Centre Commercial" line="6:Fontvieille" type="bus">
-        <route edges="152536#7_1 152537#0_1 152537#2_1 152537#4_1 152537#6_1 152679#0_1 152679#3_1 152679#5_1 152704#1_1 152674#2_1 152812#0_1 152822_1 152822_1 152804_1 152791#0_1 153641_1"/>
+        <route edges="152529#7_1 152530#0_1 152530#2_1 152530#4_1 152530#6_1 152672#0_1 152672#3_1 152672#5_1 152697#1_1 152667#2_1 152805#0_1 152815_1 152815_1 152797_1 152784#0_1 153634_1"/>
         <busStop id="131083" name="Larvotto"/>
         <busStop id="131209" name="Sea Club"/>
         <busStop id="131080" name="Plages"/>
@@ -289,7 +289,7 @@
         <busStop id="131088" name="Fontvieille - Centre Commercial"/>
     </ptLine> 
     <ptLine id="131232" name="100 Nice a Menton" line="100:Menton" type="bus">
-        <route edges="152929_1 152929_1 153479#0_1 153479#1_1 -153478#24_1 -153478#20_1 -153478#16_1 -153478#13_1 -153478#8_1 -153478#6_1 152540#0_1 152823#2_1 152669#3_1 153367#0_1 153367#4_1 153325#4_1 153325#4_1 153359#0_1 153359#1_1 153359#1_1 153359#2_1 153494_1 -153014#0_1 -153014#0_1 -153014#0_1 -153014#0_1 -153014#0_1 153355_1"/>
+        <route edges="152922_1 152922_1 153472#0_1 153472#1_1 -153471#24_1 -153471#20_1 -153471#16_1 -153471#13_1 -153471#8_1 -153471#6_1 152533#0_1 152816#2_1 152662#3_1 153360#0_1 153360#4_1 153318#4_1 153318#4_1 153352#0_1 153352#1_1 153352#1_1 153352#2_1 153487_1 -153007#0_1 -153007#0_1 -153007#0_1 -153007#0_1 -153007#0_1 153348_1"/>
         <busStop id="131170" name="Cap Estel"/>
         <busStop id="131172" name="Parking Saint-Laurent d'Eze"/>
         <busStop id="131173" name="Gianton"/>
@@ -320,7 +320,7 @@
         <busStop id="131070" name="Marche"/>
     </ptLine> 
     <ptLine id="131233" name="100 Menton a Nice" line="100:Nice" type="bus">
-        <route edges="152549_1 -152994_1 -152994_1 -152994_1 -152994_1 -153494_1 -153494_1 -153359#1_1 -153359#1_1 -152995#0_1 -152995#0_1 -153325#2_1 -153325#1_1 152584#0_1 -152607#0_1 152704#1_1 152822_1 -152823#2_1 153478#2_1 153478#10_1 153478#13_1 -152911_1 153478#18_1 153478#22_1 -153479#1_1 -153479#1_1 -152929_1 -152929_1"/>
+        <route edges="152542_1 -152987_1 -152987_1 -152987_1 -152987_1 -153487_1 -153487_1 -153352#1_1 -153352#1_1 -152988#0_1 -152988#0_1 -153318#2_1 -153318#1_1 152577#0_1 -152600#0_1 152697#1_1 152815_1 -152816#2_1 153471#2_1 153471#10_1 153471#13_1 -152904_1 153471#18_1 153471#22_1 -153472#1_1 -153472#1_1 -152922_1 -152922_1"/>
         <busStop id="131139" name="Saint-Joseph"/>
         <busStop id="131068" name="Casernes"/>
         <busStop id="131072" name="Bien Situee"/>
@@ -351,7 +351,7 @@
         <busStop id="131169" name="Cap Estel"/>
     </ptLine> 
     <ptLine id="131234" name="Bus 3: Hector Otto - Fontvieille - Centre Commercial" line="3:Fontvieille" type="bus">
-        <route edges="152838#6_1 152816#3_1 152816#5_1 152816#6_1 152816#10_1 -152947#2_1 -152947#0_1 152872#3_1 152872#5_1 152940#0_1 152940#2_1 152823#2_1 152804_1 152791#0_1 153641_1"/>
+        <route edges="152831#6_1 152809#3_1 152809#5_1 152809#6_1 152809#10_1 -152940#2_1 -152940#0_1 152865#3_1 152865#5_1 152933#0_1 152933#2_1 152816#2_1 152797_1 152784#0_1 153634_1"/>
         <busStop id="131111" name="Hector Otto"/>
         <busStop id="131048" name="Villa Paloma"/>
         <busStop id="131136" name="Rotondes"/>
@@ -369,7 +369,7 @@
         <busStop id="131088" name="Fontvieille - Centre Commercial"/>
     </ptLine> 
     <ptLine id="131235" name="Bus 3: Fontvieille - Centre Commercial - Hector Otto" line="3:Otto" type="bus">
-        <route edges="153640_1 152818#3_1 152818#5_1 152822_1 152822_1 -152823#2_1 -152940#2_1 -152940#2_1 -152940#0_1 152901#1_1 -152872#4_1 -152872#3_1 -152872#0_1 152947#2_1 -152816#10_1 -152816#7_1 -152816#5_1 -152816#3_1 152838#6_1"/>
+        <route edges="153633_1 152811#3_1 152811#5_1 152815_1 152815_1 -152816#2_1 -152933#2_1 -152933#2_1 -152933#0_1 152894#1_1 -152865#4_1 -152865#3_1 -152865#0_1 152940#2_1 -152809#10_1 -152809#7_1 -152809#5_1 -152809#3_1 152831#6_1"/>
         <busStop id="131103" name="Port de Fontvieille"/>
         <busStop id="131092" name="Stade Nautique"/>
         <busStop id="131093" name="Princesse Antoinette"/>
@@ -391,7 +391,7 @@
         <busStop id="131111" name="Hector Otto"/>
     </ptLine> 
     <ptLine id="131236" name="21 Monaco Cremaillere - Roquebrune Vieux Village - Menton Gare Routiere" line="21:Menton" type="bus">
-        <route edges="-153014#0_1"/>
+        <route edges="-153007#0_1"/>
         <busStop id="131147" name="2e Hameau"/>
     </ptLine> 
 </additional>
