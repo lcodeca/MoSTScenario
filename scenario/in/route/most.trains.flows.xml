@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated on 2019-01-07 09:38:49.005995 by ptlines2flows.py
+<!-- generated on 2019-01-11 125:23.006617 by $Id$
   options: -n /home/drone/EURECOM/Projects/GITHUB/MoSTScenario/scenario/in/most.net.xml -b 14400 -e 50400 -p 1200 -d 300 <doubleminus>random-begin <doubleminus>seed 42 <doubleminus>no-vtypes <doubleminus>ptstops /home/drone/EURECOM/Projects/GITHUB/MoSTScenario/scenario/in/add/most.trainstops.add.xml <doubleminus>ptlines pt/most.trainlines.add.xml -o out/most.trains.flows.xml
 -->
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-    <route id="train_M0:Italy" edges="-152192" >
+    <route id="train_M0:Italy" edges="-152186" >
         <stop busStop="131066" duration="300.00" until="366.0"/> <!-- Carnoles -->
         <stop busStop="131065" duration="300.00" until="822.0"/> <!-- Roquebrune-Cap-Martin -->
         <stop busStop="131034" duration="300.00" until="1222.0"/> <!-- Monte-Carlo Country Club -->
@@ -11,7 +11,7 @@
         <stop busStop="131052" duration="300.00" until="2201.0"/> <!-- Cap d'Ail -->
         <stop busStop="131023" duration="300.00" until="2671.0"/> <!-- Eze -->
     </route>
-    <route id="train_M0:France" edges="152194" >
+    <route id="train_M0:France" edges="152188" >
         <stop busStop="131053" duration="300.00" until="315.0"/> <!-- Eze -->
         <stop busStop="131032" duration="300.00" until="785.0"/> <!-- Cap d'Ail -->
         <stop busStop="131028" duration="300.00" until="1278.0"/> <!-- Monaco - Monte Carlo -->
