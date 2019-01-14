@@ -32,6 +32,6 @@
         <vType vClass="trailer"    id="hw_trailer"     containerCapacity="5"   latAlignment="center" probability=".1"/>
         <vType vClass="coach"      id="hw_coach"       containerCapacity="50"  latAlignment="center" probability=".1"/>
     </vTypeDistribution>
-    <flow id="France:Italy" from="152520#0" to="152268" type="highway" begin="18000.0" end="41400.0" period="30"/>
-    <flow id="Italy:France" from="152267" to="152318#1" type="highway" begin="18000.0" end="41400.0" period="30"/>
+    <flow id="France:Italy" from="152521#0" to="152269" type="highway" begin="18000.0" end="41400.0" period="30"/>
+    <flow id="Italy:France" from="152268" to="152319#1" type="highway" begin="18000.0" end="41400.0" period="30"/>
 </routes>
