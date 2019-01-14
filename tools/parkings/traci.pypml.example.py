@@ -138,7 +138,7 @@ def _main():
             'filename': '{}.log'.format(sys.argv[0]),
             'level': logging.DEBUG,
         },
-        'sumo_parking_file': '../../scenario/in/add/most.parkings.add.norerouters.xml',
+        'sumo_parking_file': '../../scenario/in/add/most.parking.norerouters.add.xml',
         'blacklist': [],
         'vclasses': {'delivery', 'taxi', 'truck', 'coach', 'trailer', 'evehicle',
                      'passenger', 'motorcycle', 'moped', 'bicycle', 'bus',
