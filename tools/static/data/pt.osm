@@ -1,149 +1,134 @@
 <?xml version='1.0' encoding='UTF-8'?>
-
-<!--
-    Monaco SUMO Traffic (MoST) Scenario
-    Copyright (C) 2018
-    Lara CODECA
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
--->
-
 <osm version="0.6" generator="osmfilter 1.4.4">
 	<bounds minlat="43.7204509" minlon="7.3568031" maxlat="43.7919666" maxlon="7.4900202"/>
-	<node id="-243423" lat="43.761349" lon="7.4822416" version="1">
+	<node id="-257251" lat="43.761349" lon="7.4822416" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="name" v="Carnolès"/>
 		<tag k="operator" v="SNCF"/>
 		<tag k="railway" v="station"/>
 		<tag k="uic_ref" v="0087756478"/>
 	</node>
-	<node id="-243425" lat="43.7258806" lon="7.3960299" version="1">
+	<node id="-257253" lat="43.7258806" lon="7.3960299" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="highway" v="bus_stop"/>
 	</node>
-	<node id="-243427" lat="43.7329169" lon="7.3957231" version="1">
+	<node id="-257255" lat="43.7329169" lon="7.3957231" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="highway" v="bus_stop"/>
 	</node>
-	<node id="-243429" lat="43.7354679" lon="7.4159867" version="1">
+	<node id="-257257" lat="43.7354679" lon="7.4159867" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="highway" v="bus_stop"/>
 		<tag k="name" v="Rotondes"/>
 	</node>
-	<node id="-243431" lat="43.7276848" lon="7.4074327" version="1">
+	<node id="-257259" lat="43.7276848" lon="7.4074327" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="highway" v="bus_stop"/>
 	</node>
-	<node id="-243433" lat="43.7227805" lon="7.3632638" version="1">
+	<node id="-257261" lat="43.7227805" lon="7.3632638" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="name" v="Èze"/>
 		<tag k="operator" v="SNCF"/>
 		<tag k="railway" v="station"/>
 		<tag k="uic_ref" v="8775638"/>
 	</node>
-	<node id="-243435" lat="43.7337988" lon="7.395952" version="1">
+	<node id="-257263" lat="43.7337988" lon="7.395952" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="highway" v="bus_stop"/>
 	</node>
-	<node id="-243437" lat="43.760378" lon="7.4575597" version="1">
+	<node id="-257265" lat="43.760378" lon="7.4575597" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="name" v="Roquebrune-Cap-Martin"/>
 		<tag k="operator" v="SNCF"/>
 		<tag k="railway" v="station"/>
 		<tag k="uic_ref" v="8775646"/>
 	</node>
-	<node id="-243439" lat="43.7303364" lon="7.4136847" version="1">
+	<node id="-257267" lat="43.7303364" lon="7.4136847" version="1">
 		<tag k="bus" v="yes"/>
 		<tag k="ele" v="0.0"/>
 		<tag k="name" v="Cimetière"/>
 		<tag k="public_transport" v="stop_position"/>
 	</node>
-	<node id="-243441" lat="43.7210741" lon="7.3968293" version="1">
+	<node id="-257269" lat="43.7210741" lon="7.3968293" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="highway" v="bus_stop"/>
 		<tag k="name" v="Bois Joli"/>
 	</node>
-	<node id="-243443" lat="43.7378564" lon="7.4195233" version="1">
+	<node id="-257271" lat="43.7378564" lon="7.4195233" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="name" v="Monaco - Monte Carlo"/>
 		<tag k="operator" v="SNCF"/>
 		<tag k="railway" v="station"/>
 		<tag k="uic_ref" v="8775640"/>
 	</node>
-	<node id="-243445" lat="43.7275906" lon="7.4076043" version="1">
+	<node id="-257273" lat="43.7275906" lon="7.4076043" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="highway" v="bus_stop"/>
 	</node>
-	<node id="-243447" lat="43.7453849" lon="7.3995168" version="1">
+	<node id="-257275" lat="43.7453789" lon="7.3995126" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="highway" v="bus_stop"/>
 		<tag k="name" v="La Turbie Marie"/>
 	</node>
-	<node id="-243449" lat="43.7274758" lon="7.3825357" version="1">
+	<node id="-257277" lat="43.7274758" lon="7.3825357" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="highway" v="bus_stop"/>
 		<tag k="name" v="Chapelle de Saint-Laurent"/>
 	</node>
-	<node id="-243451" lat="43.7205524" lon="7.393972" version="1">
+	<node id="-257279" lat="43.7205524" lon="7.393972" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="name" v="Cap d&#39;Ail"/>
 		<tag k="operator" v="SNCF"/>
 		<tag k="railway" v="station"/>
 		<tag k="uic_ref" v="8775639"/>
 	</node>
-	<node id="-243453" lat="43.7241667" lon="7.4045169" version="1">
+	<node id="-257281" lat="43.7241667" lon="7.4045169" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="highway" v="bus_stop"/>
 	</node>
-	<node id="-243455" lat="43.7545136" lon="7.4482061" version="1">
+	<node id="-257283" lat="43.7545136" lon="7.4482061" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="name" v="Monte-Carlo Country Club"/>
 		<tag k="operator" v="SNCF"/>
 		<tag k="railway" v="station"/>
 		<tag k="uic_ref" v="8733859"/>
 	</node>
-	<node id="-243457" lat="43.7223145" lon="7.3964733" version="1">
+	<node id="-257285" lat="43.7223145" lon="7.3964733" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="highway" v="bus_stop"/>
 		<tag k="name" v="Les Cigognes"/>
 	</node>
-	<node id="-243459" lat="43.7367492" lon="7.4194561" version="1">
+	<node id="-257287" lat="43.7367492" lon="7.4194561" version="1">
 		<tag k="bus" v="yes"/>
 		<tag k="ele" v="0.0"/>
 		<tag k="highway" v="bus_stop"/>
 		<tag k="name" v="Louis Aureglia"/>
 		<tag k="public_transport" v="stop_position"/>
 	</node>
-	<node id="-243461" lat="43.7240608" lon="7.4049263" version="1">
+	<node id="-257289" lat="43.7240608" lon="7.4049263" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="highway" v="bus_stop"/>
 	</node>
-	<node id="-243463" lat="43.7411659" lon="7.3980625" version="1">
+	<node id="-257291" lat="43.7411659" lon="7.3980625" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="highway" v="bus_stop"/>
 	</node>
-	<node id="-243465" lat="43.7260758" lon="7.3971265" version="1">
+	<node id="-257293" lat="43.7260758" lon="7.3971265" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="highway" v="bus_stop"/>
 	</node>
-	<node id="-243467" lat="43.7414599" lon="7.3985838" version="1">
+	<node id="-257295" lat="43.7414599" lon="7.3985838" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="highway" v="bus_stop"/>
 	</node>
-	<node id="-243469" lat="43.7250181" lon="7.3963875" version="1">
+	<node id="-257297" lat="43.7250181" lon="7.3963875" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="-257485" lat="43.7454072" lon="7.4000686">
+		<tag k="ele" v="0.0"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="name" v="La Turbie Marie"/>
 	</node>
 	<node id="21917308" lat="43.7410898" lon="7.4262223" version="1">
 		<tag k="bus" v="yes"/>
@@ -892,7 +877,7 @@
 		<tag k="name" v="Saint-Roman"/>
 		<tag k="public_transport" v="stop_position"/>
 	</node>
-	<node id="3545215285" lat="43.7455059" lon="7.4000369" version="1">
+	<node id="3545215285" lat="43.7455267" lon="7.4000355" version="1">
 		<tag k="ele" v="0.0"/>
 		<tag k="highway" v="bus_stop"/>
 		<tag k="name" v="La Turbie Marie"/>
@@ -1215,9 +1200,9 @@
 		<tag k="name" v="Sea Club"/>
 		<tag k="public_transport" v="stop_position"/>
 	</node>
-	<relation id="-243638" version="1">
+	<relation id="-257466" version="1">
 		<member type="node" ref="4002288102" role="stop"/>
-		<member type="node" ref="-243449" role="stop"/>
+		<member type="node" ref="-257277" role="stop"/>
 		<member type="node" ref="3943148923" role="stop"/>
 		<tag k="name" v="MoSTtoFrance1"/>
 		<tag k="operator" v="MoST"/>
@@ -1225,7 +1210,7 @@
 		<tag k="route" v="bus"/>
 		<tag k="type" v="route"/>
 	</relation>
-	<relation id="-243639" version="1">
+	<relation id="-257467" version="1">
 		<member type="node" ref="3941531168" role="stop"/>
 		<member type="node" ref="3158178423" role="stop"/>
 		<member type="node" ref="4002288101" role="stop"/>
@@ -1235,13 +1220,13 @@
 		<tag k="route" v="bus"/>
 		<tag k="type" v="route"/>
 	</relation>
-	<relation id="-243640" version="1">
+	<relation id="-257468" version="1">
 		<member type="node" ref="642522545" role="stop"/>
 		<member type="node" ref="642466130" role="stop"/>
-		<member type="node" ref="-243455" role="stop"/>
+		<member type="node" ref="-257283" role="stop"/>
 		<member type="node" ref="642295507" role="stop"/>
 		<member type="node" ref="33015605" role="stop"/>
-		<member type="node" ref="-243433" role="stop"/>
+		<member type="node" ref="-257261" role="stop"/>
 		<tag k="from" v="France"/>
 		<tag k="name" v="MoSTtoItaly"/>
 		<tag k="operator" v="MoST"/>
@@ -1250,7 +1235,7 @@
 		<tag k="to" v="Italy"/>
 		<tag k="type" v="route"/>
 	</relation>
-	<relation id="-243641" version="1">
+	<relation id="-257469" version="1">
 		<member type="node" ref="3545215285" role="stop"/>
 		<member type="node" ref="3943148923" role="stop"/>
 		<tag k="name" v="MoSTtoFrance2"/>
@@ -1259,7 +1244,7 @@
 		<tag k="route" v="bus"/>
 		<tag k="type" v="route"/>
 	</relation>
-	<relation id="-243642" version="1">
+	<relation id="-257470" version="1">
 		<member type="node" ref="2208239539" role="stop"/>
 		<member type="node" ref="2208230077" role="stop"/>
 		<member type="node" ref="2208223574" role="stop"/>
@@ -1274,7 +1259,7 @@
 		<tag k="route" v="bus"/>
 		<tag k="type" v="route"/>
 	</relation>
-	<relation id="-243643" version="1">
+	<relation id="-257471" version="1">
 		<member type="node" ref="2208183904" role="stop"/>
 		<member type="node" ref="4317327173" role="stop"/>
 		<member type="node" ref="997522495" role="stop"/>
@@ -1288,27 +1273,27 @@
 		<tag k="route" v="bus"/>
 		<tag k="type" v="route"/>
 	</relation>
-	<relation id="-243644" version="1">
-		<member type="node" ref="3545215285" role="stop"/>
-		<member type="node" ref="-243467" role="stop"/>
-		<member type="node" ref="-243435" role="stop"/>
-		<member type="node" ref="-243465" role="stop"/>
-		<member type="node" ref="-243453" role="stop"/>
-		<member type="node" ref="-243431" role="stop"/>
+	<relation id="-257472">
 		<member type="node" ref="1373711177" role="stop"/>
+		<member type="node" ref="-257259" role="stop"/>
+		<member type="node" ref="-257281" role="stop"/>
+		<member type="node" ref="-257293" role="stop"/>
+		<member type="node" ref="-257263" role="stop"/>
+		<member type="node" ref="-257295" role="stop"/>
+		<member type="node" ref="-257485" role="stop"/>
 		<tag k="name" v="HospitalToTurbie"/>
 		<tag k="operator" v="MoST"/>
 		<tag k="ref" v="M3:Turbie"/>
 		<tag k="route" v="bus"/>
 		<tag k="type" v="route"/>
 	</relation>
-	<relation id="-243645" version="1">
-		<member type="node" ref="-243447" role="stop"/>
-		<member type="node" ref="-243463" role="stop"/>
-		<member type="node" ref="-243427" role="stop"/>
-		<member type="node" ref="-243425" role="stop"/>
-		<member type="node" ref="-243461" role="stop"/>
-		<member type="node" ref="-243445" role="stop"/>
+	<relation id="-257473" version="1">
+		<member type="node" ref="-257275" role="stop"/>
+		<member type="node" ref="-257291" role="stop"/>
+		<member type="node" ref="-257255" role="stop"/>
+		<member type="node" ref="-257253" role="stop"/>
+		<member type="node" ref="-257289" role="stop"/>
+		<member type="node" ref="-257273" role="stop"/>
 		<member type="node" ref="252356770" role="stop"/>
 		<tag k="name" v="TurbieToHospital"/>
 		<tag k="operator" v="MoST"/>
@@ -1316,22 +1301,22 @@
 		<tag k="route" v="bus"/>
 		<tag k="type" v="route"/>
 	</relation>
-	<relation id="-243646" version="1">
+	<relation id="-257474" version="1">
 		<member type="node" ref="3941531168" role="stop"/>
-		<member type="node" ref="-243447" role="stop"/>
+		<member type="node" ref="-257275" role="stop"/>
 		<tag k="name" v="MoSTtoLaTurbie"/>
 		<tag k="operator" v="MoST"/>
 		<tag k="ref" v="M2:Turbie"/>
 		<tag k="route" v="bus"/>
 		<tag k="type" v="route"/>
 	</relation>
-	<relation id="-243647" version="1">
+	<relation id="-257475" version="1">
 		<member type="node" ref="33016223" role="stop"/>
-		<member type="node" ref="-243451" role="stop"/>
-		<member type="node" ref="-243443" role="stop"/>
+		<member type="node" ref="-257279" role="stop"/>
+		<member type="node" ref="-257271" role="stop"/>
 		<member type="node" ref="1871958568" role="stop"/>
-		<member type="node" ref="-243437" role="stop"/>
-		<member type="node" ref="-243423" role="stop"/>
+		<member type="node" ref="-257265" role="stop"/>
+		<member type="node" ref="-257251" role="stop"/>
 		<tag k="from" v="Italy"/>
 		<tag k="name" v="MoSTtoFrance"/>
 		<tag k="operator" v="MoST"/>
@@ -1340,10 +1325,10 @@
 		<tag k="to" v="France"/>
 		<tag k="type" v="route"/>
 	</relation>
-	<relation id="-243648" version="1">
+	<relation id="-257476" version="1">
 		<member type="node" ref="4002373053" role="stop"/>
 		<member type="node" ref="4002373051" role="stop"/>
-		<member type="node" ref="-243457" role="stop"/>
+		<member type="node" ref="-257285" role="stop"/>
 		<member type="node" ref="4154007315" role="stop"/>
 		<tag k="name" v="MoSTtoTrain"/>
 		<tag k="operator" v="MoST"/>
@@ -1351,8 +1336,8 @@
 		<tag k="route" v="bus"/>
 		<tag k="type" v="route"/>
 	</relation>
-	<relation id="-243649" version="1">
-		<member type="node" ref="-243441" role="stop"/>
+	<relation id="-257477" version="1">
+		<member type="node" ref="-257269" role="stop"/>
 		<member type="node" ref="4154007320" role="stop"/>
 		<member type="node" ref="4002373050" role="stop"/>
 		<member type="node" ref="4002373052" role="stop"/>
@@ -1476,7 +1461,7 @@
 		<member type="node" ref="4002899216" role="stop"/>
 		<member type="node" ref="1872357148" role="stop"/>
 		<member type="node" ref="1776309843" role="stop"/>
-		<member type="node" ref="-243459" role="stop"/>
+		<member type="node" ref="-257287" role="stop"/>
 		<member type="node" ref="1079750568" role="stop"/>
 		<member type="node" ref="4937466467" role="stop"/>
 		<member type="node" ref="252417671" role="stop"/>
@@ -1751,7 +1736,7 @@
 		<member type="node" ref="280488113" role="stop"/>
 		<member type="node" ref="2185515267" role="stop"/>
 		<member type="node" ref="1872357146" role="stop"/>
-		<member type="node" ref="-243439" role="stop"/>
+		<member type="node" ref="-257267" role="stop"/>
 		<member type="node" ref="1778433990" role="stop"/>
 		<member type="node" ref="252358385" role="stop"/>
 		<member type="node" ref="252356770" role="stop"/>
@@ -1761,7 +1746,7 @@
 		<member type="node" ref="2185515268" role="stop"/>
 		<member type="node" ref="2185515257" role="stop"/>
 		<member type="node" ref="1774994953" role="stop"/>
-		<member type="node" ref="-243429" role="stop"/>
+		<member type="node" ref="-257257" role="stop"/>
 		<member type="node" ref="25200449" role="stop"/>
 		<member type="node" ref="1780610244" role="stop"/>
 		<tag k="colour" v="DarkGray"/>

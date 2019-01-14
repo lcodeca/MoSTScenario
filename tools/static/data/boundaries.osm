@@ -1,24 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-
-<!--
-    Monaco SUMO Traffic (MoST) Scenario
-    Copyright (C) 2018
-    Lara CODECA
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
--->
-
 <osm version="0.6" generator="osmfilter 1.4.4">
 	<bounds minlat="43.6987" minlon="7.3629" maxlat="43.786" maxlon="7.4858"/>
 	<node id="-38989" lat="43.7491408" lon="7.4225564">
