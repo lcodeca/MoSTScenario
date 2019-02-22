@@ -63,36 +63,36 @@ You can send an e-mail to codeca@eurecom.fr with your name and affiliation (if a
 
 ```
 Performance:
- Duration: 9258106ms
- Real time factor: 3.88848
- UPS: 128964.872837
+ Duration: 8014191ms
+ Real time factor: 4.49203
+ UPS: 146417.197194
 Vehicles:
- Inserted: 47242
- Running: 21
+ Inserted: 40051
+ Running: 31
  Waiting: 0
-Teleports: 1039 (Collisions: 255, Jam: 403, Yield: 287, Wrong Lane: 94)
+Teleports: 450 (Collisions: 150, Jam: 165, Yield: 86, Wrong Lane: 49)
 Emergency Stops: 7
 Persons:
  Inserted: 45000
  Running: 0
- Jammed: 1089
+ Jammed: 491
 Statistics (avg):
- RouteLength: 7555.05
- Duration: 6320.84
- WaitingTime: 115.05
- TimeLoss: 258.16
- DepartDelay: 0.71
-Pedestrian Statistics (avg of 29831 walks):
- RouteLength: 360.16
- Duration: 306.80
- TimeLoss: 43.57
-Ride Statistics (avg of 45005 rides):
- WaitingTime: 51.35
- RouteLength: 6857.66
- Duration: 800.87
- Bus: 5091
- Train: 12
- Bike: 4256
+ RouteLength: 7161.74
+ Duration: 7329.52
+ WaitingTime: 55.47
+ TimeLoss: 162.14
+ DepartDelay: 0.40
+Pedestrian Statistics (avg of 31925 walks):
+ RouteLength: 346.64
+ Duration: 293.72
+ TimeLoss: 40.32
+Ride Statistics (avg of 45613 rides):
+ WaitingTime: 48.61
+ RouteLength: 6340.43
+ Duration: 651.88
+ Bus: 6578
+ Train: 4
+ Bike: 3450
  Aborted: 0
  ```
 
@@ -101,36 +101,35 @@ Ride Statistics (avg of 45005 rides):
 
 ```
 Performance:
- Duration: 9946949ms
- Real time factor: 3.6192
- UPS: 119804.583999
+ Duration: 8522587ms
+ Real time factor: 4.22407
+ UPS: 137328.994001
 Vehicles:
- Inserted: 47242
- Running: 21
+ Inserted: 40051
+ Running: 31
  Waiting: 0
-Teleports: 744 (Collisions: 163, Jam: 303, Yield: 188, Wrong Lane: 90)
-Emergency Stops: 6
+Teleports: 627 (Collisions: 447, Jam: 106, Yield: 33, Wrong Lane: 41)
+Emergency Stops: 3
 Persons:
  Inserted: 45000
  Running: 0
- Jammed: 562
+ Jammed: 216
 Statistics (avg):
- RouteLength: 7622.53
- Duration: 6308.76
- WaitingTime: 118.44
- TimeLoss: 274.66
- DepartDelay: 0.57
-Pedestrian Statistics (avg of 29831 walks):
- RouteLength: 460.78
- Duration: 390.55
- TimeLoss: 54.01
-Ride Statistics (avg of 45005 rides):
- WaitingTime: 49.10
- RouteLength: 6926.28
- Duration: 823.98
- Bus: 5091
- Train: 12
- Bike: 4256
+ RouteLength: 7172.82
+ Duration: 7310.67
+ WaitingTime: 55.16
+ TimeLoss: 170.89
+ DepartDelay: 0.40
+Pedestrian Statistics (avg of 31925 walks):
+ RouteLength: 448.37
+ Duration: 379.43
+ TimeLoss: 51.68
+Ride Statistics (avg of 45613 rides):
+ WaitingTime: 47.90
+ RouteLength: 6349.75
+ Duration: 662.15
+ Bus: 6578
+ Train: 4
+ Bike: 3450
  Aborted: 0
-
  ```

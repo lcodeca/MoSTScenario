@@ -2,7 +2,7 @@
 
 <!--
     Monaco SUMO Traffic (MoST) Scenario
-    Copyright (C) 2018
+    Copyright (C) 2019
     Lara CODECA
 
     This program is free software: you can redistribute it and/or modify
@@ -19,7 +19,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
-<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd"> 
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <busStop id="131018" name="Carnoles" lane="152189_0" startPos="12664.348898978198" endPos="12814.348898978196" lines="M0:France" friendlyPos="true"> <!-- 131018 -->
         <access lane="153652_1" pos="334.2025989134852"/>
     </busStop>

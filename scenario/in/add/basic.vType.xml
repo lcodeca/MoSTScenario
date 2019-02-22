@@ -1,6 +1,6 @@
 <!--
     Monaco SUMO Traffic (MoST) Scenario
-    Copyright (C) 2018
+    Copyright (C) 2019
     Lara CODECA
 
     This program is free software: you can redistribute it and/or modify
@@ -45,8 +45,8 @@
 
   <!-- Normal vehicles -->
   <vTypeDistribution id="ptw">
-    <vType vClass="motorcycle" id="motorcycle"  latAlignment="arbitrary" lcPushy="1.0" minGapLat="0.5" probability=".70" tau="0.5" speedDev="0.1"/>
-    <vType vClass="moped"      id="moped"       latAlignment="arbitrary" lcPushy="1.0" minGapLat="0.5" probability=".30" tau="0.5" speedDev="0.1"/>
+    <vType vClass="motorcycle" id="motorcycle"  personCapacity="2" latAlignment="arbitrary" lcPushy="1.0" minGapLat="0.5" probability=".70" tau="0.5" speedDev="0.1"/>
+    <vType vClass="moped"      id="moped"       personCapacity="1" latAlignment="arbitrary" lcPushy="1.0" minGapLat="0.5" probability=".30" tau="0.5" speedDev="0.1"/>
   </vTypeDistribution>
   <vTypeDistribution id="passenger">
     <vType vClass="passenger"  id="passenger1"  personCapacity="4" latAlignment="center" sigma="0.25" probability=".20" tau="0.5" speedDev="0.1" guiShape="passenger"/>

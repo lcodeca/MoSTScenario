@@ -2,7 +2,7 @@
 
 <!--
     Monaco SUMO Traffic (MoST) Scenario
-    Copyright (C) 2018
+    Copyright (C) 2019
     Lara CODECA
 
     This program is free software: you can redistribute it and/or modify
@@ -19,7 +19,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
-<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd"> 
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <parkingArea id="1059" lane="-153415_1" startPos="10.0" endPos="20.0" roadsideCapacity="225" friendlyPos="true"/>
     <parkingArea id="1060" lane="-152331_1" startPos="18.191498545200943" endPos="28.191498545200943" roadsideCapacity="75" friendlyPos="true"/>
     <parkingArea id="1061" lane="153423#0_1" startPos="10.0" endPos="20.0" roadsideCapacity="350" friendlyPos="true"/>
@@ -148,4 +148,3 @@
     <parkingArea id="1185" lane="152148_0" startPos="61.70736997596153" endPos="71.70736997596153" roadsideCapacity="50" friendlyPos="true"/>
     <parkingArea id="1186" lane="152320_1" startPos="425.9836107760887" endPos="435.9836107760888" roadsideCapacity="350" friendlyPos="true"/>
 </additional>
-    
