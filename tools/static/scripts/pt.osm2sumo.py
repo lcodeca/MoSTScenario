@@ -3,7 +3,7 @@
 """ Extract STOPS and LINES from OSM public transports and a SUMO network.
 
     Monaco SUMO Traffic (MoST) Scenario
-    Copyright (C) 2018
+    Copyright (C) 2019
     Lara CODECA
 
     This program is free software: you can redistribute it and/or modify
@@ -46,7 +46,7 @@ ADDITIONALS_TPL = """<?xml version="1.0" encoding="UTF-8"?>
 
 <!--
     Monaco SUMO Traffic (MoST) Scenario
-    Copyright (C) 2018
+    Copyright (C) 2019
     Lara CODECA
 
     This program is free software: you can redistribute it and/or modify

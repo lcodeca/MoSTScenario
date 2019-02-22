@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Monaco SUMO Traffic (MoST) Scenario
-#     Copyright (C) 2018
+#     Copyright (C) 2019
 #     Lara CODECA
 
 if [ -z "$MOST_SCENARIO" ]

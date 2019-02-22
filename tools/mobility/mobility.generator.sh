@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Monaco SUMO Traffic (MoST) Scenario
-#     Copyright (C) 2018
+#     Copyright (C) 2019
 #     Lara CODECA
 
 # exit on error
@@ -31,10 +31,10 @@ mkdir -p $OUTPUT
 #  Depending on the SUMO version, it's possible that the -b parameter is not really working.
 
 INTERVAL="-b 14400 -e 50400"
-# INTERVAL="-b 0 -e 7200"
+# INTERVAL="-b 0 -e 86400"
 
 echo "[$(date)] --> Generate bus trips..."
-python $SUMO_TOOLS/ptlines2flows.py -n $INPUT/most.net.xml $INTERVAL -p 1200 \
+python $SUMO_TOOLS/ptlines2flows.py -n $INPUT/most.net.xml $INTERVAL -p 900 \
     --random-begin --seed 42 --no-vtypes \
     --ptstops $ADD/most.busstops.add.xml --ptlines pt/most.buslines.add.xml \
     -o $OUTPUT/most.buses.flows.xml

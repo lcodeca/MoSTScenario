@@ -3,7 +3,7 @@
 """ Extract TAZ from a SUMO netfile and OSM-like boundaries.
 
     Monaco SUMO Traffic (MoST) Scenario
-    Copyright (C) 2018
+    Copyright (C) 2019
     Lara CODECA
 
     This program is free software: you can redistribute it and/or modify

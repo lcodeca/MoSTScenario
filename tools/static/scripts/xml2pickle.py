@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-""" Load a XML file into a dict and save it to a binary pickle file. 
+""" Load a XML file into a dict and save it to a binary pickle file.
 
     Monaco SUMO Traffic (MoST) Scenario
-    Copyright (C) 2018
+    Copyright (C) 2019
     Lara CODECA
 
     This program is free software: you can redistribute it and/or modify

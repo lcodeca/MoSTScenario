@@ -3,7 +3,7 @@
 """ Person Trip Activity-based Mobility Generation with PoIs and TAZ.
 
     Monaco SUMO Traffic (MoST) Scenario
-    Copyright (C) 2018
+    Copyright (C) 2019
     Lara CODECA
 
     This program is free software: you can redistribute it and/or modify
@@ -649,7 +649,7 @@ class MobilityGenerator(object):
 
 <!--
     Monaco SUMO Traffic (MoST) Scenario
-    Copyright (C) 2018
+    Copyright (C) 2019
     Lara CODECA
 
     This program is free software: you can redistribute it and/or modify
