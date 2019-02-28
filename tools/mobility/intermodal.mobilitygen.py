@@ -302,7 +302,7 @@ class MobilityGenerator(object):
                         with_parking = False
 
                     # Trip creation
-                    self._all_trips[v_type][_depart].append({
+                    complete_trip = {
                         'id': '{}_{}_{}'.format(v_type, key, veh_id),
                         'depart': _depart,
                         'from': _from,
@@ -311,8 +311,11 @@ class MobilityGenerator(object):
                         'mode': modes,
                         'withParking': with_parking,
                         'PLid': parking_id,
-                        'stages': _stages
-                        })
+                        'stages': _stages,
+                    }
+                    complete_trip['sumoTrip'] = self._generate_sumo_trip(complete_trip)
+
+                    self._all_trips[v_type][_depart].append(complete_trip)
                     total += 1
 
                 if self._profiling:
@@ -699,6 +702,66 @@ class MobilityGenerator(object):
     <vehicle id="{id}" type="{v_type}" depart="triggered" departLane="best" arrivalPos="{arrival}">{route}{stop}
     </vehicle>"""
 
+    def _generate_sumo_trip(self, vehicle):
+        """ Generate the SUMO tag version of the trip. """
+
+        all_trips = ''
+
+        _begin = self._conf['stopUntil']['begin']
+        _end = self._conf['stopUntil']['end']
+
+        if vehicle['type'] == 'pedestrian':
+            triggered = ''
+            stages = ''
+            for stage in vehicle['stages']:
+                if stage.stageType == tc.STAGE_WALKING:
+                    if stage.destStop:
+                        stages += self.WALK_BUS.format(
+                            edges=' '.join(stage.edges), busStop=stage.destStop)
+                    else:
+                        stages += self.WALK.format(edges=' '.join(stage.edges))
+                elif stage.stageType == tc.STAGE_DRIVING:
+                    if stage.line != stage.intended:
+                        # intended is the transport id, so it must be different
+                        stages += self.RIDE_BUS.format(
+                            busStop=stage.destStop, lines=stage.line,
+                            intended=stage.intended, depart=stage.depart)
+                    else:
+                        # triggered vehicle (line = intended) ask why to SUMO.
+                        _tr_id = '{}_tr'.format(vehicle['id'])
+                        _route = self.ROUTE.format(edges=' '.join(stage.edges))
+                        _stop = ''
+                        if stage.destStop:
+                            _stop = self.STOP_PARKING.format(
+                                id=stage.destStop,
+                                until=random.randint(_begin, _end))
+                        _arrival = 'random'
+                        if _stop:
+                            _arrival = self._parking_position[stage.destStop]
+                        triggered += self.VEHICLE_TRIGGERED.format(
+                            id=_tr_id, v_type=vehicle['mode'], route=_route,
+                            stop=_stop, arrival=_arrival)
+                        stages += self.RIDE_TRIGGERED.format(
+                            from_edge=stage.edges[0], to_edge=stage.edges[-1],
+                            vehicle_id=_tr_id)
+            all_trips += triggered
+            all_trips += self.PERSON.format(
+                id=vehicle['id'], depart=vehicle['depart'], stages=stages)
+        else:
+            _route = self.ROUTE.format(edges=' '.join(vehicle['stages'].edges))
+            _stop = ''
+            if vehicle['withParking']:
+                _stop = self.STOP_PARKING.format(id=vehicle['PLid'],
+                                                 until=random.randint(_begin, _end))
+            _arrival = 'random'
+            if _stop:
+                _arrival = self._parking_position[vehicle['PLid']]
+            all_trips += self.VEHICLE.format(
+                id=vehicle['id'], v_type=vehicle['type'], depart=vehicle['depart'],
+                route=_route, stop=_stop, arrival=_arrival)
+
+        return all_trips
+
     def _saving_trips_to_files(self):
         """ Saving all te trips to files divided by vType. """
 
@@ -711,56 +774,7 @@ class MobilityGenerator(object):
                 all_trips = ''
                 for time in sorted(dict_trips.keys()):
                     for vehicle in dict_trips[time]:
-                        if v_type == 'pedestrian':
-                            triggered = ''
-                            stages = ''
-                            for stage in vehicle['stages']:
-                                if stage.stageType == tc.STAGE_WALKING:
-                                    if stage.destStop:
-                                        stages += self.WALK_BUS.format(
-                                            edges=' '.join(stage.edges), busStop=stage.destStop)
-                                    else:
-                                        stages += self.WALK.format(edges=' '.join(stage.edges))
-                                elif stage.stageType == tc.STAGE_DRIVING:
-                                    if stage.line != stage.intended:
-                                        # intended is the transport id, so it must be different
-                                        stages += self.RIDE_BUS.format(
-                                            busStop=stage.destStop, lines=stage.line,
-                                            intended=stage.intended, depart=stage.depart)
-                                    else:
-                                        # triggered vehicle (line = intended) ask why to SUMO.
-                                        _tr_id = '{}_tr'.format(vehicle['id'])
-                                        _route = self.ROUTE.format(edges=' '.join(stage.edges))
-                                        _stop = ''
-                                        if stage.destStop:
-                                            _stop = self.STOP_PARKING.format(
-                                                id=stage.destStop,
-                                                until=random.randint(_begin, _end))
-                                        _arrival = 'random'
-                                        if _stop:
-                                            _arrival = self._parking_position[stage.destStop]
-                                        triggered += self.VEHICLE_TRIGGERED.format(
-                                            id=_tr_id, v_type=vehicle['mode'], route=_route,
-                                            stop=_stop, arrival=_arrival)
-                                        stages += self.RIDE_TRIGGERED.format(
-                                            from_edge=stage.edges[0], to_edge=stage.edges[-1],
-                                            vehicle_id=_tr_id)
-                            all_trips += triggered
-                            all_trips += self.PERSON.format(
-                                id=vehicle['id'], depart=vehicle['depart'], stages=stages)
-                        else:
-                            _route = self.ROUTE.format(edges=' '.join(vehicle['stages'].edges))
-                            _stop = ''
-                            if vehicle['withParking']:
-                                _stop = self.STOP_PARKING.format(id=vehicle['PLid'],
-                                                                 until=random.randint(_begin, _end))
-                            _arrival = 'random'
-                            if _stop:
-                                _arrival = self._parking_position[vehicle['PLid']]
-                            all_trips += self.VEHICLE.format(
-                                id=vehicle['id'], v_type=vehicle['type'], depart=vehicle['depart'],
-                                route=_route, stop=_stop, arrival=_arrival)
-
+                        all_trips += vehicle['sumoTrip']
                 tripfile.write(self.ROUTES_TPL.format(trips=all_trips))
             logging.info('Saved %s', filename)
 
