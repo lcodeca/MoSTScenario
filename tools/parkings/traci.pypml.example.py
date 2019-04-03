@@ -26,7 +26,6 @@ import json
 import logging
 import os
 import pprint
-import random
 import sys
 import traceback
 from tqdm import tqdm
@@ -132,6 +131,7 @@ def _main():
     traci.start(['sumo', '-c', conf['sumocfg']], port=conf['traci_port'])
 
     parking_monitor_options = {
+        'seed': 42,
         'addStepListener': True,
         'logging': {
             'stdout': False,
@@ -161,7 +161,7 @@ def _main():
         },
     }
 
-    monitor = ParkingMonitor(traci, parking_monitor_options, _begin_sec)
+    monitor = ParkingMonitor(traci, parking_monitor_options)
 
     ett_people = dict()
 
