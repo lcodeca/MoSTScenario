@@ -58,8 +58,6 @@
         <crossings.guess value="true"/>
         <walkingareas value="false"/>
         <osm.elevation value="true"/>
-        <no-turnarounds value="false"/>
-        <no-turnarounds.tls value="true"/>
         <no-turnarounds.except-deadend value="true"/>
         <no-internal-links value="false"/>
         <ignore-errors value="false"/>
