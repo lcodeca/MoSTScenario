@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--
-    Monaco SUMO Traffic (MoST) Scenario
-    Copyright (C) 2019
-    Lara CODECA
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+<!-- generated on 2019-04-30 17:43:14.116839 by $Id$
+  options: -n /home/drone/EURECOM/Projects/GITHUB/MoSTScenario/scenario/in/most.net.xml -b 14400 -e 50400 -p 900 <doubleminus>random-begin <doubleminus>seed 42 <doubleminus>no-vtypes <doubleminus>ptstops /home/drone/EURECOM/Projects/GITHUB/MoSTScenario/scenario/in/add/most.busstops.add.xml <doubleminus>ptlines pt/most.buslines.add.xml -o out/most.buses.flows.xml
 -->
-
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <route id="bus_M2:France" edges="-153424#0 -153433#0 -153451#6 -153451#5 -153451#4 -153451#3 -153451#2 -153451#1 -153451#0 -153452#1 153457 -153459#0 -152256 153460" >
         <stop busStop="131165" duration="30.00" until="47.0"/> <!-- La Turbie Marie -->

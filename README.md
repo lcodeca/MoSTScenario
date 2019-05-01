@@ -58,117 +58,78 @@ You can send an e-mail to codeca@eurecom.fr with your name and affiliation (if a
 
 ### Tested with:
 
-#### Eclipse SUMO Version 1.1.0
-(Build features: Linux-4.18.0-3-amd64 x86_64 GNU 8.2.0 Release Proj GUI GDAL FFmpeg OSG GL2PS SWIG)
+#### Eclipse SUMO Version 1.2.0
+(Build features: Linux-4.19.0-4-amd64 x86_64 GNU 8.3.0 Release Proj GUI GDAL FFmpeg OSG GL2PS SWIG)
 
 ```
 Performance:
- Duration: 18089164ms
- Real time factor: 1.99014
- UPS: 67928.112764
+ Duration: 8071937ms
+ Real time factor: 4.4599
+ UPS: 151124.323691
 Vehicles:
- Inserted: 46713
+ Inserted: 46809 (Loaded: 46810)
  Running: 31
  Waiting: 0
-Teleports: 1131 (Collisions: 326, Jam: 300, Yield: 340, Wrong Lane: 165)
-Emergency Stops: 13
-Persons:
- Inserted: 45000
- Running: 0
- Jammed: 1188
-Statistics (avg):
- RouteLength: 8029.64
- Duration: 6579.93
- WaitingTime: 160.17
- TimeLoss: 339.46
- DepartDelay: 0.82
-Pedestrian Statistics (avg of 31532 walks):
- RouteLength: 341.99
- Duration: 291.11
- TimeLoss: 42.01
-Ride Statistics (avg of 45252 rides):
- WaitingTime: 53.22
- RouteLength: 7150.60
- Duration: 894.30
- Bus: 6117
- Train: 2
- Bike: 3320
- Aborted: 0
- ```
-
- #### Eclipse SUMO Version 1.0.1
-(Build features: Linux-4.18.0-1-amd64 Proj GUI GDAL FFmpeg OSG GL2PS SWIG)
-
-```
-Performance:
- Duration: 17122703ms
- Real time factor: 2.10247
- UPS: 70908.259695
-Vehicles:
- Inserted: 46713
- Running: 31
- Waiting: 0
-Teleports: 544 (Collisions: 315, Jam: 69, Yield: 87, Wrong Lane: 73)
-Emergency Stops: 4
-Persons:
- Inserted: 45000
- Running: 0
- Jammed: 388
-Statistics (avg):
- RouteLength: 7604.06
- Duration: 6501.62
- WaitingTime: 98.86
- TimeLoss: 250.29
- DepartDelay: 0.57
-Pedestrian Statistics (avg of 31532 walks):
- RouteLength: 448.22
- Duration: 379.37
- TimeLoss: 52.56
-Ride Statistics (avg of 45252 rides):
- WaitingTime: 48.32
- RouteLength: 6757.15
- Duration: 776.86
- Bus: 6117
- Train: 2
- Bike: 3320
- Aborted: 0
-
- ```
-
-#### Eclipse SUMO Version 1.0.0
-(Build features: Linux-4.18.0-1-amd64 Proj GUI GDAL FFmpeg OSG GL2PS SWIG)
- ```
- Performance:
- Duration: 17893508ms
- Real time factor: 2.0119
- UPS: 68134.365156
-Vehicles:
- Inserted: 46713
- Running: 31
- Waiting: 0
-Teleports: 961 (Collisions: 612, Jam: 90, Yield: 141, Wrong Lane: 118)
+Teleports: 1151 (Jam: 462, Yield: 504, Wrong Lane: 185)
 Emergency Stops: 6
 Persons:
  Inserted: 45000
  Running: 0
- Jammed: 404
+ Jammed: 1260
 Statistics (avg):
- RouteLength: 7781.16
- Duration: 6528.52
- WaitingTime: 124.25
- TimeLoss: 291.34
- DepartDelay: 0.63
-Pedestrian Statistics (avg of 31532 walks):
- RouteLength: 448.62
- Duration: 379.78
- TimeLoss: 52.83
-Ride Statistics (avg of 45252 rides):
- WaitingTime: 50.11
- RouteLength: 6924.03
- Duration: 832.12
- Bus: 6117
- Train: 2
- Bike: 3320
+ RouteLength: ... TBD
+ Duration: 6518.88
+ WaitingTime: 130.35
+ TimeLoss: 268.94
+ DepartDelay: 0.83
+Pedestrian Statistics (avg of 31495 walks):
+ RouteLength: 447.76
+ Duration: 381.52
+ TimeLoss: 54.46
+Ride Statistics (avg of 45362 rides):
+ WaitingTime: 50.99
+ RouteLength: 6237.22
+ Duration: 750.87
+ Bus: 6131
+ Train: 1
+ Bike: 3395
  Aborted: 0
+```
 
+#### Eclipse SUMO Version 1.1.0
+(Build features: Linux-4.19.0-4-amd64 x86_64 GNU 8.3.0 Release Proj GUI GDAL FFmpeg OSG GL2PS SWIG)
+
+```
+Performance:
+ Duration: 7509321ms
+ Real time factor: 4.79404
+ UPS: 162345.771475
+Vehicles:
+ Inserted: 46810
+ Running: 31
+ Waiting: 0
+Teleports: 566 (Jam: 182, Yield: 275, Wrong Lane: 109)
+Emergency Stops: 12
+Persons:
+ Inserted: 45000
+ Running: 0
+ Jammed: 793
+Statistics (avg):
+ RouteLength: 7474.31
+ Duration: 6514.68
+ WaitingTime: 85.81
+ TimeLoss: 217.45
+ DepartDelay: 0.57
+Pedestrian Statistics (avg of 31495 walks):
+ RouteLength: 342.99
+ Duration: 292.18
+ TimeLoss: 41.27
+Ride Statistics (avg of 45362 rides):
+ WaitingTime: 48.07
+ RouteLength: 6640.66
+ Duration: 735.61
+ Bus: 6131
+ Train: 1
+ Bike: 3395
+ Aborted: 0
  ```
