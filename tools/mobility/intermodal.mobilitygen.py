@@ -27,13 +27,14 @@ import json
 import logging
 import os
 import xml.etree.ElementTree
-import random
 import sys
 import cProfile
 import pstats
 import io
-import numpy
 from tqdm import tqdm
+
+import numpy
+from numpy.random import RandomState
 
 # """ Import SUMOLIB """
 if 'SUMO_TOOLS' in os.environ:
@@ -89,6 +90,8 @@ class MobilityGenerator(object):
     _conf = None
     _profiling = None
 
+    _random_generator = None
+
     _sumo_network = None
     _sumo_parkings = collections.defaultdict(list)
     _parking_cache = dict()
@@ -110,6 +113,8 @@ class MobilityGenerator(object):
 
         self._conf = conf
         self._profiling = profiling
+
+        self._random_generator = RandomState(seed=self._conf['seed'])
 
         logging.info('Starting TraCI with file %s.', conf['sumocfg'])
         sumocfg = '{}/{}'.format(BASE_DIR, conf['sumocfg'])
@@ -334,7 +339,7 @@ class MobilityGenerator(object):
         """ Randomly select one of the parkings. """
         if not self._sumo_parkings[edge]:
             return None
-        pos = random.randint(0, len(self._sumo_parkings[edge]) - 1)
+        pos = self._random_generator.randint(0, len(self._sumo_parkings[edge]))
         return self._sumo_parkings[edge][pos]
 
     def _has_parking_lot(self, edge):
@@ -470,7 +475,7 @@ class MobilityGenerator(object):
                             '_find_intermodal_route: findIntermodalRoute w parking FAILED.')
                         route = None
                     if (self._is_valid_route(_modes, route) and
-                            route[-1].stageType == tc.STAGE_DRIVING):
+                            route[-1].type == tc.STAGE_DRIVING):
                         route[-1] = route[-1]._replace(destStop=self._get_parking_id(p_edge))
                         route.extend(_last_mile)
                         solutions.append((self._cost_from_route(route) * weight, mode, route))
@@ -504,7 +509,7 @@ class MobilityGenerator(object):
 
     def _select_taz_from_weighted_area(self, area):
         """ Select a TAZ from an area using its weight. """
-        selection = random.uniform(0, 1)
+        selection = self._random_generator.uniform(0, 1)
         total_weight = sum([self._taz_weights[taz]['weight'] for taz in area])
         cumulative = 0.0
         for taz in area:
@@ -539,16 +544,16 @@ class MobilityGenerator(object):
             Note: sumonet.getEdge(from_edge).allows(v_type) does not support distributions.
         """
 
-        from_edge = from_taz.pop(random.randint(0, len(from_taz) - 1))
-        to_edge = to_taz.pop(random.randint(0, len(to_taz) - 1))
+        from_edge = from_taz.pop(self._random_generator.randint(0, len(from_taz)))
+        to_edge = to_taz.pop(self._random_generator.randint(0, len(to_taz)))
 
         _to = False
         while not self._valid_pair(from_edge, to_edge) and from_taz and to_taz:
             if not self._sumo_network.getEdge(to_edge).allows('pedestrian') or _to:
-                to_edge = to_taz.pop(random.randint(0, len(to_taz) - 1))
+                to_edge = to_taz.pop(self._random_generator.randint(0, len(to_taz)))
                 _to = False
             else:
-                from_edge = from_taz.pop(random.randint(0, len(from_taz) - 1))
+                from_edge = from_taz.pop(self._random_generator.randint(0, len(from_taz)))
                 _to = True
 
         return from_edge, to_edge
@@ -559,19 +564,23 @@ class MobilityGenerator(object):
             Note: sumonet.getEdge(from_edge).allows(v_type) does not support distributions.
         """
 
-        from_edge, _index = self._get_weighted_edge(from_buildings, random.random(), False)
+        from_edge, _index = self._get_weighted_edge(
+            from_buildings, self._random_generator.random_sample(), False)
         del from_buildings[_index]
-        to_edge, _index = self._get_weighted_edge(to_buildings, random.random(), pedestrian)
+        to_edge, _index = self._get_weighted_edge(
+            to_buildings, self._random_generator.random_sample(), pedestrian)
         del to_buildings[_index]
 
         _to = True
         while not self._valid_pair(from_edge, to_edge) and from_buildings and to_buildings:
             if not self._sumo_network.getEdge(to_edge).allows('pedestrian') or _to:
-                to_edge, _index = self._get_weighted_edge(to_buildings, random.random(), pedestrian)
+                to_edge, _index = self._get_weighted_edge(
+                    to_buildings, self._random_generator.random_sample(), pedestrian)
                 del to_buildings[_index]
                 _to = False
             else:
-                from_edge, _index = self._get_weighted_edge(from_buildings, random.random(), False)
+                from_edge, _index = self._get_weighted_edge(
+                    from_buildings, self._random_generator.random_sample(), False)
                 del from_buildings[_index]
                 _to = True
 
@@ -628,7 +637,7 @@ class MobilityGenerator(object):
                     return True
         elif mode == 'car':
             for stage in route:
-                if stage.stageType == tc.STAGE_DRIVING and stage.edges:
+                if stage.type == tc.STAGE_DRIVING and stage.edges:
                     return True
         else:
             for stage in route:
@@ -714,13 +723,13 @@ class MobilityGenerator(object):
             triggered = ''
             stages = ''
             for stage in vehicle['stages']:
-                if stage.stageType == tc.STAGE_WALKING:
+                if stage.type == tc.STAGE_WALKING:
                     if stage.destStop:
                         stages += self.WALK_BUS.format(
                             edges=' '.join(stage.edges), busStop=stage.destStop)
                     else:
                         stages += self.WALK.format(edges=' '.join(stage.edges))
-                elif stage.stageType == tc.STAGE_DRIVING:
+                elif stage.type == tc.STAGE_DRIVING:
                     if stage.line != stage.intended:
                         # intended is the transport id, so it must be different
                         stages += self.RIDE_BUS.format(
@@ -734,7 +743,7 @@ class MobilityGenerator(object):
                         if stage.destStop:
                             _stop = self.STOP_PARKING.format(
                                 id=stage.destStop,
-                                until=random.randint(_begin, _end))
+                                until=self._random_generator.randint(_begin, _end))
                         _arrival = 'random'
                         if _stop:
                             _arrival = self._parking_position[stage.destStop]
@@ -752,7 +761,7 @@ class MobilityGenerator(object):
             _stop = ''
             if vehicle['withParking']:
                 _stop = self.STOP_PARKING.format(id=vehicle['PLid'],
-                                                 until=random.randint(_begin, _end))
+                                                 until=self._random_generator.randint(_begin, _end))
             _arrival = 'random'
             if _stop:
                 _arrival = self._parking_position[vehicle['PLid']]

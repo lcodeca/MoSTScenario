@@ -1,4 +1,5 @@
 {
+    "seed": 42,
     "outputPrefix": "tools/mobility/out/most.",
 
     "sumocfg": "tools/mobility/duarouter.sumocfg",
