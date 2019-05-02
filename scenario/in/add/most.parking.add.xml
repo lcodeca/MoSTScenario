@@ -234,11 +234,11 @@
             <parkingAreaReroute id="1163" visible="true"/>
             <parkingAreaReroute id="1108" visible="true"/>
             <parkingAreaReroute id="1124" visible="true"/>
-            <parkingAreaReroute id="1159" visible="true"/>
             <parkingAreaReroute id="1168" visible="true"/>
             <parkingAreaReroute id="1160" visible="true"/>
             <parkingAreaReroute id="1128" visible="true"/>
             <parkingAreaReroute id="1142" visible="true"/>
+            <parkingAreaReroute id="1159" visible="true"/>
             <parkingAreaReroute id="1183" visible="true"/>
             <parkingAreaReroute id="1121" visible="true"/>
             <parkingAreaReroute id="1179" visible="true"/>
@@ -1052,8 +1052,8 @@
             <parkingAreaReroute id="1117" visible="true"/>
             <parkingAreaReroute id="1120" visible="true"/>
             <parkingAreaReroute id="1109" visible="true"/>
-            <parkingAreaReroute id="1147" visible="true"/>
             <parkingAreaReroute id="1119" visible="false"/>
+            <parkingAreaReroute id="1147" visible="true"/>
             <parkingAreaReroute id="1129" visible="true"/>
         </interval>
     </rerouter>
@@ -1071,8 +1071,8 @@
             <parkingAreaReroute id="1117" visible="true"/>
             <parkingAreaReroute id="1120" visible="true"/>
             <parkingAreaReroute id="1109" visible="true"/>
-            <parkingAreaReroute id="1147" visible="true"/>
             <parkingAreaReroute id="1119" visible="false"/>
+            <parkingAreaReroute id="1147" visible="true"/>
             <parkingAreaReroute id="1129" visible="true"/>
             <parkingAreaReroute id="1104" visible="true"/>
         </interval>
@@ -1243,8 +1243,8 @@
             <parkingAreaReroute id="1124" visible="true"/>
             <parkingAreaReroute id="1063" visible="true"/>
             <parkingAreaReroute id="1168" visible="true"/>
-            <parkingAreaReroute id="1159" visible="true"/>
             <parkingAreaReroute id="1128" visible="true"/>
+            <parkingAreaReroute id="1159" visible="true"/>
             <parkingAreaReroute id="1163" visible="true"/>
             <parkingAreaReroute id="1108" visible="true"/>
             <parkingAreaReroute id="1152" visible="true"/>
@@ -1283,8 +1283,8 @@
             <parkingAreaReroute id="1126" visible="true"/>
             <parkingAreaReroute id="1177" visible="true"/>
             <parkingAreaReroute id="1064" visible="true"/>
-            <parkingAreaReroute id="1164" visible="true"/>
             <parkingAreaReroute id="1093" visible="true"/>
+            <parkingAreaReroute id="1164" visible="true"/>
             <parkingAreaReroute id="1103" visible="true"/>
             <parkingAreaReroute id="1087" visible="true"/>
             <parkingAreaReroute id="1133" visible="true"/>
@@ -1614,7 +1614,7 @@
             <parkingAreaReroute id="1115" visible="false"/>
             <parkingAreaReroute id="1161" visible="true"/>
             <parkingAreaReroute id="1152" visible="true"/>
-            <parkingAreaReroute id="1159" visible="true"/>
+            <parkingAreaReroute id="1168" visible="true"/>
         </interval>
     </rerouter>
     <rerouter id="1143" edges="152780">
@@ -1862,9 +1862,9 @@
             <!-- in order of distance --> 
             <parkingAreaReroute id="1156" visible="true"/>
             <parkingAreaReroute id="1131" visible="false"/>
-            <parkingAreaReroute id="1147" visible="true"/>
             <parkingAreaReroute id="1152" visible="true"/>
             <parkingAreaReroute id="1121" visible="true"/>
+            <parkingAreaReroute id="1147" visible="true"/>
             <parkingAreaReroute id="1119" visible="false"/>
             <parkingAreaReroute id="1114" visible="true"/>
             <parkingAreaReroute id="1129" visible="true"/>
@@ -1887,10 +1887,10 @@
             <parkingAreaReroute id="1136" visible="true"/>
             <parkingAreaReroute id="1151" visible="true"/>
             <parkingAreaReroute id="1129" visible="true"/>
-            <parkingAreaReroute id="1144" visible="true"/>
             <parkingAreaReroute id="1147" visible="true"/>
-            <parkingAreaReroute id="1146" visible="true"/>
+            <parkingAreaReroute id="1144" visible="true"/>
             <parkingAreaReroute id="1141" visible="true"/>
+            <parkingAreaReroute id="1146" visible="true"/>
             <parkingAreaReroute id="1131" visible="false"/>
             <parkingAreaReroute id="1111" visible="true"/>
             <parkingAreaReroute id="1123" visible="true"/>
@@ -1905,10 +1905,10 @@
             <parkingAreaReroute id="1136" visible="true"/>
             <parkingAreaReroute id="1151" visible="true"/>
             <parkingAreaReroute id="1129" visible="true"/>
-            <parkingAreaReroute id="1144" visible="true"/>
             <parkingAreaReroute id="1147" visible="true"/>
-            <parkingAreaReroute id="1146" visible="true"/>
+            <parkingAreaReroute id="1144" visible="true"/>
             <parkingAreaReroute id="1141" visible="true"/>
+            <parkingAreaReroute id="1146" visible="true"/>
             <parkingAreaReroute id="1157" visible="true"/>
             <parkingAreaReroute id="1131" visible="false"/>
             <parkingAreaReroute id="1111" visible="true"/>
@@ -1953,8 +1953,8 @@
             <parkingAreaReroute id="1131" visible="false"/>
             <parkingAreaReroute id="1143" visible="true"/>
             <parkingAreaReroute id="1120" visible="true"/>
-            <parkingAreaReroute id="1147" visible="true"/>
             <parkingAreaReroute id="1109" visible="true"/>
+            <parkingAreaReroute id="1147" visible="true"/>
         </interval>
     </rerouter>
     <rerouter id="1161" edges="-152651">
@@ -1971,8 +1971,8 @@
             <parkingAreaReroute id="1117" visible="true"/>
             <parkingAreaReroute id="1120" visible="true"/>
             <parkingAreaReroute id="1109" visible="true"/>
-            <parkingAreaReroute id="1147" visible="true"/>
             <parkingAreaReroute id="1119" visible="false"/>
+            <parkingAreaReroute id="1147" visible="true"/>
             <parkingAreaReroute id="1129" visible="true"/>
             <parkingAreaReroute id="1104" visible="true"/>
         </interval>
@@ -1992,8 +1992,8 @@
             <parkingAreaReroute id="1117" visible="true"/>
             <parkingAreaReroute id="1120" visible="true"/>
             <parkingAreaReroute id="1109" visible="true"/>
-            <parkingAreaReroute id="1147" visible="true"/>
             <parkingAreaReroute id="1119" visible="false"/>
+            <parkingAreaReroute id="1147" visible="true"/>
             <parkingAreaReroute id="1129" visible="true"/>
         </interval>
     </rerouter>
@@ -2103,8 +2103,8 @@
             <parkingAreaReroute id="1168" visible="true"/>
             <parkingAreaReroute id="1063" visible="true"/>
             <parkingAreaReroute id="1124" visible="true"/>
-            <parkingAreaReroute id="1159" visible="true"/>
             <parkingAreaReroute id="1128" visible="true"/>
+            <parkingAreaReroute id="1159" visible="true"/>
             <parkingAreaReroute id="1163" visible="true"/>
             <parkingAreaReroute id="1108" visible="true"/>
             <parkingAreaReroute id="1152" visible="true"/>
@@ -2210,8 +2210,8 @@
             <parkingAreaReroute id="1173" visible="true"/>
             <parkingAreaReroute id="1104" visible="true"/>
             <parkingAreaReroute id="1127" visible="true"/>
-            <parkingAreaReroute id="1143" visible="true"/>
             <parkingAreaReroute id="1180" visible="true"/>
+            <parkingAreaReroute id="1143" visible="true"/>
             <parkingAreaReroute id="1090" visible="true"/>
             <parkingAreaReroute id="1096" visible="true"/>
             <parkingAreaReroute id="1110" visible="true"/>
@@ -2251,10 +2251,10 @@
             <parkingAreaReroute id="1136" visible="true"/>
             <parkingAreaReroute id="1151" visible="true"/>
             <parkingAreaReroute id="1129" visible="true"/>
-            <parkingAreaReroute id="1144" visible="true"/>
             <parkingAreaReroute id="1147" visible="true"/>
-            <parkingAreaReroute id="1146" visible="true"/>
+            <parkingAreaReroute id="1144" visible="true"/>
             <parkingAreaReroute id="1141" visible="true"/>
+            <parkingAreaReroute id="1146" visible="true"/>
             <parkingAreaReroute id="1157" visible="true"/>
             <parkingAreaReroute id="1131" visible="false"/>
             <parkingAreaReroute id="1111" visible="true"/>
@@ -2395,8 +2395,8 @@
             <parkingAreaReroute id="1160" visible="true"/>
             <parkingAreaReroute id="1179" visible="true"/>
             <parkingAreaReroute id="1142" visible="true"/>
-            <parkingAreaReroute id="1066" visible="true"/>
             <parkingAreaReroute id="1117" visible="true"/>
+            <parkingAreaReroute id="1066" visible="true"/>
             <parkingAreaReroute id="1114" visible="true"/>
             <parkingAreaReroute id="1165" visible="true"/>
             <parkingAreaReroute id="1162" visible="true"/>
