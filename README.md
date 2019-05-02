@@ -4,7 +4,8 @@ Contacts: Lara CODECA [codeca@eurecom.fr], A-Team [a-team@eurecom.fr]
 This project is licensed under the terms of the GPLv3 license.
 
 MoST Scenario is meant to be used with SUMO (Simulator of Urban MObility).
-* It has been tested with [SUMO 1.0.1](https://github.com/eclipse/sumo/tree/v1_0_1) and [SUMO 1.1.0](https://github.com/eclipse/sumo/tree/v1_1_0).
+* The master is tested with the development version of [SUMO](https://github.com/eclipse/sumo)
+* The released versions have been tested with [SUMO 1.0.1](https://github.com/eclipse/sumo/tree/v1_0_1), [SUMO 1.1.0](https://github.com/eclipse/sumo/tree/v1_1_0), and [SUMO 1.2.0](https://github.com/eclipse/sumo/tree/v1_2_0).
 * In case there are problems with multi-threading, check that [Issue #4518](https://github.com/eclipse/sumo/issues/4518) has been solved in your target version.
 
 Please refer to the [SUMO wiki](http://sumo.dlr.de/wiki/Simulation_of_Urban_MObility_-_Wiki) for further information on the simulator itself.
@@ -56,7 +57,47 @@ Note: the configuration files contained in `tools/static/typemap` are a slightly
 If you are using MoST Scenario, or its tools to generate a new one, we would gladly add you to the list.
 You can send an e-mail to codeca@eurecom.fr with your name and affiliation (if any).
 
-### Tested with:
+### The master is tested with:
+
+#### Eclipse SUMO Version v1_2_0+0163-d480773dd2
+(Build features: Linux-4.19.0-4-amd64 x86_64 GNU 8.3.0 Release Proj GUI GDAL FFmpeg OSG GL2PS SWIG)
+```
+Performance: 
+ Duration: 5951076ms
+ Real time factor: 6.04933
+ UPS: 205209.881037
+Vehicles: 
+ Inserted: 46805
+ Running: 43
+ Waiting: 0
+Teleports: 1505 (Jam: 655, Yield: 599, Wrong Lane: 251)
+Emergency Stops: 8
+Persons: 
+ Inserted: 45000
+ Running: 1
+ Jammed: 1317
+Statistics (avg):
+ RouteLength: 7150.33
+ Duration: 6525.00
+ WaitingTime: 153.24
+ TimeLoss: 304.97
+ DepartDelay: 1.04
+Pedestrian Statistics (avg of 31446 walks):
+ RouteLength: 453.67
+ Duration: 386.47
+ TimeLoss: 55.19
+Ride Statistics (avg of 45044 rides):
+ WaitingTime: 49.06
+ RouteLength: 6339.94
+ Duration: 794.63
+ Bus: 5817
+ Train: 3
+ Bike: 3426
+ Aborted: 0
+
+```
+
+### [Release v0.6](https://github.com/lcodeca/MoSTScenario/releases/tag/v0.6) is tested with:
 
 #### Eclipse SUMO Version 1.2.0
 (Build features: Linux-4.19.0-4-amd64 x86_64 GNU 8.3.0 Release Proj GUI GDAL FFmpeg OSG GL2PS SWIG)
