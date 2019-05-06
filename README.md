@@ -59,42 +59,42 @@ You can send an e-mail to codeca@eurecom.fr with your name and affiliation (if a
 
 ### The master is tested with:
 
-#### Eclipse SUMO Version v1_2_0+0163-d480773dd2
+#### Eclipse SUMO Version v1_2_0+0251-aed1e93897
 (Build features: Linux-4.19.0-4-amd64 x86_64 GNU 8.3.0 Release Proj GUI GDAL FFmpeg OSG GL2PS SWIG)
-```
-Performance: 
- Duration: 5951076ms
- Real time factor: 6.04933
- UPS: 205209.881037
-Vehicles: 
- Inserted: 46805
- Running: 43
- Waiting: 0
-Teleports: 1505 (Jam: 655, Yield: 599, Wrong Lane: 251)
-Emergency Stops: 8
-Persons: 
- Inserted: 45000
- Running: 1
- Jammed: 1317
-Statistics (avg):
- RouteLength: 7150.33
- Duration: 6525.00
- WaitingTime: 153.24
- TimeLoss: 304.97
- DepartDelay: 1.04
-Pedestrian Statistics (avg of 31446 walks):
- RouteLength: 453.67
- Duration: 386.47
- TimeLoss: 55.19
-Ride Statistics (avg of 45044 rides):
- WaitingTime: 49.06
- RouteLength: 6339.94
- Duration: 794.63
- Bus: 5817
- Train: 3
- Bike: 3426
- Aborted: 0
 
+```
+Performance:
+ Duration: 6357676ms
+ Real time factor: 5.66245
+ UPS: 192666.344432
+Vehicles:
+ Inserted: 46882
+ Running: 31
+ Waiting: 0
+Teleports: 1471 (Jam: 681, Yield: 593, Wrong Lane: 197)
+Emergency Stops: 12
+Persons:
+ Inserted: 45000
+ Running: 0
+ Jammed: 1251
+Statistics (avg):
+ RouteLength: 7084.84
+ Duration: 6535.64
+ WaitingTime: 146.63
+ TimeLoss: 297.36
+ DepartDelay: 0.94
+Pedestrian Statistics (avg of 31328 walks):
+ RouteLength: 452.78
+ Duration: 386.35
+ TimeLoss: 55.02
+Ride Statistics (avg of 45095 rides):
+ WaitingTime: 47.57
+ RouteLength: 6324.79
+ Duration: 787.37
+ Bus: 5792
+ Train: 1
+ Bike: 3497
+ Aborted: 0
 ```
 
 ### [Release v0.6](https://github.com/lcodeca/MoSTScenario/releases/tag/v0.6) is tested with:

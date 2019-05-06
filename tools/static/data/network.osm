@@ -62691,7 +62691,7 @@
 	<node id="26290" lat="43.7522285" lon="7.4327079" version="1">
 		<tag k="ele" v="163.4"/>
 	</node>
-	<way id="-278002">
+	<way id="-427877">
 		<nd ref="8024"/>
 		<nd ref="12664"/>
 		<nd ref="20603"/>
@@ -62707,7 +62707,7 @@
 		<tag k="prec_plani" v="1.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278003">
+	<way id="-427878">
 		<nd ref="3686"/>
 		<nd ref="5347"/>
 		<nd ref="3855"/>
@@ -62725,7 +62725,7 @@
 		<tag k="prec_plani" v="1.5;2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278004">
+	<way id="-427879">
 		<nd ref="21140"/>
 		<nd ref="-107304"/>
 		<nd ref="11131"/>
@@ -62739,7 +62739,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278005">
+	<way id="-427880">
 		<nd ref="13018"/>
 		<nd ref="3299"/>
 		<nd ref="9592"/>
@@ -62753,7 +62753,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278006">
+	<way id="-427881">
 		<nd ref="21886"/>
 		<nd ref="10613"/>
 		<nd ref="11526"/>
@@ -62768,7 +62768,7 @@
 		<tag k="prec_alti" v="2.5"/>
 		<tag k="prec_plani" v="2.5"/>
 	</way>
-	<way id="-278007">
+	<way id="-427882">
 		<nd ref="20508"/>
 		<nd ref="15531"/>
 		<nd ref="21247"/>
@@ -62795,7 +62795,7 @@
 		<tag k="prec_alti" v="2.5"/>
 		<tag k="prec_plani" v="2.5"/>
 	</way>
-	<way id="-278008">
+	<way id="-427883">
 		<nd ref="21247"/>
 		<nd ref="26262"/>
 		<nd ref="24307"/>
@@ -62811,7 +62811,7 @@
 		<tag k="prec_alti" v="2.5"/>
 		<tag k="prec_plani" v="2.5"/>
 	</way>
-	<way id="-278009">
+	<way id="-427884">
 		<nd ref="15179"/>
 		<nd ref="4649"/>
 		<nd ref="20508"/>
@@ -62826,7 +62826,7 @@
 		<tag k="sidewalk" v="none"/>
 		<tag k="tunnel" v="yes"/>
 	</way>
-	<way id="-278010">
+	<way id="-427885">
 		<nd ref="14023"/>
 		<nd ref="10195"/>
 		<nd ref="9083"/>
@@ -62843,7 +62843,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278011">
+	<way id="-427886">
 		<nd ref="7814"/>
 		<nd ref="17413"/>
 		<tag k="highway" v="steps"/>
@@ -62855,7 +62855,7 @@
 		<tag k="prec_alti" v="9999.0"/>
 		<tag k="prec_plani" v="5.0"/>
 	</way>
-	<way id="-278012">
+	<way id="-427887">
 		<nd ref="4612"/>
 		<nd ref="22376"/>
 		<nd ref="325"/>
@@ -62871,7 +62871,7 @@
 		<tag k="prec_alti" v="2.5"/>
 		<tag k="prec_plani" v="2.5"/>
 	</way>
-	<way id="-278013">
+	<way id="-427888">
 		<nd ref="20461"/>
 		<nd ref="4612"/>
 		<tag k="bridge" v="yes"/>
@@ -62884,7 +62884,7 @@
 		<tag k="prec_alti" v="2.5"/>
 		<tag k="prec_plani" v="2.5"/>
 	</way>
-	<way id="-278014">
+	<way id="-427889">
 		<nd ref="23509"/>
 		<nd ref="20310"/>
 		<tag k="highway" v="steps"/>
@@ -62896,7 +62896,7 @@
 		<tag k="prec_alti" v="2.5"/>
 		<tag k="prec_plani" v="2.5"/>
 	</way>
-	<way id="-278015">
+	<way id="-427890">
 		<nd ref="21712"/>
 		<nd ref="7720"/>
 		<nd ref="19550"/>
@@ -62913,7 +62913,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278016">
+	<way id="-427891">
 		<nd ref="1306"/>
 		<nd ref="23166"/>
 		<nd ref="15270"/>
@@ -62934,7 +62934,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278017">
+	<way id="-427892">
 		<nd ref="9017"/>
 		<nd ref="25207"/>
 		<tag k="highway" v="residential"/>
@@ -62947,7 +62947,7 @@
 		<tag k="prec_plani" v="1.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278018">
+	<way id="-427893">
 		<nd ref="11194"/>
 		<nd ref="10138"/>
 		<nd ref="1799"/>
@@ -62963,7 +62963,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278019">
+	<way id="-427894">
 		<nd ref="4615"/>
 		<nd ref="4002"/>
 		<nd ref="15563"/>
@@ -62977,7 +62977,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278020">
+	<way id="-427895">
 		<nd ref="14525"/>
 		<nd ref="21864"/>
 		<tag k="highway" v="steps"/>
@@ -62989,7 +62989,7 @@
 		<tag k="prec_alti" v="2.5"/>
 		<tag k="prec_plani" v="2.5"/>
 	</way>
-	<way id="-278021">
+	<way id="-427896">
 		<nd ref="26149"/>
 		<nd ref="15351"/>
 		<nd ref="17963"/>
@@ -63012,7 +63012,7 @@
 		<tag k="prec_alti" v="2.5"/>
 		<tag k="prec_plani" v="2.5"/>
 	</way>
-	<way id="-278022">
+	<way id="-427897">
 		<nd ref="26149"/>
 		<nd ref="-107152"/>
 		<nd ref="-107154"/>
@@ -63028,7 +63028,7 @@
 		<tag k="prec_alti" v="2.5"/>
 		<tag k="prec_plani" v="2.5"/>
 	</way>
-	<way id="-278023">
+	<way id="-427898">
 		<nd ref="-107172"/>
 		<nd ref="-107174"/>
 		<nd ref="-107176"/>
@@ -63040,7 +63040,7 @@
 		<nd ref="-107186"/>
 		<tag k="highway" v="steps"/>
 	</way>
-	<way id="-278024">
+	<way id="-427899">
 		<nd ref="-107166"/>
 		<nd ref="-107188"/>
 		<nd ref="-107184"/>
@@ -63048,33 +63048,33 @@
 		<nd ref="1265"/>
 		<tag k="highway" v="steps"/>
 	</way>
-	<way id="-278025">
+	<way id="-427900">
 		<nd ref="-107166"/>
 		<nd ref="-107194"/>
 		<nd ref="-107182"/>
 		<nd ref="6678"/>
 		<tag k="highway" v="steps"/>
 	</way>
-	<way id="-278026">
+	<way id="-427901">
 		<nd ref="-107166"/>
 		<nd ref="-107196"/>
 		<nd ref="-107180"/>
 		<nd ref="-107198"/>
 		<tag k="highway" v="steps"/>
 	</way>
-	<way id="-278027">
+	<way id="-427902">
 		<nd ref="-107160"/>
 		<nd ref="-107200"/>
 		<tag k="highway" v="steps"/>
 	</way>
-	<way id="-278028">
+	<way id="-427903">
 		<nd ref="13350"/>
 		<nd ref="-107200"/>
 		<nd ref="-107294"/>
 		<nd ref="6621"/>
 		<tag k="highway" v="steps"/>
 	</way>
-	<way id="-278029">
+	<way id="-427904">
 		<nd ref="-107202"/>
 		<nd ref="-107204"/>
 		<nd ref="-107164"/>
@@ -63084,7 +63084,7 @@
 		<nd ref="-107206"/>
 		<tag k="highway" v="steps"/>
 	</way>
-	<way id="-278030">
+	<way id="-427905">
 		<nd ref="-107166"/>
 		<nd ref="-107204"/>
 		<nd ref="-107176"/>
@@ -63102,19 +63102,19 @@
 		<tag k="prec_alti" v="2.5"/>
 		<tag k="prec_plani" v="2.5"/>
 	</way>
-	<way id="-278031">
+	<way id="-427906">
 		<nd ref="-107186"/>
 		<nd ref="-107206"/>
 		<nd ref="-107166"/>
 		<tag k="highway" v="steps"/>
 	</way>
-	<way id="-278032">
+	<way id="-427907">
 		<nd ref="678"/>
 		<nd ref="4864"/>
 		<tag k="highway" v="residential"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278033">
+	<way id="-427908">
 		<nd ref="10100"/>
 		<nd ref="16261"/>
 		<nd ref="26035"/>
@@ -63130,7 +63130,7 @@
 		<tag k="prec_plani" v="1.5;2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278034">
+	<way id="-427909">
 		<nd ref="9863"/>
 		<nd ref="5080"/>
 		<nd ref="23443"/>
@@ -63149,7 +63149,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278035">
+	<way id="-427910">
 		<nd ref="12654"/>
 		<nd ref="2437"/>
 		<nd ref="3135"/>
@@ -63170,7 +63170,7 @@
 		<tag k="importance" v="5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278036">
+	<way id="-427911">
 		<nd ref="2666"/>
 		<nd ref="22776"/>
 		<nd ref="5872"/>
@@ -63191,7 +63191,7 @@
 		<tag k="prec_plani" v="10.0;1.5;2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278037">
+	<way id="-427912">
 		<nd ref="6224"/>
 		<nd ref="22550"/>
 		<nd ref="20638"/>
@@ -63211,7 +63211,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278038">
+	<way id="-427913">
 		<nd ref="1349"/>
 		<nd ref="21421"/>
 		<nd ref="5054"/>
@@ -63231,7 +63231,7 @@
 		<tag k="prec_plani" v="10.0;1.5;2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278039">
+	<way id="-427914">
 		<nd ref="24969"/>
 		<nd ref="5298"/>
 		<tag k="highway" v="secondary"/>
@@ -63244,7 +63244,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278040">
+	<way id="-427915">
 		<nd ref="11189"/>
 		<nd ref="18385"/>
 		<nd ref="-107312"/>
@@ -63258,7 +63258,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278041">
+	<way id="-427916">
 		<nd ref="16293"/>
 		<nd ref="13902"/>
 		<nd ref="11200"/>
@@ -63272,7 +63272,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278042">
+	<way id="-427917">
 		<nd ref="5917"/>
 		<nd ref="9642"/>
 		<nd ref="4891"/>
@@ -63294,7 +63294,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278043">
+	<way id="-427918">
 		<nd ref="15161"/>
 		<nd ref="3021"/>
 		<nd ref="21566"/>
@@ -63309,7 +63309,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278044">
+	<way id="-427919">
 		<nd ref="11141"/>
 		<nd ref="16256"/>
 		<nd ref="15335"/>
@@ -63328,7 +63328,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278045">
+	<way id="-427920">
 		<nd ref="11141"/>
 		<nd ref="15358"/>
 		<nd ref="26206"/>
@@ -63345,7 +63345,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278046">
+	<way id="-427921">
 		<nd ref="381"/>
 		<nd ref="15422"/>
 		<nd ref="16244"/>
@@ -63372,7 +63372,7 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<way id="-278047">
+	<way id="-427922">
 		<nd ref="6922"/>
 		<nd ref="13543"/>
 		<nd ref="17470"/>
@@ -63406,7 +63406,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -63430,7 +63429,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -63457,7 +63455,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -63482,7 +63479,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -63506,7 +63502,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -63530,7 +63525,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -63554,7 +63548,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -63580,7 +63573,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -63650,7 +63642,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -63675,7 +63666,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -63697,7 +63687,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -63721,7 +63710,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -63743,7 +63731,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -63767,7 +63754,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -63790,7 +63776,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -63827,7 +63812,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -63851,7 +63835,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -63881,7 +63864,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -63906,7 +63888,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -63957,7 +63938,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -63984,7 +63964,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -64008,7 +63987,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -64030,7 +64008,6 @@
 		<tag k="operator" v="SNCF Réseau"/>
 		<tag k="passenger_lines" v="2"/>
 		<tag k="railway" v="rail"/>
-		<tag k="railway:bidirectional" v="regular"/>
 		<tag k="railway:kvb" v="yes"/>
 		<tag k="railway:preferred_direction" v="forward"/>
 		<tag k="railway:radio" v="analogue"/>
@@ -102536,126 +102513,126 @@
 		<tag k="prec_plani" v="2.5"/>
 		<tag k="sidewalk" v="both"/>
 	</way>
-	<relation id="-278048">
+	<relation id="-427923">
 		<member type="way" ref="892" role="from"/>
-		<member type="way" ref="-278036" role="to"/>
+		<member type="way" ref="-427911" role="to"/>
 		<member type="node" ref="2666" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-278049">
+	<relation id="-427924">
 		<member type="way" ref="2184" role="from"/>
 		<member type="way" ref="1768" role="to"/>
 		<member type="node" ref="9768" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-278050">
-		<member type="way" ref="-278037" role="from"/>
+	<relation id="-427925">
+		<member type="way" ref="-427912" role="from"/>
 		<member type="way" ref="1653" role="to"/>
 		<member type="node" ref="9768" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-278051">
-		<member type="way" ref="-278038" role="from"/>
+	<relation id="-427926">
+		<member type="way" ref="-427913" role="from"/>
 		<member type="way" ref="2358" role="to"/>
 		<member type="node" ref="1349" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-278052">
+	<relation id="-427927">
 		<member type="way" ref="100" role="from"/>
 		<member type="way" ref="735" role="to"/>
 		<member type="node" ref="17518" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-278053">
-		<member type="way" ref="-278039" role="from"/>
+	<relation id="-427928">
+		<member type="way" ref="-427914" role="from"/>
 		<member type="way" ref="1198" role="to"/>
 		<member type="node" ref="24969" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-278054">
+	<relation id="-427929">
 		<member type="way" ref="1216" role="from"/>
 		<member type="way" ref="1222" role="to"/>
 		<member type="node" ref="24969" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-278055">
+	<relation id="-427930">
 		<member type="way" ref="1219" role="from"/>
 		<member type="way" ref="1198" role="to"/>
 		<member type="node" ref="-107312" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-278056">
+	<relation id="-427931">
 		<member type="way" ref="100" role="from"/>
 		<member type="way" ref="1453" role="to"/>
 		<member type="node" ref="17518" role="via"/>
 		<tag k="restriction" v="only_right_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-278057">
+	<relation id="-427932">
 		<member type="way" ref="2172" role="from"/>
 		<member type="way" ref="446" role="to"/>
 		<member type="node" ref="26028" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-278058">
+	<relation id="-427933">
 		<member type="way" ref="480" role="from"/>
 		<member type="way" ref="2366" role="to"/>
 		<member type="node" ref="11707" role="via"/>
 		<tag k="restriction" v="only_straight_on"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-278059">
+	<relation id="-427934">
 		<member type="way" ref="1481" role="from"/>
-		<member type="way" ref="-278045" role="to"/>
+		<member type="way" ref="-427920" role="to"/>
 		<member type="node" ref="11141" role="via"/>
 		<tag k="restriction" v="no_right_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-278060">
+	<relation id="-427935">
 		<member type="way" ref="2261" role="from"/>
 		<member type="way" ref="1961" role="to"/>
 		<member type="node" ref="11306" role="via"/>
 		<tag k="restriction" v="only_straight_on"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-278061">
+	<relation id="-427936">
 		<member type="way" ref="2259" role="from"/>
 		<member type="way" ref="1718" role="to"/>
 		<member type="node" ref="8981" role="via"/>
 		<tag k="restriction" v="only_straight_on"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-278062">
+	<relation id="-427937">
 		<member type="way" ref="273" role="from"/>
 		<member type="way" ref="4303" role="to"/>
 		<member type="node" ref="19290" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-278063">
-		<member type="way" ref="-278044" role="from"/>
+	<relation id="-427938">
+		<member type="way" ref="-427919" role="from"/>
 		<member type="way" ref="1457" role="to"/>
 		<member type="node" ref="1046" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-278064">
+	<relation id="-427939">
 		<member type="way" ref="1638" role="from"/>
 		<member type="way" ref="2079" role="to"/>
 		<member type="node" ref="6224" role="via"/>
 		<tag k="restriction" v="no_left_turn"/>
 		<tag k="type" v="restriction"/>
 	</relation>
-	<relation id="-278065">
+	<relation id="-427940">
 		<member type="way" ref="2078" role="from"/>
 		<member type="way" ref="1590" role="to"/>
 		<member type="node" ref="1575" role="via"/>
