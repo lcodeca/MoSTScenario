@@ -1,6 +1,6 @@
 ## Monaco SUMO Traffic (MoST) Scenario
 
-Contacts: Lara CODECA [codeca@eurecom.fr], A-Team [a-team@eurecom.fr]
+Contacts: Lara CODECA [lara.codeca@gmail.com], Jerome HAERRI [haerri@eurecom.fr]
 This project is licensed under the terms of the GPLv3 license.
 
 MoST Scenario is meant to be used with SUMO (Simulator of Urban MObility).

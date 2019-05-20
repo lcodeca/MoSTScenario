@@ -3,8 +3,7 @@
 """ Example of Live monitor for SUMO simulations.
 
     Monaco SUMO Traffic (MoST) Scenario
-    Copyright (C) 2019
-    Lara CODECA
+    Author: Lara CODECA
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # Monaco SUMO Traffic (MoST) Scenario
-#     Copyright (C) 2019
-#     Lara CODECA
+# Author: Lara CODECA
 
 # exit on error
 set -e

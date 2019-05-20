@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--
-    Monaco SUMO Traffic (MoST) Scenario
-    Copyright (C) 2019
-    Lara CODECA
+<!-- Generated with Monaco SUMO Traffic (MoST) Scenario [https://github.com/lcodeca/MoSTScenario] -->
 
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
--->
-
-<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd"> 
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <vehicle id="special_1-3_106" type="special" depart="18021" departLane="best" arrivalPos="random">
         <route edges="-153558 153559#1 153559#2 -152898#0 153560 152975#2 152900#0 152900#1 152982#4 152973 -152895#1 153476#1 153476#2 153476#3 153476#5 153476#6 153476#7 153476#8 153476#9 153476#10 153476#11 153476#12 153476#13 153476#14 153476#15 153476#16 153476#17 153476#18 153476#19 153476#20 153476#22 153476#23 153476#24 153476#25 153476#26 -152303 -153342 -152302 -153477#1 -152903"/>
     </vehicle>
