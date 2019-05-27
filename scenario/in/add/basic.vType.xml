@@ -19,7 +19,7 @@
 
 <routes>
   <!-- Public Transports -->
-  <vType vClass="bus"  id="bus"   personCapacity="50" latAlignment="center" tau="0.5" speedDev="0.1">
+  <vType vClass="bus"  id="bus"   personCapacity="50" latAlignment="center" tau="0.5" speedDev="0.1" lcCooperative="0.0">
     <param key="has.rerouting.device" value="false"/>
   </vType>
   <vType vClass="rail" id="train" personCapacity="500">
@@ -65,10 +65,10 @@
 
   <!-- Other vehicles -->
   <vTypeDistribution id="commercial">
-    <vType vClass="delivery"   id="delivery"    containerCapacity="15" latAlignment="center" probability=".75" tau="0.5" speedDev="0.1"/>
-    <vType vClass="truck"      id="truck"       containerCapacity="5"  latAlignment="center" probability=".05" tau="0.5" speedDev="0.1"/>
-    <vType vClass="trailer"    id="trailer"     containerCapacity="5"  latAlignment="center" probability=".10" tau="0.5" speedDev="0.1"/>
-    <vType vClass="coach"      id="coach"       containerCapacity="50" latAlignment="center" probability=".10" tau="0.5" speedDev="0.1"/>
+    <vType vClass="delivery"   id="delivery"    containerCapacity="15" latAlignment="center" probability=".75" tau="0.5" speedDev="0.1" lcCooperative="0.0"/>
+    <vType vClass="truck"      id="truck"       containerCapacity="5"  latAlignment="center" probability=".05" tau="0.5" speedDev="0.1" lcCooperative="0.0"/>
+    <vType vClass="trailer"    id="trailer"     containerCapacity="5"  latAlignment="center" probability=".10" tau="0.5" speedDev="0.1" lcCooperative="0.0"/>
+    <vType vClass="coach"      id="coach"       containerCapacity="50" latAlignment="center" probability=".10" tau="0.5" speedDev="0.1" lcCooperative="0.0"/>
   </vTypeDistribution>
 
   <vType vClass="evehicle"     id="evehicle"    personCapacity="4"     latAlignment="center" tau="0.5" speedDev="0.1"/>
