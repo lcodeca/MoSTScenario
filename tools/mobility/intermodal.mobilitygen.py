@@ -475,7 +475,7 @@ class MobilityGenerator(object):
                         route = None
                     if (self._is_valid_route(_modes, route) and
                             route[-1].type == tc.STAGE_DRIVING):
-                        route[-1] = route[-1]._replace(destStop=self._get_parking_id(p_edge))
+                        route[-1].destStop = self._get_parking_id(p_edge)
                         route.extend(_last_mile)
                         solutions.append((self._cost_from_route(route) * weight, mode, route))
             else:

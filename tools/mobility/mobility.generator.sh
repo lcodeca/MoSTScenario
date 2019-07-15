@@ -38,7 +38,7 @@ python $SUMO_TOOLS/ptlines2flows.py -n $INPUT/most.net.xml $INTERVAL -p 900 \
     --ptstops $ADD/most.busstops.add.xml --ptlines pt/most.buslines.add.xml \
     -o $OUTPUT/most.buses.flows.xml
 
-sed -e s/:0//g -i $OUTPUT/most.buses.flows.xml
+sed -e s/:0//g -i '' $OUTPUT/most.buses.flows.xml
 
 echo "[$(date)] --> Generate train trips..."
 python $SUMO_TOOLS/ptlines2flows.py -n $INPUT/most.net.xml $INTERVAL -p 1200 \
@@ -46,7 +46,7 @@ python $SUMO_TOOLS/ptlines2flows.py -n $INPUT/most.net.xml $INTERVAL -p 1200 \
     --ptstops $ADD/most.trainstops.add.xml --ptlines pt/most.trainlines.add.xml \
     -o $OUTPUT/most.trains.flows.xml
 
-sed -e s/:0//g -i $OUTPUT/most.trains.flows.xml
+sed -e s/:0//g -i '' $OUTPUT/most.trains.flows.xml
 
 ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ TRACI MOBILITY GENERATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ##
 
