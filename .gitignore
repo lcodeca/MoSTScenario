@@ -1,3 +1,5 @@
+*.xmind
+
 # Scripts:
 *.log
 *.py
