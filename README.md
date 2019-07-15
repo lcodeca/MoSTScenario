@@ -31,7 +31,7 @@ To use the scrips in the `tools` directory it's necessary to exec `source setenv
 #### See [Scenario re-genration](https://github.com/lcodeca/MoSTScenario/wiki/How-to-rebuild-the-scenario.)
 
 ### Overview:
-![MoST Scenario Overview](https://github.com/eclipse/sumo/tree/master/MoSTScenario.png)
+![MoST Scenario Overview](https://github.com/lcodeca/MoSTScenario/blob/master/MoSTScenario.png)
 
 #### Files:
 * `scenario` is the ready-to-use scenario
