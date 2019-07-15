@@ -30,11 +30,14 @@ MoST Scenario can be lunched directly with its configuration file.
 To use the scrips in the `tools` directory it's necessary to exec `source setenv.sh`.
 #### See [Scenario re-genration](https://github.com/lcodeca/MoSTScenario/wiki/How-to-rebuild-the-scenario.)
 
+### Overview:
+![MoST Scenario Overview](https://github.com/eclipse/sumo/tree/master/MoSTScenario.png)
+
 #### Files:
 * `scenario` is the ready-to-use scenario
+* `tools/static` contains the raw OSM-like file, scripts, and configuration files to regenerate the scenario from the beginning.
 * `tools/mobility` contains the files required to generate various traffic demands.
 * `tools/parkings` contains the an example of parking mornitoring done with [PyPML](https://github.com/lcodeca/PyPML).
-* `tools/static` contains the raw OSM-like file, scripts, and configuration files to regenerate the scenario from the beginning.
 
 Note: the configuration files contained in `tools/static/typemap` are a slightly modified version of a subset of the SUMO files available at https://github.com/eclipse/sumo/tree/master/data/typemap.
 
@@ -59,41 +62,41 @@ You can send an e-mail to codeca@eurecom.fr with your name and affiliation (if a
 
 ### The master is tested with:
 
-#### Eclipse SUMO Version v1_2_0+0251-aed1e93897
-(Build features: Linux-4.19.0-4-amd64 x86_64 GNU 8.3.0 Release Proj GUI GDAL FFmpeg OSG GL2PS SWIG)
+#### Eclipse SUMO Version v1_2_0+1020-7526d7eacc
+(Build features: Darwin-18.6.0 x86_64 Clang 10.0.1.10010046 Release Proj GUI GDAL FFmpeg OSG GL2PS SWIG)
 
 ```
 Performance:
- Duration: 6357676ms
- Real time factor: 5.66245
- UPS: 192666.344432
+ Duration: 10448330ms
+ Real time factor: 3.44553
+ UPS: 115910.898392
 Vehicles:
- Inserted: 46882
+ Inserted: 46842
  Running: 31
  Waiting: 0
-Teleports: 1471 (Jam: 681, Yield: 593, Wrong Lane: 197)
-Emergency Stops: 12
+Teleports: 607 (Jam: 266, Yield: 223, Wrong Lane: 118)
+Emergency Stops: 18
 Persons:
  Inserted: 45000
- Running: 0
- Jammed: 1251
+ Running: 25
+ Jammed: 1211
 Statistics (avg):
- RouteLength: 7084.84
- Duration: 6535.64
- WaitingTime: 146.63
- TimeLoss: 297.36
- DepartDelay: 0.94
-Pedestrian Statistics (avg of 31328 walks):
- RouteLength: 452.78
- Duration: 386.35
- TimeLoss: 55.02
-Ride Statistics (avg of 45095 rides):
- WaitingTime: 47.57
- RouteLength: 6324.79
- Duration: 787.37
- Bus: 5792
- Train: 1
- Bike: 3497
+ RouteLength: 6931.86
+ Duration: 6467.33
+ WaitingTime: 90.28
+ TimeLoss: 213.24
+ DepartDelay: 0.74
+Pedestrian Statistics (avg of 31422 walks):
+ RouteLength: 451.38
+ Duration: 382.75
+ TimeLoss: 53.86
+Ride Statistics (avg of 45217 rides):
+ WaitingTime: 45.54
+ RouteLength: 6155.57
+ Duration: 687.54
+ Bus: 5967
+ Train: 0
+ Bike: 3455
  Aborted: 0
 ```
 
