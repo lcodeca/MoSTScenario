@@ -58,7 +58,7 @@ Note: the configuration files contained in `tools/static/typemap` are a slightly
 * Tianshu Chu, Civil and Environmental Engineering, Stanford University
 
 If you are using MoST Scenario, or its tools to generate a new one, we would gladly add you to the list.
-You can send an e-mail to codeca@eurecom.fr with your name and affiliation (if any).
+You can send an e-mail to lara.codeca@gmail.com with your name and affiliation (if any).
 
 ### The master is tested with:
 
