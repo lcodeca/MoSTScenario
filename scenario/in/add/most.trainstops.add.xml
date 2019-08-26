@@ -4,37 +4,37 @@
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd"> 
     <busStop id="131018" name="Carnoles" lane="152193_0" startPos="12664.348898978198" endPos="12814.348898978196" lines="M0:France" friendlyPos="true"> <!-- 131018 -->
-        <access lane="153656_1" pos="334.2025989134852"/>
+        <access lane="153656_0" pos="334.2025989134852"/>
     </busStop>
     <busStop id="131023" name="Eze" lane="-152191_0" startPos="13081.71" endPos="13231.71" lines="M0:Italy" friendlyPos="true"> <!-- 131023 -->
-        <access lane="153478_1" pos="80.0"/>
+        <access lane="153478_0" pos="80.0"/>
     </busStop>
     <busStop id="131025" name="Roquebrune-Cap-Martin" lane="152193_0" startPos="10268.574113763281" endPos="10418.57411376328" lines="M0:France" friendlyPos="true"> <!-- 131025 -->
-        <access lane="152551_1" pos="40.075"/>
+        <access lane="152551_0" pos="40.075"/>
     </busStop>
     <busStop id="131028" name="Monaco - Monte Carlo" lane="152193_0" startPos="6083.831152386292" endPos="6233.83115238629" lines="M0:France" friendlyPos="true"> <!-- 131028 -->
-        <access lane="152230_1" pos="15.14"/>
+        <access lane="152230_0" pos="15.14"/>
     </busStop>
     <busStop id="131032" name="Cap d'Ail" lane="152193_0" startPos="2761.996683479116" endPos="2911.9966834791157" lines="M0:France" friendlyPos="true"> <!-- 131032 -->
-        <access lane="153473#2_1" pos="50.47"/>
+        <access lane="153473#2_0" pos="50.47"/>
     </busStop>
     <busStop id="131034" name="Monte-Carlo Country Club" lane="-152191_0" startPos="3868.315787122313" endPos="4018.315787122313" lines="M0:Italy" friendlyPos="true"> <!-- 131034 -->
-        <access lane="-152560_1" pos="213.2160605204743"/>
+        <access lane="-152560_0" pos="213.2160605204743"/>
     </busStop>
     <busStop id="131053" name="Cap d'Ail" lane="-152191_0" startPos="10323.51197256122" endPos="10473.51197256122" lines="M0:Italy" friendlyPos="true"> <!-- 131053 -->
         <access lane="152136_0" pos="22.8"/>
     </busStop>
     <busStop id="131054" name="Eze" lane="152193_0" startPos="5.0" endPos="155.0" lines="M0:France" friendlyPos="true"> <!-- 131054 -->
-        <access lane="153478_1" pos="80.0"/>
+        <access lane="153478_0" pos="80.0"/>
     </busStop>
     <busStop id="131065" name="Monaco - Monte Carlo" lane="-152191_0" startPos="7005.209690296173" endPos="7155.209690296173" lines="M0:Italy" friendlyPos="true"> <!-- 131065 -->
-        <access lane="152943#0_1" pos="13.66"/>
+        <access lane="152943#0_0" pos="13.66"/>
     </busStop>
     <busStop id="131066" name="Roquebrune-Cap-Martin" lane="-152191_0" startPos="2819.368694226836" endPos="2969.368694226836" lines="M0:Italy" friendlyPos="true"> <!-- 131066 -->
-        <access lane="-153358#1_1" pos="66.07"/>
+        <access lane="-153358#1_0" pos="66.07"/>
     </busStop>
     <busStop id="131067" name="Carnoles" lane="-152191_0" startPos="425.66010566953304" endPos="575.6601056695331" lines="M0:Italy" friendlyPos="true"> <!-- 131067 -->
-        <access lane="-153012#0_1" pos="1579.6982575985912"/>
+        <access lane="-153012#0_0" pos="1579.6982575985912"/>
     </busStop>
     <busStop id="131114" name="Monte-Carlo Country Club" lane="152193_0" startPos="9220.81588724756" endPos="9370.815887247558" lines="M0:France" friendlyPos="true"> <!-- 131114 -->
         <access lane="153236#0_0" pos="202.40339395876538"/>
