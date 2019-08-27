@@ -1,1 +1,0 @@
-export MOST_SCENARIO=$(pwd)

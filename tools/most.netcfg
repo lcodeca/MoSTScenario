@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Monaco SUMO Traffic (MoST) Scenario
+    Author: Lara CODECA
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="typemap/osmNetconvert.typ.xml,typemap/osmNetconvertUrbanDe.typ.xml,typemap/osmNetconvertPedestrians.typ.xml,typemap/osmNetconvertBicycle.typ.xml,typemap/osmBidiRailNetconvert.typ.xml"/>
+        <osm-files value="most.raw.osm"/>
+    </input>
+
+    <output>
+        <output-prefix value="most."/>
+        <output-file value="net.xml"/>
+        <!-- ADDITIONALS -->
+        <!-- <ptstop-output value="ptstop.autogen.xml"/> -->
+        <!-- <ptline-output value="ptline.autogen.xml"/> -->
+        <!-- <ptline-clean-up value="true"/> -->
+        <!-- <parking-output value="parkings.autogen.xml"/> -->
+        <!-- <osm.stop-output.footway-access-distance value="150"/> -->
+        <!-- <osm.stop-output.footway-max-accesses value="5"/> -->
+    </output>
+
+    <tls_building>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+        <tls.min-dur value="5"/>
+        <tls.max-dur value="30"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+        <junctions.join value="true"/>
+        <junctions.limit-turn-speed value="1"/>
+        <crossings.guess value="true"/>
+        <walkingareas value="false"/>
+        <osm.elevation value="true"/>
+        <no-turnarounds.except-deadend value="true"/>
+        <no-internal-links value="false"/>
+        <ignore-errors value="false"/>
+        <ignore-errors.connections value="false"/>
+        <show-errors.connections-first-try value="true"/>
+    </processing>
+
+    <building_defaults>
+        <default.crossing-width value="2.0"/>
+    </building_defaults>
+
+    <report>
+        <verbose value="true"/>
+        <log value="netconvert.log"/>
+    </report>
+
+</configuration>

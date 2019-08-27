@@ -13,7 +13,6 @@
 *.pkl
 
 # Misc:
-tools/misc
 out/*
 *.errorlog
 *.html

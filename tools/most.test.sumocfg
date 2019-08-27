@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Monaco SUMO Traffic (MoST) Scenario
+    Author: Lara CODECA
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="out/most.net.xml"/>
+        <route-files value="out/most.buses.flows.xml,out/most.trains.flows.xml,out/most.3to1.rou.xml,out/most.2to1.rou.xml,out/most.1to2.rou.xml,out/most.1to1.rou.xml"/>
+        <additional-files value="out/most.busstops.add.xml,out/most.trainstops.add.xml,out/most.parking.add.xml,out/most.rerouters.add.xml,../scenario/in/add/basic.vType.xml"/>
+    </input>
+
+    <time>
+        <begin value="0.0"/>
+        <step-length value="0.5"/>
+        <end value="86400.0"/>
+    </time>
+
+    <output>
+        <output-prefix value="out/res/most."/>
+        <summary-output value="summary.xml"/>
+        <tripinfo-output value="tripinfo.xml"/>
+        <tripinfo-output.write-unfinished value="true"/>
+        <vehroute-output value="vehroute.xml"/>
+        <vehroute-output.route-length value="true"/>
+        <vehroute-output.write-unfinished value="true"/>
+        <vehroute-output.skip-ptlines value="true"/>
+        <!-- <vehroute-output.exit-times value="true"/> -->
+        <stop-output value="stop.out.xml"/>
+        <lanechange-output value="lanechanges.out.xml"/>
+        <lanechange-output.started value="true"/>
+        <lanechange-output.ended value="true"/>
+    </output>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+        <!-- <lateral-resolution value="0.8"/> -->
+        <lateral-resolution value="0.3"/>
+        <ignore-junction-blocker value="10"/>
+        <collision.action value="none"/> <!-- teleport -->
+        <time-to-teleport value="300"/> <!-- -1 -->
+        <!-- <max-depart-delay value="900"/> -->
+        <time-to-impatience value="120"/>
+        <pedestrian.model value="striping"/>
+        <pedestrian.striping.stripe-width value="0.55"/>
+        <pedestrian.striping.jamtime value="60"/>
+        <default.emergencydecel value="decel"/>
+    </processing>
+
+    <routing>
+        <persontrip.transfer.car-walk value="parkingAreas,ptStops"/>
+        <device.rerouting.probability value="1"/>
+        <device.rerouting.period value="300"/>
+        <device.rerouting.pre-period value="300"/>
+        <device.rerouting.threads value="4"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <log value="sumo.debug.log"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <random_number>
+        <seed value="42"/>
+    </random_number>
+
+</configuration>
