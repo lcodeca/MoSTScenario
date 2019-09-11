@@ -27,7 +27,7 @@
     </input>
 
     <output>
-        <output-file value="most.poly.xml"/>
+        <output-file value="poly.xml"/>
     </output>
 
     <processing>

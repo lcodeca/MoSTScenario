@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Generated with Monaco SUMO Traffic (MoST) Scenario [https://github.com/lcodeca/MoSTScenario] -->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd"> 
+    <ptLine id="196" name="MoSTtoItaly" line="M0:Italy" type="train">
+        <route edges="-148604_0 -148604_0 -148604_0 -148604_0 -148604_0 -148604_0"/>
+        <busStop id="50" name="Carnoles"/>
+        <busStop id="49" name="Roquebrune-Cap-Martin"/>
+        <busStop id="17" name="Monte-Carlo Country Club"/>
+        <busStop id="48" name="Monaco - Monte Carlo"/>
+        <busStop id="36" name="Cap d'Ail"/>
+        <busStop id="6" name="Eze"/>
+    </ptLine> 
+    <ptLine id="203" name="MoSTtoFrance" line="M0:France" type="train">
+        <route edges="148606_0 148606_0 148606_0 148606_0 148606_0 148606_0"/>
+        <busStop id="37" name="Eze"/>
+        <busStop id="15" name="Cap d'Ail"/>
+        <busStop id="11" name="Monaco - Monte Carlo"/>
+        <busStop id="97" name="Monte-Carlo Country Club"/>
+        <busStop id="8" name="Roquebrune-Cap-Martin"/>
+        <busStop id="1" name="Carnoles"/>
+    </ptLine> 
+</additional>
