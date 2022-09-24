@@ -6,8 +6,7 @@ This project is licensed under the terms of the GPLv3 license.
 
 MoST Scenario is meant to be used with SUMO (Simulator of Urban MObility).
 
-* The master is tested with the development version of [SUMO](https://github.com/eclipse/sumo)
-* The released versions have been tested with [SUMO 1.14.0](https://github.com/eclipse/sumo/tree/v1_14_0)
+* The master is tested with [SUMO 1.14.0](https://github.com/eclipse/sumo/tree/v1_14_0)
 * In case there are problems with multi-threading, check that [Issue #4518](https://github.com/eclipse/sumo/issues/4518) has been solved in your target version.
 
 Please refer to the [SUMO wiki](http://sumo.dlr.de/wiki/Simulation_of_Urban_MObility_-_Wiki) for further information on the simulator itself.
@@ -53,9 +52,7 @@ See [tools HOWTO](tools/HOWTO.md) for further details on how to chance and rebui
 [![Public Transportation Example](https://img.youtube.com/vi/r7iE3LRiSNA/0.jpg)](https://www.youtube.com/watch?v=r7iE3LRiSNA)
 (click on the image for the video)
 
-## The master is tested with
-
-### Eclipse SUMO Version 1.14.0
+## The master is tested with Eclipse SUMO Version 1.14.0
 
 (Build features: Darwin-21.5.0 arm64 Clang 13.1.6.13160021 Release FMI Proj GUI SWIG GDAL FFmpeg OSG GL2PS)
 
